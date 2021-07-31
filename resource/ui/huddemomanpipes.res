@@ -1,37 +1,15 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	"ChargeLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ChargeLabel"
-		"xpos"					"25"
-		"ypos"					"27"
-		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"visible_minmode"		"0"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_Charge"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Font12"
-	}
-
 	"ChargeMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
+		"xpos"					"26"
+		"ypos"					"110"
 		"ypos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"150"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -40,6 +18,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor_override"		"White"
+		"bgcolor_override"		"TransparentMenuDarker"
 	}				
 		
 	"PipesPresentPanel"
@@ -55,24 +35,24 @@
 		
 		"NumPipesLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"NumPipesLabel"
-			"xpos"			"50"
-			"ypos"			"18"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"1"
-			"pinCorner"		"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"%activepipes%"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"HudFontMedium"
-		}
+			"ControlName"		"CExLabel"
+			"fieldName"			"NumPipesLabel"
+			"xpos"				"50"
+			"ypos"				"18"
+			"zpos"				"2"
+			"wide"				"35"
+			"tall"				"20"
+			"autoResize"		"1"
+			"pinCorner"			"2"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labelText"			"%activepipes%"
+			"textAlignment"		"west"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"font"				"HudFontMedium"
+		}	
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
@@ -103,20 +83,4 @@
 			"enabled"			"0"	
 		}	
 	}
-	
-	"NoPipesPresentPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NoPipesPresentPanel"
-		"visible"		"1"
-		"enabled"		"0"
-	}		
-
-	"background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"background"
-		"visible"		"0"
-		"enabled"		"0"			
-	}		
 }

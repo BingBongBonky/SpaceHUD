@@ -82,31 +82,18 @@
 		"fieldName"					"HudDemomanCharge"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"r80"
-		"ypos"						"r21"
-		"ypos_minmode"				"r40"
+		"xpos"						"c-75"
+		"ypos"						"340"
 		"zpos"						"1"			// draw in front of ammo
-		"wide"						"60"
-		"wide_minmode"				"50"
+		"wide"						"150"
 		"tall"						"8"
-		"MeterFG"					"White"
-		"MeterBG"					"Gray"
 	}				
 
 	HudBowCharge			
 	{			
 		"fieldName"					"HudBowCharge"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"r80"
-		"ypos"						"r21"
-		"ypos_minmode"				"r40"
-		"zpos"						"1"			// draw in front of ammo
-		"wide"						"60"
-		"wide_minmode"				"50"
-		"tall"						"8"
-		"MeterFG"					"White"
-		"MeterBG"					"Gray"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 
 	HudFlameRocketCharge // Unused
@@ -1007,9 +994,8 @@
 		"enabled"					"1"
 		"xpos"						"c-100"
 		"ypos"						"c0"
-		"ypos_minmode"				"r30"
 		"wide"						"200"
-		"tall"						"200"
+		"tall"						"400"
 	}	
 
 	HudTeamGoal
