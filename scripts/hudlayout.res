@@ -86,7 +86,7 @@
 		"ypos"						"340"
 		"zpos"						"1"			// draw in front of ammo
 		"wide"						"150"
-		"tall"						"8"
+		"tall"						"10"
 	}				
 
 	HudBowCharge			
@@ -992,9 +992,9 @@
 		"fieldName"					"HudDemomanPipes"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-100"
+		"xpos"						"c-75"
 		"ypos"						"c0"
-		"wide"						"200"
+		"wide"						"150"
 		"tall"						"400"
 	}	
 

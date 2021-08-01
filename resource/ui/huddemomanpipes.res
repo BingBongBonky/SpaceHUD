@@ -1,11 +1,11 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	"ChargeMeter"
+	"ChargeMeter" // Stickybomb Launcher and Loose Cannon
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"26"
+		"xpos"					"0"
 		"ypos"					"110"
 		"ypos_minmode"			"0"
 		"zpos"					"2"
@@ -26,8 +26,8 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"PipesPresentPanel"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"58"
+		"ypos"					"80"
 		"zpos"					"1"
 		"wide"					"100"
 		"tall"					"50"
@@ -37,8 +37,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"NumPipesLabel"
-			"xpos"				"50"
-			"ypos"				"18"
+			"xpos"				"0"
+			"ypos"				"0"
 			"zpos"				"2"
 			"wide"				"35"
 			"tall"				"20"
@@ -48,17 +48,17 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labelText"			"%activepipes%"
-			"textAlignment"		"west"
+			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"HudFontMedium"
+			"font"				"Font24"
 		}	
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"51"
-			"ypos"			"19"
+			"xpos"			"1"
+			"ypos"			"1"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -68,19 +68,11 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"fgcolor"		"black"
-		}		
-
-		"PipeIcon"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"			"PipeIcon"
-			"visible"			"0"
-			"enabled"			"0"	
+			"font"			"Font24"
+			"fgcolor"		"Shadow"
 		}	
 	}
 }
