@@ -28,6 +28,7 @@ Scheme
 		"TransparentMenuDarker"				"13 15 25 200"
 
 		// Custom Colors
+		"Shadow"							"0 0 0 150"
 
 		"White"								"235 235 235 255"
 		"Red"								"192 28 0 140"

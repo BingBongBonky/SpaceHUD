@@ -61,7 +61,7 @@
 		"labelText"					"%Health%"
 		"textAlignment"				"center"	
 		"font"						"Font60"
-		"fgcolor"					"TransparentBlack"
+		"fgcolor"					"Shadow"
 	}
 	"PlayerStatusHealthImage"
 	{
@@ -70,20 +70,6 @@
 		"visible"					"0"
 		"enabled"					"0"
 	}		
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"PlayerStatusHealthImageBG"
-		"visible"					"0"
-		"enabled"					"0"	
-	}
-	"PlayerStatusMaxHealthValue"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"PlayerStatusMaxHealthValue"
-		"visible"					"0"
-		"enabled"					"0"
-	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

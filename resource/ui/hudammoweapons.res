@@ -22,7 +22,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"Font60"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"Shadow"
 		"xpos"			"6"
 		"ypos"			"33"
 		"zpos"			"5"
@@ -56,7 +56,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"Font32"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"Shadow"
 		"xpos"			"77"
 		"ypos"			"42"
 		"zpos"			"7"
@@ -90,7 +90,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"Font60"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"Shadow"
 		"xpos"			"38"
 		"ypos"			"33"
 		"zpos"			"5"
@@ -100,21 +100,5 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%Ammo%"
-	}	
-		
-	"HudWeaponLowAmmoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HudWeaponLowAmmoImage"
-		"visible"		"0"
-		"enabled"		"0"		
-	}		
-
-	"HudWeaponAmmoBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudWeaponAmmoBG"
-		"visible"		"0"
-		"enabled"		"0"		
 	}					
 }
