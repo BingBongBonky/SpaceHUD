@@ -177,9 +177,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
+		"xpos"					"c-190"
+		"ypos"					"c30"
 		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
@@ -440,20 +439,18 @@
 
 	HudDeathNotice
 	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
-		"wide"	 "628"
-		"tall"	 "468"
+		"fieldName" 				"HudDeathNotice"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"	 					"r640"
+		"ypos"	 					"21"
+		"wide"	 					"628"
+		"tall"	 					"468"
 
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
+		"MaxDeathNotices" 			"5"
+		"IconScale"	  				"0.35"
 		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
+		"LineSpacing"	  "2"
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
@@ -464,10 +461,8 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"0 0 0 150"
+		"LocalBackgroundColor"	"255 255 255 255"
 	}
 
 	HudVehicle
@@ -671,91 +666,87 @@
 	
 	HudScopeCharge
 	{
-		"fieldName" "HudScopeCharge"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "c64"
-		"ypos"	 "c-64"
-		"wide"	 "64"
-		"tall"	 "128"
+		"fieldName" 				"HudScopeCharge"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"	 					"c34"
+		"ypos"	 					"c-64"
+		"wide"	 					"64"
+		"tall"	 					"128"
 	}
 	
 	HudVoiceSelfStatus
 	{
-		"fieldName" "HudVoiceSelfStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r42" 	[$WIN32]
-		"ypos" "355"	[$WIN32]
-		"xpos" "r75"	[$X360]
-		"ypos" "375"	[$X360]
-		"wide" "32"
-		"tall" "32"
+		"fieldName" 				"HudVoiceSelfStatus"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos" 						"r42"
+		"ypos" 						"355"
+		"wide" 						"32"
+		"tall" 						"32"
 	}
 
 	HudVoiceStatus
 	{
-		"fieldName" "HudVoiceStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r145" [$WIN32]
-		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
-		"wide" "145"
-		"tall" "400"
+		"fieldName" 				"HudVoiceStatus"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos" 						"r145"
+		"ypos" 						"0"
+		"wide" 						"145"
+		"tall" 						"400"
 
-		"item_wide"	"135"
+		"item_wide"					"135"
 		
-		"show_avatar"		"0"
+		"show_avatar"				"1"
+
+		"show_dead_icon"			"1"
+		"dead_xpos"					"1"
+		"dead_ypos"					"0"
+		"dead_wide"					"16"
+		"dead_tall"					"16"
 		
-		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
-		"dead_ypos"			"0"
-		"dead_wide"			"16"
-		"dead_tall"			"16"
-		
-		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
-		"icon_xpos"			"15"
-		"icon_tall"			"16"
-		"icon_wide"			"16"
-		
-		"text_xpos"			"33"
+		"show_voice_icon"			"1"
+		"icon_ypos"					"0"
+		"icon_xpos"					"15"
+		"icon_tall"					"16"
+		"icon_wide"					"16"
+
+		"text_xpos"					"33"
 	}
 
 	HudHintDisplay
 	{
-		"fieldName"				"HudHintDisplay"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-240"
-		"ypos"					"c60"
-		"wide"					"480"
-		"tall"					"100"
-		"HintSize"				"1"
-		"text_xpos"				"8"
-		"text_ypos"				"8"
-		"center_x"				"0"	// center text horizontally
-		"center_y"				"-1"	// align text on the bottom
+		"fieldName"					"HudHintDisplay"
+		"visible"					"0"
+		"enabled"					"1"
+		"xpos"						"c-240"
+		"ypos"						"c60"
+		"wide"						"480"
+		"tall"						"100"
+		"HintSize"					"1"
+		"text_xpos"					"8"
+		"text_ypos"					"8"
+		"center_x"					"0"	// center text horizontally
+		"center_y"					"-1"	// align text on the bottom
 	}	
 
 	HudHintKeyDisplay
 	{
-		"fieldName"	"HudHintKeyDisplay"
-		"visible"	"0"
-		"enabled" 	"1"
-		"xpos"		"r120"
-		"ypos"		"r340"
-		"wide"		"100"
-		"tall"		"200"
-		"text_xpos"	"8"
-		"text_ypos"	"8"
-		"text_xgap"	"8"
-		"text_ygap"	"8"
-		"TextColor"	"255 170 0 220"
+		"fieldName"					"HudHintKeyDisplay"
+		"visible"					"0"
+		"enabled" 					"1"
+		"xpos"						"r120"
+		"ypos"						"r340"
+		"wide"						"100"
+		"tall"						"200"
+		"text_xpos"					"8"
+		"text_ypos"					"8"
+		"text_xgap"					"8"
+		"text_ygap"					"8"
+		"TextColor"					"255 170 0 220"
 
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"		"2"
 	}
 	
 	overview
