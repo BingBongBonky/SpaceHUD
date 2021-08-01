@@ -1,3 +1,7 @@
+// CUSTOMIZATION FILES
+
+#base "../../resource/tools/preload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
