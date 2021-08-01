@@ -43,16 +43,20 @@ Scheme
 		"TransparentBlack"					"0 0 0 200"
 		"TransparentLightBlack"				"0 0 0 160"
 		"FooterBGBlack"						"52 48 55 255"
-		
-		"HUDBlueTeam"						"104 124 155 127"
-		"HUDRedTeam"						"180 92 77 127"
+
+
+		"HUDBlueTeam"						"78 126 178 175"
+		"HUDRedTeam"						"172 52 52 175"
+
 		"HUDSpectator"						"124 124 124 127"
-		"HUDBlueTeamSolid"					"104 124 155 255"
-		"HUDRedTeamSolid"					"180 92 77 255"
+
+		"HUDBlueTeamSolid"					"78 126 178 255"
+		"HUDRedTeamSolid"					"172 52 52 255"
+
 		"HUDDeathWarning"					"255 0 0 255"
 		"HudWhite"							"255 255 255 255"
-		"HudOffWhite"						"200 187 161 255"
-		"HudBlack"							"65 65 65 255"
+		"HudOffWhite"						"255 255 255 255"
+		"HudBlack"							"0 0 0 255"
 		"ProgressBarBlue"					"91 122 142 255"
 		
 		"CreditsGreen"						"94 150 49 255"
