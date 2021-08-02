@@ -19,16 +19,17 @@ Scheme
 	Colors
 	{
 		// Menu Colors
-		"MenuColor"							"13 15 25 255"
-		"MenuLighter"						"20 25 50 255"
-		"MenuDarker"						"0 10 30 255"
+		"MenuColor"							"15 20 25 255"
+		"MenuLighter"						"20 25 30 255"
+		"MenuDarker"						"10 15 20 255"
 
-		"TransparentMenuColor"				"13 15 25 150"
-		"TransparentMenuLighter"			"13 15 25 100"
-		"TransparentMenuDarker"				"13 15 25 200"
+		"TransparentMenuColor"				"15 20 25 150"
+		"TransparentMenuLighter"			"15 20 25 100"
+		"TransparentMenuDarker"				"15 20 25 200"
 
 		// Custom Colors
-		"Shadow"							"0 0 0 150"
+		"Shadow"							"0 0 0 200"
+		"XPColor"							"0 255 34 255"
 
 		"White"								"235 235 235 255"
 		"Red"								"192 28 0 140"
@@ -5129,18 +5130,18 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
+			"color"					"MenuDarker"
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorderAlpha
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
+			"color"					"MenuDarker"
 			"image"					"button_holder_central_alpha"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
