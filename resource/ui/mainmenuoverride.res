@@ -187,11 +187,36 @@
 		}	
 	}
 
+	"SpaceHUDText"
+	{
+		"ControlName"				"CExButton"
+		"fieldName"					"SpaceHUDText"
+		"font"						"Font32"
+		"labelText"					"SpaceHUD"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override"	"White"
+		"textAlignment"				"center"
+		"xpos"						"c-75"
+		"ypos"						"40"
+		"zpos"						"10"
+		"wide"						"150"
+		"tall"						"32"
+		"visible"					"1"
+		"enabled"					"1"
+		"paintbackground"			"0"
+		"paintborder"				"0"
+		"sound_depressed"			"vo/scout_specialcompleted01.mp3"
+		"sound_released"			""
+		"textAlignment"				"north"
+		"border"					"NoBorder"
+	}
+
 	"RankModelPanel"
 	{
 		"ControlName"				"CPvPRankPanel"
 		"fieldName"					"RankModelPanel"
-		"xpos"						"cs-0.5-105"
+		"xpos"						"cs-0.5-100"
 		"ypos"						"cs-0.5-120"
 
 		"zpos"						"-51"
@@ -210,8 +235,8 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CycleRankTypeButton"
-		"xpos"						"c115"
-		"ypos"						"100"
+		"xpos"						"c121"
+		"ypos"						"95"
 		"wide"						"8"
 		"tall"						"8"
 		"autoResize"				"0"
@@ -347,7 +372,7 @@
 		"ypos"			"94"
 		"zpos"			"-100"
 		"wide"			"260"
-		"tall"			"60"
+		"tall"			"150"
 		"visible"		"1"
 		"bgcolor_override"		"MenuColor"
 		"proportionaltoparent"	"1"
@@ -2010,9 +2035,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CharacterSetupButton"
-		"xpos"						"c-288"
-		"ypos"						"rs1-18"
-		"wide"						"100"
+		"xpos"						"c-125"
+		"ypos"						"155"
+		"wide"						"200"
 		"tall"						"26"
 		"autoResize"				"0"
 		"pinCorner"					"3"
@@ -2021,7 +2046,7 @@
 		"tabPosition"				"0"
 		"textinsetx"				"25"
 		"use_proportional_insets" 	"1"
-		"font"						"HudFontSmallBold"
+		"font"						"Font18"
 		"textAlignment"				"west"
 		"dulltext"					"0"
 		"brighttext"				"0"
@@ -2033,21 +2058,34 @@
 		"proportionaltoparent"		"1"
 			
 		"paintbackground"			"1"
+		"paintbackgroundtype"		"0"
+
+		// default style
+    	"defaultBgColor_override"	"MenuDarker"
+    	"defaultFgColor_override"	"White"
+	
+    	// armed style
+    	"armedBgColor_override"		"MenuLighter"
+    	"armedFgColor_override" 	"White"
+	
+    	// depressed style    
+    	"depressedBgColor_override"	"MenuLighter"
+    	"depressedFgColor_override" "White"
 				
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"255 255 255 255"
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_items"
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"6"
+			"ypos"					"6"
+			"zpos"					"1"
+			"wide"					"14"
+			"tall"					"14"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"image"					"glyph_items"
 		}		
 	}
 
