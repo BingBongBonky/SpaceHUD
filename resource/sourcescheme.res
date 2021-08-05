@@ -7,8 +7,8 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-	    "TFDarkBrown"               	"15 20 25 255"
-	    "TFDarkBrownTransparent"    	"15 20 25 255"
+	    "TFDarkBrown"               	"15 20 27 255"
+	    "TFDarkBrownTransparent"    	"15 20 27 255"
 	    "TFTanBright"               	"25 30 35 150"
 	    "TFTanLight"                	"20 25 30 150"
 
