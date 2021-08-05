@@ -164,9 +164,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"					"CHudAccountPanel"
-		"xpos"						"r162"
-		"ypos"						"r152"
-		"ypos_minmode"				"r134"
+		"xpos"						"c-29"
+		"ypos"						"c100"
+		"ypos_minmode"				"c150"
 		"wide"						"116"
 		"tall"  					"180"
 		"visible" 					"1"
@@ -176,38 +176,38 @@
 	
 	CHealthAccountPanel
 	{
-		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-190"
-		"ypos"					"c30"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+		"fieldName"					"CHealthAccountPanel"
+		"xpos"						"c-190"
+		"ypos"						"c30"
+		"ypos_minmode"				"r134"
+		"wide"						"116"
+		"tall"  					"180"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"PaintBackgroundType"		"2"
 	}
 	
 	CDamageAccountPanel
 	{
-		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+		"fieldName"					"CDamageAccountPanel"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"480"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"PaintBackgroundType"		"2"
 	}
 	
 	DisguiseStatus
 	{
-		"fieldName" "DisguiseStatus"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"10"
-		"ypos"		"r70"
-		"wide"		"500"
-		"tall"		"200"
+		"fieldName" 				"DisguiseStatus"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"10"
+		"ypos"						"r70"
+		"wide"						"500"
+		"tall"						"200"
 	}
 
 	CMainTargetID
