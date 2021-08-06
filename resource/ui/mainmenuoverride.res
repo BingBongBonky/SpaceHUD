@@ -357,7 +357,7 @@
 		"wide"			"260"
 		"tall"			"146"
 		"visible"		"1"
-		"bgcolor_override"		"MenuColor"
+		"bgcolor_override"		"MenuDefault"
 		"proportionaltoparent"	"1"
 	}
 	
@@ -1347,7 +1347,7 @@
 		"tall"						"150"
 		"visible"					"1"
 
-		"bgcolor_override"			"MenuColor"
+		"bgcolor_override"			"MenuDefault"
 
 		"TitleLabel"
 		{
@@ -2011,7 +2011,7 @@
 		"tall"						"60"
 		"visible"					"1"
 		"enabled"					"1"
-		"bgcolor_override"			"MenuColor"
+		"bgcolor_override"			"MenuDefault"
 	}		
 
 	"CharacterSetupButton"

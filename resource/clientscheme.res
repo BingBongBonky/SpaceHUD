@@ -19,13 +19,13 @@ Scheme
 	Colors
 	{
 		// Menu Colors
-		"MenuColor"							"15 20 25 255"
+		"MenuDefault"						"15 20 25 255"
 		"MenuLighter"						"20 25 30 255"
 		"MenuDarker"						"10 15 20 255"
 		"MenuEcon"							"17 22 28 255"
 		"MenuBlack"							"15 15 15 255"
 
-		"TransparentMenuColor"				"15 20 25 150"
+		"TransparentMenuDefault"			"15 20 25 150"
 		"TransparentMenuLighter"			"15 20 25 100"
 		"TransparentMenuDarker"				"15 20 25 200"
 
@@ -248,7 +248,7 @@ Scheme
 		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
-		Econ.Dialog.BgColor									"MenuColor"
+		Econ.Dialog.BgColor									"MenuDefault"
 		Econ.Button.BgColor									"MenuDarker"
 		Econ.Button.FgColor									"White"
 		Econ.Button.ArmedBgColor							"MenuLighter"
@@ -439,9 +439,9 @@ Scheme
 		"HudIcon_Red"		"160 0 0 255"
 
 		// CHudMenu
-		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"		"233 208 173 255"
-		"MenuBoxBg"		"0 0 0 100"
+		"ItemColor"			"255 167 42 200"	// default 255 167 42 255
+		"MenuColor"			"255 255 255 255"
+		"MenuBoxBg"			"0 0 0 100"
 
 		// weapon selection colors
 		"SelectionNumberFg"		"251 235 202 255"
@@ -3665,17 +3665,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 			}
@@ -3683,17 +3683,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 			}	
@@ -3701,17 +3701,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 			}
@@ -3719,17 +3719,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "MenuColor"
+					"color" "MenuDefault"
 					"offset" "0 0"
 				}
 			}	
@@ -3749,7 +3749,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"MenuColor"
+			"color"					"MenuDefault"
 			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
@@ -3865,7 +3865,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"MenuColor"
+			"color"					"MenuDefault"
 			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
@@ -3876,7 +3876,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"MenuColor"
+			"color"					"MenuDefault"
 			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
@@ -6695,7 +6695,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"MenuColor"
+			"color"					"MenuDefault"
 			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
@@ -7052,7 +7052,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"MenuColor"
+			"color"					"MenuDefault"
 			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
