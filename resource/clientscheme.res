@@ -22,6 +22,8 @@ Scheme
 		"MenuColor"							"15 20 25 255"
 		"MenuLighter"						"20 25 30 255"
 		"MenuDarker"						"10 15 20 255"
+		"MenuEcon"							"17 22 28 255"
+		"MenuBlack"							"15 15 15 255"
 
 		"TransparentMenuColor"				"15 20 25 150"
 		"TransparentMenuLighter"			"15 20 25 100"
@@ -30,6 +32,9 @@ Scheme
 		// Custom Colors
 		"Shadow"							"0 0 0 200"
 		"XPColor"							"0 255 34 255"
+
+		"RedLabel"							"172 52 52 255"
+		"BlueLabel"							"78 126 178 255"
 
 		"White"								"235 235 235 255"
 		"Red"								"192 28 0 140"
