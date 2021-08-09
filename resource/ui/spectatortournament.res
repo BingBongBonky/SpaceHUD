@@ -249,14 +249,13 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"33"
+		"tall"			"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"visible"		"0"
-		"ypos"			"100"
 		"tall"			"0"
 	}
 	"bottombarblank"
