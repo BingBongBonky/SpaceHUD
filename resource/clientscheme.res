@@ -36,6 +36,10 @@ Scheme
 		"RedLabel"							"172 52 52 255"
 		"BlueLabel"							"78 126 178 255"
 
+		"HighlightColor"					"20 60 100 255"
+
+		"AchievementOrange"					"244 114 44 255"
+
 		"White"								"235 235 235 255"
 		"Red"								"192 28 0 140"
 		"RedSolid"							"192 28 0 255"
@@ -68,6 +72,7 @@ Scheme
 		"CreditsGreen"						"94 150 49 255"
 		
 		"Gray"								"178 178 178 255"
+		"DarkGray"							"76 76 76 255"
 
 		"Blank"								"0 0 0 0"
 		"ForTesting"						"255 0 0 32"
@@ -251,9 +256,9 @@ Scheme
 		Econ.Dialog.BgColor									"MenuDefault"
 		Econ.Button.BgColor									"MenuDarker"
 		Econ.Button.FgColor									"White"
-		Econ.Button.ArmedBgColor							"MenuLighter"
+		Econ.Button.ArmedBgColor							"HighlightColor"
 		Econ.Button.ArmedFgColor							"White"
-		Econ.Button.DepressedBgColor						"MenuLighter"
+		Econ.Button.DepressedBgColor						"HighlightColor"
 		Econ.Button.DepressedFgColor						"White"
 		
 		Econ.Button.PresetDefaultColorFg					"White"
@@ -271,11 +276,11 @@ Scheme
 		Button.TextColor									"White"
 		Button.BgColor										"MenuDarker"
 		Button.ArmedTextColor								"White"
-		Button.ArmedBgColor									"MenuLighter"
+		Button.ArmedBgColor									"HighlightColor"
 		Button.SelectedTextColor							"White"
-		Button.SelectedBgColor								"MenuLighter"
+		Button.SelectedBgColor								"HighlightColor"
 		Button.DepressedTextColor							"White"
-		Button.DepressedBgColor								"MenuLighter"
+		Button.DepressedBgColor								"HighlightColor"
 
 		CheckButton.TextColor								"Yellow"
 		CheckButton.SelectedTextColor						"Yellow"
@@ -331,7 +336,7 @@ Scheme
 		Menu.TextColor										"White"
 		Menu.BgColor										"TransparentBlack"
 		Menu.ArmedTextColor									"White"
-		Menu.ArmedBgColor									"MenuLighter"
+		Menu.ArmedBgColor									"HighlightColor"
 		Menu.TextInset										"6"
 
 		Chat.TypingText										"Orange"

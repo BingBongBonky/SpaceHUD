@@ -537,7 +537,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"NoSteamLabel"
-		"font"						"HudFontSmallBold"
+		"font"						"Font24"
 		"labelText"					"#NoSteamNoItems"
 		"textAlignment"				"north"
 		"xpos"						"0"
@@ -555,7 +555,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"NoGCLabel"
-		"font"						"HudFontSmallBold"
+		"font"						"Font24"
 		"labelText"					"#NoGCNoItems"
 		"textAlignment"				"north"
 		"xpos"						"0"
