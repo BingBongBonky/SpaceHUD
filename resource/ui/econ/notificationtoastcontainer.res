@@ -2,18 +2,19 @@
 {
 	"NotificationToastContainer"
 	{
-		"ControlName"	"CNotificationToastControl"
-		"fieldName"		"NotificationToastContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"ControlName"				"CNotificationToastControl"
+		"fieldName"					"NotificationToastContainer"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"1"
+		"wide"						"150"
+		"tall"						"50"
+		"visible"					"1"
+		"enabled"					"1"
+		"bgcolor_override"			"TransparentLightBlack"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
 	}
-
 
 	"HelpTextLabel"
 	{	
