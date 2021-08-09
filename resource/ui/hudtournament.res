@@ -207,36 +207,9 @@
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
-				"fieldName"		"classimagebg"
-				"xpos"			"5"
-				"ypos"			"4"
-				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"bgcolor_override"		"Black"
-				"PaintBackgroundType"	"0"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}
-
-				if_competitive
-				{
-					"xpos"			"4"
-					"ypos"			"4"
-					"wide"			"p0.4"
-					"tall"			"p0.6"
-					"visible"		"1"
-					"proportionaltoparent" "1"
-				}
-
-				if_readymode
-				{
-					"visible"		"1"
-				}
+				"fieldName"			"classimagebg"
+				"visible"			"0"
+				"enabled"			"0"
 			}
 			
 			"HealthIcon"
@@ -267,24 +240,24 @@
 			
 			"ReadyBG"
 			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"		"ReadyBG"
-				"xpos"			"30"
-				"ypos"			"6"
-				"zpos"			"-1"
-				"wide"			"16"
-				"tall"			"16"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
+				"ControlName"			"ScalableImagePanel"
+				"fieldName"				"ReadyBG"
+				"xpos"					"30"
+				"ypos"					"6"
+				"zpos"					"-1"
+				"wide"					"16"
+				"tall"					"16"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"0"
+				"enabled"				"1"
+				"image"					"../HUD/tournament_panel_brown"
 
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
+				"src_corner_height"		"22"				// pixels inside the image
+				"src_corner_width"		"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"0"
 				
 				if_mvm
 				{

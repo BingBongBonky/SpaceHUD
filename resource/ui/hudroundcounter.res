@@ -48,20 +48,48 @@
 		}
 	}	
 
-	"Background"
+	"BlueTeamBackground"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"o3.833"
-		"tall"			"35"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"BlueTeamBackground"
+		"xpos"						"c-45"
+		"ypos"						"1"
+		"zpos"						"-10"
+		"wide"						"45"
+		"tall"						"12"
+		"visible"					"1"
+		"enabled"					"1"
+		"bgcolor_override"			"HUDBlueTeamSolid"
+		"proportionaltoparent"		"1"
+	}
 
-		"backgroundtype"		"2"
-		"proportionaltoparent"	"1"
-			
-		"image"					"../hud/comp_round_timer"
-		"scaleimage"			"1"
+	"RedTeamBackground"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"RedTeamBackground"
+		"xpos"						"c0"
+		"ypos"						"1"
+		"zpos"						"-10"
+		"wide"						"45"
+		"tall"						"12"
+		"visible"					"1"
+		"enabled"					"1"
+		"bgcolor_override"			"HUDRedTeamSolid"
+		"proportionaltoparent"		"1"
+	}
+
+	"TimerBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"TimerBG"
+		"xpos"						"c-45"
+		"ypos"						"10"
+		"zpos"						"-21"
+		"wide"						"90"
+		"tall"						"15"
+		"visible"					"1"
+		"enabled"					"1"
+		"bgcolor_override"			"TransparentBlack"
+		"proportionaltoparent"		"1"
 	}
 }
