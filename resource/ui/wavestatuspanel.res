@@ -11,12 +11,9 @@
 		"zpos"						"3"
 		"wide"						"200"
 		"tall"						"15"
-		"xpos_minmode"				"110"
-		"wide_minmode"				"-300"
 		"visible"					"1"
 		"enabled"					"1"
 		"textAlignment"				"center"
-		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
 	}
 	
@@ -47,7 +44,7 @@
 		"fieldName"					"SupportLabel"
 		"font"						"Font12"
 		"fgcolor"					"White"
-		"xpos"						"55"
+		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"3"
 		"wide"						"60"
@@ -56,6 +53,7 @@
 		"enabled"					"1"
 		"textAlignment"				"west"
 		"labelText"					"#TF_MVM_Support"
+		"pinCorner"					"PIN_TOPLEFT"
 		
 		if_verbose
 		{
@@ -107,5 +105,11 @@
 		
 		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
+	}
+
+	"Background"
+	{
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }

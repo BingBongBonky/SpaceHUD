@@ -251,8 +251,9 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+	Animate AmmoInClip					"fgcolor"		"RedSolid"	Linear 0.0 0.0
+	Animate AmmoInReserve				"fgcolor"		"RedSolid"	Linear 0.0 0.0
+	Animate AmmoNoClip					"fgcolor"		"RedSolid"	Linear 0.0 0.0
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -267,6 +268,9 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
+	Animate AmmoInClip					fgcolor		"White"	Linear 0.0 0.0
+	Animate AmmoInReserve				fgcolor		"White"	Linear 0.0 0.0
+	Animate AmmoNoClip					fgcolor		"White"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -1555,7 +1559,7 @@ event PlayDoorOpenAnim
 event HudTournament_ShowTimerCompetitive
 {
 	Animate CountdownLabel ypos 150 Linear 0 0
-	Animate CountdownLabelShadow ypos 150 Linear 0 0
+	Animate CountdownLabelShadow ypos 151 Linear 0 0
 
 	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0
@@ -1564,8 +1568,8 @@ event HudTournament_ShowTimerCompetitive
 
 event HudTournament_ShowTimerDefault
 {
-	Animate CountdownLabel ypos 425 Linear 0 0
-	Animate CountdownLabelShadow ypos 425 Linear 0 0
+	Animate CountdownLabel ypos 150 Linear 0 0
+	Animate CountdownLabelShadow ypos 151 Linear 0 0
 
 	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0

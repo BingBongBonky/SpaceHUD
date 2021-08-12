@@ -70,7 +70,7 @@
 		"font"						"Font12"
 		"fgcolor"					"White"
 		"xpos"						"0"
-		"ypos"						"18"
+		"ypos"						"19"
 		"zpos"						"3"
 		"wide"						"20"
 		"tall"						"14"

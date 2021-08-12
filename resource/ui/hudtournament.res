@@ -784,249 +784,179 @@
 	}
 	"TournamentInstructionsLabel"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"TFFontSmall"
-		"xpos"			"0"
-		"ypos"			"54"
-		"wide"			"250"
-		"tall"			"10"
-		"zpos"			"1"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%readylabel%"
-		"textAlignment"		"center"
+		"ControlName"			"CExLabel"
+		"fieldName"				"TournamentInstructionsLabel"
+		"font"					"TFFontSmall"
+		"xpos"					"0"
+		"ypos"					"54"
+		"wide"					"250"
+		"tall"					"10"
+		"zpos"					"1"
+		"autoResize"				"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"wrap"					"0"
+		"labelText"				"%readylabel%"
+		"textAlignment"			"center"
 		"proportionaltoparent"	"1"
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"155"
-			"ypos"			"105"
-			"wide"			"190"
-			"tall"			"20"
-			"zpos"			"3"
-		}
+			"font"				"Font24"
+			"xpos"				"155"
+			"ypos"				"105"
+			"wide"				"190"
+			"tall"				"25"
+			"zpos"				"3"
+		}	
 
-		if_competitive
-		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"cs-0.5"
-			"ypos"			"110"
-			"wide"			"190"
-			"tall"			"20"
-			"zpos"			"3"
-		}
+		if_competitive	
+		{	
+			"font"				"HudFontSmallishBold"
+			"xpos"				"cs-0.5"
+			"ypos"				"110"
+			"wide"				"190"
+			"tall"				"20"
+			"zpos"				"3"
+		}	
 
-		if_readymode
-		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"225"
-			"ypos"			"110"
-			"wide"			"190"
-			"tall"			"20"
-			"zpos"			"3"
+		if_readymode	
+		{	
+			"font"				"HudFontSmallishBold"
+			"xpos"				"225"
+			"ypos"				"110"
+			"wide"				"190"
+			"tall"				"20"
+			"zpos"				"3"
 		}
 	}
 	
 	"TournamentInstructionsLabelShadow"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"TFFontSmall"
-		"xpos"			"0"
-		"ypos"			"54"
-		"wide"			"250"
-		"tall"			"10"
-		"zpos"			"2"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%readylabel%"
-		"textAlignment"		"center"
+		"ControlName"			"CExLabel"
+		"fieldName"				"TournamentInstructionsLabelShadow"
+		"font"					"TFFontSmall"
+		"xpos"					"0"
+		"ypos"					"54"
+		"wide"					"250"
+		"tall"					"10"
+		"zpos"					"2"
+		"autoResize"				"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"wrap"					"0"
+		"labelText"				"%readylabel%"
+		"textAlignment"			"center"
 		"proportionaltoparent"	"1"
+		"fgcolor"				"Shadow"
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"156"
-			"ypos"			"106"
-			"wide"			"190"
-			"tall"			"20"
-			"visible"		"1"
-			"fgcolor"		"Black"
-		}
+			"font"				"Font24"
+			"xpos"				"156"
+			"ypos"				"106"
+			"wide"				"190"
+			"tall"				"25"
+			"visible"			"1"
+		}	
 
-		if_competitive
-		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"cs-0.5"
-			"ypos"			"111"
-			"wide"			"190"
-			"tall"			"20"
-			"visible"		"1"
-			"fgcolor"		"Black"
-		}
+		if_competitive	
+		{	
+			"font"				"HudFontSmallishBold"
+			"xpos"				"cs-0.5"
+			"ypos"				"111"
+			"wide"				"190"
+			"tall"				"20"
+			"visible"			"1"
+		}	
 
-		if_readymode
-		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"226"
-			"ypos"			"111"
-			"wide"			"190"
-			"tall"			"20"
-			"visible"		"1"
-			"fgcolor"		"Black"
-		}
-	}
-
-	"TournamentReadyHintIcon"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TournamentReadyHintIcon"
-		"font"			"GameUIButtonsSteamControllerSmallest"
-		"xpos"			"0"
-		"ypos"			"54"
-		"zpos"			"3"
-		"wide"			"40"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"Y"
-		"textAlignment"	"left"
-
-		if_mvm
-		{
-			"xpos"			"166"
-			"ypos"			"101"
-			"wide"			"190"
-			"tall"			"22"
-		}
-
-		if_competitive
-		{
-			"xpos"			"236"
-			"ypos"			"106"
-			"wide"			"190"
-			"tall"			"22"
-		}
-
-		if_readymode
-		{
-			"xpos"			"236"
-			"ypos"			"106"
-			"wide"			"190"
-			"tall"			"22"
-		}
-	}
-	
-	"CountdownBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"CountdownBG"
-		"xpos"			"230"
-		"ypos"			"r55"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"40"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/color_panel_red"
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"150"
-		}
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
+		if_readymode	
+		{	
+			"font"				"HudFontSmallishBold"
+			"xpos"				"226"
+			"ypos"				"111"
+			"wide"				"190"
+			"tall"				"20"
+			"visible"			"1"
 		}
 	}
 
 	"CountdownLabel"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
-		"xpos"			"230"
-		"ypos"			"r55"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"5"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
+		"ControlName"			"CExLabel"
+		"fieldName"				"CountdownLabel"
+		"font"					"Font32"
+		"xpos"					"220"
+		"ypos"					"130"
+		"wide"					"60"
+		"tall"					"40"
+		"zpos"					"5"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"wrap"					"0"
+		"labelText"				"%tournamentstatelabel%"
+		"textAlignment"			"center"
 		"proportionaltoparent"	"1"
 
 		if_competitive
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
-			"fgcolor"		"TanLight"
-			"font"			"HudFontGiant"
-		}
+			"xpos"				"cs-0.5"
+			"ypos"				"cs-0.1"
+			"fgcolor"			"White"
+			"font"				"HudFontGiant"
+		}	
 
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
+		if_readymode	
+		{	
+			"xpos"				"300"
+			"ypos"				"130"
 		}
 	}
 	
 	"CountdownLabelShadow"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"231"
-		"ypos"			"r54"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"4"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
-		"fgcolor"		"Black"
+		"ControlName"			"CExLabel"
+		"fieldName"				"CountdownLabelShadow"
+		"font"					"Font32"
+		"xpos"					"221"
+		"ypos"					"130"
+		"wide"					"60"
+		"tall"					"40"
+		"zpos"					"4"
+		"autoResize"				"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"wrap"					"0"
+		"labelText"				"%tournamentstatelabel%"
+		"textAlignment"			"center"
+		"fgcolor"				"Shadow"
 		"proportionaltoparent"	"1"
 
 		if_competitive
 		{
-			"xpos"			"cs-0.48"
-			"ypos"			"cs-0.08"
-			"font"			"HudFontGiant"
-		}
+			"xpos"				"cs-0.48"
+			"ypos"				"cs-0.08"
+			"font"				"HudFontGiant"
+		}	
 
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
+		if_readymode	
+		{	
+			"xpos"				"300"
+			"ypos"				"130"
 		}
+	}
+
+	"CountdownBG"
+	{
+		"ControlName"			"ScalableImagePanel"
+		"fieldName"				"CountdownBG"
+		"wide"					"0"
+		"visible"				"0"
+		"enabled"				"0"
 	}
 }
