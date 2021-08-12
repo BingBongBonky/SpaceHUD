@@ -17,7 +17,7 @@
 		"visible" 					"1"
 		"enabled" 					"1"
 		"xpos"						"c120"
-		"ypos"						"c60"
+		"ypos"						"c50"
 		"ypos_minmode"				"r36"
 		"wide"						"250"
 		"tall"						"120"
@@ -62,7 +62,7 @@
 		"wide"						"100"
 		"tall"						"50"
 		"MeterFG"					"White"
-		"MeterBG"					"Gray"
+		"MeterBG"					"TransparentMenuDarker"
 	}			
 
 	HudMedicCharge			
@@ -83,7 +83,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"c-75"
-		"ypos"						"340"
+		"ypos"						"330"
 		"zpos"						"1"			// draw in front of ammo
 		"wide"						"150"
 		"tall"						"10"
@@ -92,6 +92,7 @@
 	HudBowCharge			
 	{			
 		"fieldName"					"HudBowCharge"
+		"xpos"						"-9999"
 		"visible"					"0"
 		"enabled"					"0"
 	}

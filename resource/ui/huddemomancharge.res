@@ -1,15 +1,15 @@
-// Shield Charges
+// Demoman: Stickybomb Launchers
+// Sniper: The Huntsman
 
 "Resource/UI/HudDemomanCharge.res"
-{	
-	"ChargeMeter"
+{					
+    "ChargeMeter"
 	{	
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter"
 		"font"						"Default"
 		"xpos"						"-3"
 		"ypos"						"0"
-		"ypos_minmode"				"0"
 		"zpos"						"2"
 		"wide"						"153"
 		"tall"						"6"				
@@ -22,5 +22,5 @@
 		"brighttext"				"0"
 		"fgcolor_override"			"White"
 		"bgcolor_override"			"TransparentMenuDarker"
-	}					
+	}
 }
