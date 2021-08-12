@@ -6,7 +6,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudPlayerHealth"
 		"xpos"						"c-240"
-		"ypos"						"c60"
+		"ypos"						"c50"
 		"ypos_minmode"				"r88"
 		"zpos"						"2"
 		"wide"						"250"
