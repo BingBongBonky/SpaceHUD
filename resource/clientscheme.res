@@ -43,7 +43,8 @@ Scheme
 		"White"								"235 235 235 255"
 		"Red"								"192 28 0 140"
 		"RedSolid"							"192 28 0 255"
-		"Blue"								"0 28 162 140"
+		"Blue"								"45 121 221 140"
+		"BlueSolid"							"45 121 221 255"
 		"Yellow"							"251 235 202 255"
 		"TransparentYellow"					"251 235 202 140"
 		"BrightYellow"						"251 235 0 255"
@@ -97,7 +98,7 @@ Scheme
 		"OrangeDim"							"178 82 22 120"
 		"LightOrange"						"188 112 0 128"
 		"GoalOrange"						"255 133 0"
-		"TFOrange"							"145 73 59 255"
+		"TFOrange"							"20 60 100 255"
 		"Purple"							"137 69 99 255"
 
 		"QuestGold"							"208 147 75 255"
@@ -265,9 +266,9 @@ Scheme
 		Econ.Button.PresetArmedColorFg						"White"
 		Econ.Button.PresetDepressedColorFg					"White"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"HighlightColor"
+		Econ.Button.PresetArmedColorBg						"HighlightColor"
+		Econ.Button.PresetDepressedColorBg					"HighlightColor"
 		
 		Border.Bright										"Blank"		// the lit side of a control
 		Border.Dark											"Black"		// the dark/unlit side of a control
@@ -2280,9 +2281,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2291,9 +2292,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"9"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2302,7 +2303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2313,7 +2314,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2324,7 +2325,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2345,7 +2346,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2356,7 +2357,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2367,7 +2368,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
