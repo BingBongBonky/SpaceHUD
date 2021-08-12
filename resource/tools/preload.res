@@ -10,17 +10,6 @@
 		"enabled"			"1"
 		"bgcolor_override"	"0 0 0 0"
 
-    	// PRELOAD LIST
-    	"RoundCounter"
-    	{
-    	    "ControlName"		"ImagePanel"
-			"fieldName"			"RoundCounter"
-			"xpos"				"9999"
-			"visible"			"1"
-			"enabled"			"1"
-			"image"				"../sprites/roundcounterbg"
-    	}
-
 		// CONTROL POINT ICONS
 		"CPCapMask"
 		{
