@@ -213,57 +213,52 @@
 
 	CMainTargetID
 	{
-		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"40"
-		"priority_lodef"	"5"
+		"fieldName" 				"CMainTargetID"
+		"visible" 					"0"
+		"enabled" 					"1"
+		"xpos"						"c-126"
+		"ypos"						"285"
+		"wide"	 					"252"
+		"tall"	 					"23"
+		"priority"					"40"
 
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
+		if_vr			
+		{			
+			"ypos"					"370"
+			"x_offset"				"20"
 		}
 	}
 	
 	CSpectatorTargetID
 	{
-		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"40"
-		"priority_lodef" "35"
-		
-		"x_offset" "20"
-		"y_offset" "20"
+		"fieldName" 				"CSpectatorTargetID"
+		"visible" 					"0"
+		"enabled" 					"1"
+		"xpos"						"c-126"
+		"ypos"						"250"
+		"wide"	 					"252"
+		"tall"	 					"35"
+		"priority"					"40"
+
+		"x_offset" 					"20"
+		"y_offset" 					"20"
 	}
 	
 	CSecondaryTargetID
 	{
-		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"295"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"35"
+		"fieldName" 				"CSecondaryTargetID"
+		"visible" 					"0"
+		"enabled" 					"1"
+		"xpos"						"c-126"
+		"ypos"						"295"
+		"wide"	 					"252"
+		"tall"	 					"35"
+		"priority"					"35"
 
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
+		if_vr			
+		{			
+			"ypos"					"330"
+			"x_offset"				"20"
 		}
 
 	}
@@ -273,10 +268,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"xpos"		"0"
+		"ypos"		"0"	
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -289,11 +282,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		

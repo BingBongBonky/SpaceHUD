@@ -251,9 +251,11 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate AmmoInClip					"fgcolor"		"RedSolid"	Linear 0.0 0.0
-	Animate AmmoInReserve				"fgcolor"		"RedSolid"	Linear 0.0 0.0
-	Animate AmmoNoClip					"fgcolor"		"RedSolid"	Linear 0.0 0.0
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
+	Animate AmmoInClip					fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
+	Animate AmmoInReserve				fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
+	Animate AmmoNoClip					fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -268,9 +270,9 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-	Animate AmmoInClip					fgcolor		"White"	Linear 0.0 0.0
-	Animate AmmoInReserve				fgcolor		"White"	Linear 0.0 0.0
-	Animate AmmoNoClip					fgcolor		"White"	Linear 0.0 0.0
+	Animate AmmoInClip					fgcolor		"White"				Linear 0.0 0.0
+	Animate AmmoInReserve				fgcolor		"White"				Linear 0.0 0.0
+	Animate AmmoNoClip					fgcolor		"White"				Linear 0.0 0.0
 }
 
 //===========================================
@@ -385,8 +387,8 @@ event HudSnapShotReminderIn
 	Animate ScreenshotPanel		Position	"c-83 -49"	Spline 0.001 0.2
 	RunEvent HudHealthDyingPulseStop 10.0
     RunEvent HudHealthBonusPulseStop 10.0
-    RunEvent HudLowAmmoPulseStop 10.0
-    RunEvent HudMedicChargedStop 10.0
+    RunEvent HudLowAmmoPulseStop 	10.0
+    RunEvent HudMedicChargedStop 	10.0
 }
 
 event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
