@@ -25,7 +25,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"PipesPresentPanel"
 		"xpos"						"58"
-		"ypos"						"80"
+		"ypos"						"70"
 		"zpos"						"1"
 		"wide"						"100"
 		"tall"						"50"
