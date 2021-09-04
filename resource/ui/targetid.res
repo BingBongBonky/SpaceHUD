@@ -7,8 +7,8 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"-1"
-		"wide"						"252"
-		"tall"	 					"50"
+		"wide"						"3"
+		"tall"	 					"16"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -19,12 +19,13 @@
 		"teambg_2"					"../hud/color_panel_red"
 		"teambg_3"					"../hud/color_panel_blu"
 		
-		"src_corner_height"			"23"				// pixels inside the image
+		"src_corner_height"			"16"				// pixels inside the image
 		"src_corner_width"			"23"
 				
 		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
 	}
+
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"				"ScalableImagePanel"
@@ -33,7 +34,7 @@
 		"ypos"						"0"
 		"zpos"						"-1"
 		"wide"						"252"
-		"tall"	 					"30"
+		"tall"	 					"23"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"0"
@@ -46,6 +47,7 @@
 		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"
 	}
+
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"				"ScalableImagePanel"
@@ -54,7 +56,7 @@
 		"ypos"						"0"
 		"zpos"						"-1"
 		"wide"						"252"
-		"tall"	 					"30"
+		"tall"	 					"23"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"0"
@@ -64,8 +66,24 @@
 		"src_corner_height"			"23"				// pixels inside the image
 		"src_corner_width"			"23"
 
-		"draw_corner_width"			"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"5"
+		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"
+	}
+
+	"Shade"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"Shade"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"-20"
+		"wide"						"9999" // Goes as wide as HudLayout will allow it
+		"tall"	 					"23"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"bgcolor_override"			"MenuDefault"
 	}
 	
 	"TargetNameLabel"
@@ -91,9 +109,9 @@
 	{	
 		"ControlName"				"Label"
 		"fieldName"					"TargetDataLabel"
-		"font"						"Font8"
+		"font"						"Font10"
 		"xpos"						"8"
-		"ypos"						"10"
+		"ypos"						"11"
 		"zpos"						"1"
 		"wide"						"280"
 		"tall"						"15"
@@ -112,7 +130,7 @@
 		"fieldName"					"SpectatorGUIHealth"
 		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"32"
+		"wide"						"40"
 		"tall"						"23"
 		"visible"					"0"
 		"enabled"					"0"	
@@ -127,10 +145,8 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"AmmoIcon"
-		"xpos"						"40"
-		"xpos_minmode"				"38"
-		"ypos"						"20"
-		"ypos_minmode"				"16"
+		"xpos"						"42"
+		"ypos"						"13"
 		"zpos"						"12"
 		"wide"						"8"
 		"tall"						"8"
@@ -145,9 +161,7 @@
 		"ControlName"				"ImagePanel"
 		"fieldName"					"KillStreakIcon"
 		"xpos"						"10"
-		"xpos_minmode"				"30"
-		"ypos"						"20"
-		"ypos_minmode"				"16"
+		"ypos"						"13"
 		"zpos"						"12"
 		"wide"						"8"
 		"tall"						"8"
@@ -157,7 +171,7 @@
 		"scaleImage"				"1"
 	}
 	
-	"MoveableSubPanel"
+	"MoveableSubPanel" 				// Dont DELETE any elements below
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"MoveableSubPanel"
@@ -165,11 +179,11 @@
 		"ypos"						"0"
 		"zpos"						"-5"
 		"wide"						"32"
-		"tall"						"36"
+		"tall"						"23"
 		"visible"					"1"
 		"enabled"					"1"	
 
-		"MoveableIconBG"		
+		"MoveableIconBG"			
 		{		
 			"ControlName"			"CIconPanel"
 			"fieldName"				"MoveableIconBG"
@@ -177,52 +191,35 @@
 			"ypos"					"0"
 			"zpos"					"0"
 			"wide"					"10"
-			"tall"					"36"
+			"tall"					"23"
 			"visible"				"1"
 			"enabled"				"1"
-			"icon"					"obj_status_alert_background_tall_nocolor"
-			"iconColor"				"HudBlack"
-			"scaleImage"			"1"
+			"bgcolor_override"		"MenuDefault"
 		}
-		
-		"MoveableIcon"
-		{
-			"ControlName"			"CIconPanel"
-			"fieldName"				"MoveableIcon"
-			"xpos"					"5"
-			"ypos"					"7"
-			"zpos"					"11"
-			"wide"					"14"
-			"tall"					"14"
-			"visible"				"1"
-			"enabled"				"1"
-			"icon"					"obj_status_sentrygun_1"
-			"drawcolor"				"ProgressOffWhite"
-			"scaleImage"			"1"
-		}		
+			
 		"MoveableSymbolIcon"		
 		{		
 			"ControlName"			"ImagePanel"
 			"fieldName"				"MoveableSymbolIcon"
-			"xpos"					"16"
-			"ypos"					"-2"
+			"xpos"					"0"
+			"ypos"					"0"
 			"zpos"					"12"
 			"wide"					"16"
 			"tall"					"8"
 			"visible"				"1"
 			"enabled"				"1"
 			"image"					"../hud/eng_sel_item_movable"
-			"drawcolor"				"ProgressOffWhite"
+			"drawcolor"				"White"
 			"scaleImage"			"1"
 		}
 
-		"MoveableKeyLabel"
+		"MoveableKeyLabel" 			// Moves moveable panel on ypos
 		{	
 			"ControlName"			"Label"
 			"fieldName"				"MoveableKeyLabel"
-			"font"					"TFFontMedium"
+			"font"					"Font8"
 			"xpos"					"0"
-			"ypos"					"22"
+			"ypos"					"12"
 			"zpos"					"1"
 			"wide"					"640"
 			"tall"					"24"
@@ -234,6 +231,15 @@
 			"textAlignment"			"North"
 			"dulltext"				"0"
 			"brighttext"			"0"
+		}	
+
+		"MoveableIcon"
+		{
+			"ControlName"			"CIconPanel"
+			"fieldName"				"MoveableIcon"
+			"wide"					"0"
+			"visible"				"0"
+			"enabled"				"0"
 		}	
 	}
 	"AvatarImage"

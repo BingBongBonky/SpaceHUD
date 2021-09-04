@@ -217,7 +217,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos"						"c-126"
-		"ypos"						"285"
+		"ypos"						"270"
 		"wide"	 					"252"
 		"tall"	 					"23"
 		"priority"					"40"
@@ -237,7 +237,7 @@
 		"xpos"						"c-126"
 		"ypos"						"250"
 		"wide"	 					"252"
-		"tall"	 					"35"
+		"tall"	 					"23"
 		"priority"					"40"
 
 		"x_offset" 					"20"
@@ -252,7 +252,7 @@
 		"xpos"						"c-126"
 		"ypos"						"295"
 		"wide"	 					"252"
-		"tall"	 					"35"
+		"tall"	 					"23"
 		"priority"					"35"
 
 		if_vr			
