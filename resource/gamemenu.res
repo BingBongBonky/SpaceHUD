@@ -22,6 +22,30 @@
 		"tooltip"	"#MMenu_Tooltip_ConsoleToggle"
 	}
 
+	"DemoUIButton"
+	{
+		"command" 	"engine demoui"
+		"tooltip"	"#MMenu_Tooltip_DemoUI"
+	}
+
+	"InvisiblePlayersButton"
+	{
+		"command" 	"engine record fix;stop"
+		"tooltip"	"#MMenu_Tooltip_Invisible"
+	}
+
+	"FixSoundButton"
+	{
+		"command" 	"engine snd_restart"
+		"tooltip"	"#MMenu_Tooltip_FixSound"
+	}
+
+	"NetGraphButton"
+	{
+		"command" 	"engine toggle net_graph 0 1"
+		"tooltip"	"#MMenu_Tooltip_NetGraph"
+	}
+
 	////////////////////////////////////////////
 	// Default Buttons
 	///////////////////////////////////////////
@@ -34,38 +58,43 @@
 		"OnlyWhenVREnabled" "1"
 	}
 
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
+	/////////////////////////////////////////////
+	// In Game Buttons
+	////////////////////////////////////////////
+
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"subimage" 		"icon_checkbox"
 		"tooltip" 		"#MMenu_CallVote"
 	}
+
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"subimage" 		"glyph_muted"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
+
 	"RequestCoachButton"
 	{
 		"label"			""
 		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"subimage" 		"icon_whistle"
 		"tooltip" 		"#MMenu_RequestCoach"
 	}
+
 	"ReportPlayerButton"
 	{
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"0"
-		"subimage"		"glyph_alert"
+		"OnlyInGame"	"1"
+		"subimage"		"replay/thumbnails/mainmenu/glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
