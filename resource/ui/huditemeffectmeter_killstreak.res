@@ -61,4 +61,12 @@
 		"visible"					"0"
 		"enabled"					"0"
 	}	
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			    "ContinuousProgressBar"
+		"fieldName"				    "ItemEffectMeter"
+		"visible"				    "0"
+		"enabled"				    "0"
+	}	
 }

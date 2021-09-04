@@ -208,6 +208,7 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate PlayerStatusHealthValue			fgcolor		"64 174 254 255"	Linear 0.0 0.1
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -222,6 +223,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate PlayerStatusHealthValue			fgcolor		"White"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -253,11 +255,11 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
-	Animate AmmoInClip					fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
-	Animate AmmoInReserve				fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
-	Animate AmmoNoClip					fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
+	Animate AmmoInClip					fgcolor		"220 0 0 255"		Linear 0.0 0.0
+	Animate AmmoInReserve				fgcolor		"220 0 0 255"		Linear 0.0 0.0
+	Animate AmmoNoClip					fgcolor		"220 0 0 255"		Linear 0.0 0.0
 	
-	RunEvent HudLowAmmoPulseLoop	0.25
+	RunEvent HudLowAmmoPulseLoop		0.25
 }
 
 // call to loop HudLowAmmoPulse
@@ -268,8 +270,8 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
-	StopEvent HudLowAmmoPulse 0.0
-	StopEvent HudLowAmmoPulseLoop 0.0
+	StopEvent HudLowAmmoPulse 			0.0
+	StopEvent HudLowAmmoPulseLoop 		0.0
 	Animate AmmoInClip					fgcolor		"White"				Linear 0.0 0.0
 	Animate AmmoInReserve				fgcolor		"White"				Linear 0.0 0.0
 	Animate AmmoNoClip					fgcolor		"White"				Linear 0.0 0.0
@@ -385,10 +387,10 @@ event HudSnapShotReminderIn
 {
 	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
 	Animate ScreenshotPanel		Position	"c-83 -49"	Spline 0.001 0.2
-	RunEvent HudHealthDyingPulseStop 10.0
-    RunEvent HudHealthBonusPulseStop 10.0
-    RunEvent HudLowAmmoPulseStop 	10.0
-    RunEvent HudMedicChargedStop 	10.0
+	RunEvent HudHealthDyingPulseStop 		10.0
+    RunEvent HudHealthBonusPulseStop 		10.0
+    RunEvent HudLowAmmoPulseStop 			10.0
+    RunEvent HudMedicChargedStop 			10.0
 }
 
 event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
@@ -695,13 +697,13 @@ event HasMOTDBlinkStop
 event HasNotificationsBlink
 {
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"100"		Linear 0.2 0.1
 		
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"100"		Linear 0.6 0.1
 	
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"100"		Linear 1.0 0.1
 	
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
 

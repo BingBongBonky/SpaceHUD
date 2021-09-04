@@ -11,14 +11,6 @@
 		"wide"						"100"
 		"tall"						"50"
         "proportionaltoparent"		"1"
-	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"			    "CExLabel"
-		"fieldName"				    "ItemEffectMeterLabel"
-		"visible"				    "0"
-		"enabled"				    "0"
 	}				    
     
 	"ItemEffectMeterCount"  
@@ -63,4 +55,20 @@
 		"fgcolor"					"Shadow"
 		"proportionaltoparent"		"1"
 	}
+
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			    "CExLabel"
+		"fieldName"				    "ItemEffectMeterLabel"
+		"visible"				    "0"
+		"enabled"				    "0"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			    "ContinuousProgressBar"
+		"fieldName"				    "ItemEffectMeter"
+		"visible"				    "0"
+		"enabled"				    "0"
+	}	
 }
