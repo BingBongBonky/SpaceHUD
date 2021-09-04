@@ -5,6 +5,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"AmmoInClip"
 		"font"						"Font60"
+		"fgcolor"					"White"
 		"xpos"						"-6"
 		"ypos"						"31"
 		"zpos"						"5"
@@ -38,6 +39,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"AmmoInReserve"
 		"font"						"Font32"
+		"fgcolor"					"White"
 		"xpos"						"75"
 		"ypos"						"42"
 		"zpos"						"7"
@@ -71,6 +73,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"AmmoNoClip"
 		"font"						"Font60"
+		"fgcolor"					"White"
 		"xpos"						"36"
 		"ypos"						"31"
 		"zpos"						"5"
@@ -97,5 +100,14 @@
 		"enabled"					"1"
 		"textAlignment"				"west"		
 		"labelText"					"%Ammo%"
-	}					
+	}			
+
+	"HudWeaponLowAmmoImage" // Do not delete
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"HudWeaponLowAmmoImage"
+		"xpos"						"-9999"
+		"visible"					"0"
+		"enabled"					"1"		
+	}		
 }

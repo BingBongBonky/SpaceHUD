@@ -2,94 +2,74 @@
 {
 	"scores"
 	{
-		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"		"scoreinfo"
-		"xpos"			"cs-0.5"
-		"ypos"			"31"
-		"wide"			"640"
-		"tall"			"448"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"medal_width"		"20"
-		"avatar_width"		"65"
-		"spacer"			"5"
-		"name_width"		"118"
-		"nemesis_width"		"25"
-		"class_width"		"25"
-		"score_width"		"30"
-		"ping_width"		"25"
-		"killstreak_width"	"15"
-		"killstreak_image_width" "15"
+		"ControlName"				"CTFClientScoreBoardDialog"
+		"fieldName"					"scoreinfo"
+		"xpos"						"cs-0.5"
+		"ypos"						"31"
+		"wide"						"640"
+		"tall"						"448"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"medal_width"				"20"
+		"avatar_width"				"65"
+		"spacer"					"5"
+		"name_width"				"118"
+		"nemesis_width"				"25"
+		"class_width"				"25"
+		"score_width"				"30"
+		"ping_width"				"25"
+		"killstreak_width"			"15"
+		"killstreak_image_width" 	"15"
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueScoreBG"
-		"xpos"			"-4"
-		"ypos"			"9"
-		"wide"			"290"
-		"tall"			"71"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/score_panel_blue_bg_solid"
-		"scaleImage"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BlueTeamImage"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueTeamImage"
-		"xpos"			"7"
-		"ypos"			"9"
-		"zpos"			"20"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/team_blue"
-		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"BlueScoreBG"
+		"xpos"						"-4"
+		"ypos"						"9"
+		"wide"						"290"
+		"tall"						"71"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"bgcolor_override"			"HUDBlueTeamSolid"
+				
+		if_mvm		
+		{		
+			"visible"				"0"
 		}
 	}
 	"BlueLeaderAvatar"
 	{
-		"ControlName"		"CAvatarImagePanel"
-		"fieldName"		"BlueLeaderAvatar"
-		"xpos"			"16"
-		"ypos"			"16"
-		"zpos"			"5"
-		"wide"			"45"
-		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"	
-		"color_outline"	"52 48 45 255"
+		"ControlName"				"CAvatarImagePanel"
+		"fieldName"					"BlueLeaderAvatar"
+		"xpos"						"16"
+		"ypos"						"16"
+		"zpos"						"5"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"enabled"					"1"
+		"image"						""
+		"scaleImage"				"1"	
+		"color_outline"				"52 48 45 255"
 	}
 	"BlueLeaderAvatarBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BlueLeaderAvatarBG"
-		"xpos"			"14"
-		"ypos"			"14"
-		"zpos"			"4"
-		"wide"			"49"
-		"tall"			"49"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"117 107 94 255"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"BlueLeaderAvatarBG"
+		"xpos"						"14"
+		"ypos"						"14"
+		"zpos"						"4"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"PaintBackgroundType"		"2"
+		"bgcolor_override"			"117 107 94 255"
 	}
 	"RedScoreBG"
 	{
@@ -104,26 +84,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/score_panel_red_bg_solid"
-		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedTeamImage"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"RedTeamImage"
-		"fieldName"		"BlueTeamImage"
-		"xpos"			"571"
-		"ypos"			"-5"
-		"zpos"			"20"
-		"wide"			"80"
-		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/team_red"
 		"scaleImage"		"1"
 
 		if_mvm
@@ -1881,5 +1841,19 @@
 		{
 			"visible"		"1"
 		}
+	}
+	"BlueTeamImage"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"BlueTeamImage"
+		"visible"					"0"
+		"enabled"					"0"
+	}
+	"RedTeamImage"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"RedTeamImage"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 }
