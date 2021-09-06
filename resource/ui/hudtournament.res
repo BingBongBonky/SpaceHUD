@@ -907,7 +907,6 @@
 			"xpos"				"cs-0.5"
 			"ypos"				"cs-0.1"
 			"fgcolor"			"White"
-			"font"				"HudFontGiant"
 		}	
 
 		if_readymode	
@@ -941,7 +940,6 @@
 		{
 			"xpos"				"cs-0.48"
 			"ypos"				"cs-0.08"
-			"font"				"HudFontGiant"
 		}	
 
 		if_readymode	
