@@ -269,20 +269,15 @@
 		"PositiveColor"				"0 255 0 255"
 		"NegativeColor"				"255 0 0 255"
 		"delta_lifetime"			"1.5"
-		"delta_item_font"			"HudFontMedium"
+		"delta_item_font"			"Font12"
 
 		if_match
 		{
 			"xpos"					"cs-0.5"
 			"wide"					"130"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_x"			"50"
+			"delta_item_start_y"	"32"
+			"delta_item_end_y"		"45"
 		}
 		
 		"TimePanelValue"
@@ -295,8 +290,6 @@
 			"ypos"					"11"
 			"zpos"					"3"
 			"wide"					"45"
-			"wide_minmode"			"30"
-			"wide_lodef"			"50"
 			"tall"					"31"
 			"visible"				"1"
 			"enabled"				"1"
