@@ -25,16 +25,10 @@
 		"ControlName"				"CTFProgressBar"
 		"fieldName"					"TimePanelProgressBar"
 		"xpos"						"67"
-		"xpos_hidef"				"159"
-		"xpos_lodef"				"165"
 		"ypos"						"16"
-		"ypos_hidef"				"15"
-		"ypos_lodef"				"16"
 		"zpos"						"4"	
 		"wide"						"20"
-		"wide_lodef"				"25"
-		"tall"						"20"
-		"tall_lodef"				"25"	
+		"tall"						"20"	
 		"visible"					"1"
 		"visible_minmode"			"0"
 		"enabled"					"1"
@@ -105,7 +99,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
+			"ypos"					"29"
 			"wide"					"p1"
 		}
 	}			
@@ -188,7 +182,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"ServerTimeLimitLabel"
 		"xpos"						"25"
-		"ypos"						"25"
+		"ypos"						"20"
 		"zpos"						"5"
 		"wide"						"80"
 		"tall"						"19"
@@ -199,7 +193,7 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"wrap"						"0"
-		"font"						"Font14"
+		"font"						"Font12"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
