@@ -501,7 +501,9 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_timer"
 		}
+
 		// CART ICONS ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 		"CartBlue"
 		{
 			"ControlName"	"ImagePanel"
@@ -619,6 +621,45 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/cart_track_red_opaque"
+		}
+		
+		// ENGINEER ICONS ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		"obj_status_dispenser"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"obj_status_dispenser"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/logos/engineer_icons/obj_status_dispenser"
+		}
+		"obj_status_sentrygun_1"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"obj_status_sentrygun_1"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/logos/engineer_icons/obj_status_sentrygun_1"
+		}
+		"obj_status_sentrygun_2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"obj_status_sentrygun_2"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/logos/engineer_icons/obj_status_sentrygun_2"
+		}
+		"obj_status_sentrygun_3"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"obj_status_sentrygun_1"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/logos/engineer_icons/obj_status_sentrygun_3"
 		}
 	}
 }

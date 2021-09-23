@@ -265,28 +265,28 @@
 	
 	BuildingStatus_Spy
 	{
-		"fieldName" "BuildingStatus_Spy"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"	
-		"wide"		"640"
-		"tall"		"480"
+		"fieldName" 				"BuildingStatus_Spy"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"-10"
+		"ypos"						"10"
+		"wide"						"640"
+		"tall"						"480"
 		
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"		"2"
 	}
 	
 	BuildingStatus_Engineer
 	{
-		"fieldName" "BuildingStatus_Engineer"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"640"
-		"tall"		"480"
+		"fieldName" 				"BuildingStatus_Engineer"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"-10"
+		"ypos"						"10"
+		"wide"						"640"
+		"tall"						"480"
 		
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"		"2"
 	}
 	
 	HudMannVsMachineStatus
