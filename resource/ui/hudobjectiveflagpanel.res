@@ -88,8 +88,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueScore"
-		"xpos"						"c-130"
-		"ypos"						"r47"
+		"xpos"						"c-47"
+		"ypos"						"r60"
 		"zpos"						"8"
 		"wide"						"75"
 		"tall"						"35"
@@ -120,8 +120,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueScoreShadow"
-		"xpos"						"c-128"
-		"ypos"						"r45"
+		"xpos"						"c-45"
+		"ypos"						"r58"
 		"zpos"						"6"
 		"wide"						"75"
 		"tall"						"35"
@@ -152,8 +152,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedScore"
-		"xpos"						"c57"
-		"ypos"						"r47"
+		"xpos"						"c-27"
+		"ypos"						"r60"
 		"zpos"						"8"
 		"wide"						"75"
 		"tall"						"35"
@@ -184,8 +184,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedScoreShadow"
-		"xpos"						"c60"
-		"ypos"						"r45"
+		"xpos"						"c-25"
+		"ypos"						"r58"
 		"zpos"						"7"
 		"wide"						"75"
 		"tall"						"35"
@@ -224,11 +224,11 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"CarriedImage"
-		"xpos"						"c-30"
-		"ypos"						"r63"
+		"xpos"						"c-25"
+		"ypos"						"r65"
 		"zpos"						"10"
-		"wide"						"60"
-		"tall"						"60"
+		"wide"						"50"
+		"tall"						"50"
 		"visible"					"0"
 		"enabled"					"1"
 		"image"						"../hud/objectives_flagpanel_carried_red"
@@ -250,7 +250,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"PlayingTo"
 		"xpos"						"c-70"
-		"ypos"						"r25"
+		"ypos"						"r26"
 		"zpos"						"4"
 		"wide"						"140"
 		"tall"						"15"
@@ -310,105 +310,102 @@
 		
 	"BlueFlag"
 	{
-		"ControlName"	"CTFFlagStatus"
-		"fieldName"		"BlueFlag"
-		"xpos"			"c-135"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
-		"zpos"			"5"
-		"wide"			"160"
-		"tall"			"90"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-			"ypos"		"r100"
+		"ControlName"				"CTFFlagStatus"
+		"fieldName"					"BlueFlag"
+		"xpos"						"c-155"
+		"ypos"						"r95"
+		"zpos"						"5"
+		"wide"						"160"
+		"tall"						"90"
+		"visible"					"1"
+		"enabled"					"1"
+
+		"if_hybrid"			
+		{			
+			"visible"				"0"
+			"ypos"					"r100"
 		}
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"					"c-80"
 		}
 		
 		"if_hybrid_double"
 		{
-			"xpos"		"c-115"
+			"xpos"					"c-115"
 		}
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"					"r100"
 		}
 		
 		"if_no_flags"
 		{
-			"visible"	"0"
+			"visible"				"0"
 		}
 	}
 			
 	"RedFlag"
 	{
-		"ControlName"	"CTFFlagStatus"
-		"fieldName"		"RedFlag"
-		"xpos"			"c-25"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
-		"zpos"			"5"
-		"wide"			"160"
-		"tall"			"90"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"				"CTFFlagStatus"
+		"fieldName"					"RedFlag"
+		"xpos"						"c5"
+		"ypos"						"r95"
+		"zpos"						"5"
+		"wide"						"160"
+		"tall"						"90"
+		"visible"					"1"
+		"enabled"					"1"
 				
-		"if_hybrid"
-		{
-			"visible"	"0"
-			"ypos"		"r100"
+		"if_hybrid"			
+		{			
+			"visible"				"0"
+			"ypos"					"r100"
 		}
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"					"c-80"
 		}
 		
 		"if_hybrid_double"
 		{
-			"xpos"		"c-45"
+			"xpos"					"c-45"
 		}
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"					"r100"
 		}
 		
 		"if_no_flags"
 		{
-			"visible"	"0"
+			"visible"				"0"
 		}
 	}	
 			
 	"CaptureFlag"
 	{
-		"ControlName"	"CTFArrowPanel"
-		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
-		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		"if_hybrid"
-		{
-			"ypos"		"r100"
+		"ControlName"				"CTFArrowPanel"
+		"fieldName"					"CaptureFlag"
+		"xpos"						"c-37"
+		"ypos"						"r90"
+		"zpos"						"5"
+		"wide"						"74"
+		"tall"						"74"
+		"visible"					"0"
+		"enabled"					"1"
+
+		"if_hybrid"			
+		{			
+			"ypos"					"r100"
 		}
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"					"r100"
 		}
 	}
 
@@ -449,8 +446,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-50"
-		"ypos"			"r137"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"ypos"			"r137"
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"
