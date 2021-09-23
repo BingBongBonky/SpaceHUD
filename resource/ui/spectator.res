@@ -79,6 +79,7 @@
 		"visible"					"0"	
 		"bgcolor_override"			"255 255 255 0"
 		"PaintBackgroundType"		"0"
+		"border"					"InspectPanelBorder"
 		
 		"model_ypos"				"10"
 		"model_center_x"			"1"
@@ -100,24 +101,25 @@
 			"fieldName"				"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"			"1"
+			"inventory_image_type"  "1" // High quality item image
 		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"			"Label"
 			"fieldName"				"ItemLabel"
-			"font"					"DefaultSmall"
-			"xpos"					"10"
+			"font"					"Font10"
+			"xpos"					"0"
 			"ypos"					"3"
 			"zpos"					"1"
-			"wide"					"270"
-			"tall"					"9"
+			"wide"					"190"
+			"tall"					"12"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"labelText"				"#FreezePanel_Item"
-			"textAlignment"			"Left"
+			"textAlignment"			"center"
 			"dulltext"				"0"
 			"brighttext"			"0"
 		}
