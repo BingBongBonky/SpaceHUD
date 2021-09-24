@@ -324,8 +324,8 @@ Scheme
 		Label.TextBrightColor								"TanLight"
 		Label.SelectedTextColor								"White"
 		Label.BgColor										"Blank"
-		Label.DisabledFgColor1								"Gray"
-		Label.DisabledFgColor2								"Gray"
+		Label.DisabledFgColor1								"Shadow"		// Control visible 1 enabled 0 color. This controls text shadow
+		Label.DisabledFgColor2								"White"		// Control visible 1 enabled 0 color. This controls main text
 
 		ListPanel.TextColor									"Orange"
 		ListPanel.BgColor									"TransparentBlack"

@@ -37,7 +37,19 @@
 	{
 		"ControlName"			    "CExLabel"
 		"fieldName"				    "ItemEffectMeterLabel"
-		"visible"				    "0"
+		"xpos"					    "cs-0.5"
+		"ypos"					    "0"
+		"zpos"					    "3"
+		"wide"					    "150"
+		"tall"					    "6"				
+		"autoResize"			    "0"
+		"pinCorner"				    "0"
+		"textAlignment"			    "center"
+		"dulltext"				    "0"
+		"brighttext"			    "0"
+		"proportionaltoparent"		"1"
+		"visible"				    "1"
 		"enabled"				    "0"
+		"font"						"Font8"
 	}				
 }
