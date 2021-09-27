@@ -7,7 +7,7 @@
 		"xpos"						"c80"
 		"ypos"						"25"
 		"zpos"						"10000"
-		"wide"						"220"
+		"wide"						"250"
 		"tall"						"26"
 		"visible"					"0"
 		"enabled"					"1"
@@ -22,7 +22,7 @@
 		"xpos"						"cs-0.5"
 		"ypos"						"0"
 		"zpos"						"2"
-		"wide"						"f10"
+		"wide"						"f0"
 		"tall"						"f0"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -31,7 +31,7 @@
 		"wrap"						"0"
 		"labelText"					"#Notifications_Present"
 		"textAlignment"				"center"
-		"font"						"Font8"
+		"font"						"Font10"
 		"proportionaltoparent"		"1"
 	}
 }

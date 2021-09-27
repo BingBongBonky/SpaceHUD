@@ -2,175 +2,165 @@
 {
 	"InviteNotification"
 	{
-		"fieldName"		"InviteNotification"
-		"zpos"			"1001"
-		"wide"			"200"
-		"tall"			"35"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"border"		"ReplayDefaultBorder"
-		"paintbackground"	"0"
-		"bgcolor_override"	"255 0 0 250"
+		"fieldName"					"InviteNotification"
+		"zpos"						"1001"
+		"wide"						"200"
+		"tall"						"35"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"border"					"ReplayDefaultBorder"
+		"paintbackground"			"0"
+		"bgcolor_override"			"255 0 0 250"
 	}
 
 	"avatar"
 	{
-		// "ControlName"	"CAvatarImagePanel"
-		"fieldName"		"avatar"
-		"xpos"			"5"
-		"ypos"			"rs1-5"
-		"zpos"			"101"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"scaleImage"	"1"
+		// "ControlName"			"CAvatarImagePanel"
+		"fieldName"					"avatar"
+		"xpos"						"5"
+		"ypos"						"rs1-5"
+		"zpos"						"101"
+		"wide"						"25"
+		"tall"						"25"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"scaleImage"				"1"
 	}
 
 	"Text"
 	{
-		"ControlName"	"CAutoFittingLabel"
-		"fieldName"		"Text"
+		"ControlName"				"CAutoFittingLabel"
+		"fieldName"					"Text"
 		
 
 		if_incoming
 		{
-			"xpos"			"rs1-5"
-			"wide"			"f35"
+			"xpos"					"rs1-3"
+			"wide"					"f35"
 		}
 
-		"xpos"			"rs1-30"
-		"ypos"			"0"
-		"wide"			"f65"
-		"tall"			"17"
-		"labelText"		"%invite%"
-		"textAlignment"	"east"
-		"proportionaltoparent"	"1"
-		"fgcolor_override"	"TanLight"
+		"xpos"						"rs1-30"
+		"ypos"						"0"
+		"wide"						"f65"
+		"tall"						"17"
+		"labelText"					"%invite%"
+		"textAlignment"				"east"
+		"proportionaltoparent"		"1"
+		"fgcolor_override"			"White"
 
-		"fonts"
-		{
-			"1"
-			{
-				"font"			"AdFont_ItemName" // Secondary 10
-			}
+		"fonts"	
+		{	
+			"1"	
+			{	
+				"font"				"Font10"
+			}	
 
-			"2"
-			{
-				"font"			"MMenuPlayListDesc" // Secondary 9
-			}
+			"2"	
+			{	
+				"font"				"Font8"
+			}	
+		}	
 
-			"3"
-			{
-				"font"			"ItemFontAttribSmall" // Secondary 8
-			}
-
-			"4"
-			{
-				"font"			"ItemFontAttribSmallest" // Secondary 7
-			}
-		}
-
-		"colors"
-		{
-			"1"		"Orange"
-			"2"		"TanLight"
-		}
+		"colors"	
+		{	
+			"1"						"Orange"
+			"2"						"White"
+		}	
 	}
 
 	"Spinner"
 	{
-		"ControlName"	"CTFLogoPanel"
-		"fieldName"		"Spinner"
-		"xpos"			"rs1-5"
-		"ypos"			"7"
-		"zpos"			"104"
-		"wide"			"o1"
-		"tall"			"20"
-		"visible"		"1"
+		"ControlName"				"CTFLogoPanel"
+		"fieldName"					"Spinner"
+		"xpos"						"rs1-5"
+		"ypos"						"7"
+		"zpos"						"104"
+		"wide"						"o1"
+		"tall"						"20"
+		"visible"					"1"
 
 		if_incoming
 		{
-			"visible"		"0"
+			"visible"				"0"
 		}
 
 		
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-		"alpha"			"200"
+		"proportionaltoparent"		"1"
+		"mouseinputenabled"			"0"
+		"alpha"						"255"
 
-		"radius"		"10"
-		"velocity"		"60"
-		"fgcolor_override"	"Orange"
+		"radius"					"10"
+		"velocity"					"60"
+		"fgcolor_override"			"HUDRedTeamSolid"
 	}
 
 	"AcceptButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"AcceptButton"
-		"xpos"			"rs1-70"
-		"ypos"			"rs1-5"
-		"wide"			"80"
-		"zpos"			"100"
-		"tall"			"15"
-				
-		"visible"		"1"
+		"ControlName"				"CExButton"
+		"fieldName"					"AcceptButton"
+		"xpos"						"rs1-70"
+		"ypos"						"rs1-5"
+		"wide"						"80"
+		"zpos"						"100"
+		"tall"						"15"
 
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"accept"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#Notifications_Accept"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"1"
+		"visible"					"1"
+
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"font"						"Font14"
+		"textAlignment"				"center"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"Command"					"accept"
+		"proportionaltoparent"		"1"
+		"labeltext"					"#Notifications_Accept"
+		"mouseinputenabled"			"1"
+		"keyboardinputenabled"		"0"
+		"actionsignallevel"			"1"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"SaleGreen"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 
 	"DeclineButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"DeclineButton"
-		
-		if_incoming
-		{
-			"xpos"			"rs1-5"
-		}
+		"ControlName"				"CExButton"
+		"fieldName"					"DeclineButton"
 
-		"xpos"			"rs1-30"
+		if_incoming			
+		{			
+			"xpos"					"rs1-5"
+		}			
 
-		"ypos"			"rs1-5"
-		"wide"			"60"
-		"zpos"			"100"
-		"tall"			"15"
-				
-		"visible"		"1"
+		"xpos"						"rs1-30"
 
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"decline"
-		"proportionaltoparent"	"1"
-		"labeltext"		"%cancel_text%"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"1"
+		"ypos"						"rs1-5"
+		"wide"						"60"
+		"zpos"						"100"
+		"tall"						"15"
+
+		"visible"					"1"
+
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"font"						"Font14"
+		"textAlignment"				"center"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"Command"					"decline"
+		"proportionaltoparent"		"1"
+		"labeltext"					"%cancel_text%"
+		"mouseinputenabled"			"1"
+		"keyboardinputenabled"		"0"
+		"actionsignallevel"			"1"
 
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 
 }
