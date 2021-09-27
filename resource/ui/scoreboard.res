@@ -215,10 +215,34 @@
 		"textAlignment"				"west"
 		"xpos"						"120"
 		"ypos"						"40"
+		"zpos"						"2"
 		"wide"						"160"
 		"tall"						"20"
 		"autoResize"				"0"
 		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		
+		if_mvm
+		{
+			"visible"				"0"
+		}
+	}	
+	"BlueTeamPlayerCountShadow"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"BlueTeamPlayerCountShadow"
+		"font"						"Font18"
+		"labelText"					"%blueteamplayercount%"
+		"textAlignment"				"west"
+		"xpos"						"121"
+		"ypos"						"41"
+		"zpos"						"1"
+		"wide"						"160"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"fgcolor"					"Shadow"
 		"visible"					"1"
 		"enabled"					"1"
 		
@@ -303,10 +327,34 @@
 		"textAlignment"				"east"
 		"xpos"						"360"
 		"ypos"						"40"
+		"zpos"						"2"
 		"wide"						"160"
 		"tall"						"20"
 		"autoResize"				"0"
 		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+
+		if_mvm			
+		{			
+			"visible"				"0"
+		}
+	}
+	"RedTeamPlayerCountShadow"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"RedTeamPlayerCountShadow"
+		"font"						"Font18"
+		"labelText"					"%redteamplayercount%"
+		"textAlignment"				"east"
+		"xpos"						"361"
+		"ypos"						"41"
+		"zpos"						"1"
+		"wide"						"160"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"fgcolor"					"Shadow"
 		"visible"					"1"
 		"enabled"					"1"
 
@@ -333,7 +381,6 @@
 		
 		if_mvm
 		{
-			"ypos"					"0"
 			"visible"				"1"
 		}
 	}
@@ -362,13 +409,13 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"ServerTimeLeftValue"
-		"font"						"Font18"
+		"font"						"Font14"
 		"labelText"					"%servertime%"
 		"textAlignment"				"center"
-		"xpos"						"545"
-		"ypos"						"320"
+		"xpos"						"cs-0.5"
+		"ypos"						"10"
 		"zpos"						"2"
-		"wide"						"72"
+		"wide"						"130"
 		"tall"						"20"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -376,6 +423,7 @@
 		"enabled"					"1"
 		"fgcolor"					"BrightYellow"
 		"centerwrap"				"0"
+		"proportionaltoparent"		"1"
 
 		if_mvm			
 		{			
@@ -404,7 +452,7 @@
 			"visible"				"1"
 		}
 	}							
-	"BluePlayerList"				// 12 is Blue04 6 is Blue10
+	"BluePlayerList"
 	{
 		"ControlName"				"SectionedListPanel"
 		"fieldName"					"BluePlayerList"
@@ -705,9 +753,9 @@
 		"fieldName"					"ServerLabelNew"
 		"font"						"Font10"
 		"labelText"					"%server%"
-		"textAlignment"				"east"
-		"xpos"						"366"
-		"ypos"						"290"
+		"textAlignment"				"north-west"
+		"xpos"						"2"
+		"ypos"						"25"
 		"zpos"						"3"
 		"wide"						"265"
 		"tall"						"12"
@@ -727,9 +775,9 @@
 		"fieldName"					"mapname"
 		"font"						"Font10"
 		"labelText"					"%mapname%"
-		"textAlignment"				"east"
- 		"xpos"						"366"
-		"ypos"						"300"
+		"textAlignment"				"north-east"
+ 		"xpos"						"373"
+		"ypos"						"25"
 		"zpos"						"3"
 		"wide"						"265"
 		"tall"						"12"
@@ -1007,7 +1055,7 @@
 		"xpos"							"0"
 		"ypos"							"300"
 		"zpos"							"3"
-		"wide"							"600"
+		"wide"							"650"
 		"tall"							"448"
 		"autoResize"					"0"
 		"pinCorner"						"0"
@@ -1266,6 +1314,42 @@
 			"visible"					"1"
 			"enabled"					"1"
 		}		
+
+		"HeadshotsLabel"
+		{
+			"ControlName"				"CExLabel"
+			"fieldName"					"HeadshotsLabel"
+			"font"						"Font14"
+			"labelText"					"#TF_ScoreBoard_HeadshotsLabel"
+			"textAlignment"				"center"
+			"xpos"						"525"
+			"ypos"						"0"
+			"zpos"						"3"
+			"wide"						"100"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"0"
+			"visible"					"1"
+			"enabled"					"1"
+		}		
+
+		"HeadshotsNew"
+		{
+			"ControlName"				"CExLabel"
+			"fieldName"					"HeadshotsNew"
+			"font"						"Font18"
+			"labelText"					"%headshots%"
+			"textAlignment"				"center"
+			"xpos"						"550"
+			"ypos"						"15"
+			"zpos"						"3"
+			"wide"						"50"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"0"
+			"visible"					"1"
+			"enabled"					"1"
+		}		
 		
 		"CapturesLabel"
 		{
@@ -1448,89 +1532,17 @@
 			"enabled"					"1"
 		}				
 
-		"HeadshotsLabel"
-		{
-			"ControlName"				"CExLabel"
-			"fieldName"					"HeadshotsLabel"
-			"font"						"Font12"
-			"labelText"					"#TF_ScoreBoard_HeadshotsLabel"
-			"textAlignment"				"east"
-			"xpos"						"370"
-			"ypos"						"33"
-			"zpos"						"3"
-			"wide"						"60"
-			"tall"						"20"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-		}		
-
-		"HeadshotsNew"
-		{
-			"ControlName"				"CExLabel"
-			"fieldName"					"HeadshotsNew"
-			"font"						"Font12"
-			"labelText"					"%headshots%"
-			"textAlignment"				"west"
-			"xpos"						"440"
-			"ypos"						"33"
-			"zpos"						"3"
-			"wide"						"40"
-			"tall"						"20"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-		}		
-
-		"BackstabsLabel"
-		{
-			"ControlName"				"CExLabel"
-			"fieldName"					"BackstabsLabel"
-			"font"						"Font12"
-			"labelText"					"#TF_ScoreBoard_BackstabsLabel"
-			"textAlignment"				"east"
-			"xpos"						"370"
-			"ypos"						"48"
-			"zpos"						"3"
-			"wide"						"60"
-			"tall"						"20"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-		}			
-			
-		"BackstabsNew"			
-		{			
-			"ControlName"				"CExLabel"
-			"fieldName"					"BackstabsNew"
-			"font"						"Font12"
-			"labelText"					"%backstabs%"
-			"textAlignment"				"west"
-			"xpos"						"440"
-			"ypos"						"48"
-			"zpos"						"3"
-			"wide"						"40"
-			"tall"						"20"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-		}					
-												
 		"InvulnLabel"
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"InvulnLabel"
-			"font"						"Font12"
+			"font"						"Font14"
 			"labelText"					"#TF_ScoreBoard_InvulnLabel"
-			"textAlignment"				"east"
-			"xpos"						"416"
-			"ypos"						"33"
+			"textAlignment"				"center"
+			"xpos"						"365"
+			"ypos"						"30"
 			"zpos"						"3"
-			"wide"						"95"
+			"wide"						"100"
 			"tall"						"20"
 			"autoResize"				"0"
 			"pinCorner"					"0"
@@ -1542,13 +1554,13 @@
 		{			
 			"ControlName"				"CExLabel"
 			"fieldName"					"InvulnNew"
-			"font"						"Font12"
+			"font"						"Font18"
 			"labelText"					"%invulns%"
-			"textAlignment"				"west"
-			"xpos"						"515"
-			"ypos"						"33"
+			"textAlignment"				"center"
+			"xpos"						"390"
+			"ypos"						"45"
 			"zpos"						"3"
-			"wide"						"35"
+			"wide"						"50"
 			"tall"						"20"
 			"autoResize"				"0"
 			"pinCorner"					"0"
@@ -1560,13 +1572,13 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"TeleportsLabel"
-			"font"						"Font12"
+			"font"						"Font14"
 			"labelText"					"#TF_ScoreBoard_TeleportsLabel"
-			"textAlignment"				"east"
-			"xpos"						"416"
-			"ypos"						"48"
+			"textAlignment"				"center"
+			"xpos"						"445"
+			"ypos"						"30"
 			"zpos"						"3"
-			"wide"						"95"
+			"wide"						"100"
 			"tall"						"20"
 			"autoResize"				"0"
 			"pinCorner"					"0"
@@ -1578,19 +1590,55 @@
 		{			
 			"ControlName"				"CExLabel"
 			"fieldName"					"TeleportsNew"
-			"font"						"Font12"
+			"font"						"Font18"
 			"labelText"					"%teleports%"
-			"textAlignment"				"west"
-			"xpos"						"515"
-			"ypos"						"48"
+			"textAlignment"				"center"
+			"xpos"						"470"
+			"ypos"						"45"
 			"zpos"						"3"
-			"wide"						"35"
+			"wide"						"50"
 			"tall"						"20"
 			"autoResize"				"0"
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-		}						
+		}	
+
+		"BackstabsLabel"
+		{
+			"ControlName"				"CExLabel"
+			"fieldName"					"BackstabsLabel"
+			"font"						"Font14"
+			"labelText"					"#TF_ScoreBoard_BackstabsLabel"
+			"textAlignment"				"center"
+			"xpos"						"525"
+			"ypos"						"30"
+			"zpos"						"3"
+			"wide"						"100"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"0"
+			"visible"					"1"
+			"enabled"					"1"
+		}			
+			
+		"BackstabsNew"			
+		{			
+			"ControlName"				"CExLabel"
+			"fieldName"					"BackstabsNew"
+			"font"						"Font18"
+			"labelText"					"%backstabs%"
+			"textAlignment"				"center"
+			"xpos"						"550"
+			"ypos"						"45"
+			"zpos"						"3"
+			"wide"						"50"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"0"
+			"visible"					"1"
+			"enabled"					"1"
+		}										
 	}
 	
 	"MvMScoreboard"
