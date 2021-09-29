@@ -170,7 +170,7 @@
 		"xpos"						"cs-0.5"
 		"ypos"						"cs-0.5"
 		"zpos"						"-6"
-		"wide"						"480"
+		"wide"						"470"
 		"tall"						"350"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -186,16 +186,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"ShadedBar"
-		"xpos"						"0"
-		"ypos"						"r50"
-		"zpos"						"5"
-		"wide"						"f0"
-		"tall"						"50"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"tabPosition"				"0"	
-		"bgcolor_override"			"MenuDefault"
+		"visible"					"0"
+		"enabled"					"0"
 	}	
 }
