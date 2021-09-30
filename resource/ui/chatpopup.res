@@ -24,7 +24,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"Font10"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
 		"skip_autoresize"	"1"
@@ -46,7 +46,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"White"
 			}
 		
 			"UpButton"
