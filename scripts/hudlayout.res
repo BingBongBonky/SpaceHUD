@@ -16,7 +16,7 @@
 		"fieldName" 				"HudWeaponAmmo"
 		"visible" 					"1"
 		"enabled" 					"1"
-		"xpos"						"c120"
+		"xpos"						"c100"
 		"ypos"						"c50"
 		"ypos_minmode"				"r36"
 		"wide"						"250"
@@ -688,17 +688,18 @@
 
 		"item_wide"					"135"
 		
-		"show_avatar"				"1"
+		"show_friend"				"0"
+		"show_avatar"				"0"
 
 		"show_dead_icon"			"1"
-		"dead_xpos"					"1"
-		"dead_ypos"					"0"
+		"dead_xpos"					"15"
+		"dead_ypos"					"1"
 		"dead_wide"					"16"
 		"dead_tall"					"16"
 		
 		"show_voice_icon"			"1"
 		"icon_ypos"					"0"
-		"icon_xpos"					"15"
+		"icon_xpos"					"1"
 		"icon_tall"					"16"
 		"icon_wide"					"16"
 
@@ -770,8 +771,7 @@
 		"enabled"				"1"
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"height_offset"			"0"
 	}
 
 	HudCapturePanel
@@ -788,12 +788,10 @@
 	
 	HUDAutoAim
 	{
-
 	}	
 	
 	HudHDRDemo
 	{
-
 	}
 
 	WinPanel
@@ -801,10 +799,10 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
+		"xpos"					"0"
+		"ypos"					"60"
+		"wide"					"f0"
+		"tall"					"480"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}
