@@ -198,7 +198,7 @@
 		"pin_to_sibling"         	"teambutton3"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
-		"bgcolor_override"			"DarkGray"
+		"bgcolor_override"			"MenuLighter"
 	}
 	
 	"CancelButton"

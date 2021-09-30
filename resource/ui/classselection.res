@@ -68,8 +68,8 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"random"
-		"xpos"						"c250"
-		"ypos"						"-5"
+		"xpos"						"r45"
+		"ypos"						"-33"
 		"zpos"						"6"
 		"wide"						"50"
 		"tall"						"100"
@@ -785,7 +785,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"ClassMenuSelect"
-		"xpos"						"cs-0.5"
+		"xpos"						"c-120"
 		"ypos"						"50"
 		"zpos"						"5"
 		"wide"						"450"
@@ -796,7 +796,7 @@
 		"enabled"					"1"
 		"labelText"					"#TF_SelectAClass"
 		"textAlignment"				"center"
-		"font"						"Font32"
+		"font"						"Font24"
 		"fgcolor"					"White"
 		"proportionaltoparent"		"1"
 	}

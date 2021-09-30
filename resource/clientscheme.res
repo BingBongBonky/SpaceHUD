@@ -184,13 +184,13 @@ Scheme
 		"QualityColorCollectors"				"170 0 0 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
 
-		"ItemRarityDefault"						"131 126 119 255"
-		"ItemRarityCommon"						"176 195 217 255"
-		"ItemRarityUncommon"					"94 152 217 255"
-		"ItemRarityRare"						"75 105 255 255"
-		"ItemRarityMythical"					"136 71 255 255"
-		"ItemRarityLegendary"					"211 44 230 255"
-		"ItemRarityAncient"						"235 75 75 255"
+		"ItemRarityDefault"						"131 126 119 255"	// Stock?
+		"ItemRarityCommon"						"176 195 217 255"	// Civilian
+		"ItemRarityUncommon"					"94 152 217 255"	// Freelance
+		"ItemRarityRare"						"75 105 255 255"	// Mercenary
+		"ItemRarityMythical"					"136 71 255 255"	// Commando
+		"ItemRarityLegendary"					"211 44 230 255"	// Assassin
+		"ItemRarityAncient"						"235 75 75 255"		// Elite
 		
 		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
 		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
@@ -5131,6 +5131,7 @@ Scheme
 					"offset" "0 0"
 				}
 			}
+		}
 		BackpackItemMouseOverBorder_RarityRare
 		{
 			"bordertype"			"scalable_image"
