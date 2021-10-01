@@ -688,16 +688,17 @@
 
 		"item_wide"					"135"
 		
-		"show_friend"				"0"
-		"show_avatar"				"0"
+		"show_friend"				"1"
+		"show_avatar"				"1"
+		"avatar_xpos"				"0"
 
 		"show_dead_icon"			"1"
-		"dead_xpos"					"15"
+		"dead_xpos"					"16"
 		"dead_ypos"					"1"
 		"dead_wide"					"16"
 		"dead_tall"					"16"
 		
-		"show_voice_icon"			"1"
+		"show_voice_icon"			"0"
 		"icon_ypos"					"0"
 		"icon_xpos"					"1"
 		"icon_tall"					"16"
@@ -829,19 +830,11 @@
 		"tall"					"215"
 	}
 
-	StatPanel
+	StatPanel					// On the bright side
 	{
 		"fieldName"				"StatPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
-		"ypos"				"270"
-		"ypos_lodef"			"250"
-		"wide"					"266"
-		"wide_lodef"			"400"
-		"tall"					"120"
-		"tall_lodef"			"190"
+		"visible"				"0"
+		"enabled"				"0"
 	}
 	
 	FreezePanel
