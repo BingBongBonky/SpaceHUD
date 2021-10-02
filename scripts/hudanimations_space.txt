@@ -870,26 +870,26 @@ event RespecEarnedPulseEndLoss
 
 event RDPositiveScorePulse
 {
-	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
-	Animate Score FgColor	"White"			Linear 0.1 0.2
+	Animate Score FgColor		"RedLabel"		Linear 0.0 0.0
+	Animate Score FgColor		"White"			Linear 0.1 0.2
 
-	Animate Score Position	"3 5"		Deaccel 0.0 0.05
-	Animate Score Position	"3 10"		Accel 0.05 0.2
+	Animate Score Position		"3 5"		Deaccel 0.0 0.05
+	Animate Score Position		"3 10"		Accel 0.05 0.2
 
-	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
-	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+	Animate ScoreShadow FgColor	"Shadow"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"Shadow"		Accel 0.1 0.2
 }
 
 event RDNegativeScorePulse
 {
-	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
-	Animate Score FgColor	"White"			Linear 0.1 0.2
+	Animate Score FgColor		"255 75 75 255"		Linear 0.0 0.0
+	Animate Score FgColor		"White"			Linear 0.1 0.2
 
-	Animate Score Position	"3 5"		Deaccel 0.0 0.05
-	Animate Score Position	"3 10"		Accel 0.05 0.2
+	Animate Score Position		"3 5"		Deaccel 0.0 0.05
+	Animate Score Position		"3 10"		Accel 0.05 0.2
 
-	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
-	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+	Animate ScoreShadow FgColor	"Shadow"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"Shadow"		Accel 0.1 0.2
 }
 
 event QuestNotification_Present
