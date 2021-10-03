@@ -217,7 +217,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos"						"c-126"
-		"ypos"						"270"
+		"ypos"						"277"
 		"wide"	 					"252"
 		"tall"	 					"23"
 		"priority"					"40"
@@ -225,7 +225,7 @@
 		if_vr			
 		{			
 			"ypos"					"370"
-			"x_offset"				"20"
+			"x_offset"				"0"
 		}
 	}
 	
@@ -235,13 +235,13 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos"						"c-126"
-		"ypos"						"250"
+		"ypos"						"300"
 		"wide"	 					"252"
 		"tall"	 					"23"
 		"priority"					"40"
 
-		"x_offset" 					"20"
-		"y_offset" 					"20"
+		"x_offset" 					"0"
+		"y_offset" 					"0"
 	}
 	
 	CSecondaryTargetID
@@ -250,7 +250,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos"						"c-126"
-		"ypos"						"295"
+		"ypos"						"301"
 		"wide"	 					"252"
 		"tall"	 					"23"
 		"priority"					"35"
@@ -258,7 +258,7 @@
 		if_vr			
 		{			
 			"ypos"					"330"
-			"x_offset"				"20"
+			"x_offset"				"0"
 		}
 
 	}
