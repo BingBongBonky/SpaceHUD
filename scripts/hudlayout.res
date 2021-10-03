@@ -18,7 +18,7 @@
 		"enabled" 					"1"
 		"xpos"						"c100"
 		"ypos"						"c50"
-		"ypos_minmode"				"r36"
+		"ypos_minmode"				"r140"
 		"wide"						"250"
 		"tall"						"120"
 	}
@@ -73,18 +73,6 @@
 		"ypos_minmode"				"r34"
 		"wide"						"400"
 		"tall"						"100"
-	}
-	
-	HudDemomanCharge
-	{
-		"fieldName"					"HudDemomanCharge"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"c-75"
-		"ypos"						"330"
-		"zpos"						"1"			// draw in front of ammo
-		"wide"						"150"
-		"tall"						"10"
 	}				
 
 	HudBowCharge			
@@ -178,7 +166,7 @@
 		"fieldName"					"CHealthAccountPanel"
 		"xpos"						"c-190"
 		"ypos"						"c30"
-		"ypos_minmode"				"r134"
+		"ypos_minmode"				"r160"
 		"wide"						"116"
 		"tall"  					"180"
 		"visible" 					"1"
@@ -960,9 +948,23 @@
 		"enabled"					"1"
 		"xpos"						"c-75"
 		"ypos"						"c0"
+		"ypos_minmode"				"r190"
 		"wide"						"150"
 		"tall"						"400"
 	}	
+
+	HudDemomanCharge
+	{
+		"fieldName"					"HudDemomanCharge"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"c-75"
+		"ypos"						"330"
+		"ypos_minmode"				"r90"
+		"zpos"						"1"			// draw in front of ammo
+		"wide"						"150"
+		"tall"						"10"
+	}
 
 	HudTeamGoal
 	{
