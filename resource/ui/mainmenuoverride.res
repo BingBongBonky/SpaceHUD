@@ -2054,10 +2054,10 @@
 		"ControlName"							"EditablePanel"
 		"fieldName"								"BackgroundFooter"
 		"xpos"									"0"
-		"ypos"									"421"
+		"ypos"									"420"	// FUCKING LAUGH
 		"zpos"									"-50"
 		"wide"									"f0"
-		"tall"									"60"
+		"tall"									"100"
 		"visible"								"1"
 		"enabled"								"1"
 		"bgcolor_override"						"MenuDefault"
