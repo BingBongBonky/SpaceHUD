@@ -165,6 +165,6 @@
 
 		"radius"					"26"
 		"velocity"					"60"
-		"fgcolor_override"			"Orange"
+		"fgcolor_override"			"HUDRedTeamSolid"
 	}
 }
