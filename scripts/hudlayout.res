@@ -45,10 +45,8 @@
 		"tall"						"160"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
 	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
 	}	
 
 	HudItemEffectMeter // Doesnt appear to do anything
@@ -217,14 +215,32 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos"						"c-126"
-		"ypos"						"277"
+		"ypos"						"280"
 		"wide"	 					"252"
-		"tall"	 					"23"
+		"tall"	 					"25"
 		"priority"					"40"
 
 		if_vr			
 		{			
 			"ypos"					"370"
+			"x_offset"				"0"
+		}
+	}
+
+	CSecondaryTargetID
+	{
+		"fieldName" 				"CSecondaryTargetID"
+		"visible" 					"0"
+		"enabled" 					"1"
+		"xpos"						"c-126"
+		"ypos"						"305"
+		"wide"	 					"252"
+		"tall"	 					"25"
+		"priority"					"35"
+
+		if_vr			
+		{			
+			"ypos"					"330"
 			"x_offset"				"0"
 		}
 	}
@@ -237,30 +253,11 @@
 		"xpos"						"c-126"
 		"ypos"						"300"
 		"wide"	 					"252"
-		"tall"	 					"23"
+		"tall"	 					"25"
 		"priority"					"40"
 
 		"x_offset" 					"0"
 		"y_offset" 					"0"
-	}
-	
-	CSecondaryTargetID
-	{
-		"fieldName" 				"CSecondaryTargetID"
-		"visible" 					"0"
-		"enabled" 					"1"
-		"xpos"						"c-126"
-		"ypos"						"301"
-		"wide"	 					"252"
-		"tall"	 					"23"
-		"priority"					"35"
-
-		if_vr			
-		{			
-			"ypos"					"330"
-			"x_offset"				"0"
-		}
-
 	}
 	
 	BuildingStatus_Spy
@@ -970,8 +967,8 @@
 	HudTeamGoal
 	{
 		"fieldName"					"HudTeamGoal"
-		"visible"					"1"
-		"enabled"					"1"
+		"visible"					"0"
+		"enabled"					"0"
 		"xpos"						"c-160"
 		"ypos"						"65"
 		"ypos_lodef"				"75"
@@ -982,40 +979,35 @@
 
 	HudTeamGoalTournament
 	{
-		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"300"
-	}
+		"fieldName"					"HudTeamGoalTournament"
+		"visible"					"0"
+		"enabled"					"0"
+		"xpos"						"c-160"
+		"ypos"						"15"
+		"wide"						"320"
+		"tall"						"300"
+	}	
 
-	HudTeamSwitch
-	{
-		"fieldName"				"HudTeamSwitch"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
-		"wide"					"320"
-		"tall"					"100"
+	HudTeamSwitch	
+	{	
+		"fieldName"					"HudTeamSwitch"
+		"visible"					"0"
+		"enabled"					"1"
+		"xpos"						"c-100"
+		"ypos"						"125"
+		"wide"						"200"
+		"tall"						"50"
 	}
 
 	HudArenaNotification
 	{
-		"fieldName"				"HudArenaNotification"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
-		"wide"					"320"
-		"tall"					"150"
+		"fieldName"					"HudArenaNotification"
+		"visible"					"0"
+		"enabled"					"1"
+		"xpos"						"c-160"
+		"ypos"						"75"
+		"wide"						"320"
+		"tall"						"150"
 	}
 
 	HudArenaCapPointCountdown
@@ -1268,66 +1260,64 @@
 	
 	"CHudVote"
 	{
-		"fieldName"		"CHudVote"
-		"xpos"			"0"			
-		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"fieldName"					"CHudVote"
+		"xpos"						"0"			
+		"ypos"						"0"
+		"wide"						"640"
+		"tall"						"480"
+		"visible"					"1"
+		"enabled"					"1"
+		"bgcolor_override"			"0 0 0 0"
+		"PaintBackgroundType"		"0" // rounded corners
 	}
 
 	"HudAlert"
 	{
-		"fieldName"		"HudAlert"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"c-160"
-		"ypos"			"100"
-		"wide"			"320"
-		"tall"			"150"
+		"fieldName"					"HudAlert"
+		"visible"					"0"
+		"enable"					"1"
+		"xpos"						"c-100"
+		"ypos"						"75"
+		"wide"						"200"
+		"tall"						"50"
 	}
 
 
 	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFStreakNotice"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"fieldName"					"CTFStreakNotice"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"640"
+		"tall"						"480"
+		"visible"					"1"
+		"enabled"					"1"
+		"bgcolor_override"			"0 0 0 0"
+		"PaintBackgroundType"		"0" // rounded corners
 	}
 
 	CTFFlagCalloutPanel
 	{
-		"fieldName"		"CTFFlagCalloutPanel"
-		"visible" 		"0"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"40"
-		"tall"	 		"40"
-		"priority"		"40"
-	}
+		"fieldName"					"CTFFlagCalloutPanel"
+		"visible" 					"0"
+		"enabled" 					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"	 					"40"
+		"tall"	 					"40"
+		"priority"					"40"
+	}			
 
 	"HudMenuTauntSelection"
 	{
-		"fieldName" 	"HudMenuTauntSelection"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
-		"PaintBackgroundType"	"0"
+		"fieldName" 				"HudMenuTauntSelection"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"						"c-235"
+		"ypos"						"c-52"
+		"wide"						"470"
+		"tall"						"200"
+		"PaintBackgroundType"		"0"
 	}
 
 	"ItemAttributeTracker"
