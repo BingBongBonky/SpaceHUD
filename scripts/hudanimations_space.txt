@@ -388,7 +388,7 @@ event OvertimeShow
 event HudSnapShotReminderIn
 {
 	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
-	Animate ScreenshotPanel		Position	"c-83 -49"	Spline 0.001 0.2
+	Animate ScreenshotPanel		Position	"c-83 42"	Spline 0.001 0.2
 	RunEvent HudHealthDyingPulseStop 		10.0
     RunEvent HudHealthBonusPulseStop 		10.0
     RunEvent HudLowAmmoPulseStop 			10.0
