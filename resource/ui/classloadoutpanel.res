@@ -41,10 +41,11 @@
 			"wide"						"140"
 			"tall"						"72"
 			"visible"					"0"
-			"bgcolor_override"			"0 0 0 0"
+			"bgcolor_override"			"Blank"
 			"noitem_textcolor"			"117 107 94 255"
-			"PaintBackgroundType"		"2"
+			"PaintBackgroundType"		"0"
 			"paintborder"				"1"
+			"paintbackground"			"0"
 			
 			"model_center_x"			"1"
 			"model_ypos"				"5"			
@@ -177,7 +178,7 @@
 		"wide"							"300"
 		"tall"							"300"
 		"visible"						"0"
-		"bgcolor_override"				"0 0 0 0"
+		"bgcolor_override"				"Blank"
 		"noitem_textcolor"				"117 107 94 255"
 		"PaintBackgroundType"			"2"
 		"paintborder"					"1"
@@ -271,7 +272,7 @@
 		"keyboardinputenabled"			"0"
 		"paintbackground"				"0"
 		"paintbackgroundtype"			"0"
-		"defaultBgColor_Override"		"0 0 0 0"
+		"defaultBgColor_Override"		"Blank"
 		"paintborder"					"0"	
 	}
 	
@@ -303,7 +304,7 @@
 		"keyboardinputenabled"			"0"
 		"paintbackground"				"0"
 		"paintbackgroundtype"			"0"
-		"defaultBgColor_Override"		"0 0 0 0"
+		"defaultBgColor_Override"		"Blank"
 		"paintborder"					"0"		
 	}
 	

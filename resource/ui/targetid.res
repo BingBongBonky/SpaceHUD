@@ -1,10 +1,10 @@
 "Resource/UI/TargetID.res"
 {
 
-	"Shade"
+	"TargetIDBackground"
 	{
 		"ControlName"				"EditablePanel"
-		"fieldName"					"Shade"
+		"fieldName"					"TargetIDBackground"
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"-20"
@@ -219,49 +219,5 @@
 				
 		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
-	}
-
-	"TargetIDBG_Spec_Blue"
-	{
-		"ControlName"				"ScalableImagePanel"
-		"fieldName"					"TargetIDBG_Spec_Blue"
-		"xpos"						"0"
-		"ypos"						"0"
-		"zpos"						"-1"
-		"wide"						"252"
-		"tall"	 					"23"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"image"						"../hud/color_panel_blu"
-
-		"src_corner_height"			"23"				// pixels inside the image
-		"src_corner_width"			"23"
-
-		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"
-	}
-
-	"TargetIDBG_Spec_Red"
-	{
-		"ControlName"				"ScalableImagePanel"
-		"fieldName"					"TargetIDBG_Spec_Red"
-		"xpos"						"0"
-		"ypos"						"0"
-		"zpos"						"-1"
-		"wide"						"252"
-		"tall"	 					"23"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"image"						"../hud/color_panel_red"
-
-		"src_corner_height"			"23"				// pixels inside the image
-		"src_corner_width"			"23"
-
-		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"
 	}
 }

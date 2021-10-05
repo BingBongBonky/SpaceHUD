@@ -511,11 +511,11 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"Spectators"
-		"font"						"ScoreboardVerySmall"
+		"font"						"Font10"
 		"labelText"					"%spectators%"
 		"textAlignment"				"west"
 		"xpos"						"7"
-		"ypos"						"286"
+		"ypos"						"284"
 		"zpos"						"4"
 		"wide"						"424"
 		"tall"						"20"

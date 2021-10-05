@@ -25,7 +25,7 @@ Scheme
 		"MenuEcon"							"17 22 28 255"
 		"MenuBlack"							"15 15 15 255"
 
-		"TransparentMenuDefault"			"15 20 25 150"
+		"TransparentMenuDefault"			"15 20 25 150"		// Probably best to not change these 3
 		"TransparentMenuLighter"			"15 20 25 100"
 		"TransparentMenuDarker"				"15 20 25 200"
 
@@ -123,7 +123,7 @@ Scheme
 		"HudTrainingHint"					"212 160 23 255"
 		
 		"TanDark"							"100 100 100 255"
-		"TanLight"							"255 255 255 255"
+		"TanLight"							"255 255 255 255"	// Do not change unless you want to break a lot of shit
 		"TanDarker"							"40 40 40 255"
 		
 		"StoreDarkTan"						"131 121 104 255"
@@ -131,7 +131,7 @@ Scheme
 		
 		// Building HUD Specific
 		"LowHealthRed"						"255 0 0 255"
-		"ProgressOffWhite"					"255 255 255 255"
+		"ProgressOffWhite"					"255 255 255 255"	// This might break some colors on building status
 		"ProgressBackground"				"255 255 255 50"
 		"HealthBgGrey"						"76 76 76 255"
 		
@@ -3254,23 +3254,25 @@ Scheme
 			"backgroundtype" "2"
 		}
 
+		// These control default button borders
+		// Do not change
+
 		ButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
-		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		ButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		ComboBoxBorder
