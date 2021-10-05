@@ -44,15 +44,16 @@
 		"enabled"							"1"
 		"bgcolor_override"					"MenuBlack"
 	}				
+
 	"BackgroundFooter"
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"BackgroundFooter"
 		"xpos"								"0"
-		"ypos"								"-10"
-		"zpos"								"-2"
+		"ypos"								"420"
+		"zpos"								"10"
 		"wide"								"f0"
-		"tall"								"9999"
+		"tall"								"100"
 		"visible"							"1"
 		"enabled"							"1"
 		"bgcolor_override"					"MenuBlack"
@@ -87,7 +88,7 @@
 		"fieldName"							"BackButton"
 		"xpos"								"c-305"
 		"ypos"								"445"
-		"zpos"								"2"
+		"zpos"								"22"
 		"wide"								"100"
 		"tall"								"25"
 		"autoResize"						"0"
