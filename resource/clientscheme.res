@@ -84,8 +84,8 @@ Scheme
 		"HudPanelBackground"				"123 110 59 184"
 		"HudPanelBorder"					"255 255 255 102"
 
-		"HudProgressBarActive"				"240 207 78 255"
-		"HudProgressBarInActive"			"140 120 73 255"
+		"HudProgressBarActive"				"255 255 255 255"
+		"HudProgressBarInActive"			"76 76 76 255"
 		"HudProgressBarActiveLow"			"240 30 30 255"
 		"HudProgressBarInActiveLow"			"240 30 30 99"	
 
@@ -145,16 +145,16 @@ Scheme
 		"DisguiseMenuIconRed"				"192 56 63 255"
 		"DisguiseMenuIconBlue"				"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"			"200 184 151 255"
- 		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
-		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
-		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
+ 		"MatchmakingDialogTitleColor"			"255 255 255 255"
+ 		"MatchmakingMenuItemBackground"			"0 0 0 255"
+ 		"MatchmakingMenuItemBackgroundActive"		"150 71 0 255"	
+		"MatchmakingMenuItemTitleColor"			"255 255 255 255"
+		"MatchmakingMenuItemDescriptionColor"		"255 255 255 255"
 		
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribNeutral"						"255 255 255 255"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 
@@ -283,13 +283,13 @@ Scheme
 		Button.DepressedTextColor							"White"
 		Button.DepressedBgColor								"HighlightColor"
 
-		CheckButton.TextColor								"Yellow"
-		CheckButton.SelectedTextColor						"Yellow"
-		CheckButton.BgColor									"TransparentBlack"
-		CheckButton.Border1  								"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  								"Yellow"		// the right checkbutton border
-		CheckButton.Check									"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor						"Yellow"
+		CheckButton.TextColor								"White"
+		CheckButton.SelectedTextColor						"White"
+		CheckButton.BgColor									"MenuDarker"
+		CheckButton.Border1  								"White" 		// the left checkbutton border
+		CheckButton.Border2  								"White"		// the right checkbutton border
+		CheckButton.Check									"White"		// color of the check itself
+		CheckButton.HighlightFgColor						"White"
 
 		ComboBoxButton.ArrowColor							"White"
 		ComboBoxButton.ArmedArrowColor						"White"
@@ -320,8 +320,8 @@ Scheme
 		GraphPanel.BgColor									"TransparentBlack"
 
 		Label.TextDullColor									"TanDark"
-		Label.TextColor										"TanLight"
-		Label.TextBrightColor								"TanLight"
+		Label.TextColor										"White"
+		Label.TextBrightColor								"White"
 		Label.SelectedTextColor								"White"
 		Label.BgColor										"Blank"
 		Label.DisabledFgColor1								"Shadow"		// Control visible 1 enabled 0 color. This controls text shadow
@@ -369,11 +369,11 @@ Scheme
 		RichText.SelectedTextColor							"Gray"
 		RichText.SelectedBgColor							"Red"
 
-		ScrollBarButton.FgColor								"Gray"
+		ScrollBarButton.FgColor								"White"
 		ScrollBarButton.BgColor								"Blank"
-		ScrollBarButton.ArmedFgColor						"Gray"
+		ScrollBarButton.ArmedFgColor						"White"
 		ScrollBarButton.ArmedBgColor						"Blank"
-		ScrollBarButton.DepressedFgColor					"Black"
+		ScrollBarButton.DepressedFgColor					"White"
 		ScrollBarButton.DepressedBgColor					"Blank"
 
 		ScrollBarSlider.FgColor								"Gray"		// nob color
@@ -432,13 +432,13 @@ Scheme
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"Orange"
-		"BgColor"		"TransparentBlack"
+		"FgColor"			"Orange"
+		"BgColor"			"TransparentBlack"
 
-		"ViewportBG"		"Blank"
+		"ViewportBG"			"Blank"
 		"TeamSpec"			"204 204 204 255"
-		"TeamRed"			"255 64 64 255"
-		"TeamBlue"			"153 204 255 255"
+		"TeamBlue"			"78 126 178 255"
+		"TeamRed"			"172 52 52 255"
 
 		"MapDescriptionText"	"Gray" // the text used in the map description window
 		"HudIcon_Green"		"0 160 0 255"
@@ -450,11 +450,11 @@ Scheme
 		"MenuBoxBg"			"0 0 0 100"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"251 235 202 255"
-		"SelectionTextFg"		"251 235 202 255"
-		"SelectionEmptyBoxBg" 	"0 0 0 80"
+		"SelectionNumberFg"		"255 255 255 255"
+		"SelectionTextFg"		"255 255 255 255"
+		"SelectionEmptyBoxBg" 		"0 0 0 80"
 		"SelectionBoxBg" 		"0 0 0 80"
-		"SelectionSelectedBoxBg" "0 0 0 190"
+		"SelectionSelectedBoxBg" 	"0 0 0 190"
 
 		// Hint message colors
 		"HintMessageFg"			"255 255 255 255"
@@ -479,7 +479,6 @@ Scheme
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
 
