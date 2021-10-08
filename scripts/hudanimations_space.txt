@@ -1660,6 +1660,7 @@ event MMenu_PlayList_Expand
 	Animate VRBGPanel				ypos 633 Spline 0 0.4
 	Animate VRModeButton			ypos 639 Spline 0 0.4
 	Animate ShowPromoCodesButton	ypos 639 Spline 0 0.4
+	Animate NewDimmer				ypos 421 Linear 0 0.4
 
 	Animate PlayListContainer Tall 260	 Spline	0.0 0.40
 
@@ -1674,6 +1675,7 @@ event MMenu_PlayList_Collapse
 	Animate VRBGPanel				ypos 373 Spline	0 0.4
 	Animate VRModeButton			ypos 379 Spline 0 0.4
 	Animate ShowPromoCodesButton	ypos 379 Spline 0 0.4
+	Animate NewDimmer				ypos 999 Linear 0 0.4
 
 	Animate PlayListContainer Tall 0 Spline 0 0.4
 
@@ -1687,6 +1689,7 @@ event MMenu_PlayList_Collapse_Immediate
 	Animate VRBGPanel				ypos 373 Spline	0 0
 	Animate VRModeButton			ypos 379 Spline 0 0
 	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
+	Animate NewDimmer				ypos 999 Linear 0 0
 
 	Animate PlayListContainer Tall 0 Spline 0 0
 }

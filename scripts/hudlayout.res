@@ -971,11 +971,10 @@
 		"fieldName"					"HudTeamGoal"
 		"visible"					"0"
 		"enabled"					"0"
-		"xpos"						"c-160"
-		"ypos"						"65"
-		"ypos_lodef"				"75"
-		"wide"						"320"
-		"tall"						"100"
+		"xpos"						"-9999"
+		"ypos"						"0"
+		"wide"						"0"
+		"tall"						"0"
 	}
 
 
@@ -984,10 +983,10 @@
 		"fieldName"					"HudTeamGoalTournament"
 		"visible"					"0"
 		"enabled"					"0"
-		"xpos"						"c-160"
-		"ypos"						"15"
-		"wide"						"320"
-		"tall"						"300"
+		"xpos"						"-9999"
+		"ypos"						"0"
+		"wide"						"0"
+		"tall"						"0"
 	}	
 
 	HudTeamSwitch	

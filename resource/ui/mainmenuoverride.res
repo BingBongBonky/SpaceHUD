@@ -394,7 +394,7 @@
 		"wide"									"260"
 		"tall"									"146"
 		"visible"								"1"
-		"bgcolor_override"						"MenuDefault"
+		"bgcolor_override"						"TransparentMenuDarker"
 		"proportionaltoparent"					"1"
 	}				
 
@@ -1392,117 +1392,89 @@
 
 	"FriendsContainer"
 	{
-		"ControlName"				"EditablePanel"
-		"fieldname"					"FriendsContainer"
-		"xpos"						"cs-0.5"
-		"ypos"						"265"
-		"zpos"						"5"
-		"wide"						"260"
-		"tall"						"145"
-		"visible"					"1"
-		"proportionaltoparent"	"1"
+		"ControlName"						"EditablePanel"
+		"fieldname"							"FriendsContainer"
+		"xpos"								"0"
+		"ypos"								"r58"
+		"zpos"								"5"
+		"wide"								"f0"
+		"tall"								"60"
+		"visible"							"1"
+		"proportionaltoparent"				"1"
 
-		"bgcolor_override"			"MenuDefault"
+		"bgcolor_override"					"Blank"	
 
-		"TitleLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"TitleLabel"
-			"font"					"Font24"
-			"labelText"				"Friends"
-			"textAlignment"			"west"
-			"xpos"					"4"
-			"ypos"					"-4"
-			"wide"					"f0"
-			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"textinsetx"			"0"
-			"fgcolor_override"		"White"
-		}
-
-		"InnerShadow"
-		{
-			"ControlName"			"EditablePanel"
-			"fieldname"				"InnerShadow"
-			"visible"				"0"	
+		"InnerShadow"		
+		{		
+			"ControlName"					"EditablePanel"
+			"fieldname"						"InnerShadow"
+			"visible"						"0"	
 		}
 
 		"SteamFriendsList"
 		{
-			"ControlName"			"CSteamFriendsListPanel"
-			"fieldname"				"SteamFriendsList"
-			"xpos"					"cs-0.5"
-			"ypos"					"rs1-10"
-			"zpos"					"500"
-			"wide"					"f10"
-			"tall"					"110"
-			"visible"				"1"
-			"proportionaltoparent"	"1"
+			"ControlName"					"CSteamFriendsListPanel"
+			"fieldname"						"SteamFriendsList"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"500"
+			"wide"							"f0"
+			"tall"							"55"
+			"visible"						"1"
+			"proportionaltoparent"			"1"
 
-			"columns_count"			"2"
-			"inset_x"				"5"
-			"inset_y"				"5"
-			"row_gap"				"5"
-			"column_gap"			"10"
-			"restrict_width"		"0"
+			"columns_count"					"7"
+			"inset_x"						"2"
+			"inset_y"						"5"
+			"row_gap"						"3"
+			"column_gap"					"3"
+			"restrict_width"				"0"
 
-			"friendpanel_kv"
-			{
-				"wide"				"115"
-				"tall"				"22"
-			}
+			"friendpanel_kv"		
+			{		
+				"wide"						"p0.14"	// How many decimals do we go to?
+				"tall"						"23"
+			}		
 
-			"ScrollBar"
-			{
-				"ControlName"		"ScrollBar"
-				"FieldName"			"ScrollBar"
-				"xpos"				"rs1"
-				"ypos"				"0"
-				"tall"				"f0"
-				"wide"				"5" // This gets slammed from client schme.  GG.
-				"zpos"				"1000"
-				"nobuttons"			"1"
-				"proportionaltoparent"	"1"
+			"ScrollBar"		
+			{		
+				"ControlName"				"ScrollBar"
+				"FieldName"					"ScrollBar"
+				"xpos"						"r3"
+				"ypos"						"0"
+				"tall"						"f0"
+				"wide"						"5" // This gets slammed from client schme.  GG.
+				"zpos"						"1000"
+				"nobuttons"					"1"
+				"proportionaltoparent"		"1"
 
-				"Slider"
-				{
-					"fgcolor_override"	"White"
+				"Slider"	
+				{	
+					"fgcolor_override"		"White"
 				}
 		
 				"UpButton"
 				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-				}
-		
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
-					"visible"		"0"
+					"ControlName"			"Button"
+					"FieldName"				"UpButton"
+					"visible"				"0"
+				}		
+
+				"DownButton"		
+				{		
+					"ControlName"			"Button"
+					"FieldName"				"DownButton"
+					"visible"				"0"
 				}
 			}
 		}
 
 		"BelowDarken"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"BelowDarken"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
-			"zpos"			"499"
-			"wide"			"f10"
-			"tall"			"110"
-			"visible"		"1"	
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"bgcolor_override"	"MenuDarker"
+			"ControlName"					"EditablePanel"
+			"fieldname"						"BelowDarken"
+			"visible"						"0"	
+			"enabled"						"0"
 		}
 	}
 
@@ -2054,14 +2026,14 @@
 		"ControlName"							"EditablePanel"
 		"fieldName"								"BackgroundFooter"
 		"xpos"									"0"
-		"ypos"									"420"	// FUCKING LAUGH
+		"ypos"									"421"
 		"zpos"									"-50"
 		"wide"									"f0"
 		"tall"									"100"
 		"visible"								"1"
 		"enabled"								"1"
-		"bgcolor_override"						"MenuDefault"
-	}					
+		"bgcolor_override"						"20 30 40 220"
+	}		
 			
 	"CharacterSetupButton"			
 	{			
@@ -2882,7 +2854,7 @@
 		"command"								"engine status;echo CONTACT FAILED."
 	}
 	
-	"NewUserForumsButton"
+	"NewUserForumsButton"						// Disabled
 	{
 		"ControlName"							"CExImageButton"
 		"fieldName"								"NewUserForumsButton"
@@ -2893,8 +2865,8 @@
 		"tall"									"22"
 		"autoResize"							"0"
 		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
+		"visible"								"0"
+		"enabled"								"0"
 		"tabPosition"							"0"
 		"labelText"								""
 		"font"									"HudFontSmallBold"
@@ -2978,7 +2950,7 @@
 		}							
 	}					
 
-	"CommentaryButton"			
+	"CommentaryButton"							// Disabled
 	{			
 		"ControlName"							"CExImageButton"
 		"fieldName"								"CommentaryButton"
@@ -2989,8 +2961,8 @@
 		"tall"									"22"
 		"autoResize"							"0"
 		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
+		"visible"								"0"
+		"enabled"								"0"
 		"tabPosition"							"0"
 		"labelText"								""
 		"font"									"HudFontSmallBold"
@@ -3025,7 +2997,7 @@
 		}							
 	}					
 
-	"CoachPlayersButton"			
+	"CoachPlayersButton"						// Disabled		
 	{			
 		"ControlName"							"CExImageButton"
 		"fieldName"								"CoachPlayersButton"
@@ -3036,8 +3008,8 @@
 		"tall"									"22"
 		"autoResize"							"0"
 		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
+		"visible"								"0"
+		"enabled"								"0"
 		"tabPosition"							"0"
 		"labelText"								""
 		"font"									"HudFontSmallBold"
@@ -3082,8 +3054,8 @@
 		"tall"									"22"
 		"autoResize"							"0"
 		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
+		"visible"								"0"
+		"enabled"								"0"
 		"tabPosition"							"0"
 		"labelText"								""
 		"font"									"HudFontSmallBold"
@@ -3128,8 +3100,8 @@
 		"tall"									"22"
 		"autoResize"							"0"
 		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
+		"visible"								"0"
+		"enabled"								"0"
 		"tabPosition"							"0"
 		"labelText"								""
 		"font"									"HudFontSmallBold"
@@ -3174,8 +3146,8 @@
 		"tall"									"22"
 		"autoResize"							"0"
 		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
+		"visible"								"0"
+		"enabled"								"0"
 		"tabPosition"							"0"
 		"labelText"								""
 		"font"									"HudFontSmallBold"
