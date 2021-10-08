@@ -6,12 +6,14 @@
 
 	"ReloadHUDButton"
 	{
+		"label"		"8"
 		"command" 	"engine hud_reloadscheme"
 		"tooltip"	"#MMenu_Tooltip_Reload"
 	}
 
 	"MinModeButton"
 	{
+		"label"		"<"
 		"command" 	"engine toggle cl_hud_minmode 0 1"
 		"tooltip"	"#MMenu_Tooltip_MinToggle"
 	}
@@ -24,6 +26,7 @@
 
 	"DemoUIButton"
 	{
+		"label"		"h"
 		"command" 	"engine demoui"
 		"tooltip"	"#MMenu_Tooltip_DemoUI"
 	}
@@ -36,12 +39,14 @@
 
 	"FixSoundButton"
 	{
+		"label"		"Û"
 		"command" 	"engine snd_restart"
 		"tooltip"	"#MMenu_Tooltip_FixSound"
 	}
 
 	"NetGraphButton"
 	{
+		"label"		"P"
 		"command" 	"engine toggle net_graph 0 1"
 		"tooltip"	"#MMenu_Tooltip_NetGraph"
 	}

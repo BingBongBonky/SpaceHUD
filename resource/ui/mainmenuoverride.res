@@ -235,15 +235,15 @@
 		"depressedFgColor_override"				"White"
 		"textAlignment"							"center"
 		"xpos"									"c-75"
-		"ypos"									"30"
+		"ypos"									"0"
 		"zpos"									"10"
 		"wide"									"150"
-		"tall"									"32"
+		"tall"									"30"
 		"visible"								"1"
 		"enabled"								"1"
 		"paintbackground"						"0"
 		"paintborder"							"0"
-		"sound_depressed"						"vo/scout_specialcompleted01.mp3"
+		"sound_depressed"						""
 		"sound_released"						""
 		"border"								"NoBorder"
 	}
@@ -393,7 +393,7 @@
 		"zpos"									"-100"
 		"wide"									"260"
 		"tall"									"146"
-		"visible"								"1"
+		"visible"								"0"
 		"bgcolor_override"						"TransparentMenuDarker"
 		"proportionaltoparent"					"1"
 	}				
@@ -403,12 +403,12 @@
 		"ControlName"							"EditablePanel"
 		"fieldName"								"ButtonsPanel"
 		"xpos"									"cs-0.5"
-		"ypos"									"200"
+		"ypos"									"70"
 		"zpos"									"-100"
 		"wide"									"260"
-		"tall"									"70"
+		"tall"									"220"
 		"visible"								"1"
-		"bgcolor_override"						"MenuDefault"
+		"bgcolor_override"						"TransparentMenuDarker"
 		"proportionaltoparent"					"1"
 	}
 	
@@ -2063,6 +2063,7 @@
 						
 		"paintbackground"						"1"
 		"paintbackgroundtype"					"0"
+		"border_default"						"NoBorder"
 			
 		// default style			
     	"defaultBgColor_override"				"MenuDarker"
@@ -2102,7 +2103,7 @@
 		"zpos"									"13"
 		"wide"									"32"
 		"tall"									"32"
-		"visible"								"0"
+		"visible"								"1"
 		"enabled"								"1"
 		"image"									"../vgui/new"
 		"scaleImage"							"1"
@@ -2135,6 +2136,7 @@
 			
 		"paintbackground"						"1"
 		"paintbackgroundtype"					"0"
+		"border_default"						"NoBorder"
 			
 		// default style			
     	"defaultBgColor_override"				"MenuDarker"
@@ -2196,6 +2198,7 @@
 			
 		"paintbackground"						"1"
 		"paintbackgroundtype"					"0"
+		"border_default"						"NoBorder"
 			
 		// default style			
     	"defaultBgColor_override"				"MenuDarker"
@@ -2259,6 +2262,7 @@
 			
 		"paintbackground"						"1"
 		"paintbackgroundtype"					"0"
+		"border_default"						"NoBorder"
 			
 		// default style			
     	"defaultBgColor_override"				"MenuDarker"
@@ -2334,8 +2338,8 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"tabPosition"						"0"
-			"labelText"							""
-			"font"								""
+			"labelText"							""	// Handled through game menu
+			"font"								"IconFont18"
 			"textAlignment"						"center"
 			"dulltext"							"0"
 			"brighttext"						"0"
@@ -2343,7 +2347,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
-			"textinsetx"						"50"
+			"textinsetx"						"0"
+			"textinsety"						"-1"
 
 			"image_drawcolor"					"255 255 255 255"
 
@@ -2356,8 +2361,8 @@
 				"zpos"							"1"
 				"wide"							"17"
 				"tall"							"17"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"image"							"replay/thumbnails/mainmenu/glyph_reload"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
@@ -2403,8 +2408,8 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"tabPosition"						"0"
-			"labelText"							""
-			"font"								""
+			"labelText"							""	// Handled through game menu
+			"font"								"IconFont18"
 			"textAlignment"						"center"
 			"dulltext"							"0"
 			"brighttext"						"0"
@@ -2412,7 +2417,7 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
-			"textinsetx"						"50"
+			"textinsetx"						"0"
 
 			"image_drawcolor"					"255 255 255 255"
 
@@ -2425,8 +2430,8 @@
 				"zpos"							"1"
 				"wide"							"17"
 				"tall"							"17"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"image"							"replay/thumbnails/mainmenu/glyph_minmode"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
@@ -2542,7 +2547,7 @@
 			"enabled"							"1"
 			"tabPosition"						"0"
 			"labelText"							""
-			"font"								""
+			"font"								"IconFont18"
 			"textAlignment"						"center"
 			"dulltext"							"0"
 			"brighttext"						"0"
@@ -2550,7 +2555,7 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
-			"textinsetx"						"50"
+			"textinsetx"						"5"
 
 			"image_drawcolor"					"255 255 255 255"
 
@@ -2563,8 +2568,8 @@
 				"zpos"							"1"
 				"wide"							"17"
 				"tall"							"17"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"image"							"replay/thumbnails/mainmenu/glyph_demo"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
@@ -2680,7 +2685,7 @@
 			"enabled"							"1"
 			"tabPosition"						"0"
 			"labelText"							""
-			"font"								""
+			"font"								"IconFont24"
 			"textAlignment"						"center"
 			"dulltext"							"0"
 			"brighttext"						"0"
@@ -2688,7 +2693,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
-			"textinsetx"						"50"
+			"textinsetx"						"4"
+			"textinsety"						"-2"
 
 			"image_drawcolor"					"255 255 255 255"
 
@@ -2701,8 +2707,8 @@
 				"zpos"							"1"
 				"wide"							"17"
 				"tall"							"17"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"image"							"replay/thumbnails/mainmenu/glyph_sound"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
@@ -2749,7 +2755,7 @@
 			"enabled"							"1"
 			"tabPosition"						"0"
 			"labelText"							""
-			"font"								""
+			"font"								"IconFont24"
 			"textAlignment"						"center"
 			"dulltext"							"0"
 			"brighttext"						"0"
@@ -2757,7 +2763,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
-			"textinsetx"						"50"
+			"textinsetx"						"3"
+			"textinsety"						"-2"
 
 			"image_drawcolor"					"255 255 255 255"
 
@@ -2770,8 +2777,8 @@
 				"zpos"							"1"
 				"wide"							"17"
 				"tall"							"17"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"image"							"replay/thumbnails/mainmenu/glyph_graph"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
