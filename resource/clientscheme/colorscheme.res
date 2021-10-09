@@ -93,7 +93,7 @@ Scheme
 		"HalloweenThemeColor2015_Dark"		            "108 49 21 255"
 		"QuestUncommitted"					            "183 147 100 255"
             
-		"QuestMap_Bonus"					            "222 217 166 255"
+		"QuestMap_Bonus"					            "220 200 220 255"
 		"QuestMap_ActiveOrange"				            "212 127 25 255"
 		"QuestMap_InactiveGrey"				            "100 100 100 255"
 		"QuestMap_BGImages"					            "56 58 60 255"
