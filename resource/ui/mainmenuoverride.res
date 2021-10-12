@@ -190,38 +190,38 @@
 			"tall"								"f0"
 		}
 		
-		if_halloween_0
-		{
-			"image"								"../console/title_team_halloween2011_widescreen"
-		}						
-		if_halloween_1						
-		{						
-			"image"								"../console/title_team_halloween2012_widescreen"
-		}						
-		if_halloween_2						
-		{						
-			"image"								"../console/title_team_halloween2013_widescreen"
-		}						
-		if_halloween_3						
-		{						
-			"image"								"../console/title_team_halloween2014_widescreen"
-		}						
-		if_halloween_4						
-		{							
-			"image"								"../console/title_team_halloween2015_widescreen"
-		}						
-		if_halloween_5						
-		{							
-			"image"								"../console/title_scream_fortress_2017_widescreen"
-		}						
-		if_fullmoon						
-		{						
-			"image"								"../console/title_fullmoon_widescreen"
-		}						
-		if_christmas						
-		{						
-			"image"								"../console/background_xmas2011_widescreen"
-		}					
+//		if_halloween_0
+//		{
+//			"image"								"../console/title_team_halloween2011_widescreen"
+//		}						
+//		if_halloween_1						
+//		{						
+//			"image"								"../console/title_team_halloween2012_widescreen"
+//		}						
+//		if_halloween_2						
+//		{						
+//			"image"								"../console/title_team_halloween2013_widescreen"
+//		}						
+//		if_halloween_3						
+//		{						
+//			"image"								"../console/title_team_halloween2014_widescreen"
+//		}						
+//		if_halloween_4						
+//		{							
+//			"image"								"../console/title_team_halloween2015_widescreen"
+//		}						
+//		if_halloween_5						
+//		{							
+//			"image"								"../console/title_scream_fortress_2017_widescreen"
+//		}						
+//		if_fullmoon						
+//		{						
+//			"image"								"../console/title_fullmoon_widescreen"
+//		}						
+//		if_christmas						
+//		{						
+//			"image"								"../console/background_xmas2011_widescreen"
+//		}					
 	}			
 			
 	"SpaceHUDText"			
@@ -252,10 +252,10 @@
 	{
 		"ControlName"							"CPvPRankPanel"
 		"fieldName"								"RankModelPanel"
-		"xpos"									"cs-0.5-100"
-		"ypos"									"cs-0.5-145"
+		"xpos"									"-460"
+		"ypos"									"cs-0.5-150"
 
-		"zpos"									"-51"
+		"zpos"									"9999"
 		"wide"									"1000"
 		"tall"									"1000"
 		"visible"								"0"
@@ -271,9 +271,9 @@
 	{
 		"ControlName"							"CExImageButton"
 		"fieldName"								"CycleRankTypeButton"
-		"xpos"									"c122"
-		"ypos"									"70"
-		"zpos"									"2"
+		"xpos"									"0"
+		"ypos"									"30"
+		"zpos"									"9999"
 		"wide"									"8"
 		"tall"									"8"
 		"autoResize"							"0"
@@ -349,7 +349,7 @@
 	{			
 		"ControlName"							"Label"
 		"fieldName"								"NoGCMessage"
-		"xpos"									"c-110"
+		"xpos"									"20"
 		"ypos"									"70"
 		"zpos"									"-99"
 		"wide"									"260"
@@ -372,7 +372,7 @@
 	{			
 		"ControlName"							"ImagePanel"
 		"fieldName"								"NoGCImage"
-		"xpos"									"c-120"
+		"xpos"									"10"
 		"ypos"									"77"
 		"zpos"									"-99"
 		"wide"									"40"
@@ -382,33 +382,19 @@
 		"image"									"gc_dc"
 		"scaleImage"							"1"
 		"proportionaltoparent" 					"1"
-	}	
+	}				
 
 	"RankBorder"
 	{
 		"ControlName"							"EditablePanel"
 		"fieldName"								"RankBorder"
-		"xpos"									"cs-0.5"
-		"ypos"									"70"
+		"xpos"									"0"
+		"ypos"									"0"
 		"zpos"									"-100"
-		"wide"									"260"
-		"tall"									"146"
-		"visible"								"0"
-		"bgcolor_override"						"TransparentMenuDarker"
-		"proportionaltoparent"					"1"
-	}				
-
-	"ButtonsPanel"
-	{
-		"ControlName"							"EditablePanel"
-		"fieldName"								"ButtonsPanel"
-		"xpos"									"cs-0.5"
-		"ypos"									"70"
-		"zpos"									"-100"
-		"wide"									"260"
-		"tall"									"220"
+		"wide"									"290"
+		"tall"									"421"
 		"visible"								"1"
-		"bgcolor_override"						"TransparentMenuDarker"
+		"bgcolor_override"						"0 0 0 230"
 		"proportionaltoparent"					"1"
 	}
 	
@@ -441,7 +427,7 @@
 			"pinCorner"							"0"
 			"visible"							"1"
 			"enabled"							"1"
-			"fgcolor_override"					"117 107 94 255"
+			"fgcolor_override"					"White"
 			"wrap"								"1"
 		}			
 
@@ -572,8 +558,8 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldName"								"WatchStreamButton"
-		"xpos"									"c50"
-		"ypos"									"240"
+		"xpos"									"rs1-44"
+		"ypos"									"r81"
 		"zpos"									"1"
 		"wide"									"23"
 		"tall"									"22"
@@ -599,12 +585,12 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"tabPosition"						"0"
-			"textinsetx"						"25"
-			"labelText"							""
+			"textinsetx"						"8"
+			"labelText"							"a"	// Icon for twitch
 			"use_proportional_insets" 			"1"
-			"font"								"HudFontSmallBold"
+			"font"								"IconFont18"
 			"command"							"watch_stream"
-			"textAlignment"						"west"
+			"textAlignment"						"center"
 			"dulltext"							"0"
 			"brighttext"						"0"
 			"default"							"1"
@@ -616,7 +602,9 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"paintbackground"					"1"
-			"paintborder"						"0"
+			"paintborder"						"1"
+
+			"border_default"					"NoBorder"
 
 			"defaultBgColor_override"			"MenuDarker"
 			"armedBgColor_override"				"HighlightColor"
@@ -635,11 +623,9 @@
 				"zpos"							"1"
 				"wide"							"f0"
 				"tall"							"f0"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"scaleImage"					"1"
-				"image"							"replay/thumbnails/mainmenu/glyph_streaming"
-
 				"proportionaltoparent"			"1"
 				"mouseinputenabled"				"0"
 				"keyboardinputenabled" 			"0"
@@ -651,8 +637,16 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldName"								"QuestLogButton"
-		"xpos"									"c76"
-		"ypos"									"240"
+		"visible"								"0"
+		"enabled"								"0"
+	}
+
+	"QuestLogButtonNew"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"QuestLogButtonNew"
+		"xpos"									"rs1-22"
+		"ypos"									"r81"
 		"zpos"									"1"
 		"wide"									"23"
 		"tall"									"22"
@@ -678,7 +672,7 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"tabPosition"						"0"
-			"textinsetx"						"25"
+			"textinsetx"						"8"
 			"labelText"							""
 			"use_proportional_insets" 			"1"
 			"font"								"HudFontSmallBold"
@@ -695,7 +689,9 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"paintbackground"					"1"
-			"paintborder"						"0"
+			"paintborder"						"1"
+
+			"border_default"					"NoBorder"
 
 			"defaultBgColor_override"			"MenuDarker"
 			"armedBgColor_override"				"HighlightColor"
@@ -730,8 +726,8 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldName"								"MOTD_ShowButtonPanel"
-		"xpos"									"c102"
-		"ypos"									"240"
+		"xpos"									"rs1"
+		"ypos"									"r81"
 		"zpos"									"1"
 		"wide"									"23"
 		"tall"									"22"
@@ -760,8 +756,10 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"tabPosition"						"0"
-			"labelText"							""
-			"font"								"HudFontSmallestBold"
+			"textinsetx"						"17"
+			"textinsety"						"-2"
+			"labelText"							"]"	// Icon for mail
+			"font"								"IconFont18"
 			"textAlignment"						"center"
 			"dulltext"							"0"
 			"brighttext"						"0"
@@ -774,7 +772,9 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"paintbackground"					"1"
-			"paintborder"						"0"
+			"paintborder"						"1"
+
+			"border_default"					"NoBorder"
 
 			"defaultBgColor_override"			"MenuDarker"
 			"armedBgColor_override"				"HighlightColor"
@@ -793,9 +793,8 @@
 				"zpos"							"1"
 				"wide"							"21"
 				"tall"							"22"
-				"visible"						"1"
-				"enabled"						"1"
-				"image"							"replay/thumbnails/mainmenu/glyph_motd"
+				"visible"						"0"
+				"enabled"						"0"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
 			}
@@ -1958,12 +1957,13 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldname"								"RequestCoachButton"
-		"xpos"									"c50"
+		"xpos"									"-9999"
 		"ypos"									"240"
 		"zpos"									"12"
 		"wide"									"23"
 		"tall"									"22"
-		"visible"								"1"
+		"visible"								"0"
+		"enabled"								"0"
 
 		"navLeft"								"MutePlayersButton"
 		"navRight"								"Notifications_ShowButtonPanel"
@@ -2032,16 +2032,16 @@
 		"tall"									"100"
 		"visible"								"1"
 		"enabled"								"1"
-		"bgcolor_override"						"20 30 40 220"
+		"bgcolor_override"						"0 0 0 230"
 	}		
 			
 	"CharacterSetupButton"			
 	{			
 		"ControlName"							"CExImageButton"
 		"fieldName"								"CharacterSetupButton"
-		"xpos"									"c-125"
+		"xpos"									"5"
 		"ypos"									"125"
-		"wide"									"250"
+		"wide"									"280"
 		"tall"									"26"
 		"autoResize"							"0"
 		"pinCorner"								"3"
@@ -2092,94 +2092,16 @@
 			"scaleImage"						"1"
 			"image"								"glyph_items"
 		}					
-	}			
-			
-	"StoreHasNewItemsImage"			
-	{			
-		"ControlName"							"ImagePanel"
-		"fieldName"								"StoreHasNewItemsImage"
-		"xpos"									"c105"
-		"ypos"									"173"
-		"zpos"									"13"
-		"wide"									"32"
-		"tall"									"32"
-		"visible"								"1"
-		"enabled"								"1"
-		"image"									"../vgui/new"
-		"scaleImage"							"1"
-		"mouseinputenabled"						"0"
-	}			
-			
-	"GeneralStoreButton"			
-	{			
-		"ControlName"							"CExImageButton"
-		"fieldName"								"GeneralStoreButton"
-		"xpos"									"c50"
-		"ypos"									"185"
-		"wide"									"75"
-		"tall"									"25"
-		"autoResize"							"0"
-		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
-		"tabPosition"							"0"
-		"textinsetx"							"25"
-		"use_proportional_insets" 				"1"
-		"font"									"Font18"
-		"textAlignment"							"west"
-		"dulltext"								"0"
-		"brighttext"							"0"
-		"default"								"1"
-		"labeltext" 							"#MMenu_Shop"
-		"command" 								"engine open_store"
-		"proportionaltoparent"					"1"
-			
-		"paintbackground"						"1"
-		"paintbackgroundtype"					"0"
-		"border_default"						"NoBorder"
-			
-		// default style			
-    	"defaultBgColor_override"				"MenuDarker"
-    	"defaultFgColor_override"				"White"
-				
-    	// armed style			
-    	"armedBgColor_override"					"HighlightColor"
-    	"armedFgColor_override" 				"White"
-				
-    	// depressed style    			
-    	"depressedBgColor_override"				"HighlightColor"
-    	"depressedFgColor_override" 			"White"
-			
-		"sound_depressed"						"UI/buttonclick.wav"
-		"sound_released"						"UI/buttonclickrelease.wav"
-								
-		"paintbackground"						"1"
-									
-		"image_drawcolor"						"255 255 255 255"
-		"SubImage"			
-		{			
-			"ControlName"						"ImagePanel"
-			"fieldName"							"SubImage"
-			"xpos"								"6"
-			"ypos"								"6"
-			"zpos"								"1"
-			"wide"								"14"
-			"tall"								"14"
-			"visible"							"1"
-			"enabled"							"1"
-			"scaleImage"						"1"
-			"image" 							"glyph_store"
-		}					
-	}			
+	}						
 			
 	"OptionsButton"			
 	{			
 		"ControlName"							"CExImageButton"
 		"fieldName"								"OptionsButton"
-		"xpos"									"c-125"
+		"xpos"									"5"
 		"ypos"									"155"
 		"zpos"									"1"
-		"wide"									"250"
+		"wide"									"280"
 		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
@@ -2240,10 +2162,10 @@
 	{			
 		"ControlName"							"CExImageButton"
 		"fieldName"								"AdvancedOptionsButton"
-		"xpos"									"c-125"
+		"xpos"									"5"
 		"ypos"									"185"
 		"zpos"									"2"
-		"wide"									"172"
+		"wide"									"280"
 		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
@@ -2300,12 +2222,90 @@
 		}				
 	}
 
+	"StoreHasNewItemsImage"			
+	{			
+		"ControlName"							"ImagePanel"
+		"fieldName"								"StoreHasNewItemsImage"
+		"xpos"									"75"
+		"ypos"									"213"
+		"zpos"									"13"
+		"wide"									"32"
+		"tall"									"32"
+		"visible"								"1"
+		"enabled"								"1"
+		"image"									"../vgui/new"
+		"scaleImage"							"1"
+		"mouseinputenabled"						"0"
+	}			
+			
+	"GeneralStoreButton"			
+	{			
+		"ControlName"							"CExImageButton"
+		"fieldName"								"GeneralStoreButton"
+		"xpos"									"5"
+		"ypos"									"215"
+		"wide"									"280"
+		"tall"									"25"
+		"autoResize"							"0"
+		"pinCorner"								"3"
+		"visible"								"1"
+		"enabled"								"1"
+		"tabPosition"							"0"
+		"textinsetx"							"25"
+		"use_proportional_insets" 				"1"
+		"font"									"Font18"
+		"textAlignment"							"west"
+		"dulltext"								"0"
+		"brighttext"							"0"
+		"default"								"1"
+		"labeltext" 							"#MMenu_Shop"
+		"command" 								"engine open_store"
+		"proportionaltoparent"					"1"
+			
+		"paintbackground"						"1"
+		"paintbackgroundtype"					"0"
+		"border_default"						"NoBorder"
+			
+		// default style			
+    	"defaultBgColor_override"				"MenuDarker"
+    	"defaultFgColor_override"				"White"
+				
+    	// armed style			
+    	"armedBgColor_override"					"HighlightColor"
+    	"armedFgColor_override" 				"White"
+				
+    	// depressed style    			
+    	"depressedBgColor_override"				"HighlightColor"
+    	"depressedFgColor_override" 			"White"
+			
+		"sound_depressed"						"UI/buttonclick.wav"
+		"sound_released"						"UI/buttonclickrelease.wav"
+								
+		"paintbackground"						"1"
+									
+		"image_drawcolor"						"255 255 255 255"
+		"SubImage"			
+		{			
+			"ControlName"						"ImagePanel"
+			"fieldName"							"SubImage"
+			"xpos"								"6"
+			"ypos"								"6"
+			"zpos"								"1"
+			"wide"								"14"
+			"tall"								"14"
+			"visible"							"1"
+			"enabled"							"1"
+			"scaleImage"						"1"
+			"image" 							"glyph_store"
+		}					
+	}
+
 	"ReloadHUDButton"
 	{
 		"ControlName"							"EditablePanel"
 		"fieldName"								"ReloadHUDButton"
-		"xpos"									"c-125"
-		"ypos"									"215"
+		"xpos"									"5"
+		"ypos"									"245"
 		"zpos"									"4"
 		"wide"									"22"
 		"tall"									"22"
@@ -2350,6 +2350,8 @@
 			"textinsetx"						"0"
 			"textinsety"						"-1"
 
+			"border_default"					"NoBorder"
+
 			"image_drawcolor"					"255 255 255 255"
 
 			"SubImage"				
@@ -2363,7 +2365,6 @@
 				"tall"							"17"
 				"visible"						"0"
 				"enabled"						"0"
-				"image"							"replay/thumbnails/mainmenu/glyph_reload"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
 			}		
@@ -2374,8 +2375,8 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"MinModeButton"
-		"xpos"									"c-100"
-		"ypos"									"215"
+		"xpos"									"-25"
+		"ypos"									"0"
 		"zpos"									"4"
 		"wide"									"22"
 		"tall"									"22"
@@ -2394,6 +2395,10 @@
 		"navUp"									"AdvancedOptionsButton"
 		"navLeft"								"ReportBugButton"
 		"navRight"								"ConsoleButton"
+
+		"pin_to_sibling"         				"ReloadHUDButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
 		"SubButton"		
 		{		
@@ -2419,6 +2424,8 @@
 			"use_proportional_insets"			"1"
 			"textinsetx"						"0"
 
+			"border_default"					"NoBorder"
+
 			"image_drawcolor"					"255 255 255 255"
 
 			"SubImage"			
@@ -2443,8 +2450,8 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"ConsoleButton"
-		"xpos"									"c-75"
-		"ypos"									"215"
+		"xpos"									"-25"
+		"ypos"									"0"
 		"zpos"									"4"
 		"wide"									"22"
 		"tall"									"22"
@@ -2463,6 +2470,10 @@
 		"navUp"									"AdvancedOptionsButton"
 		"navLeft"								"ReportBugButton"
 		"navRight"								"ConsoleButton"
+
+		"pin_to_sibling"         				"MinModeButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
 		"SubButton"		
 		{		
@@ -2487,6 +2498,8 @@
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
 			"textinsetx"						"50"
+
+			"border_default"					"NoBorder"
 
 			"image_drawcolor"					"255 255 255 255"
 
@@ -2512,8 +2525,8 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"DemoUIButton"
-		"xpos"									"c-50"
-		"ypos"									"215"
+		"xpos"									"-25"
+		"ypos"									"0"
 		"zpos"									"4"
 		"wide"									"22"
 		"tall"									"22"
@@ -2532,6 +2545,10 @@
 		"navUp"									"AdvancedOptionsButton"
 		"navLeft"								"ReportBugButton"
 		"navRight"								"ConsoleButton"
+
+		"pin_to_sibling"         				"ConsoleButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
 		"SubButton"		
 		{		
@@ -2557,6 +2574,8 @@
 			"use_proportional_insets"			"1"
 			"textinsetx"						"5"
 
+			"border_default"					"NoBorder"
+
 			"image_drawcolor"					"255 255 255 255"
 
 			"SubImage"			
@@ -2570,7 +2589,6 @@
 				"tall"							"17"
 				"visible"						"0"
 				"enabled"						"0"
-				"image"							"replay/thumbnails/mainmenu/glyph_demo"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
 			}		
@@ -2581,8 +2599,8 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"InvisiblePlayersButton"
-		"xpos"									"c-25"
-		"ypos"									"215"
+		"xpos"									"-25"
+		"ypos"									"0"
 		"zpos"									"4"
 		"wide"									"22"
 		"tall"									"22"
@@ -2601,6 +2619,10 @@
 		"navUp"									"AdvancedOptionsButton"
 		"navLeft"								"ReportBugButton"
 		"navRight"								"ConsoleButton"
+
+		"pin_to_sibling"         				"DemoUIButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
 		"SubButton"		
 		{		
@@ -2626,6 +2648,8 @@
 			"use_proportional_insets"			"1"
 			"textinsetx"						"50"
 
+			"border_default"					"NoBorder"
+
 			"image_drawcolor"					"255 255 255 255"
 
 			"SubImage"			
@@ -2650,8 +2674,8 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"FixSoundButton"
-		"xpos"									"c0"
-		"ypos"									"215"
+		"xpos"									"-25"
+		"ypos"									"0"
 		"zpos"									"4"
 		"wide"									"22"
 		"tall"									"22"
@@ -2670,6 +2694,10 @@
 		"navUp"									"AdvancedOptionsButton"
 		"navLeft"								"ReportBugButton"
 		"navRight"								"ConsoleButton"
+
+		"pin_to_sibling"         				"InvisiblePlayersButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
 		"SubButton"		
 		{		
@@ -2696,6 +2724,8 @@
 			"textinsetx"						"4"
 			"textinsety"						"-2"
 
+			"border_default"					"NoBorder"
+
 			"image_drawcolor"					"255 255 255 255"
 
 			"SubImage"			
@@ -2709,7 +2739,6 @@
 				"tall"							"17"
 				"visible"						"0"
 				"enabled"						"0"
-				"image"							"replay/thumbnails/mainmenu/glyph_sound"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
 			}
@@ -2720,8 +2749,8 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"NetGraphButton"
-		"xpos"									"c25"
-		"ypos"									"215"
+		"xpos"									"-25"
+		"ypos"									"0"
 		"zpos"									"4"
 		"wide"									"22"
 		"tall"									"22"
@@ -2740,6 +2769,10 @@
 		"navUp"									"AdvancedOptionsButton"
 		"navLeft"								"ReportBugButton"
 		"navRight"								"ConsoleButton"
+
+		"pin_to_sibling"         				"FixSoundButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
 		"SubButton"		
 		{		
@@ -2766,6 +2799,8 @@
 			"textinsetx"						"3"
 			"textinsety"						"-2"
 
+			"border_default"					"NoBorder"
+
 			"image_drawcolor"					"255 255 255 255"
 
 			"SubImage"			
@@ -2779,88 +2814,66 @@
 				"tall"							"17"
 				"visible"						"0"
 				"enabled"						"0"
-				"image"							"replay/thumbnails/mainmenu/glyph_graph"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
 			}
 		}
 	}
 
-	"PanelButton1"			
+	"AchievementsButton"			
 	{			
-		"ControlName"							"CExButton"
-		"fieldName"								"PanelButton1"
-		"font"									"Font10"
-		"labelText"								"#MMenu_Fire"
-		"defaultBgColor_override"				"RedLabel"
-		"armedBgColor_override"					"RedSolid"
-		"depressedBgColor_override"				"RedSolid"
-		"selectedBgColor_override"				"RedSolid"
-		"textAlignment"							"center"
-		"xpos"									"c50"
-		"ypos"									"215"
-		"zpos"									"1"
-		"wide"									"23"
+		"ControlName"							"CExImageButton"
+		"fieldName"								"AchievementsButton"
+		"xpos"									"-25"
+		"ypos"									"0"
+		"zpos"									"3"
+		"wide"									"22"
 		"tall"									"22"
+		"autoResize"							"0"
+		"pinCorner"								"3"
 		"visible"								"1"
 		"enabled"								"1"
-		"paintbackground"						"1"
-		"paintborder"							"0"
-		"sound_depressed"						"player/flame_out.wav"
-		"sound_released"						""
-		"command"								"engine echo WARNING ON ENGINE ONE."
+		"tabPosition"							"0"
+		"labelText"								""
+		"font"									"HudFontSmallBold"
+		"textAlignment"							"center"
+		"dulltext"								"0"
+		"brighttext"							"0"
+		"default"								"1"
+		"Command"								"OpenAchievementsDialog"
+
+		"navUp"									"VRModeButton"
+		"navLeft"								"NewUserForumsButton"
+		"navRight"								"CommentaryButton"
+
+		"sound_depressed"						"UI/buttonclick.wav"
+		"sound_released"						"UI/buttonclickrelease.wav"
+
+		"border_default"						"NoBorder"
+
+		"image_drawcolor"						"255 255 255 255"
+
+		"pin_to_sibling"         				"NetGraphButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+
+		"SubImage"			
+		{			
+			"ControlName"						"ImagePanel"
+			"fieldName"							"SubImage"
+			"xpos"								"cs-0.5"
+			"ypos"								"4"
+			"zpos"								"1"
+			"wide"								"15"
+			"tall"								"15"
+			"visible"							"1"
+			"enabled"							"1"
+			"image"								"glyph_achievements"
+			"scaleImage"						"1"
+			"proportionaltoparent"				"1"
+		}							
 	}
 
-	"PanelButton2"			
-	{			
-		"ControlName"							"CExButton"
-		"fieldName"								"PanelButton2"
-		"font"									"Font10"
-		"labelText"								"#MMenu_APU"
-		"defaultBgColor_override"				"BlueLabel"
-		"armedBgColor_override"					"BlueSolid"
-		"depressedBgColor_override"				"BlueSolid"
-		"selectedBgColor_override"				"BlueSolid"
-		"textAlignment"							"center"
-		"xpos"									"c76"
-		"ypos"									"215"
-		"zpos"									"1"
-		"wide"									"23"
-		"tall"									"22"
-		"visible"								"1"
-		"enabled"								"1"
-		"paintbackground"						"1"
-		"paintborder"							"0"
-		"sound_depressed"						"player/resistance_medium3.wav"
-		"sound_released"						"player/resistance_heavy1.wav"
-		"command"								"engine echo APU TOGGLED."
-	}
-
-	"PanelButton3"			
-	{			
-		"ControlName"							"CExButton"
-		"fieldName"								"PanelButton3"
-		"font"									"Font10"
-		"labelText"								"#MMenu_Contact"
-		"defaultBgColor_override"				"DarkGray"
-		"armedBgColor_override"					"Gray"
-		"depressedBgColor_override"				"Gray"
-		"selectedBgColor_override"				"Gray"
-		"textAlignment"							"center"
-		"xpos"									"c102"
-		"ypos"									"215"
-		"zpos"									"1"
-		"wide"									"23"
-		"tall"									"22"
-		"visible"								"1"
-		"enabled"								"1"
-		"paintbackground"						"1"
-		"paintborder"							"0"
-		"sound_depressed"						"replay/downloadfailed.wav"
-		"sound_released"						""
-		"command"								"engine status;echo CONTACT FAILED."
-	}
-	
 	"NewUserForumsButton"						// Disabled
 	{
 		"ControlName"							"CExImageButton"
@@ -2908,54 +2921,7 @@
 			"scaleImage"						"1"
 			"proportionaltoparent"				"1"
 		}							
-	}					
-
-	"AchievementsButton"			
-	{			
-		"ControlName"							"CExImageButton"
-		"fieldName"								"AchievementsButton"
-		"xpos"									"c-100"
-		"ypos"									"240"
-		"zpos"									"3"
-		"wide"									"22"
-		"tall"									"22"
-		"autoResize"							"0"
-		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
-		"tabPosition"							"0"
-		"labelText"								""
-		"font"									"HudFontSmallBold"
-		"textAlignment"							"center"
-		"dulltext"								"0"
-		"brighttext"							"0"
-		"default"								"1"
-		"Command"								"OpenAchievementsDialog"
-
-		"navUp"									"VRModeButton"
-		"navLeft"								"NewUserForumsButton"
-		"navRight"								"CommentaryButton"
-
-		"sound_depressed"						"UI/buttonclick.wav"
-		"sound_released"						"UI/buttonclickrelease.wav"
-
-		"image_drawcolor"						"255 255 255 255"
-		"SubImage"			
-		{			
-			"ControlName"						"ImagePanel"
-			"fieldName"							"SubImage"
-			"xpos"								"cs-0.5"
-			"ypos"								"4"
-			"zpos"								"1"
-			"wide"								"15"
-			"tall"								"15"
-			"visible"							"1"
-			"enabled"							"1"
-			"image"								"glyph_achievements"
-			"scaleImage"						"1"
-			"proportionaltoparent"				"1"
-		}							
-	}					
+	}										
 
 	"CommentaryButton"							// Disabled
 	{			

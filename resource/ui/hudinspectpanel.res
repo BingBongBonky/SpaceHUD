@@ -43,7 +43,7 @@
 			"fieldName"				"ItemLabel"
 			"font"					"Font10"
 			"xpos"					"0"
-			"ypos"					"3"
+			"ypos"					"0"
 			"zpos"					"1"
 			"wide"					"190"
 			"tall"					"12"

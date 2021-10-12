@@ -2534,6 +2534,17 @@ Scheme
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"	
 		}
+		MatchmakingPlaylistBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"MenuDefault"
+			"image"					"replay/thumbnails/button_holder_central_transparent"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 
 		TrainingResultsBG
 		{

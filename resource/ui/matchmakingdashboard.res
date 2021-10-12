@@ -60,12 +60,11 @@
 			"ypos"							"0"
 			"zpos"							"1"
 			"wide"							"f0"
-			"tall"							"30"
+			"tall"							"28"
 			"visible"						"0"
-			"PaintBackgroundType"			"2"
-			"bgcolor_override"				"20 30 40 200"
+			"border"						"MatchmakingPlaylistBG"
 			"proportionaltoparent"			"1"
-			"paintbackground"				"1"
+			"paintbackground"				"0"
 		}		
 
 		"OuterShadow"		
@@ -79,7 +78,7 @@
 			"tall"							"p1"
 			"visible"						"0"
 			"PaintBackgroundType"			"2"
-			"border"						"OuterShadowBorder"
+			"border"						""
 			"proportionaltoparent"			"1"
 		}		
 
@@ -87,7 +86,7 @@
 		{		
 			"ControlName"					"CExImageButton"
 			"fieldName"						"ToggleChatButton"
-			"xpos"							"0"
+			"xpos"							"-24"
 			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"30"
@@ -103,9 +102,9 @@
 			"brighttext"					"0"
 			"Command"						"toggle_chat"
 			"proportionaltoparent"			"1"
-			"labeltext"						"X"
-			"textinsety"					"3"
-			"textinsetx"					"3"
+			"labeltext"						"X"	// Icon for chat
+			"textinsety"					"-5"
+			"textinsetx"					"0"
 			"mouseinputenabled"				"1"
 			"keyboardinputenabled"			"0"
 			"actionsignallevel"				"2"
@@ -120,6 +119,10 @@
 			"defaultFgColor_override" 		"TransparentWhite"
 			"armedFgColor_override" 		"White"
 			"depressedFgColor_override"		"White"
+
+			"pin_to_sibling"         		"PartySlot5"
+			"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 
 			"SubImage"
 			{
@@ -142,7 +145,7 @@
 		{	
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot0"
-			"xpos"							"30"
+			"xpos"							"0"
 			"ypos"							"rs1-6"
 			"zpos"							"100"
 			"wide"							"o1"
@@ -685,8 +688,8 @@
 				"zpos"						"1"
 				"wide"						"14"
 				"tall"						"14"
-				"visible"					"1"
-				"enabled"					"1"
+				"visible"					"0"
+				"enabled"					"0"
 				"scaleImage"				"1"
 				"proportionaltoparent"		"1"
 				"image"						"glyph_disconnect"
@@ -698,39 +701,40 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"ResumeButton"
-			"xpos"							"rs1-31-131"
+			"xpos"							"rs1-30-30"
 			"ypos"							"0"
-			"zpos"							"100"
-			"wide"							"90"
+			"zpos"							"30"
+			"wide"							"30"
 			"tall"							"f6"
 			"autoResize"					"0"
 			"pinCorner"						"3"
 			"visible"						"0"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"font"							"Font18"
-			"textAlignment"					"west"
+			"font"							"IconFont18"
+			"textAlignment"					"center"
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"Command"						"resume_game"
 			"proportionaltoparent"			"1"
-			"labeltext"						"#MMenu_ResumeGame"
+			"labeltext"						"9"
 			"mouseinputenabled"				"1"
 			"keyboardinputenabled"			"0"
 			"actionsignallevel"				"2"
 			"roundedcorners"				"1"
-			"textinsety"					"5"
-			"textinsetx"					"22"
+			"textinsety"					"0"
+			"textinsetx"					"0"
 			"use_proportional_insets"		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-		//	"armedBgColor_override"			"CreditsGreen"
-		//	"defaultBgColor_override"		"GreenSolid"
+			"armedBgColor_override"			"Blank"
+			"defaultBgColor_override"		"Blank"
 	
-			"defaultFgColor_override" 		"White"
+			"defaultFgColor_override" 		"TransparentWhite"
 			"armedFgColor_override" 		"White"
+			
 			"image_drawcolor"				"255 255 255 255"
 			"image_armedcolor"				"255 255 255 255"
 
@@ -743,8 +747,8 @@
 				"zpos"						"1"
 				"wide"						"14"
 				"tall"						"14"
-				"visible"					"1"
-				"enabled"					"1"
+				"visible"					"0"
+				"enabled"					"0"
 				"scaleImage"				"1"
 				"proportionaltoparent"		"1"
 				"image"						"icon_resume"
@@ -772,7 +776,7 @@
 			"brighttext"					"0"
 			"Command"						"find_game"
 			"proportionaltoparent"			"1"
-			"labeltext"						"M"	// Icon for server button
+			"labeltext"						"f"	// Icon for server button
 			"mouseinputenabled"				"1"
 			"keyboardinputenabled"			"0"
 			"actionsignallevel"				"2"
@@ -789,6 +793,7 @@
 
 			"defaultFgColor_override" 		"TransparentWhite"
 			"armedFgColor_override" 		"White"
+
 			"image_drawcolor"				"255 255 255 255"
 			"image_armedcolor"				"255 255 255 255"
 

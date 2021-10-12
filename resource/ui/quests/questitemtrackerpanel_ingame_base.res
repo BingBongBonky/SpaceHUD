@@ -65,7 +65,7 @@
 				"proportionaltoparent" 		"1"
 			}
 
-			"ProgressBarStandardHighlight" // current completed
+			"ProgressBarStandardHighlight" // current completed in round not turned in
 			{
 				"ControlName"				"EditablePanel"
 				"fieldName"					"ProgressBarStandardHighlight"
@@ -73,7 +73,7 @@
 				"ypos"						"0"
 				"wide"						"f0"
 				"tall"						"f0"
-				"bgcolor_override"			"200 200 200 255"
+				"bgcolor_override"			"HighlightColor"
 				"zpos"						"2"
 				"visible"					"1"
 				"enabled"					"1"
@@ -97,7 +97,7 @@
 				}
 			}
 
-			"ProgressBarStandard" // current completed
+			"ProgressBarStandard" // current completed all time turned in
 			{
 				"ControlName"				"EditablePanel"
 				"fieldName"					"ProgressBarStandard"
@@ -130,7 +130,7 @@
 				}
 			}
 
-			"ProgressBarJustEarned" // current completed
+			"ProgressBarJustEarned" 		// current completed just arrived
 			{
 				"ControlName"				"EditablePanel"
 				"fieldName"					"ProgressBarJustEarned"
@@ -204,7 +204,7 @@
 					"font"					"Font8"
 					"textinsety"			"-1"
 					"TextAlignment"			"center"
-					"proportionaltoparent" "1"
+					"proportionaltoparent" 	"1"
 					"fgcolor_override"		"Black"
 				}
 			}

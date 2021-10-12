@@ -208,7 +208,7 @@
 			"fieldName"				"NameLabel"
 			"xpos"					"65"
 			"ypos"					"5"
-			"wide"					"165"
+			"wide"					"200"
 			"zpos"					"100"
 			"tall"					"20"
 			"visible"				"1"
