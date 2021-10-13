@@ -69,37 +69,38 @@
 
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"0"
 		"command"		"callvote"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"subimage" 		"icon_checkbox"
 		"tooltip" 		"#MMenu_CallVote"
 	}
 
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"k"
 		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"subimage" 		"glyph_muted"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
 
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"0"
-		"subimage" 		"icon_whistle"
-		"tooltip" 		"#MMenu_RequestCoach"
-	}
-
-	"ReportPlayerButton"
-	{
-		"label"			""
-		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"0"
-		"subimage"		"replay/thumbnails/mainmenu/glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
-	}
+// Arent used
+//	"RequestCoachButton"
+//	{
+//		"label"			""
+//		"command"		"engine cl_coach_find_coach"
+//		"OnlyInGame"	"0"
+//		"subimage" 		"icon_whistle"
+//		"tooltip" 		"#MMenu_RequestCoach"
+//	}
+//
+//	"ReportPlayerButton"
+//	{
+//		"label"			""
+//		"command"		"OpenReportPlayerDialog"
+//		"OnlyInGame"	"0"
+//		"subimage"		"replay/thumbnails/mainmenu/glyph_alert"
+//		"tooltip"		"#MMenu_ReportPlayer"
+//	}
 }

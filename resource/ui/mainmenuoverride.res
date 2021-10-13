@@ -252,12 +252,12 @@
 	{
 		"ControlName"							"CPvPRankPanel"
 		"fieldName"								"RankModelPanel"
-		"xpos"									"-460"
+		"xpos"									"5"
 		"ypos"									"cs-0.5-150"
 
-		"zpos"									"9999"
-		"wide"									"1000"
-		"tall"									"1000"
+		"zpos"									"10"
+		"wide"									"80"
+		"tall"									"70"
 		"visible"								"0"
 		"proportionaltoparent"					"1"
 		"mouseinputenabled"						"1"
@@ -271,8 +271,8 @@
 	{
 		"ControlName"							"CExImageButton"
 		"fieldName"								"CycleRankTypeButton"
-		"xpos"									"0"
-		"ypos"									"30"
+		"xpos"									"5"
+		"ypos"									"117"
 		"zpos"									"9999"
 		"wide"									"8"
 		"tall"									"8"
@@ -300,9 +300,11 @@
 		"paintbackground"						"1"
 
 		"defaultBgColor_override"				"MenuDarker"
-		"ArmedBgColor_override"					"RedLabel"
-		"depressedBgColor_override"				"RedLabel"
+		"ArmedBgColor_override"					"HighlightColor"
+		"depressedBgColor_override"				"HighlightColor"
 		"paintborder"							"1"
+		"border_default"						"NoBorder"
+
 		"image_drawcolor"						"255 255 255 255"
 		"image_armedcolor"						"255 255 255 255"
 
@@ -330,10 +332,10 @@
 	{
 		"ControlName"							"CPvPRankPanel"
 		"fieldName"								"RankPanel"
-		"xpos"									"c-190"
-		"ypos"									"45"
+		"xpos"									"-72"
+		"ypos"									"47"
 		"zpos"									"-52"
-		"wide"									"320"
+		"wide"									"355"
 		"tall"									"100"
 		"visible"								"0"
 		"proportionaltoparent"					"1"
@@ -391,7 +393,7 @@
 		"xpos"									"0"
 		"ypos"									"0"
 		"zpos"									"-100"
-		"wide"									"290"
+		"wide"									"287"
 		"tall"									"421"
 		"visible"								"1"
 		"bgcolor_override"						"0 0 0 230"
@@ -550,253 +552,6 @@
 				"enabled"						"1"
 				"image"							"replay/thumbnails/mainmenu/glyph_alert"
 				"scaleImage"					"1"
-			}
-		}
-	}
-
-	"WatchStreamButton"
-	{
-		"ControlName"							"EditablePanel"
-		"fieldName"								"WatchStreamButton"
-		"xpos"									"rs1-44"
-		"ypos"									"r81"
-		"zpos"									"1"
-		"wide"									"23"
-		"tall"									"22"
-		"autoResize"							"0"
-		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
-		"tabPosition"							"0"
-
-		"navUp"									"Notifications_Panel"
-		"navLeft"								"SettingsButton"
-
-		"SubButton"
-		{
-			"ControlName"						"CExImageButton"
-			"fieldName"							"SubButton"
-			"xpos"								"0"
-			"ypos"								"0"
-			"wide"								"f0"
-			"tall"								"f0"
-			"autoResize"						"0"
-			"pinCorner"							"3"
-			"visible"							"1"
-			"enabled"							"1"
-			"tabPosition"						"0"
-			"textinsetx"						"8"
-			"labelText"							"a"	// Icon for twitch
-			"use_proportional_insets" 			"1"
-			"font"								"IconFont18"
-			"command"							"watch_stream"
-			"textAlignment"						"center"
-			"dulltext"							"0"
-			"brighttext"						"0"
-			"default"							"1"
-			"sound_depressed"					"UI/buttonclick.wav"
-			"sound_released"					"vo/null.mp3"
-			"actionsignallevel" 				"2"
-			"proportionaltoparent"				"1"
-				
-			"sound_depressed"					"UI/buttonclick.wav"
-			"sound_released"					"UI/buttonclickrelease.wav"
-			"paintbackground"					"1"
-			"paintborder"						"1"
-
-			"border_default"					"NoBorder"
-
-			"defaultBgColor_override"			"MenuDarker"
-			"armedBgColor_override"				"HighlightColor"
-			"depressedBgColor_override"			"HighlightColor"
-			"selectedBgColor_override"			"HighlightColor"
-
-			"image_drawcolor"					"255 255 255 150"
-			"image_armedcolor"					"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"					"ImagePanel"
-				"fieldName"						"SubImage"
-				"xpos"							"cs-0.5"
-				"ypos"							"cs-0.5"
-				"zpos"							"1"
-				"wide"							"f0"
-				"tall"							"f0"
-				"visible"						"0"
-				"enabled"						"0"
-				"scaleImage"					"1"
-				"proportionaltoparent"			"1"
-				"mouseinputenabled"				"0"
-				"keyboardinputenabled" 			"0"
-			}		
-		}
-	}
-
-	"QuestLogButton"
-	{
-		"ControlName"							"EditablePanel"
-		"fieldName"								"QuestLogButton"
-		"visible"								"0"
-		"enabled"								"0"
-	}
-
-	"QuestLogButtonNew"
-	{
-		"ControlName"							"EditablePanel"
-		"fieldName"								"QuestLogButtonNew"
-		"xpos"									"rs1-22"
-		"ypos"									"r81"
-		"zpos"									"1"
-		"wide"									"23"
-		"tall"									"22"
-		"autoResize"							"0"
-		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
-		"tabPosition"							"0"
-
-		"navUp"									"Notifications_Panel"
-		"navLeft"								"SettingsButton"
-
-		"SubButton"
-		{
-			"ControlName"						"CExImageButton"
-			"fieldName"							"SubButton"
-			"xpos"								"0"
-			"ypos"								"0"
-			"wide"								"f0"
-			"tall"								"f0"
-			"autoResize"						"0"
-			"pinCorner"							"3"
-			"visible"							"1"
-			"enabled"							"1"
-			"tabPosition"						"0"
-			"textinsetx"						"8"
-			"labelText"							""
-			"use_proportional_insets" 			"1"
-			"font"								"HudFontSmallBold"
-			"command"							"questlog"
-			"textAlignment"						"west"
-			"dulltext"							"0"
-			"brighttext"						"0"
-			"default"							"1"
-			"sound_depressed"					"UI/buttonclick.wav"
-			"sound_released"					"vo/null.mp3"
-			"actionsignallevel" 				"2"
-			"proportionaltoparent"				"1"
-				
-			"sound_depressed"					"UI/buttonclick.wav"
-			"sound_released"					"UI/buttonclickrelease.wav"
-			"paintbackground"					"1"
-			"paintborder"						"1"
-
-			"border_default"					"NoBorder"
-
-			"defaultBgColor_override"			"MenuDarker"
-			"armedBgColor_override"				"HighlightColor"
-			"depressedBgColor_override"			"HighlightColor"
-			"selectedBgColor_override"			"HighlightColor"
-			
-			"image_drawcolor"					"255 255 255 150"
-			"image_armedcolor"					"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"					"ImagePanel"
-				"fieldName"						"SubImage"
-				"xpos"							"cs-0.5"
-				"ypos"							"cs-0.5"
-				"zpos"							"1"
-				"wide"							"22"
-				"tall"							"f0"
-				"visible"						"1"
-				"enabled"						"1"
-				"scaleImage"					"1"
-				"image"							"button_quests_pda"
-
-				"proportionaltoparent"			"1"
-				"mouseinputenabled"				"0"
-				"keyboardinputenabled" 			"0"
-			}		
-		}
-	}
-	
-	"MOTD_ShowButtonPanel"
-	{
-		"ControlName"							"EditablePanel"
-		"fieldName"								"MOTD_ShowButtonPanel"
-		"xpos"									"rs1"
-		"ypos"									"r81"
-		"zpos"									"1"
-		"wide"									"23"
-		"tall"									"22"
-		"autoResize"							"0"
-		"pinCorner"								"3"
-		"visible"								"1"
-		"enabled"								"1"
-
-		"navUp"									"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"								"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"								"Notifications_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"								"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
-		"navToRelay"							"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
-		
-		"MOTD_ShowButtonPanel_SB"
-		{
-			"ControlName"						"CExImageButton"
-			"fieldName"							"MOTD_ShowButtonPanel_SB"
-			"xpos"								"0"
-			"ypos"								"0"
-			"zpos"								"1"
-			"wide"								"23"
-			"tall"								"22"
-			"autoResize"						"0"
-			"pinCorner"							"3"
-			"visible"							"1"
-			"enabled"							"1"
-			"tabPosition"						"0"
-			"textinsetx"						"17"
-			"textinsety"						"-2"
-			"labelText"							"]"	// Icon for mail
-			"font"								"IconFont18"
-			"textAlignment"						"center"
-			"dulltext"							"0"
-			"brighttext"						"0"
-			"default"							"1"
-
-			"actionsignallevel" 				"2"
-			"Command"							"motd_show"
-			"navActivate"						"<QuickplayButton"		// after selecting this, nav to this sibling
-
-			"sound_depressed"					"UI/buttonclick.wav"
-			"sound_released"					"UI/buttonclickrelease.wav"
-			"paintbackground"					"1"
-			"paintborder"						"1"
-
-			"border_default"					"NoBorder"
-
-			"defaultBgColor_override"			"MenuDarker"
-			"armedBgColor_override"				"HighlightColor"
-			"depressedBgColor_override"			"HighlightColor"
-			"selectedBgColor_override"			"HighlightColor"
-			
-			"image_drawcolor"					"255 255 255 150"
-			"image_armedcolor"					"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"					"ImagePanel"
-				"fieldName"						"SubImage"
-				"xpos"							"cs-0.5"
-				"ypos"							"cs-0.5"
-				"zpos"							"1"
-				"wide"							"21"
-				"tall"							"22"
-				"visible"						"0"
-				"enabled"						"0"
-				"scaleImage"					"1"
-				"proportionaltoparent"			"1"
 			}
 		}
 	}
@@ -1758,11 +1513,11 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldname"								"CallVoteButton"
-		"xpos"									"c50"
-		"ypos"									"215"
+		"xpos"									"5"
+		"ypos"									"275"
 		"zpos"									"12"
-		"wide"									"23"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"visible"								"1"
 
 		"navLeft"								"ReportPlayerButton"
@@ -1783,10 +1538,12 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"tabPosition"						"0"
-			"textinsetx"						"100"
+			"textinsetx"						"-3"
+			"textinsety"						"-2"
 			"use_proportional_insets" 			"1"
-			"font"								"HudFontSmallBold"
-			"textAlignment"						"west"
+			"labelText"							""
+			"font"								"IconFont18"
+			"textAlignment"						"center"
 			"dulltext"							"0"
 			"brighttext"						"0"
 			"default"							"1"
@@ -1795,9 +1552,11 @@
 							
 			"paintbackground"					"1"
 			
-			"defaultBgColor_override" 			"MenuLighter"
+			"defaultBgColor_override" 			"RedLabel"
 			"armedFgColor_override" 			"255 255 255 255"
 			"depressedFgColor_override" 		"255 255 255 255"
+
+			"border_default"					"NoBorder"
 			
 			"image_drawcolor"					"255 255 255 255"
 			"image_armedcolor"					"255 255 255 255"
@@ -1812,29 +1571,34 @@
 				"zpos"							"1"
 				"wide"							"15"
 				"tall"							"15"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"image"							"glyph_create"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
 			}					
 		}
 	}
+
 	"MutePlayersButton"
 	{
 		"ControlName"							"EditablePanel"
 		"fieldname"								"MutePlayersButton"
-		"xpos"									"c76"
-		"ypos"									"215"
+		"xpos"									"-28"
+		"ypos"									"0"
 		"zpos"									"12"
-		"wide"									"23"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"visible"								"1"
 
 		"navLeft"								"CallVoteButton"
 		"navDown"								"QuickplayChangeButton"
 		"navRight"								"RequestCoachButton"
 		"navToRelay"							"SubButton"
+
+		"pin_to_sibling"         				"CallVoteButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -1849,9 +1613,9 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"tabPosition"						"0"
-			"textinsetx"						"100"
+			"textinsetx"						"6"
 			"use_proportional_insets" 			"1"
-			"font"								"HudFontSmallBold"
+			"font"								"IconFont18"
 			"textAlignment"						"west"
 			"dulltext"							"0"
 			"brighttext"						"0"
@@ -1861,9 +1625,11 @@
 
 			"paintbackground"					"1"
 			
-			"defaultBgColor_override" 			"MenuLighter"
+			"defaultBgColor_override" 			"RedLabel"
 			"armedFgColor_override" 			"255 255 255 255"
 			"depressedFgColor_override" 		"255 255 255 255"
+
+			"border_default"					"NoBorder"
 			
 			"image_drawcolor"					"255 255 255 255"
 			"image_armedcolor"					"255 255 255 255"
@@ -1878,8 +1644,8 @@
 				"zpos"							"1"
 				"wide"							"15"
 				"tall"							"15"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"image"							"glyph_create"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
@@ -1890,12 +1656,13 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldname"								"ReportPlayerButton"
-		"xpos"									"c102"
+		"xpos"									"-9999"
 		"ypos"									"215"
 		"zpos"									"11"
 		"wide"									"23"
 		"tall"									"22"
-		"visible"								"1"
+		"visible"								"0"
+		"enabled"								"0"
 
 		"navLeft"								"ResumeGameButton"
 		"navRight"								"CallVoteButton"
@@ -2041,7 +1808,7 @@
 		"fieldName"								"CharacterSetupButton"
 		"xpos"									"5"
 		"ypos"									"125"
-		"wide"									"280"
+		"wide"									"277"
 		"tall"									"26"
 		"autoResize"							"0"
 		"pinCorner"								"3"
@@ -2101,7 +1868,7 @@
 		"xpos"									"5"
 		"ypos"									"155"
 		"zpos"									"1"
-		"wide"									"280"
+		"wide"									"277"
 		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
@@ -2165,7 +1932,7 @@
 		"xpos"									"5"
 		"ypos"									"185"
 		"zpos"									"2"
-		"wide"									"280"
+		"wide"									"277"
 		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
@@ -2244,7 +2011,7 @@
 		"fieldName"								"GeneralStoreButton"
 		"xpos"									"5"
 		"ypos"									"215"
-		"wide"									"280"
+		"wide"									"277"
 		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
@@ -2307,8 +2074,8 @@
 		"xpos"									"5"
 		"ypos"									"245"
 		"zpos"									"4"
-		"wide"									"22"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
 		"visible"								"1"
@@ -2331,8 +2098,8 @@
 			"fieldName"							"SubButton"
 			"xpos"								"0"
 			"ypos"								"0"
-			"wide"								"22"
-			"tall"								"22"
+			"wide"								"f0"
+			"tall"								"f0"
 			"autoResize"						"0"
 			"pinCorner"							"3"
 			"visible"							"1"
@@ -2349,6 +2116,7 @@
 			"use_proportional_insets"			"1"
 			"textinsetx"						"0"
 			"textinsety"						"-1"
+			"proportionaltoparent"				"1"
 
 			"border_default"					"NoBorder"
 
@@ -2375,11 +2143,11 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"MinModeButton"
-		"xpos"									"-25"
+		"xpos"									"-28"
 		"ypos"									"0"
 		"zpos"									"4"
-		"wide"									"22"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
 		"visible"								"1"
@@ -2406,8 +2174,8 @@
 			"fieldName"							"SubButton"
 			"xpos"								"0"
 			"ypos"								"0"
-			"wide"								"22"
-			"tall"								"22"
+			"wide"								"f0"
+			"tall"								"f0"
 			"autoResize"						"0"
 			"pinCorner"							"3"
 			"visible"							"1"
@@ -2423,6 +2191,7 @@
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
 			"textinsetx"						"0"
+			"proportionaltoparent"				"1"
 
 			"border_default"					"NoBorder"
 
@@ -2439,7 +2208,6 @@
 				"tall"							"17"
 				"visible"						"0"
 				"enabled"						"0"
-				"image"							"replay/thumbnails/mainmenu/glyph_minmode"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
 			}		
@@ -2450,11 +2218,11 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"ConsoleButton"
-		"xpos"									"-25"
+		"xpos"									"-28"
 		"ypos"									"0"
 		"zpos"									"4"
-		"wide"									"22"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
 		"visible"								"1"
@@ -2481,8 +2249,8 @@
 			"fieldName"							"SubButton"
 			"xpos"								"0"
 			"ypos"								"0"
-			"wide"								"22"
-			"tall"								"22"
+			"wide"								"f0"
+			"tall"								"f0"
 			"autoResize"						"0"
 			"pinCorner"							"3"
 			"visible"							"1"
@@ -2498,6 +2266,7 @@
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
 			"textinsetx"						"50"
+			"proportionaltoparent"				"1"
 
 			"border_default"					"NoBorder"
 
@@ -2508,7 +2277,7 @@
 				"ControlName"					"ImagePanel"
 				"fieldName"						"SubImage"
 				"xpos"							"cs-0.5"
-				"ypos"							"3"
+				"ypos"							"cs-0.5"
 				"zpos"							"1"
 				"wide"							"17"
 				"tall"							"17"
@@ -2525,11 +2294,11 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"DemoUIButton"
-		"xpos"									"-25"
+		"xpos"									"-28"
 		"ypos"									"0"
 		"zpos"									"4"
-		"wide"									"22"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
 		"visible"								"1"
@@ -2556,8 +2325,8 @@
 			"fieldName"							"SubButton"
 			"xpos"								"0"
 			"ypos"								"0"
-			"wide"								"22"
-			"tall"								"22"
+			"wide"								"f0"
+			"tall"								"f0"
 			"autoResize"						"0"
 			"pinCorner"							"3"
 			"visible"							"1"
@@ -2573,6 +2342,7 @@
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
 			"textinsetx"						"5"
+			"proportionaltoparent"				"1"
 
 			"border_default"					"NoBorder"
 
@@ -2599,11 +2369,11 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"InvisiblePlayersButton"
-		"xpos"									"-25"
+		"xpos"									"-28"
 		"ypos"									"0"
 		"zpos"									"4"
-		"wide"									"22"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
 		"visible"								"1"
@@ -2630,8 +2400,8 @@
 			"fieldName"							"SubButton"
 			"xpos"								"0"
 			"ypos"								"0"
-			"wide"								"22"
-			"tall"								"22"
+			"wide"								"f0"
+			"tall"								"f0"
 			"autoResize"						"0"
 			"pinCorner"							"3"
 			"visible"							"1"
@@ -2647,6 +2417,7 @@
 			"sound_released"					"UI/buttonclickrelease.wav"
 			"use_proportional_insets"			"1"
 			"textinsetx"						"50"
+			"proportionaltoparent"				"1"
 
 			"border_default"					"NoBorder"
 
@@ -2657,7 +2428,7 @@
 				"ControlName"					"ImagePanel"
 				"fieldName"						"SubImage"
 				"xpos"							"cs-0.5"
-				"ypos"							"3"
+				"ypos"							"cs-0.5"
 				"zpos"							"1"
 				"wide"							"17"
 				"tall"							"17"
@@ -2674,11 +2445,11 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"FixSoundButton"
-		"xpos"									"-25"
+		"xpos"									"-28"
 		"ypos"									"0"
 		"zpos"									"4"
-		"wide"									"22"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
 		"visible"								"1"
@@ -2705,8 +2476,8 @@
 			"fieldName"							"SubButton"
 			"xpos"								"0"
 			"ypos"								"0"
-			"wide"								"22"
-			"tall"								"22"
+			"wide"								"f0"
+			"tall"								"f0"
 			"autoResize"						"0"
 			"pinCorner"							"3"
 			"visible"							"1"
@@ -2723,6 +2494,7 @@
 			"use_proportional_insets"			"1"
 			"textinsetx"						"4"
 			"textinsety"						"-2"
+			"proportionaltoparent"				"1"
 
 			"border_default"					"NoBorder"
 
@@ -2749,11 +2521,11 @@
 	{		
 		"ControlName"							"EditablePanel"
 		"fieldName"								"NetGraphButton"
-		"xpos"									"-25"
+		"xpos"									"-28"
 		"ypos"									"0"
 		"zpos"									"4"
-		"wide"									"22"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
 		"visible"								"1"
@@ -2780,8 +2552,8 @@
 			"fieldName"							"SubButton"
 			"xpos"								"0"
 			"ypos"								"0"
-			"wide"								"22"
-			"tall"								"22"
+			"wide"								"f0"
+			"tall"								"f0"
 			"autoResize"						"0"
 			"pinCorner"							"3"
 			"visible"							"1"
@@ -2798,6 +2570,7 @@
 			"use_proportional_insets"			"1"
 			"textinsetx"						"3"
 			"textinsety"						"-2"
+			"proportionaltoparent"				"1"
 
 			"border_default"					"NoBorder"
 
@@ -2824,18 +2597,18 @@
 	{			
 		"ControlName"							"CExImageButton"
 		"fieldName"								"AchievementsButton"
-		"xpos"									"-25"
+		"xpos"									"-28"
 		"ypos"									"0"
 		"zpos"									"3"
-		"wide"									"22"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"autoResize"							"0"
 		"pinCorner"								"3"
 		"visible"								"1"
 		"enabled"								"1"
 		"tabPosition"							"0"
-		"labelText"								""
-		"font"									"HudFontSmallBold"
+		"labelText"								"K"
+		"font"									"IconFont24"
 		"textAlignment"							"center"
 		"dulltext"								"0"
 		"brighttext"							"0"
@@ -2857,21 +2630,311 @@
 		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
-		"SubImage"			
-		{			
-			"ControlName"						"ImagePanel"
-			"fieldName"							"SubImage"
-			"xpos"								"cs-0.5"
-			"ypos"								"4"
-			"zpos"								"1"
-			"wide"								"15"
-			"tall"								"15"
+		"SubButton"		
+		{		
+			"ControlName"						"CExImageButton"
+			"fieldName"							"SubButton"
+			"xpos"								"0"
+			"ypos"								"0"
+			"wide"								"f0"
+			"tall"								"f0"
+			"autoResize"						"0"
+			"pinCorner"							"3"
 			"visible"							"1"
 			"enabled"							"1"
-			"image"								"glyph_achievements"
-			"scaleImage"						"1"
+			"tabPosition"						"0"
+			"labelText"							""
+			"font"								"IconFont24"
+			"textAlignment"						"center"
+			"dulltext"							"0"
+			"brighttext"						"0"
+			"default"							"1"
+			"sound_depressed"					"UI/buttonclick.wav"
+			"sound_released"					"UI/buttonclickrelease.wav"
+			"use_proportional_insets"			"1"
+			"textinsetx"						"3"
+			"textinsety"						"-2"
 			"proportionaltoparent"				"1"
+
+			"border_default"					"NoBorder"
+
+			"image_drawcolor"					"255 255 255 255"
+
+			"SubImage"			
+			{			
+				"ControlName"					"ImagePanel"
+				"fieldName"						"SubImage"
+				"xpos"							"cs-0.5"
+				"ypos"							"3"
+				"zpos"							"1"
+				"wide"							"17"
+				"tall"							"17"
+				"visible"						"0"
+				"enabled"						"0"
+				"scaleImage"					"1"
+				"proportionaltoparent"			"1"
+			}
 		}							
+	}
+
+	"WatchStreamButton"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"WatchStreamButton"
+		"xpos"									"-28"
+		"ypos"									"0"
+		"zpos"									"100"
+		"wide"									"25"
+		"tall"									"25"
+		"autoResize"							"0"
+		"pinCorner"								"3"
+		"visible"								"0"
+		"enabled"								"0"
+		"tabPosition"							"0"
+
+		"navUp"									"Notifications_Panel"
+		"navLeft"								"SettingsButton"
+
+		"pin_to_sibling"         				"AchievementsButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+
+		"SubButton"
+		{
+			"ControlName"						"CExImageButton"
+			"fieldName"							"SubButton"
+			"xpos"								"0"
+			"ypos"								"0"
+			"wide"								"f0"
+			"tall"								"f0"
+			"autoResize"						"0"
+			"pinCorner"							"3"
+			"visible"							"1"
+			"enabled"							"1"
+			"tabPosition"						"0"
+			"textinsetx"						"8"
+			"labelText"							"a"	// Icon for twitch
+			"use_proportional_insets" 			"1"
+			"font"								"IconFont18"
+			"command"							"watch_stream"
+			"textAlignment"						"center"
+			"dulltext"							"0"
+			"brighttext"						"0"
+			"default"							"1"
+			"sound_depressed"					"UI/buttonclick.wav"
+			"sound_released"					"vo/null.mp3"
+			"actionsignallevel" 				"2"
+			"proportionaltoparent"				"1"
+				
+			"sound_depressed"					"UI/buttonclick.wav"
+			"sound_released"					"UI/buttonclickrelease.wav"
+			"paintbackground"					"1"
+			"paintborder"						"1"
+
+			"border_default"					"NoBorder"
+
+			"defaultBgColor_override"			"MenuDarker"
+			"armedBgColor_override"				"HighlightColor"
+			"depressedBgColor_override"			"HighlightColor"
+			"selectedBgColor_override"			"HighlightColor"
+
+			"image_drawcolor"					"255 255 255 150"
+			"image_armedcolor"					"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"					"ImagePanel"
+				"fieldName"						"SubImage"
+				"xpos"							"cs-0.5"
+				"ypos"							"cs-0.5"
+				"zpos"							"1"
+				"wide"							"f0"
+				"tall"							"f0"
+				"visible"						"0"
+				"enabled"						"0"
+				"scaleImage"					"1"
+				"proportionaltoparent"			"1"
+				"mouseinputenabled"				"0"
+				"keyboardinputenabled" 			"0"
+			}		
+		}
+	}
+
+	"QuestLogButton"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"QuestLogButton"
+		"visible"								"0"
+		"enabled"								"0"
+	}
+
+	"QuestLogButtonNew"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"QuestLogButtonNew"
+		"xpos"									"-28"
+		"ypos"									"0"
+		"zpos"									"100"
+		"wide"									"26"
+		"tall"									"25"
+		"autoResize"							"0"
+		"pinCorner"								"3"
+		"visible"								"1"
+		"enabled"								"1"
+		"tabPosition"							"0"
+
+		"navUp"									"Notifications_Panel"
+		"navLeft"								"SettingsButton"
+
+		"pin_to_sibling"         				"AchievementsButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+
+		"SubButton"
+		{
+			"ControlName"						"CExImageButton"
+			"fieldName"							"SubButton"
+			"xpos"								"0"
+			"ypos"								"0"
+			"wide"								"f0"
+			"tall"								"f0"
+			"autoResize"						"0"
+			"pinCorner"							"3"
+			"visible"							"1"
+			"enabled"							"1"
+			"tabPosition"						"0"
+			"textinsetx"						"8"
+			"labelText"							""
+			"use_proportional_insets" 			"1"
+			"font"								"HudFontSmallBold"
+			"command"							"questlog"
+			"textAlignment"						"west"
+			"dulltext"							"0"
+			"brighttext"						"0"
+			"default"							"1"
+			"sound_depressed"					"UI/buttonclick.wav"
+			"sound_released"					"vo/null.mp3"
+			"actionsignallevel" 				"2"
+			"proportionaltoparent"				"1"
+				
+			"sound_depressed"					"UI/buttonclick.wav"
+			"sound_released"					"UI/buttonclickrelease.wav"
+			"paintbackground"					"1"
+			"paintborder"						"1"
+
+			"border_default"					"NoBorder"
+
+			"defaultBgColor_override"			"MenuDarker"
+			"armedBgColor_override"				"HighlightColor"
+			"depressedBgColor_override"			"HighlightColor"
+			"selectedBgColor_override"			"HighlightColor"
+			
+			"image_drawcolor"					"255 255 255 150"
+			"image_armedcolor"					"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"					"ImagePanel"
+				"fieldName"						"SubImage"
+				"xpos"							"cs-0.5"
+				"ypos"							"cs-0.5"
+				"zpos"							"1"
+				"wide"							"f0"
+				"tall"							"f0"
+				"visible"						"1"
+				"enabled"						"1"
+				"scaleImage"					"1"
+				"image"							"button_quests_pda"
+
+				"proportionaltoparent"			"1"
+				"mouseinputenabled"				"0"
+				"keyboardinputenabled" 			"0"
+			}		
+		}
+	}
+	
+	"MOTD_ShowButtonPanel"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"MOTD_ShowButtonPanel"
+		"xpos"									"-28"
+		"ypos"									"0"
+		"zpos"									"1"
+		"wide"									"25"
+		"tall"									"25"
+		"autoResize"							"0"
+		"pinCorner"								"3"
+		"visible"								"1"
+		"enabled"								"1"
+
+		"navUp"									"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
+		"navDown"								"Notifications_Panel"		// when a sub element can't nav down it will pass through this
+		"navLeft"								"Notifications_Panel"		// when a sub element can't nav left it will pass through this
+		"navRight"								"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
+		"navToRelay"							"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
+
+		"pin_to_sibling"         				"QuestLogButtonNew"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+		
+		"MOTD_ShowButtonPanel_SB"
+		{
+			"ControlName"						"CExImageButton"
+			"fieldName"							"MOTD_ShowButtonPanel_SB"
+			"xpos"								"0"
+			"ypos"								"0"
+			"zpos"								"1"
+			"wide"								"f0"
+			"tall"								"f0"
+			"autoResize"						"0"
+			"pinCorner"							"3"
+			"visible"							"1"
+			"enabled"							"1"
+			"tabPosition"						"0"
+			"textinsetx"						"17"
+			"textinsety"						"-2"
+			"labelText"							"]"	// Icon for mail
+			"font"								"IconFont18"
+			"textAlignment"						"center"
+			"dulltext"							"0"
+			"brighttext"						"0"
+			"default"							"1"
+			"proportionaltoparent"				"1"
+
+			"actionsignallevel" 				"2"
+			"Command"							"motd_show"
+			"navActivate"						"<QuickplayButton"		// after selecting this, nav to this sibling
+
+			"sound_depressed"					"UI/buttonclick.wav"
+			"sound_released"					"UI/buttonclickrelease.wav"
+			"paintbackground"					"1"
+			"paintborder"						"1"
+
+			"border_default"					"NoBorder"
+
+			"defaultBgColor_override"			"MenuDarker"
+			"armedBgColor_override"				"HighlightColor"
+			"depressedBgColor_override"			"HighlightColor"
+			"selectedBgColor_override"			"HighlightColor"
+			
+			"image_drawcolor"					"255 255 255 150"
+			"image_armedcolor"					"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"					"ImagePanel"
+				"fieldName"						"SubImage"
+				"xpos"							"cs-0.5"
+				"ypos"							"cs-0.5"
+				"zpos"							"1"
+				"wide"							"21"
+				"tall"							"22"
+				"visible"						"0"
+				"enabled"						"0"
+				"scaleImage"					"1"
+				"proportionaltoparent"			"1"
+			}
+		}
 	}
 
 	"NewUserForumsButton"						// Disabled
