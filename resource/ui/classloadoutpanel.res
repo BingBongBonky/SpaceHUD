@@ -48,11 +48,14 @@
 			"paintbackground"			"0"
 			
 			"model_center_x"			"1"
-			"model_ypos"				"5"			
+			"model_ypos"				"5"
 			"model_tall"				"55"
 			"model_wide"				"82"
-			"text_ypos"					"57"
-			"text_center"				"1"
+			"text_ypos"					"0"
+			"text_forcesize"			"2"
+			"text_center"				"0"
+			"text_yoffset"				"2"
+			"inset_eq_y"				"55"
 			"name_only"					"1"
 			
 			"attriblabel"

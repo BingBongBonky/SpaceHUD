@@ -6,12 +6,14 @@
 
 	"ReloadHUDButton"
 	{
+		"label"		"8"
 		"command" 	"engine hud_reloadscheme"
 		"tooltip"	"#MMenu_Tooltip_Reload"
 	}
 
 	"MinModeButton"
 	{
+		"label"		"<"
 		"command" 	"engine toggle cl_hud_minmode 0 1"
 		"tooltip"	"#MMenu_Tooltip_MinToggle"
 	}
@@ -24,6 +26,7 @@
 
 	"DemoUIButton"
 	{
+		"label"		"h"
 		"command" 	"engine demoui"
 		"tooltip"	"#MMenu_Tooltip_DemoUI"
 	}
@@ -36,12 +39,14 @@
 
 	"FixSoundButton"
 	{
+		"label"		"Û"
 		"command" 	"engine snd_restart"
 		"tooltip"	"#MMenu_Tooltip_FixSound"
 	}
 
 	"NetGraphButton"
 	{
+		"label"		"P"
 		"command" 	"engine toggle net_graph 0 1"
 		"tooltip"	"#MMenu_Tooltip_NetGraph"
 	}
@@ -64,7 +69,7 @@
 
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"0"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" 		"icon_checkbox"
@@ -73,28 +78,29 @@
 
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"k"
 		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage" 		"glyph_muted"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
 
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" 		"icon_whistle"
-		"tooltip" 		"#MMenu_RequestCoach"
-	}
-
-	"ReportPlayerButton"
-	{
-		"label"			""
-		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage"		"replay/thumbnails/mainmenu/glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
-	}
+// Arent used
+//	"RequestCoachButton"
+//	{
+//		"label"			""
+//		"command"		"engine cl_coach_find_coach"
+//		"OnlyInGame"	"0"
+//		"subimage" 		"icon_whistle"
+//		"tooltip" 		"#MMenu_RequestCoach"
+//	}
+//
+//	"ReportPlayerButton"
+//	{
+//		"label"			""
+//		"command"		"OpenReportPlayerDialog"
+//		"OnlyInGame"	"0"
+//		"subimage"		"replay/thumbnails/mainmenu/glyph_alert"
+//		"tooltip"		"#MMenu_ReportPlayer"
+//	}
 }
