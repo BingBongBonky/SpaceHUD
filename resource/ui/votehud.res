@@ -43,7 +43,7 @@
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardSmall"
+			"font"					"Font12"
 			"wrap"					"1"
 			"fgcolor_override"		"255 255 255 255"
 		}
@@ -62,7 +62,7 @@
 			"textAlignment"			"north-west"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
+			"font"					"Font10"
 			"wrap"					"1"
 			"fgcolor_override"		"255 255 255 255"
 			"noshortcutsyntax" 		"1"
@@ -98,7 +98,7 @@
 			"textAlignment"			"north-west"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
+			"font"					"Font10"
 			"wrap"					"1"
 			"fgcolor_override"		"128 128 128 255"
 		}
@@ -117,7 +117,7 @@
 			"textAlignment"			"north-west"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardSmall"
+			"font"					"Font10"
 			"fgcolor_override"		"255 255 255 255"
 			"wrap"					"1"
 			"noshortcutsyntax" 		"1"
@@ -450,7 +450,7 @@
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardSmall"
+			"font"					"Font12"
 			"wrap"					"1"
 			"fgcolor_override"		"RedLabel"
 		}
@@ -469,7 +469,7 @@
 			"textAlignment"			"north-west"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
+			"font"					"Font10"
 			"wrap"					"1"
 			"fgcolor_override"		"255 255 255 255"
 		}		
@@ -519,7 +519,7 @@
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardSmall"
+			"font"					"Font12"
 			"wrap"					"1"
 			"fgcolor_override"		"RedLabel"
 		}
@@ -538,7 +538,7 @@
 			"textAlignment"			"north-west"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
+			"font"					"Font10"
 			"wrap"					"1"
 			"fgcolor_override"		"255 255 255 255"
 		}		

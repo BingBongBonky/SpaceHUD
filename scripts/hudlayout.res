@@ -673,6 +673,7 @@
 		"show_friend"				"1"
 		"show_avatar"				"1"
 		"avatar_xpos"				"0"
+		"avatar_ypos"				"0"
 
 		"show_dead_icon"			"1"
 		"dead_xpos"					"16"

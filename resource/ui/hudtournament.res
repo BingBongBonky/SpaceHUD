@@ -161,7 +161,7 @@
 				"ypos"						"24"
 				"zpos"						"5"
 				"wide"						"50"
-				"tall"						"8"
+				"tall"						"10"
 				"autoResize"				"0"
 				"pinCorner"					"0"
 				"visible"					"1"
@@ -298,7 +298,7 @@
 				"pinCorner"					"0"
 				"visible"					"0"
 				"enabled"					"1"
-				"bgcolor_override"			"MenuDarker"
+				"bgcolor_override"			"TransparentBlack"
 				
 				if_mvm
 				{
