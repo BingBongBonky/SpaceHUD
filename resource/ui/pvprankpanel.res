@@ -2,226 +2,226 @@
 {
 	"ModelContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ModelContainer"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"3"		
-		"wide"			"f0"
-		"tall"			"f0"
-		"proportionaltoparent"	"1"
-		"actionsignallevel"	"2"
-
-		"BelowModelParticlePanel"
-		{
-			"ControlName"	"CTFParticlePanel"
-			"fieldName"		"BelowModelParticlePanel"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"		"cs-0.5-228"
-			}
-
-			"ParticleEffects"
-			{
-				"0"
-				{
-					"particle_xpos" "c0"
-					"particle_ypos" "c0"
-					"particle_scale" "3"
-					"particleName"	"rankup_base"
-					"start_activated" "0"
-					"loop"	"0"
-				}
-			}
-
-			"paintbackground"	"0"	
-		}
-
-		"RankModel"
-		{
-			"ControlName"	"CBaseModelPanel"
-			"fieldName"		"RankModel"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"0"		
-			"wide"			"o1"
-			"tall"			"f0"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fov"			"50"
-			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"		"cs-0.5-228"
-				"ypos"		"cs-0.5"
-				"wide"		"200"
-				"tall"		"200"
-			}
-
-			"paintbackground"	"0"
-
-			"render_texture"	"0"
+		"ControlName"							"EditablePanel"
+		"fieldName"								"ModelContainer"
+		"xpos"									"cs-0.5"
+		"ypos"									"cs-0.5"
+		"zpos"									"3"		
+		"wide"									"f0"
+		"tall"									"f0"
+		"proportionaltoparent"					"1"
+		"actionsignallevel"						"2"
 		
-			"model"
-			{
-				"force_pos"		"1"
-				"modelname"	""
-				"skin"		"0"
-				"angles_x"	"0"
-				"angles_y"	"180"
-				"angles_z"	"0"
-				"origin_x"		"45"
-				"origin_y"		"0"
-				"origin_z"		"0"
-				"spotlight"	"1"
-
-				if_mini
-				{
-					"origin_x"		"55"
-				}
-
-				"animation"
-				{
-					"sequence"	"idle"
-					"default"	"1"
-				}
-			}
+		"BelowModelParticlePanel"			
+		{			
+			"ControlName"						"CTFParticlePanel"
+			"fieldName"							"BelowModelParticlePanel"
+			"xpos"								"0"
+			"ypos"								"0"
+			"zpos"								"-1"
+			"wide"								"f0"
+			"tall"								"f0"
+			"visible"							"1"
+			"proportionaltoparent"				"1"
 		
-			"lights"
-			{
-				"default"
-				{
-					"name"			"directional"
-					"color"			"0.5 0.5 0.5"
-					"direction"		"0.60 0.65 0.2"
-				}
-			}
-		}
-
-		"AboveModelParticlePanel"
-		{
-			"ControlName"	"CTFParticlePanel"
-			"fieldName"		"AboveModelParticlePanel"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-
-			"paintbackground"	"0"
-
-			if_mini
-			{
-				"xpos"		"cs-0.5-228"
-			}
-
-			"ParticleEffects"
-			{
-				"0"
-				{
-					"particle_xpos" "c0"
-					"particle_ypos" "c0"
-					"particle_scale"	"5"
-					"particleName"	"rankup_glitter"
-					"start_activated" "0"
-					"loop"	"0"
-				}
-				"1"
-				{
-					"particle_xpos"	"c0"
-					"particle_ypos"	"c0"
-					"particle_scale" "4"
-					"particleName"	"badgepress_base"
-					"start_activated" "0"
-					"loop"	"0"
-				}
-				"2"
-				{
-					"particle_xpos" "c-8"
-					"particle_ypos" "c0"
-					"particle_scale" "4"
-					"particleName"	"rankdown_base"
-					"start_activated" "0"
-					"loop"	"0"
-				}
-			}
-
-			"paintbackground"	"1"
-		}
-
-		"MedalButton"
-		{
-			"ControlName"	"Button"
-			"fieldName"		"MedalButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5+2"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"42"
-			"proportionaltoparent"	"1"
-			"command"	"medal_clicked"
-			"actionsignallevel"	"2"
-			"labeltext"	""
-
-			"paintbackground"	"0"
-			"backgroundenabled"	"0"
-		}
-	}
-
-	"BGPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
-		"ypos"			"20"
-		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"f40"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
-
-		if_mini
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
-		}
-
-		"NameLabel"
-		{
-			"ControlName"			"Label"
-			"fieldName"				"NameLabel"
-			"xpos"					"65"
-			"ypos"					"5"
-			"wide"					"200"
-			"zpos"					"100"
-			"tall"					"20"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Font18"
-			"fgcolor_override"		"White"
-			"textAlignment"			"north-west"
-			"labelText"				"%name%"
-			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"visible"			"0"
+			if_mini			
+			{			
+				"xpos"							"cs-0.5-228"
+			}		
+		
+			"ParticleEffects"		
+			{		
+				"0"		
+				{		
+					"particle_xpos" 			"c0"
+					"particle_ypos" 			"c0"
+					"particle_scale" 			"3"
+					"particleName"				"rankup_base"
+					"start_activated" 			"0"
+					"loop"						"0"
+				}		
+			}		
+		
+			"paintbackground"					"0"	
+		}		
+		
+		"RankModel"		
+		{		
+			"ControlName"						"CBaseModelPanel"
+			"fieldName"							"RankModel"
+			"xpos"								"cs-0.5"
+			"ypos"								"cs-0.5"
+			"zpos"								"0"		
+			"wide"								"f0"
+			"tall"								"o1"
+			"autoResize"						"0"
+			"pinCorner"							"0"
+			"visible"							"1"
+			"enabled"							"1"
+			"fov"								"70"
+			"proportionaltoparent"				"1"
+		
+			if_mini		
+			{		
+				"xpos"							"cs-0.5-228"
+				"ypos"							"cs-0.5"
+				"wide"							"200"
+				"tall"							"200"
+			}		
+		
+			"paintbackground"					"0"
+		
+			"render_texture"					"0"
+				
+			"model"		
+			{		
+				"force_pos"						"1"
+				"modelname"						""
+				"skin"							"0"
+				"angles_x"						"0"
+				"angles_y"						"180"
+				"angles_z"						"0"
+				"origin_x"						"45"
+				"origin_y"						"0"
+				"origin_z"						"0"
+				"spotlight"						"1"
+		
+				if_mini		
+				{		
+					"origin_x"					"55"
+				}		
+		
+				"animation"		
+				{		
+					"sequence"					"idle"
+					"default"					"1"
+				}		
+			}		
+				
+			"lights"		
+			{		
+				"default"		
+				{		
+					"name"						"directional"
+					"color"						"0.5 0.5 0.5"
+					"direction"					"0.60 0.65 0.2"
+				}		
+			}		
+		}		
+		
+		"AboveModelParticlePanel"		
+		{		
+			"ControlName"						"CTFParticlePanel"
+			"fieldName"							"AboveModelParticlePanel"
+			"xpos"								"0"
+			"ypos"								"0"
+			"zpos"								"1"
+			"wide"								"f0"
+			"tall"								"f0"
+			"visible"							"1"
+			"proportionaltoparent"				"1"
+		
+			"paintbackground"					"0"
+		
+			if_mini		
+			{		
+				"xpos"							"cs-0.5-228"
+			}		
+		
+			"ParticleEffects"		
+			{		
+				"0"		
+				{		
+					"particle_xpos" 			"c0"
+					"particle_ypos" 			"c0"
+					"particle_scale"			"5"
+					"particleName"				"rankup_glitter"
+					"start_activated" 			"0"
+					"loop"						"0"
+				}		
+				"1"		
+				{		
+					"particle_xpos"				"c0"
+					"particle_ypos"				"c0"
+					"particle_scale"			"4"
+					"particleName"				"badgepress_base"
+					"start_activated" 			"0"
+					"loop"						"0"
+				}		
+				"2"		
+				{		
+					"particle_xpos" 			"c-8"
+					"particle_ypos" 			"c0"
+					"particle_scale"			"4"
+					"particleName"				"rankdown_base"
+					"start_activated" 			"0"
+					"loop"						"0"
+				}		
+			}		
+		
+			"paintbackground"					"1"
+		}		
+		
+		"MedalButton"		
+		{		
+			"ControlName"						"Button"
+			"fieldName"							"MedalButton"
+			"xpos"								"cs-0.5"
+			"ypos"								"cs-0.5+2"
+			"zpos"								"100"
+			"wide"								"o1"
+			"tall"								"42"
+			"proportionaltoparent"				"1"
+			"command"							"medal_clicked"
+			"actionsignallevel"					"2"
+			"labeltext"							""
+		
+			"paintbackground"					"0"
+			"backgroundenabled"					"0"
+		}		
+	}		
+		
+	"BGPanel"		
+	{		
+		"ControlName"							"EditablePanel"
+		"fieldName"								"BGPanel"
+		"xpos"									"rs1"
+		"ypos"									"20"
+		"zpos"									"-1"
+		"wide"									"260"
+		"tall"									"f40"
+		"visible"								"1"
+		"PaintBackgroundType"					"2"
+		"proportionaltoparent"					"1"
+		
+		if_mini		
+		{		
+			"xpos"								"cs-0.5"
+			"ypos"								"cs-0.5"
+			"tall"								"35"
+			"wide"								"505"
+		}		
+		
+		"NameLabel"		
+		{		
+			"ControlName"						"Label"
+			"fieldName"							"NameLabel"
+			"xpos"								"65"
+			"ypos"								"5"
+			"wide"								"200"
+			"zpos"								"100"
+			"tall"								"20"
+			"visible"							"1"
+			"enabled"							"1"
+			"font"								"Font18"
+			"fgcolor_override"					"White"
+			"textAlignment"						"north-west"
+			"labelText"							"%name%"
+			"proportionaltoparent"				"1"
+			
+			if_mini			
+			{			
+				"visible"						"0"
 			}
 		}
 

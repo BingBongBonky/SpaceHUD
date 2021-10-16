@@ -52,7 +52,7 @@
 			"show_name"						"0"
 		}		
 
-		"RestoreCasualSearchCriteria		"	// Load saved settings
+		"RestoreCasualSearchCriteria"		// Load saved settings
 		{		
 			"ControlName"					"CExImageButton"
 			"fieldName"						"RestoreCasualSearchCriteria"

@@ -536,7 +536,7 @@
 		"ControlName"				"CTFBadgePanel"
 		"fieldName"					"Player1Badge"
 		"xpos"						"c-117"
-		"ypos"						"r147"
+		"ypos"						"r149"
 		"zpos"						"3"
 		"wide"						"25"
 		"tall"						"25"
