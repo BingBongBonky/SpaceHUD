@@ -1025,51 +1025,47 @@
 
 	HudStalemate
 	{
-		"fieldName"				"HudStalemate"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"ypos_lodef"				"75"
-		"wide"					"320"
-		"tall"					"100"
+		"fieldName"					"HudStalemate"
+		"visible"					"0"
+		"enabled"					"1"
+		"xpos"						"c-160"
+		"ypos"						"65"
+		"wide"						"320"
+		"tall"						"100"
 	}
 	HudTournament
 	{
-		"fieldName"				"HudTournament"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-125"
-		"ypos"					"5"
-		"ypos_lodef"				"75"
-		"zpos"					"2"
-		"wide"					"250"
-		"tall"					"80"
-	}
+		"fieldName"					"HudTournament"
+		"visible"					"0"
+		"enabled"					"1"
+		"xpos"						"c-125"
+		"ypos"						"5"
+		"zpos"						"2"
+		"wide"						"250"
+		"tall"						"80"
+	}	
 
-	HudTournamentSetup
-	{
-		"fieldName"				"HudTournamentSetup"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-90"
-		"ypos"					"-70"
-		"ypos_lodef"				"75"
-		"wide"					"180"
-		"tall"					"65"
+	HudTournamentSetup	
+	{	
+		"fieldName"					"HudTournamentSetup"
+		"visible"					"0"
+		"enabled"					"1"
+		"xpos"						"c-90"
+		"ypos"						"-70"
+		"wide"						"180"
+		"tall"						"65"
 	}
 
 	HudStopWatch
 	{
-		"fieldName"				"HudStopWatch"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
+		"fieldName"					"HudStopWatch"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"c-160"
+		"ypos"						"5"
 		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
-		"wide"					"125"
-		"tall"					"70"
+		"wide"						"125"
+		"tall"						"70"
 	}
 	
 	NotificationPanel

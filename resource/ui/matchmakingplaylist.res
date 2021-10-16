@@ -5,8 +5,8 @@
 		"ControlName"				"CEventPlayListEntry"
 		"fieldName"					"EventEntry"
 		"xpos"						"0"
-		"ypos"						"3"
-		"tall"						"45"
+		"ypos"						"0"
+		"tall"						"50"
 		"wide"						"255"
 		"proportionaltoparent"		"1"
 
@@ -18,8 +18,8 @@
 		"ControlName"				"CPlayListEntry"
 		"fieldName"					"CasualEntry"
 		"xpos"						"0"
-		"ypos"						"3"
-		"tall"						"45"
+		"ypos"						"0"
+		"tall"						"50"
 		"wide"						"255"
 		"proportionaltoparent"		"1"
 
@@ -31,7 +31,7 @@
 
 		if_event
 		{
-			"ypos"					"53"
+			"ypos"					"55"
 		}
 	}
 
@@ -40,8 +40,8 @@
 		"ControlName"				"CPlayListEntry"
 		"fieldName"					"CompetitiveEntry"
 		"xpos"						"0"
-		"ypos"						"53"
-		"tall"						"45"
+		"ypos"						"55"
+		"tall"						"50"
 		"wide"						"255"
 		"proportionaltoparent"		"1"
 
@@ -53,7 +53,7 @@
 
 		if_event		
 		{		
-			"ypos"					"103"
+			"ypos"					"110"
 		}
 	}
 
@@ -62,8 +62,8 @@
 		"ControlName"				"CPlayListEntry"
 		"fieldName"					"MvMEntry"
 		"xpos"						"0"
-		"ypos"						"103"
-		"tall"						"45"
+		"ypos"						"110"
+		"tall"						"50"
 		"wide"						"255"
 		"proportionaltoparent"		"1"
 
@@ -75,7 +75,7 @@
 
 		if_event		
 		{		
-			"ypos"					"153"
+			"ypos"					"165"
 		}
 	}
 
@@ -84,8 +84,8 @@
 		"ControlName"				"CPlayListEntry"
 		"fieldName"					"ServerBrowserEntry"
 		"xpos"						"0"
-		"ypos"						"153"
-		"tall"						"45"
+		"ypos"						"165"
+		"tall"						"50"
 		"wide"						"255"
 		"proportionaltoparent"		"1"
 
@@ -96,7 +96,7 @@
 
 		if_event		
 		{		
-			"ypos"					"203"
+			"ypos"					"220"
 		}
 	}
 
@@ -105,8 +105,8 @@
 		"ControlName"				"CPlayListEntry"
 		"fieldName"					"TrainingEntry"
 		"xpos"						"0"
-		"ypos"						"203"
-		"tall"						"45"
+		"ypos"						"220"
+		"tall"						"50"
 		"wide"						"255"
 		"proportionaltoparent"		"1"
 
@@ -117,7 +117,7 @@
 
 		if_event		
 		{		
-			"ypos"					"253"
+			"ypos"					"275"
 		}
 	}
 
@@ -126,8 +126,8 @@
 		"ControlName"				"CPlayListEntry"
 		"fieldName"					"CreateServerEntry"
 		"xpos"						"0"
-		"ypos"						"253"
-		"tall"						"45"
+		"ypos"						"275"
+		"tall"						"50"
 		"wide"						"255"
 		"proportionaltoparent"		"1"
 
@@ -138,7 +138,7 @@
 
 		if_event		
 		{		
-			"ypos"					"303"
+			"ypos"					"330"
 		}
 	}
 

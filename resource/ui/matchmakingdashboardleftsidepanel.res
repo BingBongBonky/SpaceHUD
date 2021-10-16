@@ -13,7 +13,7 @@
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
 
-		"bgcolor_override"			"0 0 0 255"
+		"bgcolor_override"			"Black"
 	}
 
 	"TitleGradient"
@@ -25,8 +25,8 @@
 		"wide"						"f0"
 		"tall"						"60"
 		"zpos"						"98"
-		"visible"					"1"
-		"enabled"					"1"
+		"visible"					"0"
+		"enabled"					"0"
 		"rotation"					"3"
 		"proportionaltoparent"		"1"
 		"scaleimage"				"1"
@@ -45,8 +45,8 @@
 		"wide"						"30"
 		"tall"						"f0"
 		"zpos"						"1000"
-		"visible"					"1"
-		"enabled"					"1"
+		"visible"					"0"
+		"enabled"					"0"
 		"rotation"					"2"
 		"proportionaltoparent"		"1"
 		"scaleimage"				"1"
@@ -64,8 +64,8 @@
 		"wide"						"20"
 		"tall"						"f0"
 		"zpos"						"1000"
-		"visible"					"1"
-		"enabled"					"1"
+		"visible"					"0"
+		"enabled"					"0"
 		"rotation"					"1"
 		"proportionaltoparent"		"1"
 		"scaleimage"				"1"
@@ -109,9 +109,9 @@
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 		"command"					"nav_to"
-		"labelText"					"<"
+		"labelText"					"6"
 		"textAlignment"				"west"
-		"font"						"Font18"
+		"font"						"IconFont12"
 
 		"armedBgColor_override"		"Blank"
 		"defaultBgColor_override"	"Blank"
@@ -127,10 +127,10 @@
 		"ypos"						"0"
 		"zpos"						"1"
 		"wide"						"f0"
-		"tall"						"f-20"
+		"tall"						"421"
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 
-		"border"					"MainMenuBGBorder"
+		"bgcolor_override"			"MenuDefault"
 	}
 }

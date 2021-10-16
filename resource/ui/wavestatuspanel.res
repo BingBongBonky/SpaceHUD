@@ -16,6 +16,23 @@
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
 	}
+
+	"WaveCountLabelShadow"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"WaveCountLabelShadow"
+		"font"						"Font12"
+		"fgcolor"					"Shadow"
+		"xpos"						"201"
+		"ypos"						"7"
+		"zpos"						"2"
+		"wide"						"200"
+		"tall"						"15"
+		"visible"					"1"
+		"enabled"					"1"
+		"textAlignment"				"center"
+		"labelText"					"%wave_count%"
+	}
 	
 	"SeparatorBar"
 	{
@@ -50,10 +67,9 @@
 		"wide"						"60"
 		"tall"						"15"
 		"visible"					"0"
-		"enabled"					"1"
+		"enabled"					"0"
 		"textAlignment"				"west"
 		"labelText"					"#TF_MVM_Support"
-		"pinCorner"					"PIN_TOPLEFT"
 		
 		if_verbose
 		{
@@ -70,9 +86,6 @@
 		"zpos"						"3"
 		"wide"						"178"
 		"tall"						"10"
-		"xpos_minmode"				"231"
-		"ypos_minmode"				"8"
-		"wide_minmode"				"138"
 		"visible"					"1"
 		"enabled"					"1"
 		"image"						"../HUD/tournament_panel_blu"
@@ -93,9 +106,6 @@
 		"zpos"						"3"
 		"wide"						"180"
 		"tall"						"12"
-		"xpos_minmode"				"230"
-		"ypos_minmode"				"7"
-		"wide_minmode"				"140"
 		"visible"					"1"
 		"enabled"					"1"
 		"image"						"../HUD/tournament_panel_tan"

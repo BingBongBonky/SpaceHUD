@@ -234,6 +234,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"EscortItemImageAlert"	
+			"wide"					"0"
 			"visible"				"0"
 			"enabled"				"0"
 		}
@@ -320,7 +321,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"				"83"
+				"ypos"				"67"
 			}
 		}
 	
@@ -328,6 +329,7 @@
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"				"EscortTeardrop"		
+			"wide"					"0"
 			"visible"				"0"
 			"enabled"				"0"			
 		}
