@@ -155,7 +155,7 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedBgColor		"255 255 255 32"
 
 		Slider.NobColor										"DarkGray"
-		Slider.TextColor									"DarkGray 255"
+		Slider.TextColor									"DarkGray"
 		Slider.TrackColor									"31 31 31 255"
 		Slider.DisabledTextColor1							"117 117 117 255"
 		Slider.DisabledTextColor2							"30 30 30 255"

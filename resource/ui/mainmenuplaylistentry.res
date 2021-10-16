@@ -25,7 +25,7 @@
 		"zpos"							"1000"
 		"wide"							"f0"
 		"tall"							"f0"
-		"visible"						"1"
+		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"border"						"InnerShadowBorderThin"
 		"proportionaltoparent"			"1"
@@ -227,7 +227,7 @@
 		"depressedBgColor_override" 	"Blank"
 				
 		"image_drawcolor"				"255 255 255 255"
-		"image_armedcolor"				"255 155 155 255"
+		"image_armedcolor"				"255 72 72 255"
 		"SubImage"
 		{
 			"ControlName"				"ImagePanel"

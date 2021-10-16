@@ -29,8 +29,8 @@
 					
 		"if_mvm"			
 		{			
-			"xpos"					"62"
-			"ypos"					"21"
+			"xpos"					"57"
+			"ypos"					"30"
 			"wide"					"38"
 			"tall"					"38"
 		}	
