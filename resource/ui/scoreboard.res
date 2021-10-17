@@ -135,8 +135,10 @@
 
 		if_mvm		
 		{		
-			"ypos"					"0"
-			"tall"					"415"
+			"xpos"						"20"
+			"ypos"						"20"
+			"wide"						"600"
+			"tall"						"370"
 		}
 	}							
 	"BlueTeamLabel"
@@ -434,12 +436,12 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"ServerTimeLeft"
-		"font"						"ScoreboardVerySmall"
+		"font"						"Font10"
 		"labelText"					"%servertimeleft%"
-		"textAlignment"				"east"
-		"xpos"						"305"
+		"textAlignment"				"center"
+		"xpos"						"c-220"
 		"ypos"						"60"
-		"wide"						"300"
+		"wide"						"200"
 		"tall"						"20"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -570,7 +572,7 @@
 		
 		if_mvm
 		{
-			"visible"				"1"
+			"visible"				"0"
 		}
 	}
 	"ClassImage"
@@ -796,10 +798,10 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"HorizontalLine"
-		"xpos"						"115"
-		"ypos"						"397"
+		"xpos"						"25"
+		"ypos"						"245"
 		"zpos"						"3"
-		"wide"						"465"
+		"wide"						"590"
 		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -1062,6 +1064,13 @@
 		"visible"						"1"
 		"enabled"						"1"
 
+		if_mvm
+		{
+			"xpos"						"380"
+			"ypos"						"290"
+			"zpos"						"100"
+		}
+
 		"KillsLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -1186,6 +1195,11 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
+
+			if_mvm
+			{
+				"visible"				"0"
+			}
 		}
 
 		"DamageNew"
@@ -1205,6 +1219,11 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
+
+			if_mvm
+			{
+				"visible"				"0"
+			}
 		}
 
 		"HealingLabel"
@@ -1367,6 +1386,11 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
+
+			if_mvm
+			{
+				"visible"				"0"
+			}
 		}	
 
 		"CapturesNew"
@@ -1385,6 +1409,11 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
+
+			if_mvm
+			{
+				"visible"				"0"
+			}
 		}
 
 		"DefensesLabel"
@@ -1439,6 +1468,11 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
+
+			if_mvm
+			{
+				"visible"				"0"
+			}
 		}																								
 
 		"DestructionNew"
@@ -1457,6 +1491,11 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
+
+			if_mvm
+			{
+				"visible"				"0"
+			}
 		}		
 
 		"SupportLabel"
@@ -1475,6 +1514,11 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
+
+			if_mvm
+			{
+				"visible"				"0"
+			}
 		}
 
 		"SupportNew"
@@ -1646,7 +1690,7 @@
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"20"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"

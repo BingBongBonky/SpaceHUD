@@ -12,7 +12,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"PaintBackgroundType"		"0"
-		"bgcolor_override"			"MenuDarker"	
+		"bgcolor_override"			"MenuDarker"
 	}
 	
 	"CurrencyGood"

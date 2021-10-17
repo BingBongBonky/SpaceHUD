@@ -51,7 +51,7 @@
 		"xpos"						"0"
 		"ypos"						"40"
 		"zpos"						"2"
-		"wide"						"160"
+		"wide"						"150"
 		"tall"						"6"				
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -60,7 +60,7 @@
 		"textAlignment"				"Left"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"bgcolor_override"			"TransparentBlack"
+		"bgcolor_override"			"TransparentMenuDarker"
 	}		
 
 	"ChargeMeter1"
