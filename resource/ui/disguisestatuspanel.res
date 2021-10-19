@@ -143,5 +143,4 @@
 		"enabled"					"1"
 		"bgcolor_override"			"TransparentBlack"
 	}
-	
 }

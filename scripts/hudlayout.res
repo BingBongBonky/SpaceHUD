@@ -672,7 +672,7 @@
 		
 		"show_friend"				"1"
 		"show_avatar"				"1"
-		"avatar_xpos"				"0"
+		"avatar_xpos"				"110"
 		"avatar_ypos"				"0"
 
 		"show_dead_icon"			"1"

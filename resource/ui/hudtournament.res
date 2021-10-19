@@ -362,9 +362,9 @@
 			{
 				"ControlName"				"CExLabel"
 				"fieldName"					"respawntime"
-				"font"						"DefaultSmall"
-				"xpos"						"30"
-				"ypos"						"18"
+				"font"						"Font12"
+				"xpos"						"10"
+				"ypos"						"9"
 				"zpos"						"5"
 				"wide"						"23"
 				"tall"						"10"
@@ -373,7 +373,7 @@
 				"visible"					"1"
 				"labelText"					"%respawntime%"
 				"textAlignment"				"west"
-				//"fgcolor"					"235 226 202 255"
+				"fgcolor"					"White"
 				
 				if_competitive
 				{

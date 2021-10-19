@@ -203,7 +203,7 @@
 			"ypos"					"0"
 			"zpos"					"-2"
 			"wide"					"44"
-			"tall"					"65"
+			"tall"					"63"
 			"visible"				"1"
 			"enabled"				"1"	
 			"icon"					"obj_status_alert_background_tall"
