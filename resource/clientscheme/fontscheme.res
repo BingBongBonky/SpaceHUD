@@ -73,6 +73,17 @@ Scheme
 			}	
 		}	
 
+		"Font20"	
+		{	
+			"1"	
+			{	
+				"name"			"MADE TOMMY"
+				"tall"			"20"
+				"weight"		"500"
+				"antialias" 	"1"
+			}	
+		}
+
 		"Font18"	
 		{	
 			"1"	
@@ -136,17 +147,6 @@ Scheme
 				"name"			"MADE TOMMY"
 				"tall"			"8"
 				"weight"		"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"IconFont32"
-		{
-			"1"	
-			{	
-				"name"			"HypnotizeHud Icons"
-				"tall"			"32"
-				"weight"		"500"
 				"antialias" 	"1"
 			}
 		}

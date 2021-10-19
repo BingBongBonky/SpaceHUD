@@ -492,12 +492,13 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"loadout_rect"
+
+			"color"					"MenuDefault"
+			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"2"	
 		}
 		
 		StoreFreeTrialBorder
@@ -561,25 +562,6 @@ Scheme
 		BackpackItemGrayedOut
 		{
 			"inset" "0 0 0 0"
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "MenuDarker"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "MenuDarker"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "MenuDarker"
-					"offset" "0 0"
-				}
-			}
 			Left
 			{
 				"1"
@@ -597,43 +579,17 @@ Scheme
 					"color" "MenuDarker"
 					"offset" "0 0"
 				}
-			}	
-			Right
-			{
-				"1"
+				"4"
 				{
 					"color" "MenuDarker"
 					"offset" "0 0"
 				}
-				"2"
-				{
-					"color" "MenuDarker"
-					"offset" "0 0"
-				}
-				"3"
+				"5"
 				{
 					"color" "MenuDarker"
 					"offset" "0 0"
 				}
 			}
-			Top
-			{
-				"1"
-				{
-					"color" "MenuDarker"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "MenuDarker"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "MenuDarker"
-					"offset" "0 0"
-				}
-			}	
 		}
 		
 		BackpackItemGrayedOut_Selected
@@ -654,7 +610,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"MenuDefault"
+			"color"					"MenuDarker"
 			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
@@ -665,7 +621,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"MenuDefault"
+			"color"					"HighlightColor"
 			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
