@@ -550,7 +550,7 @@
 		"ControlName"				"CAvatarImagePanel"
 		"fieldName"					"Player1Avatar"
 		"xpos"						"-27"
-		"ypos"						"0"
+		"ypos"						"3"
 		"zpos"						"3"
 		"wide"						"14"
 		"tall"						"14"

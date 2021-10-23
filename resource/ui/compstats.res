@@ -145,7 +145,7 @@
 					"ypos"						"rs1"
 					"zpos"						"-100"
 					"wide"						"p1.2"
-					"tall"						"p1.3"
+					"tall"						"p1"
 					"visible"					"1"
 					"proportionaltoparent"		"1"
 					"bgcolor_override"			"MenuDarker"
@@ -184,7 +184,7 @@
 					"proportionaltoparent"		"1"
 					"visible"					"1"
 					"paintbackground"			"0"
-					"border_default"			"SortCategoryBorder"	
+					"border_default"			"NoBorder"	
 			
 					"labeltext"					"#TF_Competitive_Result"
 					"font"						"Font12"
@@ -211,14 +211,14 @@
 				{
 					"ControlName"				"CExButton"
 					"fieldName"					"DateButton"
-					"xpos"						"p0.18"
+					"xpos"						"p0.30"
 					"ypos"						"0"
 					"wide"						"p0.4"
 					"tall"						"18"
 					"proportionaltoparent"		"1"
 					"visible"					"1"
 					"paintbackground"			"0"	
-					"border_default"			"SortCategoryBorder"
+					"border_default"			"NoBorder"
 			
 					"labeltext"					"#TF_Competitive_Date"
 					"font"						"Font12"
@@ -252,7 +252,7 @@
 					"proportionaltoparent"		"1"
 					"visible"					"1"
 					"paintbackground"			"0"
-					"border_default"			"SortCategoryBorder"
+					"border_default"			"NoBorder"
 			
 					"labeltext"					"#TF_Competitive_Map"
 					"font"						"Font12"
@@ -280,7 +280,7 @@
 				{
 					"ControlName"				"CExButton"
 					"fieldName"					"KDRButton"
-					"xpos"						"p0.87"
+					"xpos"						"p0.84"
 					"ypos"						"0"
 					"wide"						"p0.12"
 					"tall"						"18"
@@ -326,7 +326,7 @@
 				{
 					"ControlName"				"ScrollBar"
 					"FieldName"					"ScrollBar"
-					"xpos"						"rs1"
+					"xpos"						"rs1+1"
 					"ypos"						"0"
 					"tall"						"f0"
 					"wide"						"5" // This gets slammed from client schme.  GG.

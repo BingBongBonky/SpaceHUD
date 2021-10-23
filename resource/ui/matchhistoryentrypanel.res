@@ -88,7 +88,7 @@
 		{	
 			"ControlName"					"Label"
 			"fieldName"						"DateLabel"
-			"xpos"							"p0.2"
+			"xpos"							"p0.18"
 			"ypos"							"0"
 			"wide"							"f0"
 			"tall"							"f0"
@@ -106,7 +106,7 @@
 		{	
 			"ControlName"					"Label"
 			"fieldName"						"MapNameLabel"
-			"xpos"							"p0.60"
+			"xpos"							"p0.61"
 			"ypos"							"0"
 			"wide"							"f0"
 			"tall"							"f0"
@@ -124,7 +124,7 @@
 		{	
 			"ControlName"					"Label"
 			"fieldName"						"KDLabel"
-			"xpos"							"p0.9"
+			"xpos"							"p0.86"
 			"ypos"							"0"
 			"wide"							"100"
 			"tall"							"f0"

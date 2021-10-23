@@ -1,5 +1,6 @@
 "Resource/UI/ConfirmApplyGiftWrapDialog.res"
 {
+
 	"ConfirmApplyGiftWrapDialog"
 	{
 		"fieldName"							"ConfirmApplyGiftWrapDialog"
@@ -59,7 +60,7 @@
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"TitleLabel"
-		"font"								"Font18"
+		"font"								"Font60"
 		"labelText"							"dynamic"
 		"textAlignment"						"center"
 		"xpos"								"100"

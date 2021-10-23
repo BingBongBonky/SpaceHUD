@@ -256,8 +256,8 @@
 		"ypos"									"cs-0.5-147"
 
 		"zpos"									"0"
-		"wide"									"95"
-		"tall"									"110"
+		"wide"									"100"
+		"tall"									"120"
 		"visible"								"0"
 		"proportionaltoparent"					"1"
 		"mouseinputenabled"						"1"
@@ -395,7 +395,7 @@
 		"zpos"									"-100"
 		"wide"									"287"
 		"tall"									"421"
-		"visible"								"1"
+		"visible"								"0"
 		"bgcolor_override"						"0 0 0 230"
 		"proportionaltoparent"					"1"
 	}
@@ -411,7 +411,7 @@
 		"tall"									"50"
 		"visible"								"0"
 		"PaintBackgroundType"					"0"
-		"border"								"MainMenuBGBorder"
+		"bgcolor_override"						"MenuLighter"
 
 		"TipSubLabel"			
 		{			

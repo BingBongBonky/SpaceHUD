@@ -9,7 +9,7 @@
 		"zpos"						"1000"
 		"wide"						"f0"
 		"tall"						"f0"
-		"visible"					"1"
+		"visible"					"0"
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
 
@@ -20,7 +20,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"TitleGradient"
-		"xpos"						"3"
+		"xpos"						"-9999"
 		"ypos"						"0"
 		"wide"						"f0"
 		"tall"						"60"
@@ -40,7 +40,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"Gradient"
-		"xpos"						"3"
+		"xpos"						"-9999"
 		"ypos"						"0"
 		"wide"						"30"
 		"tall"						"f0"
@@ -128,9 +128,9 @@
 		"zpos"						"1"
 		"wide"						"f0"
 		"tall"						"421"
-		"visible"					"1"
+		"visible"					"0"
 		"proportionaltoparent"		"1"
 
-		"bgcolor_override"			"MenuDefault"
+		"border"					"MainMenuBGBorder"
 	}
 }
