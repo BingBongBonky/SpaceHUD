@@ -580,20 +580,8 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"ClassImage"
-		"xpos"						"22"
-		"ypos"						"350"
-		"zpos"						"3"
-		"wide"						"92"
-		"tall"						"92"
 		"visible"					"0"
-		"enabled"					"1"
-		"image"						"../hud/class_scoutred"
-		"scaleImage"				"1"	
-
-		if_mvm		
-		{		
-			"visible"				"1"
-		}
+		"enabled"					"0"
 	}
 	"classmodelpanel"
 	{
