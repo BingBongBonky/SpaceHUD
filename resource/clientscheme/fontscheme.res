@@ -492,9 +492,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"24"
-				"tall_lodef"	"80"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -502,9 +501,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"32"
-				"tall_hidef"	"120"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -512,7 +510,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -521,7 +519,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -530,7 +528,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -542,9 +540,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"44"
-				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -555,9 +552,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"35"
-				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -568,9 +564,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"36"
-				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -580,7 +575,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -591,7 +586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -602,9 +597,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"24"
-				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -614,7 +608,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -625,7 +619,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -636,7 +630,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -647,10 +641,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -660,10 +652,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -673,9 +663,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -685,7 +674,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -696,7 +685,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -707,7 +696,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -719,7 +708,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -730,7 +719,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -742,7 +731,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -753,7 +742,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -764,7 +753,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -775,7 +764,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -786,7 +775,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -797,7 +786,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -808,7 +797,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -819,7 +808,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -832,7 +821,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -875,10 +864,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -888,10 +875,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"16"
-				"tall_hidef"	"22"
-				"tall_lodef"	"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -925,8 +910,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"9"
-				"tall_lodef"	"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -938,7 +921,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"7"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -948,7 +930,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -958,9 +940,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
-				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
+				"name"		"MADE TOMMY"
+				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -969,7 +950,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -978,7 +959,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -987,7 +968,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1146,7 +1127,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1156,7 +1137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1167,7 +1148,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1192,7 +1173,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"MADE TOMMY"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1207,7 +1188,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"MADE TOMMY"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1222,7 +1203,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"MADE TOMMY"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1235,7 +1216,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"MADE TOMMY"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1273,7 +1254,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1286,7 +1267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1298,7 +1279,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1310,7 +1291,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1324,7 +1305,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1336,7 +1317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1348,7 +1329,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1363,7 +1344,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1375,9 +1356,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"52"
-				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1 599"
@@ -1385,9 +1365,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"72"
-				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"600 767"
@@ -1395,7 +1374,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1404,7 +1383,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1413,7 +1392,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1425,7 +1404,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1437,7 +1416,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1448,7 +1427,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1459,7 +1438,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1470,7 +1449,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1481,7 +1460,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1493,7 +1472,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1550,7 +1529,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1650,7 +1629,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1663,7 +1642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1675,7 +1654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1728,7 +1707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1738,7 +1717,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -1748,7 +1727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -1776,7 +1755,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1785,7 +1764,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1824,7 +1803,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -1835,7 +1814,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -1846,7 +1825,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2031,7 +2010,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2042,7 +2021,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2190,7 +2169,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"MADE TOMMY"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2202,7 +2181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2211,7 +2190,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2220,7 +2199,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2233,7 +2212,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2243,7 +2222,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2253,7 +2232,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2267,7 +2246,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2276,7 +2255,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2285,7 +2264,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2298,7 +2277,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2310,7 +2289,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2322,7 +2301,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2430,7 +2409,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2494,7 +2473,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2505,7 +2484,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2516,7 +2495,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2529,7 +2508,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2540,7 +2519,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2557,7 +2536,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2568,7 +2547,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2580,7 +2559,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2593,7 +2572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MADE TOMMY"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2605,7 +2584,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -2616,7 +2595,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -2629,7 +2608,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MADE TOMMY"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
