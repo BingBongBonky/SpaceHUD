@@ -29,7 +29,7 @@
 			"zpos"							"-2"
 			"wide"							"f0"
 			"tall"							"f0"
-			"visible"						"1"
+			"visible"						"0"
 			"PaintBackgroundType"			"0"
 			"border"						"OuterShadowBorder"
 			"proportionaltoparent"			"1"
@@ -48,8 +48,8 @@
 			"wide"							"f5"
 			"tall"							"f5"
 			"visible"						"1"
-			"PaintBackgroundType"			"2"
-			"border"						"ReplayDefaultBorder"
+			"PaintBackgroundType"			"0"
+			"bgcolor_override"				"MenuDefault"
 			"proportionaltoparent"			"1"
 			"pinCorner"						"2"
 
@@ -133,7 +133,7 @@
 		
 				"image_default"				"glyph_expand"						
 		
-				"image_drawcolor"			"235 226 202 255"
+				"image_drawcolor"			"255 255 255 255"
 				"image_armedcolor"			"172 52 52 255"
 
 				"SubImage"

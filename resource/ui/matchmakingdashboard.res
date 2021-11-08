@@ -399,18 +399,18 @@
 			{
 				"ControlName"				"CExImageButton"
 				"fieldName"					"MultiQueuesManageButton"
-				"xpos"						"rs1-6"
-				"ypos"						"11"
+				"xpos"						"rs1-10"
+				"ypos"						"10"
 				"zpos"						"10"
-				"wide"						"14"
-				"tall"						"14"
+				"wide"						"20"
+				"tall"						"16"
 				"autoResize"				"0"
 				"pinCorner"					"0"
 				"visible"					"1"
 				"enabled"					"1"
 				"tabPosition"				"0"
-				"labeltext"					""
-				"font"						"Font14"
+				"labeltext"					")"		// Multiple cogs, ( is for one
+				"font"						"IconFont18"
 				"textAlignment"				"center"
 				"dulltext"					"0"
 				"brighttext"				"0"
@@ -423,8 +423,8 @@
 
 				"paintbackground"			"0"
 			
-				"image_drawcolor"			"10 15 20 255"
-				"image_armedcolor"			"20 25 30 255"
+				"defaultFgColor_override"	"10 15 20 255"
+				"armedFgColor_override"		"20 25 30 255"
 				"SubImage"
 				{
 					"ControlName"			"ImagePanel"
@@ -434,8 +434,8 @@
 					"zpos"					"1"
 					"wide"					"14"
 					"tall"					"14"
-					"visible"				"1"
-					"enabled"				"1"
+					"visible"				"0"
+					"enabled"				"0"
 					"image"					"glyph_options"
 					"scaleImage"			"1"
 				}				
@@ -445,18 +445,18 @@
 			{
 				"ControlName"				"CExImageButton"
 				"fieldName"					"CloseButton"
-				"xpos"						"rs1-6"
-				"ypos"						"11"
+				"xpos"						"rs1-10"
+				"ypos"						"10"
 				"zpos"						"10"
-				"wide"						"14"
-				"tall"						"14"
+				"wide"						"20"
+				"tall"						"16"
 				"autoResize"				"0"
 				"pinCorner"					"0"
 				"visible"					"1"
 				"enabled"					"1"
 				"tabPosition"				"0"
-				"labeltext"					""
-				"font"						"Font14"
+				"labeltext"					"1"		// X button
+				"font"						"IconFont18"
 				"textAlignment"				"center"
 				"dulltext"					"0"
 				"brighttext"				"0"
@@ -469,8 +469,8 @@
 			
 				"paintbackground"			"0"
 			
-				"image_drawcolor"			"10 15 20 255"
-				"image_armedcolor"			"20 25 30 255"
+				"defaultFgColor_override""10 15 20 255"
+				"armedFgColor_override"	"20 25 30 255"
 				"SubImage"
 				{
 					"ControlName"			"ImagePanel"
@@ -480,8 +480,8 @@
 					"zpos"					"1"
 					"wide"					"14"
 					"tall"					"14"
-					"visible"				"1"
-					"enabled"				"1"
+					"visible"				"0"
+					"enabled"				"0"
 					"image"					"close_button"
 					"scaleImage"			"1"
 				}				

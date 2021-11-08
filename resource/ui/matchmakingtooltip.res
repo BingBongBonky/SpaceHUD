@@ -11,7 +11,7 @@
 		"tall"						"100"
 		"visible"					"0"
 		"PaintBackgroundType"		"2"
-		"border"					"MainMenuBGBorder"
+		"bgcolor_override"			"MenuLighter"
 		"mouseinputenabled"			"0"
 		
 		"TipLabel"
@@ -22,17 +22,17 @@
 
 			if_small
 			{
-				"font"				"Font12"
+				"font"				"Font8"
 			}			
 
 			if_medium			
 			{			
-				"font"				"Font14"
+				"font"				"Font10"
 			}			
 
 			if_large			
 			{			
-				"font"				"Font18"
+				"font"				"Font12"
 			}
 
 			"labelText"				"%tiptext%"

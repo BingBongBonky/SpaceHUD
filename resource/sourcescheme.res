@@ -92,7 +92,7 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
 		
 		MainMenu.TextColor			"TanLight"
-		MainMenu.ArmedTextColor		"117 107 94 255"
+		MainMenu.ArmedTextColor		"117 117 117 255"
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"

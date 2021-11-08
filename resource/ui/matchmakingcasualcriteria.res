@@ -78,28 +78,16 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 			"actionsignallevel"				"2"
 			"proportionaltoparent"			"1"
-			"image_drawcolor"				"255 255 255 255"
-			"image_armedcolor"				"255 255 255 255"
+
+			"paintBackground"				"0"
+
+			"defaultFgcolor_override"		"TransparentWhite"
+			"armedFgcolor_override"			"White"
 
 			"border_default"				"NoBorder"
-
-			"SubImage"		
-			{		
-				"ControlName"				"ImagePanel"
-				"fieldName"					"SubImage"
-				"xpos"						"2"
-				"ypos"						"2"
-				"zpos"						"1"
-				"wide"						"11"
-				"tall"						"11"
-				"visible"					"0"
-				"enabled"					"0"
-				"image"						"button_load"
-				"scaleImage"				"1"
-			}		
 		}		
 
-		"SaveCasualSearchCriteria"				// Save current settings
+		"SaveCasualSearchCriteria"			// Save current settings
 		{		
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SaveCasualSearchCriteria"
@@ -125,25 +113,13 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 			"actionsignallevel"				"2"
 			"proportionaltoparent"			"1"
-			"image_drawcolor"				"255 255 255 255"
-			"image_armedcolor"				"255 255 255 255"
 
-			"border_default"				"NoBorder"
+			"paintBackground"				"0"
 
-			"SubImage"		
-			{		
-				"ControlName"				"ImagePanel"
-				"fieldName"					"SubImage"
-				"xpos"						"2"
-				"ypos"						"2"
-				"zpos"						"1"
-				"wide"						"11"
-				"tall"						"11"
-				"visible"					"0"
-				"enabled"					"0"
-				"image"						"button_save"
-				"scaleImage"				"1"
-			}		
+			"defaultFgcolor_override"		"TransparentWhite"
+			"armedFgcolor_override"			"White"
+
+			"border_default"				"NoBorder"	
 		}		
 
 		"ShowExplanationsButton"		
@@ -174,9 +150,14 @@
 			"proportionaltoparent"			"1"
 
 			"border_default"				"NoBorder"
+
+			"paintBackground"				"0"
+
+			"defaultFgcolor_override"		"TransparentWhite"
+			"armedFgcolor_override"			"White"
 		}		
 
-		"Title"		
+		"Title"		// Not actual title
 		{		
 			"ControlName"					"Label"
 			"fieldName"						"Title"
@@ -189,6 +170,8 @@
 			"labeltext"						"#TF_Casual_MapSelection"
 			"textAlignment"					"north-west"
 			"font"							"Font18"
+			"visible"						"0"
+			"enabled"						"0"
 
 			"mouseinputenabled"				"0"
 		}		
@@ -198,15 +181,15 @@
 			"ControlName"					"Label"
 			"fieldName"						"SelectedCount"
 			"xpos"							"9"
-			"ypos"							"48"
+			"ypos"							"45"
 			"zpos"							"0"
 			"wide"							"f0"
 			"tall"							"20"
 			"proportionaltoparent"			"1"
 			"labeltext"						"%selected_maps_count%"
 			"textAlignment"					"west"
-			"font"							"Font12"
-			"fgcolor_override"				"DarkGray"
+			"font"							"Font14"
+			"fgcolor_override"				"White"
 
 			"mouseinputenabled"				"1"
 		}		
@@ -215,20 +198,8 @@
 		{		
 			"ControlName"					"Label"
 			"fieldName"						"QueueEstimation"
-			"xpos"							"100"
-			"ypos"							"36"
-			"zpos"							"0"
-			"wide"							"f0"
-			"tall"							"20"
-			"proportionaltoparent"			"1"
-			"labeltext"						"#TF_Casual_QueueEstimation"
-			"textAlignment"					"east"
-			"font"							"Font14"
-			"fgcolor_override"				"White"
-			"textinsetx"					"5"
 			"visible"						"0"
-
-			"mouseinputenabled"				"0"
+			"enabled"						"0"
 		}		
 
 		"PlayListDropShadow"		
@@ -259,7 +230,7 @@
 			"proportionaltoparent"			"1"
 			"restrict_width"				"0"
 			
-			"border"						"MainMenuBGBorder"
+			"border"						"NoBorder"
 
 			"ScrollBar"		
 			{		

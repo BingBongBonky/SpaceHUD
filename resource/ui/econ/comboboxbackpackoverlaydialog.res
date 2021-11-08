@@ -46,7 +46,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"bgcolor_override"					"Blank"
-		"noitem_textcolor"					"117 107 94 255"
+		"noitem_textcolor"					"117 117 117 255"
 		"PaintBackgroundType"				"2"
 		"paintborder"						"1"
 		"model_xpos"						"2"

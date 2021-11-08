@@ -151,7 +151,7 @@
 				"tall"						"p1"
 				"visible"					"0"
 				"bgcolor_override"			"Blank"
-				"noitem_textcolor"			"117 107 94 255"
+				"noitem_textcolor"			"117 117 117 255"
 				"PaintBackgroundType"		"2"
 				"paintborder"				"0"
 				"model_center_x"			"1"
@@ -427,7 +427,7 @@
 			"tall"							"p0.5"
 			"visible"						"1"
 			"bgcolor_override"				"Blank"
-			"noitem_textcolor"				"117 107 94 255"
+			"noitem_textcolor"				"117 117 117 255"
 			"PaintBackgroundType"			"2"
 			"paintborder"					"0"
 			"mouseinputenabled"				"0"
@@ -475,7 +475,7 @@
 			"tall"							"p0.5"
 			"visible"						"1"
 			"bgcolor_override"				"Blank"
-			"noitem_textcolor"				"117 107 94 255"
+			"noitem_textcolor"				"117 117 117 255"
 			"PaintBackgroundType"			"2"
 			"paintborder"					"0"
 			"actionsignallevel"				"4"
@@ -1204,7 +1204,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1379,7 +1379,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1557,7 +1557,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1734,7 +1734,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{

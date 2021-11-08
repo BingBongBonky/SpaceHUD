@@ -145,12 +145,12 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"117 117 117 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
 			"disabledBgColor_override" "251 235 202 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "117 107 94 255"
+			"selectionTextColor_override" "117 117 117 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
 	}
@@ -205,12 +205,12 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"117 117 117 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
 			"disabledBgColor_override" "251 235 202 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "117 107 94 255"
+			"selectionTextColor_override" "117 117 117 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
 		"NoItemsToReplaceLabel"
@@ -279,7 +279,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"117 117 117 255"
 		}
 		"HideBodygroupCheckBox0"
 		{
@@ -299,7 +299,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"117 117 117 255"
 		}
 		"HideBodygroupCheckBox1"
 		{
@@ -319,7 +319,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"117 117 117 255"
 		}
 		"HideBodygroupCheckBox2"
 		{
@@ -339,7 +339,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"117 117 117 255"
 		}
 		"HideBodygroupCheckBox3"
 		{
@@ -359,7 +359,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"117 117 117 255"
 		}
 		"HideBodygroupCheckBox4"
 		{
@@ -379,7 +379,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"117 117 117 255"
 		}
 		"HideBodygroupCheckBox5"
 		{
@@ -399,7 +399,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"117 117 117 255"
 		}
 		"HideBodygroupCheckBox6"
 		{
@@ -419,7 +419,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"117 117 117 255"
 		}
 		"HideBodygroupCheckBox7"
 		{
@@ -439,7 +439,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"117 117 117 255"
 		}
 	}
 	
@@ -492,12 +492,12 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"117 117 117 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
 			"disabledBgColor_override" "251 235 202 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "117 107 94 255"
+			"selectionTextColor_override" "117 117 117 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
 
@@ -539,12 +539,12 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"117 117 117 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
 			"disabledBgColor_override" "251 235 202 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "117 107 94 255"
+			"selectionTextColor_override" "117 117 117 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
 	}

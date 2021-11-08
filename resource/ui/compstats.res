@@ -133,7 +133,7 @@
 				"ypos"							"25"
 				"zpos"							"10"
 				"wide"							"p0.95"
-				"tall"							"20"
+				"tall"							"18"
 				"visible"						"1"
 				"proportionaltoparent"			"1"
 
@@ -192,7 +192,7 @@
 					"textAlignment"				"west"
 					"textinsetx"				"15"
 
-					"defaultFgColor_override" 	"DarkGray"
+					"defaultFgColor_override" 	"TransparentWhite"
 					"armedFgColor_override"		"White"
 					"selectedFgColor_override" 	"White"
 
@@ -226,7 +226,7 @@
 					"textAlignment"				"west"
 					"textinsetx"				"15"
 
-					"defaultFgColor_override" 	"DarkGray"
+					"defaultFgColor_override" 	"TransparentWhite"
 					"armedFgColor_override"		"White"
 					"selectedFgColor_override" 	"White"
 
@@ -260,7 +260,7 @@
 					"textAlignment"				"west"
 					"textinsetx"				"15"
 
-					"defaultFgColor_override" 	"DarkGray"
+					"defaultFgColor_override" 	"TransparentWhite"
 					"armedFgColor_override"		"White"
 					"selectedFgColor_override" 	"White"
 
@@ -293,7 +293,7 @@
 					"fgcolor_override"			"White"
 					"textAlignment"				"west"
 
-					"defaultFgColor_override" 	"DarkGray"
+					"defaultFgColor_override" 	"TransparentWhite"
 					"armedFgColor_override"		"White"
 					"selectedFgColor_override" 	"White"
 

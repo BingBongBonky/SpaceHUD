@@ -71,7 +71,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"117 117 117 255"
 			"centerwrap"	"1"
 		}
 	}

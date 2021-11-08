@@ -100,7 +100,7 @@
 			"brighttext"			"0"
 			"font"					"Font10"
 			"wrap"					"1"
-			"fgcolor_override"		"128 128 128 255"
+			"fgcolor_override"		"DarkGray"
 		}
 		
 		"Issue"
@@ -108,7 +108,7 @@
 			"ControlName"			"Label"
 			"fieldName"				"Issue"
 			"xpos"					"10"
-			"ypos"					"22"
+			"ypos"					"25"
 			"wide"					"120"
 			"tall"					"40"
 			"visible"				"1"
@@ -138,7 +138,6 @@
 			"color_outline"			"76 76 76 255"
 		}
 		
-		// divider
 		"Divider"
 		{
 			"ControlName"			"ImagePanel"
@@ -170,7 +169,7 @@
 			"textAlignment"			"left"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
+			"font"					"Font10"
 			"fgcolor_override"		"255 255 255 255"
 		}
 		
@@ -202,7 +201,7 @@
 			"textAlignment"			"center"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardSmall"
+			"font"					"Font10"
 			"fgcolor_override"		"255 255 255 255"
 		}
 		
@@ -221,7 +220,7 @@
 			"textAlignment"			"left"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
+			"font"					"Font10"
 			"fgcolor_override"		"255 255 255 255"
 		}
 		
@@ -253,7 +252,7 @@
 			"textAlignment"			"center"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardSmall"
+			"font"					"Font10"
 			"fgcolor_override"		"255 255 255 255"
 		}
 		
@@ -272,7 +271,7 @@
 			"textAlignment"			"left"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
+			"font"					"Font10"
 			"fgcolor_override"		"255 255 255 255"
 		}
 		
@@ -304,7 +303,7 @@
 			"textAlignment"			"left"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
+			"font"					"Font10"
 			"fgcolor_override"		"255 255 255 255"
 		}
 		
@@ -336,7 +335,7 @@
 			"textAlignment"			"left"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
+			"font"					"Font10"
 			"fgcolor_override"		"255 255 255 255"
 		}
 		
@@ -382,8 +381,8 @@
 			"textAlignment"			"north-west"
 			"dulltext"				"0"
 			"brighttext"			"0"
-			"font"					"ScoreboardVerySmall"
-			"fgcolor_override"		"128 128 128 255"
+			"font"					"Font10"
+			"fgcolor_override"		"White"
 		}
 		
 		// vote bar
@@ -417,7 +416,7 @@
 		"tall"						"67"
 		"visible"					"0"
 		"enabled"					"1"
-		"bgcolor_override"			"TransparentLightBlack"
+		"bgcolor_override"			"TransparentBlack"
 		"PaintBackground"			"1"
 		"paintborder"				"0"
 		"paintbackgroundtype"		"2"
@@ -427,9 +426,9 @@
 			"ControlName"			"ImagePanel"
 			"fieldName"				"FailedIcon"
 			"xpos"					"10"
-			"ypos"					"10"
-			"wide"					"17"
-			"tall"					"17"
+			"ypos"					"11"
+			"wide"					"13"
+			"tall"					"13"
 			"visible"				"1"
 			"enabled"				"1"
 			"scaleImage"			"1"
@@ -440,10 +439,10 @@
 		{
 			"ControlName"			"Label"
 			"fieldName"				"FailedTitle"
-			"xpos"					"32"
+			"xpos"					"28"
 			"ypos"					"10"
 			"wide"					"80"
-			"tall"					"17"
+			"tall"					"16"
 			"visible"				"1"
 			"enabled"				"1"
 			"labelText"				"#GameUI_vote_failed"
@@ -461,7 +460,7 @@
 			"fieldName"				"FailedReason"
 			"xpos"					"10"
 			"ypos"					"29"
-			"wide"					"140"
+			"wide"					"130"
 			"tall"					"40"
 			"visible"				"1"
 			"enabled"				"1"
@@ -496,9 +495,9 @@
 			"ControlName"			"ImagePanel"
 			"fieldName"				"FailedIcon"
 			"xpos"					"10"
-			"ypos"					"10"
-			"wide"					"17"
-			"tall"					"17"
+			"ypos"					"11"
+			"wide"					"13"
+			"tall"					"13"
 			"visible"				"1"
 			"enabled"				"1"
 			"scaleImage"			"1"
@@ -509,7 +508,7 @@
 		{		
 			"ControlName"			"Label"
 			"fieldName"				"FailedTitle"
-			"xpos"					"32"
+			"xpos"					"28"
 			"ypos"					"10"
 			"wide"					"98"
 			"tall"					"17"
@@ -558,9 +557,13 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"settitlebarvisible"		"0"
+
 		"border"					"MainMenuBGBorder"
-		"PaintBackground"			"0"
-		"paintborder"				"1"
+		"bgcolor_override"			"MenuDarker"
+
+		"PaintBackground"			"1"
+		"Paintbackgroundtype"		"0"
+		"paintborder"				"0"
 
 		"header_font"				"Font14"
 		"header_fgcolor"			"White"
@@ -571,6 +574,23 @@
 		"issue_fgcolor_disabled"	"DarkGray"
 		
 		"parameter_width"			"200"
+
+		"Shader"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"Shader"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"-9999"
+			"wide"					"f0"
+			"tall"					"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"proportionaltoparent"	"1"
+			"bgcolor_override"		"0 0 0 100"
+		}
 
 		"TitleLabel"
 		{

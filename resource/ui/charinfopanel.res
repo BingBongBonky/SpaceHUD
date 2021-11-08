@@ -50,7 +50,7 @@
 		"ControlName"						"EditablePanel"
 		"fieldName"							"BackgroundFooter"
 		"xpos"								"0"
-		"ypos"								"420"
+		"ypos"								"421"
 		"zpos"								"10"
 		"wide"								"f0"
 		"tall"								"100"

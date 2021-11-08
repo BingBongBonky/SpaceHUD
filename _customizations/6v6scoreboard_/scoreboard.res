@@ -18,8 +18,13 @@
 	}
 	"MainBG"
 	{
-		"ypos"						"100"
-		"tall"						"230"
+		"visible"					"0"
+		"enabled"					"1"
+
+		if_mvm		
+		{		
+			"visible"				"1"
+		}
 	}							
 	"BlueTeamLabel"
 	{

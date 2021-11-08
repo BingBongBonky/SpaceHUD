@@ -160,7 +160,7 @@
 			"tall"					"44"
 			"visible"				"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"117 107 94 255"
+			"bgcolor_override"		"117 117 117 255"
 		}	
 
 		"RedTeamLabel"
@@ -263,7 +263,7 @@
 			"tall"					"44"
 			"visible"				"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"117 107 94 255"
+			"bgcolor_override"		"117 117 117 255"
 		}
 	}
 
@@ -550,7 +550,7 @@
 		"ControlName"				"CAvatarImagePanel"
 		"fieldName"					"Player1Avatar"
 		"xpos"						"-27"
-		"ypos"						"3"
+		"ypos"						"-5"
 		"zpos"						"3"
 		"wide"						"14"
 		"tall"						"14"
@@ -579,7 +579,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"west"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -602,7 +602,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"west"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -625,7 +625,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"east"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -656,7 +656,7 @@
 		"ControlName"				"CAvatarImagePanel"
 		"fieldName"					"Player2Avatar"
 		"xpos"						"-27"
-		"ypos"						"0"
+		"ypos"						"-5"
 		"zpos"						"3"
 		"wide"						"14"
 		"tall"						"14"
@@ -685,7 +685,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"west"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -708,7 +708,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"west"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -731,7 +731,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"east"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -762,7 +762,7 @@
 		"ControlName"				"CAvatarImagePanel"
 		"fieldName"					"Player3Avatar"
 		"xpos"						"-27"
-		"ypos"						"0"
+		"ypos"						"-5"
 		"zpos"						"3"
 		"wide"						"14"
 		"tall"						"14"
@@ -791,7 +791,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"west"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -814,7 +814,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"west"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -837,7 +837,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"east"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -923,7 +923,7 @@
 		"ControlName"				"CAvatarImagePanel"
 		"fieldName"					"KillStreakPlayer1Avatar"
 		"xpos"						"-27"
-		"ypos"						"0"
+		"ypos"						"-5"
 		"zpos"						"3"
 		"wide"						"14"
 		"tall"						"14"
@@ -952,7 +952,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"west"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -975,7 +975,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"west"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 
@@ -998,7 +998,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"east"
-		"font"						"Font12"
+		"font"						"Font10"
 		"dulltext"					"0"
 		"brighttext"				"0"
 

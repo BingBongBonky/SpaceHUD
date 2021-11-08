@@ -22,11 +22,13 @@ Scheme
 		"BlueLabel"							            "78 126 178 255"
             
 		"HighlightColor"					            "20 60 100 255"
+
+		// Default
             
 		"AchievementOrange"					            "244 114 44 255"
             
 		"White"								            "255 255 255 255"
-		"TransparentWhite"								"255 255 255 100"
+		"TransparentWhite"								"255 255 255 50"
 		"Red"								            "192 28 0 140"
 		"RedSolid"							            "192 28 0 255"
 		"Blue"								            "45 121 221 140"
@@ -139,7 +141,7 @@ Scheme
 
 		"HTMLBackground"						        "95 92 101 255"
 		
-		"ItemAttribLevel"						        "117 107 94 255"
+		"ItemAttribLevel"						        "117 117 117 255"
 		"ItemAttribNeutral"						        "255 255 255 255"
 		"ItemAttribPositive"					        "153 204 255 255"
 		"ItemAttribNegative"					        "255 64 64 255"
@@ -150,25 +152,25 @@ Scheme
 		"ItemIsotope"							        "225 255 15 255"
 		"ItemBundleItem"						        "149 175 12 255"
 		"ItemLimitedUse"						        "0 160 0 255"
-		"ItemFlags"								        "117 107 94 255"
+		"ItemFlags"								        "117 117 117 255"
 		"ItemLimitedQuantity"					        "225 209 0 255"
 
-		"QualityColorNormal"					        "178 178 178 255"
-		"QualityColorrarity1"					        "77 116 85 255"
-		"QualityColorrarity2"					        "141 131 75 255"
-		"QualityColorrarity3"					        "204 204 250 255"
-		"QualityColorrarity4"					        "134 80 172 255"
-		"QualityColorVintage"					        "71 98 145 255"
-		"QualityColorUnique"					        "255 215 0 255"
-		"QualityColorCommunity"					        "112 176 74 255"
-		"QualityColorDeveloper"					        "165 15 121 255"
-		"QualityColorSelfMade"					        "112 176 74 255"
-		"QualityColorCustomized"				        "71 98 145 255"
-		"QualityColorStrange"					        "207 106 50 255"
-		"QualityColorCompleted"					        "134 80 172 255"
-		"QualityColorHaunted"					        "56 243 171 255"
-		"QualityColorCollectors"				        "170 0 0 255"
-		"QualityColorPaintkitWeapon"			        "250 250 250 255"
+		"QualityColorNormal"					        "178 178 178 255"	// Stock
+		"QualityColorrarity1"					        "77 116 85 255"		// Genuine
+		"QualityColorrarity2"					        "141 131 75 255"	// ?
+		"QualityColorrarity3"					        "204 204 250 255"	// ?
+		"QualityColorrarity4"					        "134 80 172 255"	// Unusual
+		"QualityColorVintage"					        "71 98 145 255"		// Vintage
+		"QualityColorUnique"					        "255 215 0 255"		// Unique
+		"QualityColorCommunity"					        "112 176 74 255"	// Community
+		"QualityColorDeveloper"					        "165 15 121 255"	// Developer. GG
+		"QualityColorSelfMade"					        "112 176 74 255"	// Self-Made
+		"QualityColorCustomized"				        "71 98 145 255"		// Customized?
+		"QualityColorStrange"					        "207 106 50 255"	// Strange
+		"QualityColorCompleted"					        "134 80 172 255"	// Completed?
+		"QualityColorHaunted"					        "56 243 171 255"	// Haunted
+		"QualityColorCollectors"				        "170 0 0 255"		// Collectors
+		"QualityColorPaintkitWeapon"			        "250 250 250 255"	// Decorated
 
 		"ItemRarityDefault"						        "131 126 119 255"	// Stock?
 		"ItemRarityCommon"						        "176 195 217 255"	// Civilian

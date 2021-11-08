@@ -20,7 +20,7 @@
 		"tall"						"f0"
 
 		"proportionaltoparent"		"1"
-		"border"					"MainMenuBGBorder"
+		"bgcolor_override"			"0 0 0 100"
 	}
 
 	"Checkbutton"

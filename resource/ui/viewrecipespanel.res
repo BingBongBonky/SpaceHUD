@@ -37,7 +37,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"enabled"		"1"
-			"defaultFgColor_override" "117 107 94 255"
+			"defaultFgColor_override" "117 117 117 255"
 			"defaultBgColor_override" "0 0 0 0"
 			"armedFgColor_override" "235 226 202 255"
 			"armedBgColor_override" "0 0 0 0"
@@ -158,7 +158,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -182,7 +182,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"117 117 117 255"
 			"centerwrap"	"1"
 		}
 	}

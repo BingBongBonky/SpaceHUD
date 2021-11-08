@@ -57,7 +57,7 @@
 			"tall"			"42"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"117 117 117 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -156,7 +156,7 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"117 107 94 255"
+		"bgcolor_override"	"117 117 117 255"
 
 		"AvatarImage"
 		{
@@ -210,7 +210,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 	}
 	
 	"Label2Title"
@@ -248,7 +248,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 	}
 	"Label2ExplanationFreeTrial"
 	{
@@ -346,7 +346,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 	}
 	
 	"Label3Title"
@@ -384,7 +384,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 	}
 	"Label3ExplanationFreeTrial"
 	{
@@ -417,7 +417,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "117 107 94 255"
+		"bgcolor_override" "117 117 117 255"
 		
 		"TheirReadyImageBGCenter"
 		{
@@ -466,7 +466,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 	}
 	
 	"Label4Title"
@@ -504,7 +504,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 	}
 	"Label4Yours"
 	{
@@ -522,7 +522,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 	}
 	"Label4Theirs"
 	{
@@ -540,7 +540,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 	}
 	
 	"mouseoveritempanel"
@@ -554,7 +554,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -578,7 +578,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"117 117 117 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -595,7 +595,7 @@
 		"tall"			"42"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		

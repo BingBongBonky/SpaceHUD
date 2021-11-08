@@ -23,7 +23,7 @@
 			"tall"			"42"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"117 117 117 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -59,7 +59,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -83,7 +83,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"117 117 117 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -120,7 +120,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"model_xpos"	"2"
@@ -236,7 +236,7 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"117 117 117 255"
 		"bgcolor_override"	"251 235 202 255"
 		"paintbackgroundtype" "2"
 		"tabPosition"	"0"

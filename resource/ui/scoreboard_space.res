@@ -69,7 +69,7 @@
 		"tall"						"0"
 		"visible"					"0"
 		"PaintBackgroundType"		"2"
-		"bgcolor_override"			"117 107 94 255"
+		"bgcolor_override"			"117 117 117 255"
 	}
 	"RedScoreBG"
 	{
@@ -116,7 +116,7 @@
 		"tall"						"49"
 		"visible"					"0"
 		"PaintBackgroundType"		"2"
-		"bgcolor_override"			"117 107 94 255"
+		"bgcolor_override"			"117 117 117 255"
 	}
 	"MainBG"
 	{
@@ -126,7 +126,7 @@
 		"ypos"						"38"
 		"zpos"						"-1"
 		"wide"						"640"
-		"tall"						"343"
+		"tall"						"343"	// Needs to be changed in nostatsonboard.res if you have it enabled
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -135,10 +135,10 @@
 
 		if_mvm		
 		{		
-			"xpos"					"20"
-			"ypos"					"20"
-			"wide"					"600"
-			"tall"					"370"
+			"xpos"					"25"
+			"ypos"					"30"
+			"wide"					"590"
+			"tall"					"355"
 		}
 	}							
 	"BlueTeamLabel"
@@ -412,11 +412,11 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"ServerTimeLeftValue"
-		"font"						"Font14"
+		"font"						"Font12"
 		"labelText"					"%servertime%"
 		"textAlignment"				"center"
 		"xpos"						"cs-0.5"
-		"ypos"						"10"
+		"ypos"						"15"
 		"zpos"						"2"
 		"wide"						"130"
 		"tall"						"20"

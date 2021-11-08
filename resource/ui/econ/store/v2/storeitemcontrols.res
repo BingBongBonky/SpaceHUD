@@ -43,7 +43,7 @@
 		"ArmedBgColor_override"	"86 117 44 255"
 		"depressedBgColor_override" "66 97 24 255"
 		
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"117 117 117 255"
 		"image_armedcolor"	"200 80 60 255"
 		"image_depressedcolor"	"255 80 60 255"
 		

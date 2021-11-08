@@ -37,7 +37,7 @@
 			"tall"			"49"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"117 117 117 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			
@@ -252,7 +252,7 @@
 		"tall"			"180"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		

@@ -232,7 +232,7 @@
 		{
 			"ControlName"				"ImagePanel"
 			"fieldName"					"SubImage"
-			"xpos"						"233"
+			"xpos"						"170"
 			"ypos"						"2"
 			"zpos"						"1"
 			"wide"						"15"

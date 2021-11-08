@@ -126,7 +126,7 @@
 	{
 		"ControlName"				"CExButton"
 		"fieldName"					"ReturnButton"
-		"xpos"						"3"
+		"xpos"						"-3"
 		"labelText"					"6"
 
 		if_left
@@ -160,10 +160,25 @@
 		"ypos"						"0"
 		"zpos"						"1"
 		"wide"						"f0"
-		"tall"						"f-20"
+		"tall"						"f0"
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 
-		"bgcolor_override"			"MenuDefault"
+		"bgcolor_override"			"MenuBlack"
+	}
+
+	"HighlightBar"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"HighlightBar"
+		"xpos"						"0"
+		"ypos"						"419"
+		"zpos"						"500"
+		"wide"						"f0"
+		"tall"						"3"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+
+		"bgcolor_override"			"HighlightColor"
 	}
 }

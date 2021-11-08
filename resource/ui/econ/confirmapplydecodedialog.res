@@ -26,7 +26,7 @@
 		"tall"								"300"
 		"visible"							"0"
 		"bgcolor_override"					"Blank"
-		"noitem_textcolor"					"117 107 94 255"
+		"noitem_textcolor"					"117 117 117 255"
 		"PaintBackgroundType"				"2"
 		"paintborder"						"1"
 		
@@ -50,7 +50,7 @@
 			"enabled"						"1"
 			"labelText"						"%attriblist%"
 			"textAlignment"					"center"
-			"fgcolor"						"117 107 94 255"
+			"fgcolor"						"117 117 117 255"
 			"centerwrap"					"1"
 		}
 	}
@@ -133,7 +133,7 @@
 		"tall"								"64"
 		"visible"							"1"
 		"bgcolor_override"					"Blank"
-		"noitem_textcolor"					"117 107 94 255"
+		"noitem_textcolor"					"117 117 117 255"
 		"PaintBackgroundType"				"2"
 		"paintborder"						"0"
 		"model_xpos"						"2"
@@ -210,7 +210,7 @@
 		"tall"								"64"
 		"visible"							"1"
 		"bgcolor_override"					"Blank"
-		"noitem_textcolor"					"117 107 94 255"
+		"noitem_textcolor"					"117 117 117 255"
 		"PaintBackgroundType"				"2"
 		"paintborder"						"0"
 		"model_xpos"						"2"

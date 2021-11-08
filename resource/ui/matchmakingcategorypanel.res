@@ -80,11 +80,11 @@
 			"stay_armed_on_click"		"1"
 
 			"border_default"			"NoBorder"
-			"defaultBgColor_override"	"255 255 255 20"
+			"defaultBgColor_override"	"TransparentWhite"
 
 			"border_armed"				"NoBorder"
-			"armedBgColor_override"		"LightOrange"
-			"selectedBGColor_override" 	"Orange"
+			"armedBgColor_override"		"HighlightColor"
+			"selectedBGColor_override" 	"HighlightColor"
 
 			"sound_armed"				"ui/item_info_mouseover.wav"
 			"sound_depressed"			"UI/buttonclick.wav"
@@ -249,7 +249,7 @@
 		"zpos"							"1"
 		"wide"							"p1.5"
 		"tall"							"1000"
-		"visible"						"1"
+		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"border"						"InnerShadowBorder"
 		"proportionaltoparent"			"1"
@@ -269,13 +269,13 @@
 		"enabled"						"1"
 		"proportionaltoparent"			"1"
 
-		"border"						"InnerShadowBorder"
+		"border"						"NoBorder"
 
 		"pinCorner"						"2"
 		"autoResize"					"1"
 
 		"skip_autoresize"				"1"
 
-		"bgcolor_override"				"MenuDarker"
+		"bgcolor_override"				"TransparentBlack"
 	}
 }

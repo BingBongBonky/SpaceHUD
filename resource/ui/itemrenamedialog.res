@@ -26,7 +26,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -50,7 +50,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"117 117 117 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -120,7 +120,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
@@ -185,7 +185,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
@@ -239,7 +239,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 		"paintbackground" "0"
 	}
 	"OldItemNameLabel"
@@ -257,7 +257,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 		"paintbackground" "0"
 	}
 
@@ -296,7 +296,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "117 117 117 255"
 		"paintbackground" "0"
 	}
 	"CustomNameEntry"

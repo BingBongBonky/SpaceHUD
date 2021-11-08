@@ -49,7 +49,7 @@
 			"tall"						"42"
 			"visible"					"0"
 			"bgcolor_override"			"0 0 0 0"
-			"noitem_textcolor"			"117 107 94 255"
+			"noitem_textcolor"			"117 117 117 255"
 			"PaintBackgroundType"		"2"
 			"paintborder"				"1"
 			
@@ -111,11 +111,11 @@
 	{
 		"ControlName"					"CExLabel"
 		"fieldName"						"ClassLabel"
-		"font"							"Font32"
+		"font"							"Font24"
 		"labelText"						"#ClassBeingEquipped"
 		"textAlignment"					"west"
 		"xpos"							"c-280"
-		"ypos"							"15"
+		"ypos"							"17"
 		"zpos"							"1"
 		"wide"							"480"
 		"tall"							"25"
@@ -163,7 +163,7 @@
 		"unicode"						"1"
 		"fgcolor_override"				"Black"
 		"bgcolor_override"				"White"
-		"paintbackgroundtype" 			"2"
+		"paintbackgroundtype" 			"0"
 		"font"							"Font14"
 	}
 	
@@ -253,7 +253,7 @@
 		"xpos"							"c-290"
 		"ypos"							"340"
 		"zpos"							"1"
-		"wide"							"200"
+		"wide"							"250"
 		"tall"							"25"
 		"autoResize"					"0"
 		"pinCorner"						"0"
@@ -330,7 +330,7 @@
 		"enabled"						"1"
 		"tabPosition"					"0"
 		"labelText"						"6"
-		"font"							"IconFont18"
+		"font"							"IconFont14"
 		"textAlignment"					"center"
 		"dulltext"						"0"
 		"brighttext"					"0"
@@ -343,7 +343,7 @@
 	{
 		"ControlName"					"CExLabel"
 		"fieldName"						"CurPageLabel"
-		"font"							"Font18"
+		"font"							"Font14"
 		"labelText"						"%backpackpage%"
 		"textAlignment"					"center"
 		"xpos"							"c220"
@@ -355,7 +355,7 @@
 		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"fgcolor_override" 				"RedLabel"
+		"fgcolor_override" 				"White"
 	}
 	
 	"NextPageButton"
@@ -373,7 +373,7 @@
 		"enabled"						"1"
 		"tabPosition"					"0"
 		"labelText"						"5"
-		"font"							"IconFont18"
+		"font"							"IconFont14"
 		"textAlignment"					"center"
 		"dulltext"						"0"
 		"brighttext"					"0"
@@ -393,7 +393,7 @@
 		"tall"							"300"
 		"visible"						"0"
 		"bgcolor_override"				"0 0 0 0"
-		"noitem_textcolor"				"117 107 94 255"
+		"noitem_textcolor"				"117 117 117 255"
 		"PaintBackgroundType"			"2"
 		"paintborder"					"1"
 		
@@ -417,7 +417,7 @@
 			"enabled"					"1"
 			"labelText"					"%attriblist%"
 			"textAlignment"				"center"
-			"fgcolor"					"117 107 94 255"
+			"fgcolor"					"117 117 117 255"
 			"centerwrap"				"1"
 		}
 	}

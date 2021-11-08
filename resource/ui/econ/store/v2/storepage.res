@@ -56,7 +56,7 @@
 			"tall"			"62"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"117 117 117 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 						
@@ -114,7 +114,7 @@
 			"tall"			"25"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"117 117 117 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			
@@ -171,7 +171,7 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"117 117 117 255"
 		"bgcolor_override"	"251 235 202 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
@@ -200,12 +200,12 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"117 117 117 255"
 		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
+		"disabledFgColor_override" "117 117 117 255"
 		"disabledBgColor_override" "251 235 202 255"
 		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
+		"selectionTextColor_override" "117 117 117 255"
 		"defaultSelectionBG2Color_override" "251 235 202 255"
 		
 		"Button"
@@ -241,12 +241,12 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"117 117 117 255"
 		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
+		"disabledFgColor_override" "117 117 117 255"
 		"disabledBgColor_override" "251 235 202 255"
 		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
+		"selectionTextColor_override" "117 117 117 255"
 		"defaultSelectionBG2Color_override" "251 235 202 255"
 		
 		"Button"
@@ -270,7 +270,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"117 117 117 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -294,7 +294,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"117 117 117 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -901,7 +901,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1076,7 +1076,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1298,7 +1298,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1520,7 +1520,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1742,7 +1742,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1964,7 +1964,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -2186,7 +2186,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -2408,7 +2408,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -2629,7 +2629,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"117 117 117 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{

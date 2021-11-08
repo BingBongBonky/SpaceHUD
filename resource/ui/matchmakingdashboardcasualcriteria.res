@@ -19,14 +19,14 @@
 		"ControlName"						"Label"
 		"fieldName"							"Title"
 		"xpos"								"8"
-		"ypos"								"20"
+		"ypos"								"10"
 		"zpos"								"99"
 		"wide"								"f0"
 		"tall"								"20"
 		"proportionaltoparent"				"1"
 		"labeltext"							"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"						"west"
-		"font"								"Font24"
+		"font"								"Font32"
 		"fgcolor_override"					"White"
 		
 		"mouseinputenabled"					"0"
@@ -66,7 +66,7 @@
 	{
 		"ControlName"						"CExButton"
 		"fieldName"							"QueueButton"
-		"xpos"								"cs-0.5"
+		"xpos"								"cs-0.5-2"
 		"ypos"								"rs1-8"
 		"zpos"								"100"
 		"wide"								"f20"
@@ -92,5 +92,20 @@
 
 		"armedBgColor_override"				"CreditsGreen"
 		"defaultBgColor_override"			"GreenSolid"
+	}
+
+	"HighlightBar"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"HighlightBar"
+		"xpos"								"0"
+		"ypos"								"409"
+		"zpos"								"500"
+		"wide"								"f0"
+		"tall"								"3"
+		"visible"							"1"
+		"proportionaltoparent"				"1"
+		
+		"bgcolor_override"					"HighlightColor"
 	}
 }

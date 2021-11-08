@@ -29,7 +29,7 @@
 			"zpos"							"-2"
 			"wide"							"f0"
 			"tall"							"f0"
-			"visible"						"1"
+			"visible"						"0"
 			"PaintBackgroundType"			"0"
 			"border"						"OuterShadowBorder"
 			"proportionaltoparent"			"1"
@@ -48,8 +48,8 @@
 			"wide"							"f5"
 			"tall"							"f5"
 			"visible"						"1"
-			"PaintBackgroundType"			"2"
-			"border"						"ReplayDefaultBorder"
+			"PaintBackgroundType"			"0"
+			"bgcolor_override"				"MenuDefault"
 			"proportionaltoparent"			"1"
 			"pinCorner"						"3"
 
@@ -58,7 +58,7 @@
 				"ControlName"				"CAutoFittingLabel"
 				"fieldName"					"DescLabel"
 				"xpos"						"0"
-				"ypos"						"7"
+				"ypos"						"4"
 				"wide"						"f0"
 				"zpos"						"100"
 				"tall"						"20"
@@ -77,7 +77,7 @@
 				"ControlName"				"Label"
 				"fieldName"					"AutoJoinLabel"
 				"xpos"						"0"
-				"ypos"						"rs1-17"
+				"ypos"						"rs1-19"
 				"wide"						"f0"
 				"zpos"						"100"
 				"tall"						"20"
@@ -230,7 +230,7 @@
 
 				"radius"					"10"
 				"velocity"					"250"
-				"fgcolor_override"			"HUDBlueTeamSolid"
+				"fgcolor_override"			"HUDRedTeamSolid"
 			}
 		}
 	}

@@ -16,7 +16,7 @@ Scheme
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
 		
-		Replay.RenderDialog.BgColor							"LighterDarkBrown"
+		Replay.RenderDialog.BgColor							"DarkGray"
 		
 		Econ.Dialog.BgColor									"MenuDefault"
 		Econ.Button.BgColor									"MenuDarker"
