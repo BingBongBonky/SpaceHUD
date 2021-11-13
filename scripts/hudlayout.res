@@ -1,3 +1,6 @@
+// MAKES IT EASIER TO TEST WINPANEL
+//"#base" "../resource/ui/winpanel.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
