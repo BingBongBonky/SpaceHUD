@@ -19,7 +19,7 @@
 		"paintbackground"			"1"
 
 		"border"					"NoBorder"
-		"bgcolor_override"			"MenuBlack"
+		"bgcolor_override"			"Econ.Dialog.BgColor"
 	}
 	
 	"TitleLabel"
@@ -38,6 +38,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		"fgcolor_override" 			"RedLabel"
 	}
 	
 	"ExplanationLabel"
@@ -57,7 +58,6 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"centerwrap"				"1"
-		"fgcolor_override" 			"RedLabel"
 	}
 		
 	"CancelButton"

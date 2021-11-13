@@ -4,7 +4,7 @@ Scheme
 	Colors
 	{
 		// Menu Colors          
-		"MenuDefault"						            "20 30 40 255"
+		"MenuDefault"						            "20 27 40 255"
 		"MenuLighter"						            "25 35 50 255"
 		"MenuDarker"						            "15 20 30 255"
 		"MenuEcon"							            "23 33 45 255"
