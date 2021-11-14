@@ -422,7 +422,7 @@
 		"sound_released"					"UI/buttonclickrelease.wav"
 	}			
 	
-	"ReloadSchemeButton"
+	"ReloadSchemeButton"	// remember vgui_cache_res_files 0
 	{
 		"ControlName"						"CExButton"
 		"fieldName"							"ReloadSchemeButton"
@@ -433,8 +433,8 @@
 		"tall"								"15"
 		"autoResize"						"0"
 		"pinCorner"							"0"
-		"visible"							"1"
-		"enabled"							"1"
+		"visible"							"0"
+		"enabled"							"0"
 		"tabPosition"						"0"
 		"labelText"							"RELOADSCHEME"
 		"font"								"Default"
