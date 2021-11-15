@@ -10,8 +10,8 @@
 		"tall"						"67"
 		"visible"					"0"
 		"enabled"					"1"
-		"bgcolor_override"			"TransparentLightBlack"
-		"paintborder"				"0"
+		"border"					"MainMenuBGBorder"
+		"paintborder"				"1"
 		"PaintBackground"			"1"
 		"paintbackgroundtype"		"2"
 				
@@ -45,7 +45,7 @@
 			"brighttext"			"0"
 			"font"					"Font12"
 			"wrap"					"1"
-			"fgcolor_override"		"255 255 255 255"
+			"fgcolor_override"		"White"
 		}
 		
 		"PassedResult"

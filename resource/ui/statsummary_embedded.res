@@ -1,5 +1,30 @@
-"Resource/UI/winpanel.res"
+"Resource/UI/winpanel.res"		// Menu stats
 {
+	"ReloadSchemeButton"
+	{
+		"ControlName"						"CExButton"
+		"fieldName"							"ReloadSchemeButton"
+		"xpos"								"c-180"
+		"ypos"								"345"
+		"zpos"								"25"
+		"wide"								"100"
+		"tall"								"15"
+		"autoResize"						"0"
+		"pinCorner"							"0"
+		"visible"							"0"
+		"enabled"							"0"
+		"tabPosition"						"0"
+		"labelText"							"RELOADSCHEME"
+		"font"								"Default"
+		"textAlignment"						"center"
+		"textinsetx"						"50"
+		"dulltext"							"0"
+		"brighttext"						"0"
+		"Command"							"reloadscheme"
+		"sound_depressed"					"UI/buttonclick.wav"
+		"sound_released"					"UI/buttonclickrelease.wav"
+	}
+
 	"TFStatsSummary"
 	{
 		"ControlName"				"EditablePanel"
@@ -87,7 +112,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"OverallRecordLabel"
-				"font"				"Font10"
+				"font"				"Font8"
 				"labelText"			"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"				"c130"
@@ -189,7 +214,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"bgcolor_override"		"MenuDefault"
+			"bgcolor_override"		"MenuBlack"
 		}
 		"AveragesLabel"
 		{
