@@ -65,7 +65,7 @@
 			"border"						"MatchmakingPlaylistBG"
 			"proportionaltoparent"			"1"
 			"paintbackground"				"0"
-		}		
+		}	
 
 		"OuterShadow"		
 		{		
@@ -89,7 +89,7 @@
 			"xpos"							"-24"
 			"ypos"							"0"
 			"zpos"							"100"
-			"wide"							"30"
+			"wide"							"o1"
 			"tall"							"24"
 			"autoResize"					"0"
 			"pinCorner"						"3"
@@ -104,7 +104,7 @@
 			"proportionaltoparent"			"1"
 			"labeltext"						"X"	// Icon for chat
 			"textinsety"					"-5"
-			"textinsetx"					"0"
+			"textinsetx"					"6"
 			"mouseinputenabled"				"1"
 			"keyboardinputenabled"			"0"
 			"actionsignallevel"				"2"
@@ -113,8 +113,8 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"			"Blank"
-			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"MenuDarker"
+			"defaultBgColor_override"		"MenuDarker"
 
 			"defaultFgColor_override" 		"TransparentWhite"
 			"armedFgColor_override" 		"White"
@@ -146,7 +146,7 @@
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot0"
 			"xpos"							"0"
-			"ypos"							"rs1-6"
+			"ypos"							"rs1-4"
 			"zpos"							"100"
 			"wide"							"o1"
 			"tall"							"24"

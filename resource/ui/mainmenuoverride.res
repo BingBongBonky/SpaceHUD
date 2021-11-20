@@ -132,7 +132,7 @@
 		"wide"									"300"
 		"tall"									"300"
 		"visible"								"0"
-		"bgcolor_override"						"0 0 0 0"
+		"bgcolor_override"						"Blank"
 		"noitem_textcolor"						"117 117 117 255"
 		"PaintBackgroundType"					"2"
 		"paintborder"							"1"
@@ -246,7 +246,7 @@
 		"sound_depressed"						""
 		"sound_released"						""
 		"border"								"NoBorder"
-	}
+	}	
 
 	"RankModelPanel"
 	{

@@ -8,7 +8,7 @@
 		"xpos"							"0"
 		"ypos"							"10"
 		"zpos"							"1001"
-		"wide"							"200"
+		"wide"							"168"
 		"tall"							"200"
 		"proportionaltoparent"			"1"
 		"keyboardinputenabled"			"1"
@@ -44,7 +44,7 @@
 		"RoundedCorners"				"0"
 		"font"							"Font10"
 		
-		"bgcolor_override"				"0 0 0 50"
+		"bgcolor_override"				"Blank"
 
 		"pinCorner"						"2"
 		"autoResize"					"1"

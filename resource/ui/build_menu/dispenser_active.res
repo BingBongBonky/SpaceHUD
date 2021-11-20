@@ -6,6 +6,11 @@
 	{	
 		"labelText"		"#TF_Object_Dispenser"
 	}
+
+	"ItemNameLabelShadow"
+	{	
+		"labelText"		"#TF_Object_Dispenser"
+	}
 	
 	"BuildingIcon"	
 	{
@@ -13,6 +18,11 @@
 	}
 	
 	"NumberLabel"
+	{	
+		"labelText"		"2"
+	}
+
+	"NumberLabelShadow"
 	{	
 		"labelText"		"2"
 	}

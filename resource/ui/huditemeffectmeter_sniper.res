@@ -1,4 +1,4 @@
-#base HudItemEffectMeter_Base1.res
+#base HudItemEffectMeter_BaseCounter.res
 
 // Sniper: The Bazaar Bargain
 

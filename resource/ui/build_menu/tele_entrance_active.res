@@ -6,6 +6,11 @@
 	{	
 		"labelText"		"#TF_Object_Tele_Entrance_360"
 	}
+
+	"ItemNameLabelShadow"
+	{	
+		"labelText"		"#TF_Object_Tele_Entrance_360"
+	}
 	
 	"BuildingIcon"	
 	{
@@ -13,6 +18,11 @@
 	}
 	
 	"NumberLabel"
+	{	
+		"labelText"		"3"
+	}
+
+	"NumberLabelShadow"
 	{	
 		"labelText"		"3"
 	}

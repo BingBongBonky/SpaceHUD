@@ -5,7 +5,11 @@
 	"ItemNameLabel"
 	{	
 		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
+	}
+
+	"ItemNameLabelShadow"
+	{	
+		"labelText"		"#TF_Object_Sentry"
 	}
 	
 	"BuildingIcon"	
@@ -14,6 +18,11 @@
 	}
 	
 	"NumberLabel"
+	{	
+		"labelText"		"1"
+	}
+
+	"NumberLabelShadow"
 	{	
 		"labelText"		"1"
 	}

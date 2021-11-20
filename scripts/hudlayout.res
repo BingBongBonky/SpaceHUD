@@ -729,208 +729,207 @@
 	
 	overview
 	{
-		"fieldname" "overview"
-		"visible"	"1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"640"
-		"tall"	"480"
+		"fieldname" 				"overview"
+		"visible"					"1"
+		"enabled" 					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"640"
+		"tall"						"480"
 	}
 	
 	VguiScreenCursor
 	{
-		"fieldName" "VguiScreenCursor"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"fieldName" 				"VguiScreenCursor"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"wide"	 					"640"
+		"tall"	 					"480"
 	}
 
 	HudControlPointIcons
 	{
-		"fieldName"				"HudControlPointIcons"
-		"xpos"					"0"
-		"ypos"					"410"
-		"wide"					"f0"
-		"tall"					"200"
-		"visible"				"1"
-		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
-		"height_offset"			"0"
-	}
-
-	HudCapturePanel
-	{
-		"fieldName"				"HudCapturePanel"
-		"xpos"					"c-75"
-		"ypos"					"c80"
-		"wide"					"150"
-		"tall"					"90"
-		"visible"				"1"
-		"enabled"				"1"
-		"icon_space"			"2"
-	}
-	
-	HUDAutoAim
-	{
+		"fieldName"					"HudControlPointIcons"
+		"xpos"						"0"
+		"ypos"						"410"
+		"wide"						"f0"
+		"tall"						"200"
+		"visible"					"1"
+		"enabled"					"1"
+		"separator_width"			"9"	// distance between the icons (including their backgrounds)
+		"separator_height"			"7"
+		"height_offset"				"0"
 	}	
-	
-	HudHDRDemo
+
+	HudCapturePanel	
+	{	
+		"fieldName"					"HudCapturePanel"
+		"xpos"						"c-75"
+		"ypos"						"c80"
+		"wide"						"150"
+		"tall"						"90"
+		"visible"					"1"
+		"enabled"					"1"
+		"icon_space"				"2"
+	}	
+
+	HUDAutoAim	
 	{
 	}
 
-	WinPanel
+	HudHDRDemo	
 	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"60"
-		"wide"					"f0"
-		"tall"					"480"
-		"zpos"					"4"
-		"proportionaltoparent"	"1"
 	}
 
-	ArenaWinPanel
-	{
-		"fieldName"				"ArenaWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
-	}
-	
-	PVEWinPanel
-	{
-		"fieldName"				"PVEWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"255"
-		"wide"					"300"
-		"tall"					"215"
-	}
+	WinPanel	
+	{	
+		"fieldName"					"WinPanel"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"60"
+		"wide"						"f0"
+		"tall"						"480"
+		"zpos"						"4"
+		"proportionaltoparent"		"1"
+	}	
 
-	StatPanel					// On the bright side
-	{
-		"fieldName"				"StatPanel"
-		"visible"				"0"
-		"enabled"				"0"
-	}
-	
-	FreezePanel
-	{
-		"fieldName"				"FreezePanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-	}
+	ArenaWinPanel	
+	{	
+		"fieldName"					"ArenaWinPanel"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"c-225"
+		"ypos"						"250"
+		"wide"						"450"
+		"tall"						"218"
+	}	
 
-	FreezePanelCallout
-	{
-		"fieldName"				"FreezePanelCallout"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"200"
-		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
+	PVEWinPanel	
+	{	
+		"fieldName"					"PVEWinPanel"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"c-150"
+		"ypos"						"255"
+		"wide"						"300"
+		"tall"						"215"
+	}	
+
+	StatPanel						// On the bright side
+	{	
+		"fieldName"					"StatPanel"
+		"visible"					"0"
+		"enabled"					"0"
+	}	
+
+	FreezePanel	
+	{	
+		"fieldName"					"FreezePanel"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"480"
+	}	
+
+	FreezePanelCallout	
+	{	
+		"fieldName"					"FreezePanelCallout"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"200"
+		"ypos"						"200"
+		"wide"						"100"
+		"tall"						"50"
 	}
 
 	AnnotationsPanelCallout
 	{
-		"fieldName"			"AnnotationsPanelCallout"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"200"
-		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
-	}
-	
-	AnnotationsPanel
-	{
-		
-	}
+		"fieldName"					"AnnotationsPanelCallout"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"200"
+		"ypos"						"200"
+		"wide"						"100"
+		"tall"						"50"
+	}	
 
-	WaitingForPlayersPanel
-	{
-		"fieldName"				"WaitingForPlayersPanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-146"
-		"ypos"					"10"
-		"wide"					"292"
-		"tall"					"64"
-	}
-	
-	"HudUpgradePanel"
-	{
-		"fieldName"		"HudUpgradePanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"c-200"
-		"ypos"			"260"
-		"wide"			"400"
-		"tall"			"160"		
-	}
+	AnnotationsPanel	
+	{	
 
-	"HudChat"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"HudChat"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
-		"ypos"			"275"
-		"wide"	 		"320"
-		"tall"	 		"120"
-		"PaintBackgroundType"	"2"
-	}
-	
-	"HudMenuEngyBuild"
-	{
-		"fieldName" 	"HudMenuEngyBuild"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"HudMenuEngyDestroy"
-	{
-		"fieldName" 	"HudMenuEngyDestroy"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
-		"PaintBackgroundType"	"0"
+	}	
+
+	WaitingForPlayersPanel	
+	{	
+		"fieldName"					"WaitingForPlayersPanel"
+		"visible"					"0"
+		"enabled"					"1"
+		"xpos"						"c-146"
+		"ypos"						"10"
+		"wide"						"292"
+		"tall"						"64"
+	}	
+
+	"HudUpgradePanel"	
+	{	
+		"fieldName"					"HudUpgradePanel"
+		"visible"					"0"
+		"enable"					"1"
+		"xpos"						"c-200"
+		"ypos"						"260"
+		"wide"						"400"
+		"tall"						"160"		
+	}	
+
+	"HudChat"	
+	{	
+		"ControlName"				"EditablePanel"
+		"fieldName" 				"HudChat"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"						"10"
+		"ypos"						"275"
+		"wide"	 					"320"
+		"tall"	 					"120"
+		"PaintBackgroundType"		"2"
+	}	
+
+	"HudMenuEngyBuild"	
+	{	
+		"fieldName" 				"HudMenuEngyBuild"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"						"c-210"
+		"ypos"						"c-50"
+		"wide"						"420"
+		"tall"						"125"
+		"PaintBackgroundType"		"0"
+	}	
+
+	"HudMenuEngyDestroy"	
+	{	
+		"fieldName" 				"HudMenuEngyDestroy"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"						"c-225"
+		"ypos"						"c-59"
+		"wide"						"450"
+		"tall"						"200"
+		"PaintBackgroundType"		"0"
 	}
 
 	"HudEurekaEffectTeleportMenu"
 	{
-		"fieldName" 	"HudEurekaEffectTeleportMenu"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
-		"PaintBackgroundType"	"0"
+		"fieldName" 				"HudEurekaEffectTeleportMenu"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"						"c-125"
+		"ypos"						"c-55"
+		"wide"						"250"
+		"tall"						"195"
+		"PaintBackgroundType"		"0"
 	}
 	
 	"HudMenuSpyDisguise"
@@ -938,7 +937,7 @@
 		"fieldName" 				"HudMenuSpyDisguise"
 		"visible" 					"1"
 		"enabled" 					"1"
-		"xpos"						"c-235"
+		"xpos"						"c-230"
 		"ypos"						"c-52"
 		"wide"						"470"
 		"tall"						"200"

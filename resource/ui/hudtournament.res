@@ -59,7 +59,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"56"
 			"team2_player_base_offset_x"	"5"
 		}
 
@@ -139,7 +139,7 @@
 				"zpos"						"1"		
 				"wide"						"2"
 				"tall"						"60"
-				"visible"					"1"
+				"visible"					"0"
 				"enabled"					"1"
 				"image"						"../hud/color_panel_brown"
 				"scaleImage"				"1"
@@ -150,13 +150,19 @@
 				"src_corner_width"			"3"
 				"draw_corner_width"			"0"
 				"draw_corner_height" 		"0"
+
+				if_mvm
+				{
+					"visible"				"1"
+				}
+				
 			}
 			
 			"playername"
 			{
 				"ControlName"				"CExLabel"
 				"fieldName"					"playername"
-				"font"						"DefaultVerySmall"
+				"font"						"Font8"
 				"xpos"						"5"
 				"ypos"						"24"
 				"zpos"						"5"
@@ -175,7 +181,6 @@
 					"ypos"					"25"
 					"wide"					"60"
 					"textAlignment"			"west"
-					"font"					"Font10"
 				}
 
 				if_competitive
@@ -185,7 +190,6 @@
 					"wide"					"p0.9"
 					"tall"					"p0.22"
 					"textAlignment"			"center"
-					"font"					"PlayerPanelPlayerName"
 					"proportionaltoparent" 	"1"
 				}
 
@@ -195,7 +199,6 @@
 					"ypos"					"25"
 					"wide"					"48"
 					"textAlignment"			"center"
-					"font"					"PlayerPanelPlayerName"
 				}	
 			}	
 				
@@ -479,13 +482,13 @@
 			"xpos"							"cs-0.5"
 			"ypos"							"12"
 			"tall"							"20"
-			"visible"						"1"
+			"visible"						"0"
 		}				
 						
 		if_readymode				
 		{				
 			"xpos"							"195"
-			"visible"						"1"
+			"visible"						"0"
 		}		
 	}
 
@@ -782,10 +785,10 @@
 
 		if_readymode				
 		{				
-			"xpos"							"285"
-			"ypos"							"26"
+			"xpos"							"c-231"
+			"ypos"							"52"
 			"visible"						"1"
-			"font"							"TFFontMedium"
+			"font"							"Font12"
 		}
 	}
 
