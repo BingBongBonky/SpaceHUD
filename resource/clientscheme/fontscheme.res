@@ -707,7 +707,7 @@ Scheme
 			"1"
 			{
 				"name"					"MADE TOMMY"
-				"tall"					"14"
+				"tall"					"12"
 				"weight"				"500"
 				"additive"				"0"
 				"antialias" 			"1"
@@ -718,7 +718,7 @@ Scheme
 			"1"
 			{
 				"name"					"MADE TOMMY"
-				"tall"					"11"
+				"tall"					"12"
 				"weight"				"500"
 				"additive"				"0"
 				"antialias" 			"1"
@@ -730,7 +730,7 @@ Scheme
 			"1"
 			{
 				"name"					"MADE TOMMY"
-				"tall"					"14"
+				"tall"					"12"
 				"weight"				"500"
 				"additive"				"0"
 				"antialias" 			"1"
@@ -824,36 +824,64 @@ Scheme
 				"antialias" 			"1"
 			}
 		}
+		GameUIButtons
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"				"1"
+				"name"					"Buttons"
+				"scalex"				"0.5"
+				"scaley"				"0.5"
+			}
+		}
+		GameUIButtonsSmall
+		{
+			"1"	[$X360]
+			{
+				"bitmap"				"1"
+				"name"					"Buttons"
+				"scalex"				"0.5"
+				"scaley"				"0.5"
+			}
+		}
+		GameUIButtonsSmallest
+		{
+			"1"	[$X360]
+			{
+				"bitmap"				"1"
+				"name"					"Buttons"
+				"scalex"				"0.4"
+				"scaley"				"0.4"
+			}
+		}
 		GameUIButtonsSteamController
 		{
 			"1"
 			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
-				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
+				"bitmap"				"1"
+				"name"					"ButtonsSC"
+				"scalex"				"0.5"
+				"scaley"				"0.5"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
 		{
 			"1"
 			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.25"
-				"scaley"	"0.25"
+				"bitmap"				"1"
+				"name"					"ButtonsSC"
+				"scalex"				"0.25"
+				"scaley"				"0.25"
 			}
 		}
 		GameUIButtonsSteamControllerSmallest
 		{
 			"1"
 			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.15"
-				"scaley"	"0.15"
+				"bitmap"				"1"
+				"name"					"ButtonsSC"
+				"scalex"				"0.15"
+				"scaley"				"0.15"
 			}
 		}
 		"GameUIButtonText"
@@ -882,7 +910,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
+				"name"					"MADE TOMMY"
 				"tall"					"8"
 				"weight"				"500"
 				"additive"				"0"
@@ -930,21 +958,11 @@ Scheme
 				"tall"					"15"
 				"weight"				"700"
 				"antialias" 			"1"
-				"yres"					"1 599"
+				"yres"					"1 767"
 				"range"					"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"				"1"
 			}			
 			"2"			
-			{			
-				"name"					"MADE TOMMY"
-				"tall"					"15"
-				"weight"				"700"
-				"antialias" 			"1"
-				"yres"					"600 767"
-				"range"					"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"additive"				"1"
-			}			
-			"3"			
 			{			
 				"name"					"MADE TOMMY"
 				"tall"					"18"
@@ -953,7 +971,7 @@ Scheme
 				"yres"					"768 1023"
 				"range"					"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}			
-			"4"			
+			"3"			
 			{			
 				"name"					"MADE TOMMY"
 				"tall"					"21"
@@ -962,7 +980,7 @@ Scheme
 				"yres"					"1024 1199"
 				"range"					"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}			
-			"5"			
+			"4"			
 			{			
 				"name"					"MADE TOMMY"
 				"tall"					"24"
@@ -1041,7 +1059,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Tahoma"
+				"name"					"MADE TOMMY"
 				"tall"					"24"
 				"weight"				"500"
 				"range"					"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1051,7 +1069,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Tahoma"
+				"name"					"MADE TOMMY"
 				"tall"					"24"
 				"weight"				"500"
 				"italic"				"1"
@@ -1062,7 +1080,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Tahoma"
+				"name"					"MADE TOMMY"
 				"tall"					"24"
 				"weight"				"900"
 				"range"					"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1072,7 +1090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Tahoma"
+				"name"					"MADE TOMMY"
 				"tall"					"24"
 				"weight"				"900"
 				"italic"				"1"
@@ -1083,7 +1101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Tahoma"
+				"name"					"MADE TOMMY"
 				"tall"					"16"
 				"weight"				"900"
 				"range"					"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1148,8 +1166,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
-				"tall"					"13"
+				"name"					"MADE TOMMY"
+				"tall"					"12"
 				"weight"				"800"
 				"additive"				"0"
 				"antialias" 			"1"
@@ -1205,7 +1223,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
+				"name"					"MADE TOMMY"
 				"tall"					"8"
 				"weight"				"400"
 				"additive"				"0"
@@ -1216,7 +1234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
+				"name"					"MADE TOMMY"
 				"tall"					"10"
 				"weight"				"400"
 				"additive"				"0"
@@ -1268,6 +1286,102 @@ Scheme
 				"range"					"0x0000 0x007F"	//	Basic Latin
 				"antialias" 			"1"
 				"additive"				"0"
+			}
+		}
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"14"
+				"weight"				"500"
+				"range"					"0x0000 0x007F"	//	Basic Latin
+				"antialias" 			"1"
+				"additive"				"0"
+			}
+		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"20"
+				"weight"				"500"
+				"range"					"0x0000 0x007F"	//	Basic Latin
+				"antialias" 			"1"
+				"additive"				"0"
+			}
+		}
+		"ScoreboardTeamNameLarge"
+		{
+			"1"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"36"
+				"weight"				"500"
+				"range"					"0x0000 0x007F"	//	Basic Latin
+				"antialias" 			"1"
+				"additive"				"0"
+			}
+		}
+
+		"ScoreboardTeamScoreNew"
+ 		{
+			"1"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"36"
+				"weight"				"500"
+				"additive"				"0"
+				"antialias" 			"1"
+			}
+		}
+		"ScoreboardTeamScore"
+		{
+			"1"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"52"
+				"range" 				"0x0000 0x00FF"
+				"weight"				"400"
+				"yres"					"1 599"
+				"antialias" 			"1"
+			}
+			"2"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"72"
+				"range" 				"0x0000 0x00FF"
+				"weight"				"400"
+				"yres"					"600 767"
+				"antialias" 			"1"
+			}
+			"3"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"100"
+				"range" 				"0x0000 0x00FF"
+				"weight"				"400"
+				"yres"					"768 1023"
+				"antialias" 			"1"
+			}
+			"4"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"140"
+				"range" 				"0x0000 0x00FF"
+				"weight"				"400"
+				"yres"					"1024 1199"
+				"antialias"				"1"
+			}
+			"5"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"180"
+				"range" 				"0x0000 0x00FF"
+				"weight"				"400"
+				"yres"					"1200 10000"
+				"antialias"				"1"
 			}
 		}
 		"MatchSummaryTeamScores"
@@ -1347,6 +1461,49 @@ Scheme
 				"weight"				"400"
 				"additive"				"0"
 				"antialias" 			"1"
+			}
+		}
+		"TargetID"
+		{
+			"1"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"12"
+				"weight"				"700"
+				"yres"					"480 599"
+				"dropshadow"			"0"
+			}
+			"2"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"13"
+				"weight"				"700"
+				"yres"					"600 767"
+				"dropshadow"			"0"
+			}
+			"3"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"14"
+				"weight"				"700"
+				"yres"					"768 1023"
+				"dropshadow"			"0"
+			}
+			"4"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"20"
+				"weight"				"700"
+				"yres"					"1024 1199"
+				"dropshadow"			"0"
+			}
+			"5"
+			{
+				"name"					"MADE TOMMY"
+				"tall"					"24"
+				"weight"				"700"
+				"yres"					"1200 10000"
+				"dropshadow"			"0"
 			}
 		}
 		"ChatFont"
@@ -1440,7 +1597,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Arial Black"
+				"name"					"MADE TOMMY"
 				"tall"					"8"
 				"tall_lodef"			"12"
 				"range" 				"0x0000 0x00FF"
@@ -1489,7 +1646,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
+				"name"					"MADE TOMMY"
 				"tall"					"8"
 				"weight"				"0"
 				"additive"				"1"
@@ -1500,7 +1657,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
+				"name"					"MADE TOMMY"
 				"tall"					"9"
 				"weight"				"400"
 				"additive"				"0"
@@ -1512,7 +1669,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
+				"name"					"MADE TOMMY"
 				"tall"					"11"  [!$OSX]
 				"tall"					"9"  [$OSX]
 				"weight"				"800"
@@ -1628,7 +1785,7 @@ Scheme
 			"1"
 			{
 				"name"					"MADE TOMMY"
-				"tall"					"11"
+				"tall"					"12"
 				"weight"				"600"
 				"additive"				"0"
 				"antialias" 			"1"
@@ -1659,7 +1816,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
+				"name"					"MADE TOMMY"
 				"tall"					"10"
 				"weight"				"600"
 				"additive"				"0"
@@ -1670,7 +1827,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
+				"name"					"MADE TOMMY"
 				"tall"					"10"
 				"weight"				"500"
 				"additive"				"0"
@@ -1681,8 +1838,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
-				"tall"					"7"
+				"name"					"MADE TOMMY"
+				"tall"					"8"
 				"weight"				"400"
 				"additive"				"0"
 				"antialias" 			"1"
@@ -1826,7 +1983,7 @@ Scheme
 			"1"
 			{
 				"name"					"MADE TOMMY"
-				"tall"					"9"
+				"tall"					"10"
 				"weight"				"500"
 				"additive"				"0"
 				"antialias" 			"1"
@@ -1837,7 +1994,7 @@ Scheme
 			"1"
 			{
 				"name"					"MADE TOMMY"
-				"tall"					"9"
+				"tall"					"10"
 				"weight"				"500"
 				"blur"					"3"
 				"additive"				"1"
@@ -1848,8 +2005,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
-				"tall"					"7"
+				"name"					"MADE TOMMY"
+				"tall"					"8"
 				"weight"				"0"
 				"additive"				"1"
 				"antialias" 			"1"
@@ -1859,8 +2016,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"					"Verdana"
-				"tall"					"7"
+				"name"					"MADE TOMMY"
+				"tall"					"8"
 				"weight"				"0"
 				"additive"				"1"
 				"antialias" 			"1"
