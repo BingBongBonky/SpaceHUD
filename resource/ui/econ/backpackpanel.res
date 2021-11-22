@@ -1,5 +1,13 @@
+#base "../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/FullLoadoutPanel.res"
 {
+	"ReloadSchemeButton"
+	{
+		"xpos"								"c-220"
+		"ypos"								"345"
+	}
+
 	"backpack_panel"
 	{
 		"ControlName"						"Frame"
@@ -204,7 +212,7 @@
 	{	
 		"ControlName"						"ComboBox"
 		"fieldName"							"ShowRarityComboBox"
-		"Font"								"Font14"
+		"Font"								"Font12"
 		"wrap"								"0"
 		"xpos"								"c-85"
 		"ypos"								"37"
@@ -238,7 +246,7 @@
 		"labelText"							"#ShowBaseItemsCheckBox"
 		"Font"								"Font14"
 		"textAlignment"						"east"
-		"xpos"								"c-87"
+		"xpos"								"c-89"
 		"ypos"								"15"
 		"zpos"								"1"
 		"wide"								"200"

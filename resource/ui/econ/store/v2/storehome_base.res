@@ -1,37 +1,45 @@
+#base "../../../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/StoreHome_Base.res"
 {
-	"StorePage"
+	"ReloadSchemeButton"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"StorePage"
-		"xpos"			"0"
-		"ypos"			"40"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"xpos"								"c-180"
+		"ypos"								"345"
+	}		
+
+	"StorePage"		
+	{		
+		"ControlName"						"Frame"
+		"fieldName"							"StorePage"
+		"xpos"								"0"
+		"ypos"								"40"
+		"wide"								"f0"
+		"tall"								"480"
+		"autoResize"						"0"
+		"pinCorner"							"0"
+		"visible"							"0"
+		"enabled"							"1"
+		"tabPosition"						"0"
+		"settitlebarvisible"				"0"
+		"PaintBackgroundType"				"0"
+		"bgcolor_override"					"MenuEcon"
+		"infocus_bgcolor_override" 			"MenuEcon"
+		"outoffocus_bgcolor_override" 		"MenuEcon"
 		
-		"item_controls_xoffset"	"2"
-		"item_controls_yoffset"	"2"
+		"item_controls_xoffset"				"2"
+		"item_controls_yoffset"				"2"
+
+		"max_cart_model_panels"				"8"
 		
-		"max_cart_model_panels"	"8"
+		"item_ypos"							"40"
+		"item_mod_wide"						"40"
 		
-		"item_ypos"		"40"
-		"item_mod_wide"	"40"
-		
-		"item_panels"			"12"
-		"item_columns"			"4"
-		"item_offcenter_x"		"-230"
-		"item_xdelta"			"8"
-		"item_ydelta"			"8"
+		"item_panels"						"12"
+		"item_columns"						"4"
+		"item_offcenter_x"					"-230"
+		"item_xdelta"						"8"
+		"item_ydelta"						"8"
 		
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
@@ -44,11 +52,11 @@
 
 		"item_backdrop_zpos"				"1"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"				"51 47 46 255"
+		"item_panel_bgcolor_mouseover"		"156 146 128 255"
+		"item_panel_bgcolor_selected"		"176 166 148 255"
 		
-		"classicon_xdelta"		"5"
+		"classicon_xdelta"					"5"
 
 		"modelpanels_kv"
 		{
