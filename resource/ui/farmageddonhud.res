@@ -4,23 +4,23 @@
 {
     "CarriedContainer"
     {
-         "CarriedImage"
-         {
-             "image"				"../hud/weedkiller_icon"
-         }
+        "CarriedImage"
+        {
+            "image"				"../hud/weedkiller_icon"
+        }
     }
     "ScoreContainer"
     {
-         "ProgressBarContainer"
-         {
-             "FlagImageBlue"
-             {
-                     "image"		"../hud/weedkiller_icon"
-             }
-             "FlagImageRed"
-             {
-                     "image"		"../hud/weedkiller_icon"
-             }
-         }
+        "ProgressBarContainer"
+        {
+            "FlagImageBlue"
+            {
+                "image"		    "../hud/weedkiller_icon"
+            }
+            "FlagImageRed"
+            {
+                "image"		    "../hud/weedkiller_icon"
+            }
+        }
     }
 }

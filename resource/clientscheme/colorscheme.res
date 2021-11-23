@@ -114,7 +114,7 @@ Scheme
 		"TanLight"							            "255 255 255 255"	// Do not change unless you want to break a lot of shit
 		"TanDarker"							            "40 40 40 255"
             
-		"StoreDarkTan"						            "131 121 104 255"
+		"StoreDarkTan"						            "255 255 255 255"
 		"StoreGreen"						            "76 107 34 255"
             
 		// Building HUD Specific            
@@ -212,15 +212,15 @@ Scheme
 		"LighterDarkBrown"						        "59 54 48 255"
 		"DarkBrown"								        "41 37 38 255"
 		
-		"UpgradeDefaultFg"		                    "255 255 255 255"
-		"UpgradeDefaultBg"		                    "111 104 94 255"
-		"UpgradeArmedFg"		                    "194 96 47 255"
-		"UpgradeArmedBg"		                    "239 128 73 255"
-		"UpgradeDepressedFg"	                    "204 106 57 255"
-		"UpgradeDepressedBg"	                    "249 138 83 255"
-		"UpgradeSelectedFg"		                    "204 106 57 255"
-		"UpgradeSelectedBg"		                    "249 138 83 255"
-		"UpgradeDisabledFg"		                    "64 59 52 255"
-		"UpgradeDisabledBg"		                    "79 77 68 255"
+		"UpgradeDefaultFg"		                    	"255 255 255 255"
+		"UpgradeDefaultBg"		                    	"111 104 94 255"
+		"UpgradeArmedFg"		                    	"194 96 47 255"
+		"UpgradeArmedBg"		                    	"239 128 73 255"
+		"UpgradeDepressedFg"	                    	"204 106 57 255"
+		"UpgradeDepressedBg"	                    	"249 138 83 255"
+		"UpgradeSelectedFg"		                    	"204 106 57 255"
+		"UpgradeSelectedBg"		                    	"249 138 83 255"
+		"UpgradeDisabledFg"		                    	"64 59 52 255"
+		"UpgradeDisabledBg"		                    	"79 77 68 255"
 	}
 }
