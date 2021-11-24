@@ -10,7 +10,7 @@
 		"tall"						"67"
 		"visible"					"0"
 		"enabled"					"1"
-		"border"					"MainMenuBGBorder"
+		"bgcolor_override"			"TransparentBlack"
 		"paintborder"				"1"
 		"PaintBackground"			"1"
 		"paintbackgroundtype"		"2"
@@ -561,9 +561,9 @@
 		"border"					"MainMenuBGBorder"
 		"bgcolor_override"			"MenuDarker"
 
-		"PaintBackground"			"1"
+		"PaintBackground"			"0"
 		"Paintbackgroundtype"		"0"
-		"paintborder"				"0"
+		"paintborder"				"1"
 
 		"header_font"				"Font14"
 		"header_fgcolor"			"White"

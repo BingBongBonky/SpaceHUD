@@ -192,7 +192,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"StatData"
 		"xpos"						"0"
-		"ypos"						"0"
+		"ypos"						"-60"
 		"zpos"						"1"
 		"wide"						"f0"
 		"tall"						"480"
@@ -351,7 +351,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"bgcolor_override"		"MenuDefault"
+			"bgcolor_override"		"MenuBlack"
 		}
 		"AveragesLabel"
 		{
