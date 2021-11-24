@@ -1,13 +1,5 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/FullLoadoutPanel.res"
 {
-	"ReloadSchemeButton"
-	{
-		"xpos"								"c-220"
-		"ypos"								"345"
-	}
-
 	"backpack_panel"
 	{
 		"ControlName"						"Frame"

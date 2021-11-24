@@ -1,12 +1,5 @@
-#base "../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/statsummary_embedded.res"	// Menu stats
 {
-	"ReloadSchemeButton"
-	{
-		"xpos"						"c-180"
-		"ypos"						"345"
-	}
 
 	"TFStatsSummary"
 	{
