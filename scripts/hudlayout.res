@@ -913,10 +913,10 @@
 		"fieldName" 				"HudMenuEngyDestroy"
 		"visible" 					"1"
 		"enabled" 					"1"
-		"xpos"						"c-225"
-		"ypos"						"c-59"
-		"wide"						"450"
-		"tall"						"200"
+		"xpos"						"c-210"
+		"ypos"						"c-50"
+		"wide"						"420"
+		"tall"						"125"
 		"PaintBackgroundType"		"0"
 	}
 
