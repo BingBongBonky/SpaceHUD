@@ -4,10 +4,20 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_dispenser"
+		"labelText"		"#TF_Object_Dispenser"
+	}
+
+	"ItemNameLabelShadow"
+	{	
+		"labelText"		"#TF_Object_Dispenser"
 	}
 	
 	"NumberLabel"
+	{	
+		"labelText"		"2"
+	}
+
+	"NumberLabelShadow"
 	{	
 		"labelText"		"2"
 	}

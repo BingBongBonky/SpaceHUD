@@ -4,9 +4,14 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_Tele_Exit_360"
+		"labelText"		"#TF_Object_tele_exit_360"
 	}
-	
+
+	"ItemNameLabelShadow"
+	{	
+		"labelText"		"#TF_Object_tele_exit_360"
+	}
+
 	"BuildingIcon"	
 	{
 		"icon"			"hud_menu_tele_exit_build"
@@ -16,4 +21,8 @@
 	{	
 		"labelText"		"2"
 	}
-}
+
+	"NumberLabelShadow"
+	{	
+		"labelText"		"2"
+	}

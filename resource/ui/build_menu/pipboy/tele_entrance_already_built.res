@@ -1,14 +1,30 @@
+#base "../tele_entrance_already_built.res"
 #base "base_already_built.res"
 
 "Resource/UI/build_menu/tele_entrance_already_built.res"
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_tele_entrance_360"
+		"fgcolor"		"0 255 0 255"
+	}
+
+	"CantBuildSymbol"
+	{
+		"fgcolor"		"0 255 0 255"
+	}
+	
+	"MetalIcon"	
+	{
+		"iconColor"		"0 255 0 255"
+	}
+	
+	"CostLabel"
+	{	
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"NumberLabel"
 	{	
-		"labelText"		"3"
+		"fgcolor"		"0 255 0 255"
 	}
 }

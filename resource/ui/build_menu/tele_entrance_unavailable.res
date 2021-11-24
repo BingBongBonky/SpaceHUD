@@ -4,10 +4,20 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_tele_entrance_360"
+		"labelText"		"#TF_Object_Tele_Entrance_360"
+	}
+
+	"ItemNameLabelShadow"
+	{	
+		"labelText"		"#TF_Object_Tele_Entrance_360"
 	}
 	
 	"NumberLabel"
+	{	
+		"labelText"		"3"
+	}
+
+	"NumberLabelShadow"
 	{	
 		"labelText"		"3"
 	}

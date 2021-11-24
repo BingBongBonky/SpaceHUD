@@ -1,19 +1,30 @@
+#base "../tele_exit_active.res"
 #base "base_active.res"
 
-"Resource/UI/build_menu/tele_exit_active.res"
+"Resource/UI/build_menu/pipboy/tele_exit_active.res"
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_Tele_Exit_360"
+		"fgcolor"		"0 255 0 255"
 	}
-	
+
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_tele_exit_build"
+		"iconColor"		"0 255 0 255"
+	}
+	
+	"MetalIcon"	
+	{
+		"iconColor"		"0 255 0 255"
+	}
+	
+	"CostLabel"
+	{	
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"NumberLabel"
 	{	
-		"labelText"		"4"
+		"fgcolor"		"0 255 0 255"
 	}
 }

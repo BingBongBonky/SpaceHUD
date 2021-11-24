@@ -6,8 +6,18 @@
 	{	
 		"labelText"		"#TF_Object_tele_exit_360"
 	}
+
+	"ItemNameLabelShadow"
+	{	
+		"labelText"		"#TF_Object_tele_exit_360"
+	}
 	
 	"NumberLabel"
+	{	
+		"labelText"		"2"
+	}
+
+	"NumberLabelShadow"
 	{	
 		"labelText"		"2"
 	}

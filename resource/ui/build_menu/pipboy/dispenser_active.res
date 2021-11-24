@@ -1,19 +1,30 @@
+#base "../dispenser_active.res"
 #base "base_active.res"
 
 "Resource/UI/build_menu/dispenser_active.res"
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_Dispenser"
+		"fgcolor"		"0 255 0 255"
 	}
-	
+
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_dispenser_build"
+		"iconColor"		"0 255 0 255"
+	}
+	
+	"MetalIcon"	
+	{
+		"iconColor"		"0 255 0 255"
+	}
+	
+	"CostLabel"
+	{	
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"NumberLabel"
 	{	
-		"labelText"		"2"
+		"fgcolor"		"0 255 0 255"
 	}
 }
