@@ -257,7 +257,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"-10"
-		"ypos"						"10"
+		"ypos"						"0"
 		"wide"						"640"
 		"tall"						"480"
 		
@@ -270,7 +270,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"-10"
-		"ypos"						"10"
+		"ypos"						"0"
 		"wide"						"640"
 		"tall"						"480"
 		
@@ -925,10 +925,10 @@
 		"fieldName" 				"HudEurekaEffectTeleportMenu"
 		"visible" 					"1"
 		"enabled" 					"1"
-		"xpos"						"c-125"
-		"ypos"						"c-55"
-		"wide"						"250"
-		"tall"						"195"
+		"xpos"						"c-109"
+		"ypos"						"c-50"
+		"wide"						"218"
+		"tall"						"125"
 		"PaintBackgroundType"		"0"
 	}
 	
@@ -1088,8 +1088,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"180"
-		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
+		"wide"					"f10"
 		"tall"					"100"
 	}
 
