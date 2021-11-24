@@ -80,73 +80,33 @@
 			"PaintBackgroundType"			"2"
 			"border"						""
 			"proportionaltoparent"			"1"
-		}		
+		}
 
-		"ToggleChatButton"		
+		"PartySlotBG"		
 		{		
-			"ControlName"					"CExImageButton"
-			"fieldName"						"ToggleChatButton"
-			"xpos"							"-24"
+			"ControlName"					"EditablePanel"
+			"fieldName"						"PartySlotBG"
+			"xpos"							"0"
 			"ypos"							"0"
-			"zpos"							"100"
-			"wide"							"o1"
+			"zpos"							"90"
+			"wide"							"144"
 			"tall"							"24"
-			"autoResize"					"0"
-			"pinCorner"						"3"
 			"visible"						"1"
-			"enabled"						"1"
-			"tabPosition"					"0"
-			"font"							"IconFont18"
-			"textAlignment"					"center"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"Command"						"toggle_chat"
+			"PaintBackgroundType"			"0"
+			"bgcolor_override"				"MenuDarker"
 			"proportionaltoparent"			"1"
-			"labeltext"						"X"	// Icon for chat
-			"textinsety"					"-5"
-			"textinsetx"					"6"
-			"mouseinputenabled"				"1"
-			"keyboardinputenabled"			"0"
-			"actionsignallevel"				"2"
-			"roundedcorners"				"0"
 
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"			"MenuDarker"
-			"defaultBgColor_override"		"MenuDarker"
-
-			"defaultFgColor_override" 		"TransparentWhite"
-			"armedFgColor_override" 		"White"
-			"depressedFgColor_override"		"White"
-
-			"pin_to_sibling"         		"PartySlot5"
+			"pin_to_sibling"         		"PartySlot0"
 			"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 		"PIN_TOPLEFT"
-
-			"SubImage"
-			{
-				"ControlName"				"ImagePanel"
-				"fieldName"					"SubImage"
-				"xpos"						"cs-0.5"
-				"ypos"						"rs1-2"
-				"zpos"						"1"
-				"wide"						"20"
-				"tall"						"20"
-				"visible"					"0"
-				"enabled"					"0"
-				"scaleImage"				"1"
-				"proportionaltoparent"		"1"
-				"image"						"glyph_chat"
-			}	
-		}	
+		}			
 
 		"PartySlot0"	
 		{	
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot0"
 			"xpos"							"0"
-			"ypos"							"rs1-4"
+			"ypos"							"rs1-5"
 			"zpos"							"100"
 			"wide"							"o1"
 			"tall"							"24"
@@ -286,6 +246,65 @@
 			"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 		}		
+
+		"ToggleChatButton"		
+		{		
+			"ControlName"					"CExImageButton"
+			"fieldName"						"ToggleChatButton"
+			"xpos"							"-24"
+			"ypos"							"0"
+			"zpos"							"100"
+			"wide"							"o1"
+			"tall"							"24"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"font"							"IconFont18"
+			"textAlignment"					"center"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"Command"						"toggle_chat"
+			"proportionaltoparent"			"1"
+			"labeltext"						"X"	// Icon for chat
+			"textinsety"					"-5"
+			"textinsetx"					"6"
+			"mouseinputenabled"				"1"
+			"keyboardinputenabled"			"0"
+			"actionsignallevel"				"2"
+			"roundedcorners"				"0"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"armedBgColor_override"			"MenuDarker"
+			"defaultBgColor_override"		"MenuDarker"
+
+			"defaultFgColor_override" 		"TransparentWhite"
+			"armedFgColor_override" 		"White"
+			"depressedFgColor_override"		"White"
+
+			"pin_to_sibling"         		"PartySlot5"
+			"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+
+			"SubImage"
+			{
+				"ControlName"				"ImagePanel"
+				"fieldName"					"SubImage"
+				"xpos"						"cs-0.5"
+				"ypos"						"rs1-2"
+				"zpos"						"1"
+				"wide"						"20"
+				"tall"						"20"
+				"visible"					"0"
+				"enabled"					"0"
+				"scaleImage"				"1"
+				"proportionaltoparent"		"1"
+				"image"						"glyph_chat"
+			}	
+		}
 
 		"QueueContainer"		
 		{		
