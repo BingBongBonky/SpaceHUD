@@ -656,7 +656,7 @@
 		"visible" 					"1"
 		"enabled" 					"1"
 		"xpos" 						"r42"
-		"ypos" 						"355"
+		"ypos" 						"r82"
 		"wide" 						"32"
 		"tall" 						"32"
 	}
@@ -676,7 +676,9 @@
 		"show_friend"				"1"
 		"show_avatar"				"1"
 		"avatar_xpos"				"110"
-		"avatar_ypos"				"0"
+		"avatar_ypos"				"1"
+		"avatar_tall"				"14"
+		"avatar_wide"				"14"
 
 		"show_dead_icon"			"1"
 		"dead_xpos"					"16"

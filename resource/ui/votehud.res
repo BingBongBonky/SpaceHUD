@@ -11,7 +11,7 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"bgcolor_override"			"TransparentBlack"
-		"paintborder"				"1"
+		"paintborder"				"0"
 		"PaintBackground"			"1"
 		"paintbackgroundtype"		"2"
 				
