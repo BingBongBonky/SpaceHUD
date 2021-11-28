@@ -1097,7 +1097,7 @@
 		"tall"					"100"
 	}
 
-	CriticalPanel [$WIN32]
+	CriticalPanel
 	{
 		"fieldName"				"CriticalPanel"		
 		"visible"				"1"
@@ -1108,13 +1108,13 @@
 		"tall"					"25"
 	}
 	
-	HudArenaClassLayout [$WIN32]
+	HudArenaClassLayout
 	{
 		"fieldName"				"HudArenaClassLayout"		
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r320"
+		"ypos"					"c-160"
 		"wide"					"f0"
 		"tall"					"320"
 	}

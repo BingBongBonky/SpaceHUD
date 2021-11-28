@@ -58,7 +58,7 @@
 		"ControlName"				"Label"
 		"fieldName"					"WarningLabel"
 		"font"						"Font60"
-		"xpos"						"43"
+		"xpos"						"45"
 		"ypos"						"44"
 		"zpos"						"1"
 		"wide"						"50"
@@ -79,7 +79,7 @@
 		"fieldName"					"BalanceLabel"
 		"font"						"Font14"
 		"xpos"						"75"
-		"ypos"						"30"
+		"ypos"						"53"
 		"zpos"						"1"
 		"wide"						"230"
 		"tall"						"55"
@@ -89,7 +89,7 @@
 		"enabled"					"1"
 		"wrap"						"1"
 		"labelText"					""
-		"textAlignment"				"west"
+		"textAlignment"				"north-west"
 	}
 
 	"BalanceLabelTip"
@@ -99,8 +99,6 @@
 		"font"						"Font12"
 		"xpos"						"75"
 		"ypos"						"75"
-		"ypos_hidef"				"23"
-		"ypos_lodef"				"20"
 		"zpos"						"1"
 		"wide"						"230"
 		"tall"						"30"
@@ -112,6 +110,7 @@
 		"labelText"					"%notificationtip%"
 		"textAlignment"				"west"
 	}
+	
 	"SwitchImage"
 	{
 		"ControlName"				"CTFImagePanel"
