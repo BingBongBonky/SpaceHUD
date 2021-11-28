@@ -218,32 +218,7 @@
 		"fieldName"					"OutlineImage"
 		"visible"					"0"
 		"enabled"					"0"
-	}		
-	
-	"CarriedImage"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"CarriedImage"
-		"xpos"						"c-25"
-		"ypos"						"r65"
-		"zpos"						"10"
-		"wide"						"50"
-		"tall"						"50"
-		"visible"					"0"
-		"enabled"					"1"
-		"image"						"../hud/objectives_flagpanel_carried_red"
-		"scaleImage"				"1"
-
-		"if_hybrid"			
-		{			
-			"ypos"					"r142"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"				"r142"
-		}
-	}		
+	}				
 	
 	"PlayingTo"
 	{
@@ -328,7 +303,7 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"					"c-80"
+			"xpos"					"c-73"
 		}
 		
 		"if_hybrid_double"
@@ -338,7 +313,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"					"r100"
+			"ypos"					"r90"
 		}
 		
 		"if_no_flags"
@@ -391,10 +366,14 @@
 		"ControlName"				"CTFArrowPanel"
 		"fieldName"					"CaptureFlag"
 		"xpos"						"c-37"
-		"ypos"						"r90"
+		"xpos_minmode"				"c-31"
+		"ypos"						"r120"
+		"ypos_minmode"				"r155"
 		"zpos"						"5"
 		"wide"						"74"
+		"wide_minmode"				"62"
 		"tall"						"74"
+		"tall_minmode"				"62"
 		"visible"					"0"
 		"enabled"					"1"
 
@@ -406,6 +385,38 @@
 		"if_specialdelivery"
 		{
 			"ypos"					"r83"
+			"ypos_minmode"			"r75"
+		}
+	}
+
+	"CarriedImage"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"CarriedImage"
+		"xpos"						"c-25"
+		"xpos_minmode"				"c-20"
+		"ypos"						"r95"
+		"ypos_minmode"				"r137"
+		"zpos"						"10"
+		"wide"						"50"
+		"wide_minmode"				"40"
+		"tall"						"50"
+		"tall_minmode"				"40"
+		"visible"					"0"
+		"enabled"					"1"
+		"image"						"../hud/objectives_flagpanel_carried_red"
+		"scaleImage"				"1"
+
+		"if_hybrid"			
+		{			
+			"ypos"					"r142"
+		}
+		
+		"if_specialdelivery"
+		{
+			"ypos"					"r65"
+			"ypos_minmode"			"r60"
+			"visible"				"r142"
 		}
 	}
 
@@ -413,10 +424,13 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PoisonIcon"
-		"xpos"						"cs-0.5"
-		"ypos"						"r75"
+		"xpos"						"cs-0.5-50"
+		"xpos_minmode"				"cs-0.5-40"
+		"ypos"						"r105"
+		"ypos_minmode"				"r140"
 		"zpos"						"6"
 		"wide"						"40"
+		"wide_minmode"				"30"
 		"tall"						"o1"
 		"visible"					"0"
 		"enabled"					"1"
@@ -428,8 +442,9 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"PoisonTimeLabel"
-		"xpos"						"cs-0.5"
-		"ypos"						"r65"
+		"xpos"						"cs-0.5-40"
+		"ypos"						"r95"
+		"ypos_minmode"				"r133"
 		"zpos"						"6"
 		"wide"						"40"
 		"tall"						"20"

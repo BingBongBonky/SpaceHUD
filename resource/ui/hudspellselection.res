@@ -4,6 +4,7 @@
 	{
 		"xpos"						"c130"
 		"ypos"						"r120"
+		"ypos_minmode"				"r76"
 	}
 			
 	"ItemEffectMeterBG"
@@ -33,8 +34,6 @@
 		"fieldName"					"SpellIcon"
 		"xpos"						"16"
 		"ypos"						"15"
-		"xpos_minmode"				"16"
-		"ypos_minmode"				"35"
 		"zpos"						"7"
 		"wide"						"24"
 		"tall"						"24"
