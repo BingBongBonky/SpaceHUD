@@ -346,7 +346,7 @@
 			"xpos"					"c-295"
 			"ypos"					"165"
 			"wide"					"600"
-			"tall"					"300"
+			"tall"					"240"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"

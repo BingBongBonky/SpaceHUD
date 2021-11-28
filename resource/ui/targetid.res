@@ -137,7 +137,7 @@
 		{		
 			"ControlName"			"ImagePanel"
 			"fieldName"				"MoveableSymbolIcon"
-			"xpos"					"0"
+			"xpos"					"-16"
 			"ypos"					"0"
 			"zpos"					"12"
 			"wide"					"16"

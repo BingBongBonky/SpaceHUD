@@ -15,7 +15,7 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"420"	// Laughing is optional here
+		"wide"										"421"	// Laughing is optional here
 		"tall"										"371"
 		"visible"									"1"
 		"enabled"									"1"
@@ -78,12 +78,12 @@
 
 		"model"				
 		{				
-			"force_pos"								"0"
+			"force_pos"								"1"
 
 			"angles_x"								"7"
 			"angles_y"								"130"
 			"angles_z"								"0"
-			"origin_x"								"220"
+			"origin_x"								"175"
 			"origin_y"								"0"
 			"origin_z"								"0"
 			"frame_origin_x"						"0"
