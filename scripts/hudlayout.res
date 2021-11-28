@@ -1,5 +1,6 @@
 // MAKES IT EASIER TO TEST WINPANEL
 //"#base" "../resource/ui/winpanel.res"
+//"#base" "../resource/ui/hudarenawinpanel.res"
 
 "Resource/HudLayout.res"
 {
@@ -801,10 +802,12 @@
 		"fieldName"					"ArenaWinPanel"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-225"
-		"ypos"						"250"
-		"wide"						"450"
-		"tall"						"218"
+		"xpos"						"0"
+		"ypos"						"60"
+		"wide"						"f0"
+		"tall"						"480"
+		"zpos"						"4"
+		"proportionaltoparent"		"1"
 	}	
 
 	PVEWinPanel	
@@ -1018,14 +1021,14 @@
 
 	HudArenaCapPointCountdown
 	{
-		"fieldName"				"HudArenaCapPointCountdown"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-15"
-		"ypos"					"442"
-		"wide"					"30"
-		"tall"					"30"
-		"zpos"					"99"
+		"fieldName"					"HudArenaCapPointCountdown"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"c-15"
+		"ypos"						"442"
+		"wide"						"30"
+		"tall"						"30"
+		"zpos"						"99"
 	}
 
 	HudStalemate
@@ -1134,6 +1137,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
+		"zpos"					"120"
 		"wide"					"f0"
 		"tall"					"50"
 	}	
