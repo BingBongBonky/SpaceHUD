@@ -1,6 +1,6 @@
 #base "base_active_teleport_target.res"
 
-"Resource/UI/build_menu/dispenser_active.res"
+"Resource/UI/build_menu/eureka_target_home_avail.res"
 {
 	"ItemNameLabel"
 	{	

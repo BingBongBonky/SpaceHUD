@@ -365,7 +365,7 @@
 
 	"unavailable_item_4"		
 	{		
-		"ControlName"					"EditablePanel"
+		"ControlName"				"EditablePanel"
 		"fieldName"				"unavailable_item_4"
 		"xpos"					"310"
 		"ypos"					"24"
