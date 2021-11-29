@@ -36,7 +36,7 @@
 			"wide"									"20"
 			"tall"									"20"
 			"visible"								"1"
-			"bgcolor_override"						"0 0 0 0"
+			"bgcolor_override"						"Blank"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
 			"AutoResize" 							"0"
@@ -118,7 +118,7 @@
 		"tall"										"100"
 		"visible"									"0"
 		"enabled"									"1"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 
 		"CarriedImage"		
 		{		
@@ -248,16 +248,8 @@
 			{
 				"fieldName"							"ScoreOutline"
 				"ControlName"						"ImagePanel"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"10"
-				"wide"								"f0"
-				"tall"								"f0"
-				"scaleimage"						"1"
 				"visible"							"0"
-				"enabled"							"1"
-				"Image"								"../hud/objectives_corepanel_bg"
-				"proportionalToParent"				"1"
+				"enabled"							"0"
 			}
 
 			"ScoreBG1"
@@ -626,7 +618,7 @@
 
 				"VictoryLabelTimeShadow"
 				{
-					"ControlName					"CExLabel"
+					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelTimeShadow"
 					"xpos"							"1"
 					"ypos"							"1"
@@ -635,7 +627,7 @@
 					"tall"							"35"
 					"visible"						"1"
 					"enabled"						"1"
-					"textAlignme					"west"	
+					"textAlignment"					"west"	
 					"labelText"						"%victorytime%"
 					"font"							"Font32"
 					"fgcolor"						"Shadow"		
@@ -709,7 +701,7 @@
 			"tall"						"60"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"0 0 0 0"
+			"bgcolor_override"			"Blank"
 			"proportionalToParent"		"1"
 
 			"Score"
@@ -734,8 +726,8 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"ScoreShadow"
-				"xpos"					"c-26"
-				"ypos"					"c-19"
+				"xpos"					"-2"
+				"ypos"					"-2"
 				"zpos"					"7"
 				"wide"					"55"
 				"tall"					"35"
@@ -746,6 +738,8 @@
 				"font"					"Font32"
 				"fgcolor"				"Shadow"		
 				"proportionalToParent"	"1"
+
+				"pin_to_sibling"        "Score"
 			}
 		}
 
@@ -760,7 +754,7 @@
 			"tall"						"60"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"0 0 0 0"
+			"bgcolor_override"			"Blank"
 			"proportionalToParent"		"1"
 
 			"Score"
@@ -785,18 +779,20 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"ScoreShadow"
-				"xpos"					"c-26"
-				"ypos"					"c-19"
+				"xpos"					"-2"
+				"ypos"					"-2"
 				"zpos"					"7"
 				"wide"					"55"
 				"tall"					"35"
 				"visible"				"1"
 				"enabled"				"1"
-				"textAlignment"			"east"	
+				"textAlignment"			"west"	
 				"labelText"				"%score%"
 				"font"					"Font32"
 				"fgcolor"				"Shadow"		
 				"proportionalToParent"	"1"
+
+				"pin_to_sibling"        "Score"
 			}
 		}
 
@@ -811,7 +807,7 @@
 			"tall"						"40"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"0 0 0 0"
+			"bgcolor_override"			"Blank"
 			"proportionalToParent"		"1"
 
 			"IntelImage"
@@ -841,7 +837,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Blank"
 				
 				"proportionalToParent"	"1"
 
@@ -877,7 +873,7 @@
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallishBold"
 				"fgcolor"		"TanLight"		
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
 			}
 
@@ -911,7 +907,7 @@
 			"tall"				"40"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Blank"
 			"proportionalToParent"	"1"
 
 			"IntelImage"
@@ -941,7 +937,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Blank"
 				
 				"proportionalToParent"	"1"
 
@@ -977,7 +973,7 @@
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallishBold"
 				"fgcolor"		"TanLight"		
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
 			}
 
