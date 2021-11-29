@@ -1426,9 +1426,9 @@
 		"OverallRecord4Label"
 		{
 			"ControlName"			"Label"
-			"fieldName"				"OverallRecord2Label"
+			"fieldName"				"OverallRecord4Label"
 			"font"					"Font10"
-			"labelText"				"%classrecord2label%"
+			"labelText"				"%classrecord4label%"
 			"textAlignment"			"west"
 			"xpos"					"c128"
 			"ypos"					"257"

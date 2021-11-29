@@ -23,8 +23,8 @@
 		"fieldName"					"WaveCountLabelShadow"
 		"font"						"Font12"
 		"fgcolor"					"Shadow"
-		"xpos"						"201"
-		"ypos"						"7"
+		"xpos"						"-1"
+		"ypos"						"-1"
 		"zpos"						"2"
 		"wide"						"200"
 		"tall"						"15"
@@ -32,6 +32,8 @@
 		"enabled"					"1"
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
+
+		"pin_to_sibling"         	"WaveCountLabel"
 	}
 	
 	"SeparatorBar"
@@ -67,7 +69,7 @@
 		"wide"						"60"
 		"tall"						"15"
 		"visible"					"0"
-		"enabled"					"0"
+		"enabled"					"1"
 		"textAlignment"				"west"
 		"labelText"					"#TF_MVM_Support"
 		

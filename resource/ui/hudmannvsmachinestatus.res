@@ -51,8 +51,7 @@
 		"ypos"						"r120"
 		"wide"						"60"
 		"tall"						"16"
-		"xpos_minmode"				"65"
-		"ypos_minmode"				"r88"
+		"ypos_minmode"				"r70"
 		"visible" 					"1"
 		"enabled" 					"1"
 	}		
@@ -61,14 +60,16 @@
 	{		
 		"ControlName"				"CInWorldCurrencyStatus"
 		"fieldName"					"InWorldCurrencyPanel"
-		"xpos"						"cs-0.5"
-		"ypos"						"r104"
+		"xpos"						"0"
+		"ypos"						"0"
 		"wide"						"60"
 		"tall"						"16"
-		"xpos_minmode"				"145"
-		"ypos_minmode"				"r12"
 		"visible" 					"1"
 		"enabled" 					"1"
+
+		"pin_to_sibling"         	"CurrencyStatusPanel"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 
 	"WarningSwoop"
