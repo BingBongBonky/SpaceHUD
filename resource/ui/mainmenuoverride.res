@@ -390,13 +390,13 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldName"								"RankBorder"
-		"xpos"									"0"
-		"ypos"									"0"
+		"xpos"									"5"
+		"ypos"									"65"
 		"zpos"									"-100"
-		"wide"									"287"
-		"tall"									"421"
+		"wide"									"277"
+		"tall"									"61"
 		"visible"								"0"
-		"bgcolor_override"						"0 0 0 230"
+		"bgcolor_override"						"MenuDarker"
 		"proportionaltoparent"					"1"
 	}
 	
