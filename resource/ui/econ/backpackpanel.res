@@ -132,12 +132,12 @@
 				"ControlName"				"CExLabel"
 				"fieldName"					"New"
 				"font"						"Font10"
-				"textAlignment"				"east"
+				"textAlignment"				"center"
 				"xpos"						"rs1"
 				"ypos"						"0"
 				"zpos"						"15"
-				"wide"						"25"
-				"tall"						"12"
+				"wide"						"f0"
+				"tall"						"f0"
 				"textinsetx"				"8"
 				"autoResize"				"0"
 				"skip_autoresize"			"1"
@@ -146,10 +146,10 @@
 				"enabled"					"1"
 				"labelText"					"#Store_Price_New"
 				"mouseinputenabled" 		"0"
-				"paintbackground"			"0"
+				"paintbackground"			"1"
 				"proportionaltoparent"		"1"
-				"border"					"StoreNewBorder"
-				"fgcolor"					"10 10 10 255"
+				"bgcolor_override"			"TransparentBlack"
+				"fgcolor"					"White"
 			}	
 
 			"use_item_sounds"				"1"
@@ -174,6 +174,7 @@
 		"enabled"							"1"
 		"fgcolor_override" 					"RedLabel"
 	}	
+	
 	"ClassLabel"	
 	{	
 		"ControlName"						"CExLabel"
@@ -184,7 +185,7 @@
 		"xpos"								"c-280"
 		"ypos"								"12"
 		"zpos"								"1"
-		"wide"								"240"
+		"wide"								"200"
 		"tall"								"31"
 		"autoResize"						"0"
 		"pinCorner"							"0"

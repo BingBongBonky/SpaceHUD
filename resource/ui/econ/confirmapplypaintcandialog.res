@@ -231,11 +231,11 @@
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"ConfirmLabel"
-		"font"								"Font18"
+		"font"								"Font14"
 		"labelText"							"#ToolPaintConfirm"
 		"textAlignment"						"center"
 		"xpos"								"20"
-		"ypos"								"80"
+		"ypos"								"34"
 		"zpos"								"0"
 		"wide"								"360"
 		"tall"								"100"
@@ -268,6 +268,7 @@
 		"text_center"						"1"
 		"name_only"							"1"
 		"paint_icon_hide" 					"1"
+
 		"itemmodelpanel"
 		{
 			"force_use_model"				"1"
@@ -277,7 +278,7 @@
 		}
 	}
 
-	"WarningLabel"
+	"WarningLabel"	// Permanently viewable warning. Dont need
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"WarningLabel"

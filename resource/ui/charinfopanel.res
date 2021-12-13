@@ -4,8 +4,8 @@
 {
 	"ReloadSchemeButton"
 	{
-		"xpos"								"c-220"
-		"ypos"								"345"
+		"xpos"								"0"
+		"ypos"								"395"
 	}
 	
 	"character_info"
