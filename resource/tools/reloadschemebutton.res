@@ -11,7 +11,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"ReloadSchemeButton"
 	    "xpos"				"c-220"
-		"ypos"				"r80"
+		"ypos"				"r60"
 		"zpos"				"250"
 		"wide"				"100"
 		"tall"				"15"

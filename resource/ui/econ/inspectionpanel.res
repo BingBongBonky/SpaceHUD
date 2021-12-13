@@ -6,8 +6,10 @@
 	{
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
+		"zpos"										"900"
 		"proportionaltoparent"						"1"
-	}				
+	}	
+
 	"BGImage"				
 	{				
 		"ControlName"								"EditablePanel"
@@ -16,10 +18,11 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"421"	// Laughing is optional here
-		"tall"										"371"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"bgcolor_override"							"MenuDefault"
+		"proportionaltoparent"						"1"
 	}				
 
 	"ItemName"				
@@ -244,10 +247,6 @@
 		{							
 			"tall"									"60"
 			"visible"								"1"
-		}		
-		"consume_mode"		
-		{		
-			"border"								"ReplayHighlightBorder"
 		}						
 
 		"DebugButton"						

@@ -2,7 +2,7 @@
 {
 	"ConfirmApplyStrangifierDialog"
 	{
-		"fieldName"				"ConfirmApplyStrangifierDialog"
+		"fieldName"							"ConfirmApplyStrangifierDialog"
 		"visible"							"1"
 		"enabled"							"1"
 		"xpos"								"c-200"
