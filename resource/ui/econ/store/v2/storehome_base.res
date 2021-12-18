@@ -215,8 +215,8 @@
 		"zpos"								"-1"
 		"wide"								"260"
 		"tall"								"147"
-		"visible"							"1"
-		"enabled"							"1"
+		"visible"							"0"
+		"enabled"							"0"
 	
 		"MannCoImage"
 		{
@@ -279,7 +279,7 @@
 		
 		"ButtonSettings"
 		{
-			"wide"							"110"
+			"wide"							"100"
 			"tall"							"30"
 			"textinsety"					"-5"
 			"autoResize"					"0"
@@ -488,7 +488,7 @@
 		"sound_released"					"UI/buttonclickrelease.wav"
 	}
 	
-	"TitleLabel"
+	"TitleLabel"	// $20 freebie text
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"TitleLabel"
@@ -503,8 +503,8 @@
 		"wrap"								"1"
 		"autoResize"						"1"
 		"pinCorner"							"0"
-		"visible"							"1"
-		"enabled"							"1"
+		"visible"							"0"
+		"enabled"							"0"
 	}
 
 	"HomePageLabelContainer"

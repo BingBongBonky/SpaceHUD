@@ -4,28 +4,29 @@
 {
 	"PremiumCallout"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PremiumCallout"
-		"xpos"			"c-323"
-		"ypos"			"c-45"
-		"zpos"			"-1"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"PremiumCallout"
+		"xpos"						"c323"
+		"ypos"						"c-45"
+		"zpos"						"-1"
+		"wide"						"300"
+		"tall"						"200"
+		"visible"					"0"
+		"enabled"					"0"
 	
 		"MannCoImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MannCoImage"
-			"wide"			"420"
-			"tall"			"220"
-			"visible"		"0"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"xpos"			"15"
-			"ypos"			"0"
-			"zpos"			"0"
+			"ControlName"			"ImagePanel"
+			"fieldName"				"MannCoImage"
+			"wide"					"f0"
+			"tall"					"f0"
+			"visible"				"0"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"xpos"					"15"
+			"ypos"					"0"
+			"zpos"					"0"
+			"proportionaltoparent"	"1"
 			
 //			if_halloween
 //			{
@@ -35,7 +36,6 @@
 			if_christmas
 			{
 				"visible"		"1"
-				"ypos"			"15"
 				"image"		"store/store_australian_christmas_callout_sale"
 			}
 		}
