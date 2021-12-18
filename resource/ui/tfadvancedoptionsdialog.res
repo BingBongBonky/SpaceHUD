@@ -13,11 +13,11 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"tabPosition"				"0"
-		"paintbackgroundtype"		"0"
+		"paintbackgroundtype"		"2"
 		"settitlebarvisible"		""
 		"paintborder"				"0"
 		"paintbackground"			"1"
-		"bgcolor_override"			"MenuLighter"
+		"bgcolor_override"			"MenuDefault"
 		
 		"control_w"					"500"
 		"control_h"					"25"
@@ -104,7 +104,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"tabPosition"				"0"
-		"bgcolor_override"			"0 0 0 0"
+		"bgcolor_override"			"Blank"
 	}
 	
 	"TooltipPanel"
@@ -117,14 +117,14 @@
 		"wide"						"240"
 		"tall"						"50"
 		"visible"					"0"
-		"PaintBackgroundType"		"2"
-		"border"					"MainMenuBGBorder"
+		"PaintBackgroundType"		"0"
+		"bgcolor_override"			"MenuLighter"
 		
 		"TipLabel"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TipLabel"
-			"font"					"Font8"
+			"font"					"Font10"
 			"labelText"				"%tiptext%"
 			"textAlignment"			"center"
 			"xpos"					"20"

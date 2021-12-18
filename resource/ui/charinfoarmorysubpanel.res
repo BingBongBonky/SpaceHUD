@@ -153,11 +153,11 @@
 		"ypos"								"32"
 		"zpos"								"0"
 		"wide"								"270"
-		"tall"								"253"
+		"tall"								"248"
 		"visible"							"0"
 		"PaintBackgroundType"				"0"
 		"paintborder"						"0"
-		"bgcolor_override"					"MenuBlack"
+		"bgcolor_override"					"MenuDarker"
 
 		"Data_TextRichText"
 		{
@@ -312,7 +312,7 @@
 		"font"								"Font14"
 		"labelText"							"%thumbnailpage%"
 		"textAlignment"						"center"
-		"xpos"								"c-80"
+		"xpos"								"c-79"
 		"ypos"								"290"
 		"zpos"								"5"
 		"wide"								"60"
@@ -328,7 +328,7 @@
 	{
 		"ControlName"						"CExButton"
 		"fieldName"							"NextPageButton"
-		"xpos"								"c-15"
+		"xpos"								"c-16"
 		"ypos"								"290"
 		"zpos"								"5"
 		"wide"								"20"

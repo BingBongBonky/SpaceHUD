@@ -37,7 +37,7 @@
 			"wide"							"70"
 			"tall"							"45"
 			"visible"						"0"
-			"bgcolor_override"				"0 0 0 0"
+			"bgcolor_override"				"Blank"
 			"noitem_textcolor"				"117 117 117 255"
 			"PaintBackgroundType"			"2"
 			"paintborder"					"1"
@@ -61,7 +61,7 @@
 				"wide"						"f0"
 				"tall"						"f0"
 				"visible"					"1"
-				"bgcolor_override"			"0 0 0 0"
+				"bgcolor_override"			"Blank"
 			
 				"itemmodelpanel"
 				{
@@ -107,11 +107,11 @@
 			"centerwrap"					"0"
 			"textAlignment" 				"west"
 			"textinsetx"					"0"
-			"defaultFgColor_override" 		"DarkGray"
+			"defaultFgColor_override" 		"Gray"
 			"defaultBgColor_override" 		"Blank"
 			"armedFgColor_override" 		"White"
 			"armedBgColor_override" 		"Blank"
-			"depressedFgColor_override" 	"HighlightColor"
+			"depressedFgColor_override" 	"BlueLabel"
 			"depressedBgColor_override" 	"Blank"
 		}
 		
