@@ -48,7 +48,7 @@
 			"wide"						"54"
 			"tall"						"42"
 			"visible"					"0"
-			"bgcolor_override"			"0 0 0 0"
+			"bgcolor_override"			"Blank"
 			"noitem_textcolor"			"117 117 117 255"
 			"PaintBackgroundType"		"2"
 			"paintborder"				"1"
@@ -78,7 +78,7 @@
 		"duplicatelabels_kv"
 		{
 			"font"						"Font12"
-			"textAlignment"				"center"
+			"textAlignment"				"east"
 			"wide"						"20"
 			"tall"						"15"
 			"zpos"						"1"

@@ -442,8 +442,8 @@
 
 				"paintbackground"			"0"
 			
-				"defaultFgColor_override"	"10 15 20 255"
-				"armedFgColor_override"		"20 25 30 255"
+				"defaultFgColor_override"	"MenuDarker"
+				"armedFgColor_override"		"MenuLighter"
 				"SubImage"
 				{
 					"ControlName"			"ImagePanel"
@@ -488,8 +488,8 @@
 			
 				"paintbackground"			"0"
 			
-				"defaultFgColor_override""10 15 20 255"
-				"armedFgColor_override"	"20 25 30 255"
+				"defaultFgColor_override"	"MenuDarker"
+				"armedFgColor_override"		"Gray"
 				"SubImage"
 				{
 					"ControlName"			"ImagePanel"

@@ -60,7 +60,7 @@
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"TitleLabel"
-		"font"								"Font60"
+		"font"								"Font18"
 		"labelText"							"dynamic"
 		"textAlignment"						"center"
 		"xpos"								"100"

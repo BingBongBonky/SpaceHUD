@@ -66,8 +66,8 @@
 	{
 		"ControlName"				"HTML"
 		"fieldName"					"HTMLMessage"
-		"xpos"						"c-184"
-		"ypos"						"75"
+		"xpos"						"c-202"
+		"ypos"						"110"
 		"zpos"						"1"
 		"wide"						"415"
 		"tall"						"295"
