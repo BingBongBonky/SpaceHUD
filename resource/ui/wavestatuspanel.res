@@ -85,9 +85,11 @@
 		"fieldName"					"ProgressBar"
 		"xpos"						"211"
 		"ypos"						"20"
+		"ypos_minmode"				"50"
 		"zpos"						"3"
 		"wide"						"178"
 		"tall"						"10"
+		"tall_minmode"				"4"
 		"visible"					"1"
 		"enabled"					"1"
 		"image"						"../HUD/tournament_panel_blu"
@@ -105,9 +107,11 @@
 		"fieldName"					"ProgressBarBG"
 		"xpos"						"210"
 		"ypos"						"19"
+		"ypos_minmode"				"49"
 		"zpos"						"3"
 		"wide"						"180"
 		"tall"						"12"
+		"tall_minmode"				"6"
 		"visible"					"1"
 		"enabled"					"1"
 		"image"						"../HUD/tournament_panel_tan"
@@ -121,7 +125,7 @@
 
 	"Background"
 	{
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 }

@@ -213,14 +213,14 @@ Scheme
 		"DarkBrown"								        "41 37 38 255"
 		
 		"UpgradeDefaultFg"		                    	"255 255 255 255"
-		"UpgradeDefaultBg"		                    	"111 104 94 255"
+		"UpgradeDefaultBg"		                    	"76 76 76 255"
 		"UpgradeArmedFg"		                    	"194 96 47 255"
 		"UpgradeArmedBg"		                    	"239 128 73 255"
 		"UpgradeDepressedFg"	                    	"204 106 57 255"
 		"UpgradeDepressedBg"	                    	"249 138 83 255"
 		"UpgradeSelectedFg"		                    	"204 106 57 255"
 		"UpgradeSelectedBg"		                    	"249 138 83 255"
-		"UpgradeDisabledFg"		                    	"64 59 52 255"
-		"UpgradeDisabledBg"		                    	"79 77 68 255"
+		"UpgradeDisabledFg"		                    	"76 76 76 255"
+		"UpgradeDisabledBg"		                    	"76 76 76 255"
 	}
 }
