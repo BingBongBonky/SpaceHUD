@@ -955,7 +955,6 @@
 		"enabled"					"1"
 		"xpos"						"c-75"
 		"ypos"						"c0"
-		"ypos_minmode"				"r190"
 		"wide"						"150"
 		"tall"						"400"
 	}	
