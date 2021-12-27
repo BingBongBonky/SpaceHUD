@@ -18,7 +18,7 @@
 		"ControlName"				"CWaveCompleteSummaryPanel"
 		"fieldName"					"WaveCompleteSummaryPanel"
 		"xpos"						"c-125"
-		"ypos"						"120"
+		"ypos"						"135"
 		"zpos"						"0"
 		"wide"						"400"
 		"tall"						"400"
@@ -48,10 +48,11 @@
 		"ControlName"				"CCurrencyStatusPanel"
 		"fieldName"					"CurrencyStatusPanel"
 		"xpos"						"cs-0.5"
+		"xpos_minmode"				"90"
 		"ypos"						"r120"
+		"ypos_minmode"				"r32"
 		"wide"						"60"
 		"tall"						"16"
-		"ypos_minmode"				"r70"
 		"visible" 					"1"
 		"enabled" 					"1"
 	}		
@@ -68,7 +69,6 @@
 		"enabled" 					"1"
 
 		"pin_to_sibling"         	"CurrencyStatusPanel"
-		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 

@@ -7,7 +7,7 @@
 		"enabled"					"1"
 		"xpos"						"cs-0.5"
 		"ypos"						"290"
-		"ypos_minmode"				"r74"
+		"ypos_minmode"				"r134"
 		"wide"						"100"
 		"tall"						"50"
         "proportionaltoparent"		"1"

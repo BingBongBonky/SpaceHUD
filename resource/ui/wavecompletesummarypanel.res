@@ -152,8 +152,8 @@
 			"font"					"Font12"
 			"labelText"				"%creditscollected%"
 			"textAlignment" 		"north-east"
-			"xpos"					"115"
-			"ypos"					"9"
+			"xpos"					"-1"
+			"ypos"					"-1"
 			"zpos"					"9"
 			"wide"					"30"
 			"tall"					"20"
@@ -240,23 +240,6 @@
 			"tall"					"20"
 			"fgcolor"				"White"
 		}
-
-		"CreditBonusTextLabelShadow"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"CreditBonusTextLabelShadow"
-			"font"					"Font12"
-			"labelText"				"#TF_PVE_Bonus"
-			"textAlignment" 		"north-east"
-			"xpos"					"-1"
-			"ypos"					"-1"
-			"zpos"					"10"
-			"wide"					"105"
-			"tall"					"20"
-			"fgcolor"				"Shadow"
-			
-			"pin_to_sibling"        "CreditBonusTextLabel"
-		}
 		
 		"CreditBonusCountLabel"
 		{
@@ -271,23 +254,6 @@
 			"wide"					"30"
 			"tall"					"20"
 			"fgcolor"				"CreditsGreen"
-		}
-
-		"CreditBonusCountLabelShadow"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"CreditBonusCountLabelShadow"
-			"font"					"Font12"
-			"labelText"				"%creditbonus%"
-			"textAlignment" 		"north-east"
-			"xpos"					"-1"
-			"ypos"					"-1"
-			"zpos"					"10"
-			"wide"					"30"
-			"tall"					"20"
-			"fgcolor"				"Shadow"
-			
-			"pin_to_sibling"        "CreditBonusCountLabel"
 		}
 	}
 	

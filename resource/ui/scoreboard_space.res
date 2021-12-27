@@ -1676,35 +1676,35 @@
 	
 	"MvMScoreboard"
 	{
-		"ControlName"		"CTFHudMannVsMachineScoreboard"
-		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"20"
-		"zpos"				"10"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"0"
-		"enabled"			"1"
+		"ControlName"					"CTFHudMannVsMachineScoreboard"
+		"fieldName"						"MvMScoreboard"
+		"xpos"							"0"
+		"ypos"							"20"
+		"zpos"							"10"
+		"wide"							"f0"
+		"tall"							"480"
+		"visible"						"0"
+		"enabled"						"1"
 		
-		"verbose"			"1"
+		"verbose"						"1"
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"					"1"
 		}
 	}
 	"BlueTeamImage"
 	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"BlueTeamImage"
-		"visible"					"0"
-		"enabled"					"0"
+		"ControlName"					"ImagePanel"
+		"fieldName"						"BlueTeamImage"
+		"visible"						"0"
+		"enabled"						"0"
 	}
 	"RedTeamImage"
 	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"RedTeamImage"
-		"visible"					"0"
-		"enabled"					"0"
+		"ControlName"					"ImagePanel"
+		"fieldName"						"RedTeamImage"
+		"visible"						"0"
+		"enabled"						"0"
 	}
 }
