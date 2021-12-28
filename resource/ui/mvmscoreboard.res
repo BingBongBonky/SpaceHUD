@@ -71,7 +71,7 @@
 		"ypos"							"75"
 		"zpos"							"-1"
 		"wide"							"590"
-		"tall"							"150"
+		"tall"							"155"
 		"visible"						"1"
 		"enabled"						"1"
 		"bgcolor_override"				"TransparentMenuDefault"
