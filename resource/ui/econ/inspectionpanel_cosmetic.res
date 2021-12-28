@@ -1,15 +1,5 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/econ/InspectionPanel_Cosmetic.res"
 {
-	"ReloadSchemeButton"
-	{
-		"xpos"										"cs-0.5"
-		"ypos"										"0"
-		"zpos"										"900"
-		"proportionaltoparent"						"1"
-	}
-
 	"storepreviewitem"
 	{
 		"ControlName"								"CStorePreviewItemPanel"
