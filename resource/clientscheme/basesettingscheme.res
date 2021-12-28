@@ -49,7 +49,7 @@ Scheme
 
 		CheckButton.TextColor								"White"
 		CheckButton.SelectedTextColor						"White"
-		CheckButton.BgColor									"MenuDarker"
+		CheckButton.BgColor									"TransparentBlack"
 		CheckButton.Border1  								"White" 		// the left checkbutton border
 		CheckButton.Border2  								"White"		// the right checkbutton border
 		CheckButton.Check									"White"		// color of the check itself
