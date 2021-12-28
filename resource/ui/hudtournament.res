@@ -436,7 +436,7 @@
 				"visible"					"1"
 				"labelText"					"%specindex%"
 				"textAlignment"				"north-west"
-				//"fgcolor"					"235 226 202 255"
+				//"fgcolor"					"255 255 255 255"
 				
 				if_competitive
 				{

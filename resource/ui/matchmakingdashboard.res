@@ -807,8 +807,8 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"			"0 0 0 0"
-			"defaultBgColor_override"		"0 0 0 0"
+			"armedBgColor_override"			"Blank"
+			"defaultBgColor_override"		"Blank"
 
 			"defaultFgColor_override" 		"TransparentWhite"
 			"armedFgColor_override" 		"White"

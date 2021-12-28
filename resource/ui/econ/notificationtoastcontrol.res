@@ -11,7 +11,7 @@
 		"tall"							"30"
 		"visible"						"1"
 		"enabled"						"1"
-		"bgcolor_override"				"0 0 0 0"
+		"bgcolor_override"				"Blank"
 		"if_high_priority"	
 		{	
 			"bgcolor_override"			"255 0 0 100"

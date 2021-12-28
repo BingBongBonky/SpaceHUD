@@ -239,7 +239,7 @@
 					"visible"				"0"
 					"enabled"				"1"
 					"wrap"					"1"
-					"fgcolor"				"RedLabel"
+					"fgcolor"				"Gray"
 				}		
 				
 				"RestrictionsTextLabel"

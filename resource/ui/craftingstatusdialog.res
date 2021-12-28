@@ -34,7 +34,7 @@
 		"centerwrap"				"0"
 		"labelText"					""
 		"textAlignment"				"center"
-		"bgcolor_override" 			"0 0 0 0"
+		"bgcolor_override" 			"Blank"
 	}
 	
 	"RecipeItemModelPanel"
@@ -87,7 +87,7 @@
 		"labelText"					"%ellipses%"
 		"textAlignment"				"west"
 		"fgcolor_override" 			"White"
-		"bgcolor_override" 			"0 0 0 0"
+		"bgcolor_override" 			"Blank"
 		
 		"pin_to_sibling"            "TitleLabel"
         "pin_corner_to_sibling"     "0"          

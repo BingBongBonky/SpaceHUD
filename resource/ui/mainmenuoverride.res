@@ -384,6 +384,7 @@
 		"image"									"gc_dc"
 		"scaleImage"							"1"
 		"proportionaltoparent" 					"1"
+		"color"									"White"
 	}				
 
 	"RankBorder"
@@ -759,7 +760,7 @@
 			"armedFgColor_override" 			"White"
 			"depressedFgColor_override" 		"White"
 			
-			"image_drawcolor"					"235 226 202 255"
+			"image_drawcolor"					"255 255 255 255"
 			"image_armedcolor"					"200 80 60 255"
 			"SubImage"				
 			{				
@@ -986,7 +987,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1034,7 +1035,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{

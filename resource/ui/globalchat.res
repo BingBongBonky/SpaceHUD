@@ -113,7 +113,7 @@
 		"tall"							"15"
 		"visible"						"1"
 		"proportionaltoparent"			"1"
-		"bgcolor_override"				"0 0 0 0"
+		"bgcolor_override"				"Blank"
 		"RoundedCorners"				"0"
 		"border"						"QuickplayBorder"
 
