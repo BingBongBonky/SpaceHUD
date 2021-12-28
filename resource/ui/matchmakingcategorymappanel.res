@@ -35,8 +35,8 @@
 	{
 		"ControlName"				"Label"
 		"fieldName"					"MapNameLabel"
-		"xpos"						"5"
-		"ypos"						"-1"
+		"xpos"						"2"
+		"ypos"						"-3"
 		"zpos"						"3"
 		"wide"						"f0"
 		"tall"						"20"
@@ -55,13 +55,13 @@
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"HealthProgressBar"
 		"xpos"						"20"
-		"ypos"						"cs-0.5"
+		"ypos"						"r5"
 		"wide"						"f20"
-		"tall"						"f6"
+		"tall"						"2"
 		"proportionaltoparent"		"1"
 		"progress"					"0.5"
 
 		"fgcolor_override"			"117 107 94 30"
-		"bgcolor_override"			"0 0 0 0"
+		"bgcolor_override"			"Blank"
 	}
 }
