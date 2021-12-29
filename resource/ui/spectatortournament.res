@@ -46,15 +46,6 @@
 				"textAlignment"				"west"
 				"fgcolor"					"White"
 				"proportionaltoparent"		"1"
-					
-				if_mvm
-				{
-					"xpos"					"0"
-					"ypos"					"25"
-					"wide"					"55"
-					"textAlignment"			"center"
-					"font"					"PlayerPanelPlayerName"
-				}
 			}
 			
 			"classimage"
@@ -73,10 +64,6 @@
 				
 				if_mvm
 				{
-					"xpos"					"5"
-					"ypos"					"4"
-					"wide"					"20"
-					"tall"					"20"
 					"image"					"../vgui/hud_connecting"
 				}
 			}
@@ -144,11 +131,6 @@
 				"enabled"					"1"
 				"bgcolor_override"			"TransparentBlack"
 				"proportionaltoparent"		"1"
-				
-				if_mvm
-				{
-					"visible"				"1"
-				}	
 			}
 			
 			"ReadyImage"
@@ -233,21 +215,13 @@
 				"fgcolor"					"White"
 				"proportionaltoparent"		"1"
 			}
-			
-			if_mvm
-			{
-				"wide"						"55"
-				"tall"						"35"
-			}
-		}
-		
+		}	
+
 		if_mvm
 		{
-			"xpos"							"c-250"
-			"ypos"							"6"
-			"wide"							"500"
-			"tall"							"180"
-		}		
+			"team1_player_base_y"			"190"
+			"team1_player_delta_y"			"22"
+		}
 	}
 
 	"topbar"
@@ -286,13 +260,18 @@
 		"labelText"							"#game_respawntime_in_secs"
 		"textAlignment"						"center"
 		"font"								"Font18"
+
+		if_mvm
+		{
+			"ypos"							"16"
+		}
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"BuyBackLabel"
 		"xpos"								"c-190"
-		"ypos"								"16"
+		"ypos"								"120"
 		"wide"								"380"
 		"tall"								"14"
 		"autoResize"						"0"
