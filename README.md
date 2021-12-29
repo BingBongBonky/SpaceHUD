@@ -15,6 +15,7 @@ If you have an issue you can make one on [the issues page](https://github.com/Bi
 tf
 └── custom
     └── SpaceHUD-main
+        ├── _customizations
         ├── materials
         ├── resource
         ├── scripts
