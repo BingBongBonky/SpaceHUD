@@ -24,7 +24,7 @@ tf
 You can delete any files that aren't listed here.
 
 ## Having Issues?
-Check out the GitHub wiki for SentryHUD [here](https://github.com/BingBongBonky/SentryHUD/wiki) and see if it has the answers you need.
+Check out the GitHub wiki [here](https://github.com/BingBongBonky/SpaceHUD/wiki) and see if it has the answers you need.
 
 ## Contact me
 If you still have issues, contact me here. Discord is the best way to reach me and I am usually on there most of the time.
