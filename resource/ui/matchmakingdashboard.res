@@ -60,11 +60,15 @@
 			"ypos"							"0"
 			"zpos"							"1"
 			"wide"							"f0"
-			"tall"							"28"
+			"tall"							"29"
 			"visible"						"0"
-			"border"						"MatchmakingPlaylistBG"
+			"paintborder"					"1"
+			"paintbackground"				"1"
+			"PaintBackgroundType"			"0"
+			"bgcolor_override"				"MenuDarker"
+			"border"						"OuterShadowBorder"
+
 			"proportionaltoparent"			"1"
-			"paintbackground"				"0"
 		}	
 
 		"OuterShadow"		
@@ -443,7 +447,7 @@
 				"paintbackground"			"0"
 			
 				"defaultFgColor_override"	"MenuDarker"
-				"armedFgColor_override"		"MenuLighter"
+				"armedFgColor_override"		"Gray"
 				"SubImage"
 				{
 					"ControlName"			"ImagePanel"

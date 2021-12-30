@@ -483,7 +483,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"labelText"					"5"
+		"labelText"					"6"
 		"textAlignment"				"Center"
 		"dulltext"					"1"
 		"brighttext"				"0"
