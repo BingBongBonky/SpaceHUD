@@ -14,7 +14,7 @@ If you have an issue you can make one on [the issues page](https://github.com/Bi
 ```
 tf
 └── custom
-    └── SpaceHUD-main
+    └── spacehud
         ├── _customizations
         ├── materials
         ├── resource
