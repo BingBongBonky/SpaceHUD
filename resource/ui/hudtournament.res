@@ -19,7 +19,7 @@
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
-		"teams_player_delta_x_comp"			"42"
+		"teams_player_delta_x_comp"			"56"
 
 		"avatar_width"						"63"
 		"spacer"							"5"
@@ -40,13 +40,14 @@
 		
 		if_competitive
 		{
-			"xpos"							"cs-0.5"
+			"xpos"							"c-320"
 			"ypos"							"0"
-			"wide"							"f0"
+			"wide"							"640"
 			"tall"							"480"
 
-			"team1_player_base_y"			"75"
+			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"51"
 			"team2_player_base_offset_x"	"5"
 		}
 		
@@ -104,8 +105,8 @@
 
 			if_competitive				
 			{				
-				"wide"						"45"
-				"tall"						"29"
+				"wide"						"50"
+				"tall"						"35"
 			}				
 
 			if_readymode				
@@ -186,11 +187,9 @@
 				if_competitive
 				{
 					"xpos"					"4"
-					"ypos"					"21"
-					"wide"					"p0.9"
-					"tall"					"p0.22"
+					"ypos"					"25"
+					"wide"					"48"
 					"textAlignment"			"center"
-					"proportionaltoparent" 	"1"
 				}
 
 				if_readymode
@@ -227,12 +226,11 @@
 
 				if_competitive
 				{
-					"xpos"					"4"
+					"xpos"					"5"
 					"ypos"					"4"
-					"wide"					"p0.4"
-					"tall"					"p0.6"
+					"wide"					"20"
+					"tall"					"20"
 					"image"					"../vgui/hud_connecting"
-					"proportionaltoparent" 	"1"
 				}
 
 				if_readymode
@@ -310,11 +308,6 @@
 				
 				if_competitive
 				{
-					"xpos"					"28"
-					"ypos"					"5"
-					"wide"					"p0.3"
-					"tall"					"p0.45"
-					"proportionaltoparent" 	"1"
 					"visible"				"1"
 				}
 				
@@ -347,11 +340,6 @@
 
 				if_competitive		
 				{		
-					"xpos"					"30"
-					"ypos"					"7"
-					"wide"					"p0.21"
-					"tall"					"p0.34"
-					"proportionaltoparent" 	"1"
 					"visible"				"1"
 				}
 
@@ -479,15 +467,11 @@
 						
 		if_competitive				
 		{				
-			"xpos"							"cs-0.5"
-			"ypos"							"12"
-			"tall"							"20"
 			"visible"						"0"
 		}				
 						
 		if_readymode				
 		{				
-			"xpos"							"195"
 			"visible"						"0"
 		}		
 	}
@@ -518,13 +502,11 @@
 				
 		if_competitive				
 		{				
-			"xpos"							"cs-0.5"
 			"visible"						"0"
 		}				
 				
 		if_readymode				
 		{				
-			"xpos"							"200"
 			"visible"						"0"
 		}
 	}
@@ -593,16 +575,15 @@
 
 		if_competitive				
 		{				
-			"xpos"							"cs-0.5"
 			"visible"						"0"
 		}				
 
 		if_readymode				
 		{				
-			"xpos"							"207"
 			"visible"						"0"
 		}
 	}
+
 	"TournamentBLUEStateLabel"
 	{	
 		"ControlName"						"Label"
@@ -629,13 +610,11 @@
 
 		if_competitive				
 		{				
-			"xpos"							"cs-0.5"
 			"visible"						"0"
 		}				
 
 		if_readymode				
 		{				
-			"xpos"							"251"
 			"visible"						"0"
 		}
 	}
@@ -678,6 +657,7 @@
 			"visible"						"0"
 		}
 	}
+
 	"TournamentREDLabel"
 	{	
 		"ControlName"						"Label"
@@ -704,16 +684,15 @@
 
 		if_competitive				
 		{				
-			"xpos"							"cs-0.5"
 			"visible"						"0"
 		}				
 
 		if_readymode				
 		{				
-			"xpos"							"207"
 			"visible"						"0"
 		}
 	}
+
 	"TournamentRedStateLabel"
 	{	
 		"ControlName"						"Label"
@@ -740,16 +719,15 @@
 
 		if_competitive				
 		{				
-			"xpos"							"cs-0.5"
 			"visible"						"0"
 		}				
 
 		if_readymode				
 		{				
-			"xpos"							"251"
 			"visible"						"0"
 		}
 	}
+
 	"TournamentConditionLabel"
 	{	
 		"ControlName"						"CExLabel"
@@ -776,11 +754,10 @@
 
 		if_competitive				
 		{				
-			"xpos"							"c-45"
-			"ypos"							"18"
-			"tall"							"35"
+			"xpos"							"c-231"
+			"ypos"							"52"
 			"visible"						"1"
-			"font"							"TFFontMedium"
+			"font"							"Font12"
 		}				
 
 		if_readymode				
@@ -830,8 +807,8 @@
 
 		if_competitive				
 		{				
-			"font"							"HudFontSmallishBold"
-			"xpos"							"cs-0.5"
+			"font"							"Font18"
+			"xpos"							"225"
 			"ypos"							"110"
 			"wide"							"190"
 			"tall"							"20"
@@ -840,7 +817,7 @@
 
 		if_readymode				
 		{				
-			"font"							"HudFontSmallishBold"
+			"font"							"Font18"
 			"xpos"							"225"
 			"ypos"							"110"
 			"wide"							"190"
@@ -854,8 +831,8 @@
 		"ControlName"						"CExLabel"
 		"fieldName"							"TournamentInstructionsLabelShadow"
 		"font"								"Font12"
-		"xpos"								"1"
-		"ypos"								"81"
+		"xpos"								"-1"
+		"ypos"								"-1"
 		"wide"								"250"
 		"tall"								"10"
 		"zpos"								"1"
@@ -868,12 +845,12 @@
 		"textAlignment"						"center"
 		"proportionaltoparent"				"1"
 		"fgcolor"							"Shadow"
+
+		"pin_to_sibling"               		"TournamentInstructionsLabel"
 		
 		if_mvm
 		{
 			"font"							"Font24"
-			"xpos"							"156"
-			"ypos"							"106"
 			"wide"							"190"
 			"tall"							"25"
 			"visible"						"1"
@@ -881,9 +858,7 @@
 
 		if_competitive	
 		{	
-			"font"							"HudFontSmallishBold"
-			"xpos"							"cs-0.5"
-			"ypos"							"111"
+			"font"							"Font18"
 			"wide"							"190"
 			"tall"							"20"
 			"visible"						"1"
@@ -891,9 +866,7 @@
 
 		if_readymode	
 		{	
-			"font"							"HudFontSmallishBold"
-			"xpos"							"226"
-			"ypos"							"111"
+			"font"							"Font18"
 			"wide"							"190"
 			"tall"							"20"
 			"visible"						"1"
@@ -918,20 +891,7 @@
 		"wrap"								"0"
 		"labelText"							"%tournamentstatelabel%"
 		"textAlignment"						"center"
-		"proportionaltoparent"				"1"
-
-		if_competitive			
-		{			
-			"xpos"							"cs-0.5"
-			"ypos"							"cs-0.1"
-			"fgcolor"						"White"
-		}				
-
-		if_readymode				
-		{				
-			"xpos"							"300"
-			"ypos"							"130"
-		}			
+		"proportionaltoparent"				"1"		
 	}			
 
 	"CountdownLabelShadow"			
@@ -939,12 +899,12 @@
 		"ControlName"						"CExLabel"
 		"fieldName"							"CountdownLabelShadow"
 		"font"								"Font32"
-		"xpos"								"221"
-		"ypos"								"130"
+		"xpos"								"-1"
+		"ypos"								"-1"
 		"wide"								"60"
 		"tall"								"40"
 		"zpos"								"4"
-		"autoResize"							"0"
+		"autoResize"						"0"
 		"pinCorner"							"0"
 		"visible"							"0"
 		"enabled"							"1"
@@ -952,19 +912,9 @@
 		"labelText"							"%tournamentstatelabel%"
 		"textAlignment"						"center"
 		"fgcolor"							"Shadow"
-		"proportionaltoparent"				"1"
+		"proportionaltoparent"				"1"		
 
-		if_competitive			
-		{			
-			"xpos"							"cs-0.48"
-			"ypos"							"cs-0.08"
-		}				
-
-		if_readymode				
-		{				
-			"xpos"							"300"
-			"ypos"							"130"
-		}			
+		"pin_to_sibling"               		"CountdownLabel"
 	}			
 
 	"CountdownBG"			
