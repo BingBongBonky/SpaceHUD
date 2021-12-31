@@ -9,7 +9,6 @@
             "image"				"../hud/weedkiller_icon"
         }
     }
-    
     "ScoreContainer"
     {
         "ProgressBarContainer"
