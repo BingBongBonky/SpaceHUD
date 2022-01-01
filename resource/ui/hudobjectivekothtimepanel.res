@@ -4,7 +4,7 @@
 	{
 		if_match
 		{
-			"zpos"					"5"
+			"zpos"						"5"
 		}
 	}
 
@@ -12,18 +12,16 @@
 	{
 		"ControlName"					"CTFHudTimeStatus"
 		"fieldName"						"BlueTimer"
-		"xpos"							"0"
-		"xpos_minmode"					"20"
+		"xpos"							"9"
 		"ypos"							"0"
-		"ypos_minmode"					"-14"
-		"zpos"							"2"
+		"zpos"							"1"
 		"wide"							"100"
 		"tall"							"150"
 		"visible"						"1"
 		"enabled"						"1"
 		"delta_item_x"					"22"
-		"delta_item_start_y"			"50"
-		"delta_item_end_y"				"70"
+		"delta_item_start_y"			"32"
+		"delta_item_end_y"				"45"
 		"PositiveColor"					"0 255 0 255"
 		"NegativeColor"					"255 0 0 255"
 		"delta_lifetime"				"1.5"
@@ -43,18 +41,63 @@
 			"NegativeColor"				"255 0 0 255"
 			"delta_lifetime"			"1.5"
 		}	
+
+		"BlueTeamBG"
+		{
+			"ControlName"				"CTFImagePanel"
+			"fieldName"					"BlueTeamBG"
+			"xpos"						"14"
+			"ypos"						"0"
+			"zpos"						"1"		
+			"wide"						"72"
+			"tall"						"20"
+			"visible"					"1"
+			"enabled"					"1"
+			"image"						"../hud/objectives_timepanel_blue_bg"
+			"scaleImage"				"1"
+			"src_corner_height"			"3"
+			"src_corner_width"			"3"
+			"draw_corner_width"			"0"
+			"draw_corner_height" 		"0"
+
+			if_match	
+			{	
+				"visible"				"0"
+			}
+		}
+
+		"BlueTeamBGShader"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"BlueTeamBGShader"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"1"		
+			"wide"						"72"
+			"tall"						"20"
+			"visible"					"1"
+			"enabled"					"1"
+			"bgcolor_override"			"Black"
+
+			"pin_to_sibling"			"BlueTeamBG"
+
+			if_match	
+			{	
+				"visible"				"0"
+			}
+		}
 			
 		"TimePanelValue"	
 		{	
 			"ControlName"				"CExLabel"
 			"fieldName"					"TimePanelValue"
-			"font"						"Font12"
+			"font"						"Font18"
 			"fgcolor"					"White"
 			"xpos"						"23"
-			"ypos"						"11"
+			"ypos"						"0"
 			"zpos"						"3"
 			"wide"						"45"
-			"tall"						"31"
+			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
 			"textAlignment"				"center"
@@ -62,12 +105,12 @@
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
+				"font"					"Font12"
 				"xpos"					"15"
 				"ypos"					"12"
 				"tall"					"10"
 				"wide"					"35"
+				"proportionaltoparent"	"1"
 			}
 		}	
 	}
@@ -76,18 +119,16 @@
 	{
 		"ControlName"					"CTFHudTimeStatus"
 		"fieldName"						"RedTimer"
-		"xpos"							"90"
-		"xpos_minmode"					"70"
+		"xpos"							"81"
 		"ypos"							"0"
-		"ypos_minmode"					"-14"
 		"zpos"							"2"
 		"wide"							"100"
 		"tall"							"150"
 		"visible"						"1"
 		"enabled"						"1"
 		"delta_item_x"					"22"
-		"delta_item_start_y"			"50"
-		"delta_item_end_y"				"70"
+		"delta_item_start_y"			"32"
+		"delta_item_end_y"				"45"
 		"PositiveColor"					"0 255 0 255"
 		"NegativeColor"					"255 0 0 255"
 		"delta_lifetime"				"1.5"
@@ -107,18 +148,63 @@
 			"NegativeColor"				"255 0 0 255"
 			"delta_lifetime"			"1.5"
 		}
-		
-		"TimePanelValue"
+
+		"RedTeamBG"
 		{
+			"ControlName"				"CTFImagePanel"
+			"fieldName"					"RedTeamBG"
+			"xpos"						"14"
+			"ypos"						"0"
+			"zpos"						"1"		
+			"wide"						"72"
+			"tall"						"20"
+			"visible"					"1"
+			"enabled"					"1"
+			"image"						"../hud/objectives_timepanel_red_bg"
+			"scaleImage"				"1"
+			"src_corner_height"			"3"
+			"src_corner_width"			"3"
+			"draw_corner_width"			"0"
+			"draw_corner_height" 		"0"
+
+			if_match	
+			{	
+				"visible"				"0"
+			}
+		}
+
+		"RedTeamBGShader"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"RedTeamBGShader"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"1"		
+			"wide"						"72"
+			"tall"						"20"
+			"visible"					"1"
+			"enabled"					"1"
+			"bgcolor_override"			"Black"
+
+			"pin_to_sibling"			"RedTeamBG"
+
+			if_match	
+			{	
+				"visible"				"0"
+			}
+		}
+		
+		"TimePanelValue"	
+		{	
 			"ControlName"				"CExLabel"
 			"fieldName"					"TimePanelValue"
-			"font"						"Font12"
+			"font"						"Font18"
 			"fgcolor"					"White"
 			"xpos"						"23"
-			"ypos"						"11"
+			"ypos"						"0"
 			"zpos"						"3"
 			"wide"						"45"
-			"tall"						"31"
+			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
 			"textAlignment"				"center"
@@ -126,8 +212,8 @@
 
 			if_match
 			{
+				"font"					"Font12"
 				"proportionaltoparent"	"1"
-
 				"xpos"					"rs1-15"
 				"ypos"					"12"
 				"wide"					"35"

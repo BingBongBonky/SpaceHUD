@@ -256,41 +256,42 @@
 	{			
 		"ControlName"							"EditablePanel"
 		"fieldName"								"ObjectiveStatusTimePanel"
-		"xpos"									"c-55"
+		"xpos"									"cs-0.5"
 		"ypos"									"0"
 		"zpos"									"2"
 		"wide"									"110"
 		"tall"									"150"
 		"visible"								"0"
 		"enabled"								"1"
-		"delta_item_x"							"22"
-		"delta_item_start_y"					"50"
-		"delta_item_end_y"						"70"
+		"delta_item_x"							"35"
+		"delta_item_start_y"					"32"
+		"delta_item_end_y"						"45"
 		"PositiveColor"							"0 255 0 255"
 		"NegativeColor"							"255 0 0 255"
 		"delta_lifetime"						"1.5"
-		"delta_item_font"						"Font12"
+		"delta_item_font"						"Font14"
+
+		"proportionaltoparent"					"1"
 
 		if_match			
 		{			
 			"xpos"								"cs-0.5"
 			"wide"								"130"
 			"delta_item_x"						"50"
-			"delta_item_start_y"				"32"
-			"delta_item_end_y"					"45"
+			"delta_item_font"					"Font12"
 		}			
 
 		"TimePanelValue"			
 		{			
 			"ControlName"						"CExLabel"
 			"fieldName"							"TimePanelValue"
-			"font"								"Font12"
+			"font"								"Font18"
 			"fgcolor"							"White"
 			"xpos"								"23"
-			"ypos"								"11"
+			"ypos"								"0"
 			"zpos"								"3"
 			"wide"								"45"
-			"tall"								"31"
+			"tall"								"20"
 			"visible"							"1"
 			"enabled"							"1"
 			"textAlignment"						"center"
@@ -299,7 +300,6 @@
 			if_match
 			{
 				"proportionaltoparent"			"1"
-
 				"xpos"							"cs-0.5"
 				"ypos"							"12"
 				"tall"							"10"
