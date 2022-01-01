@@ -42,7 +42,7 @@
 	"TeamColoredLine"
 	{
 		"ControlName"				"CTFImagePanel"
-		"fieldName"					"TeamColoredBG"
+		"fieldName"					"TeamColoredLine"
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"1"		

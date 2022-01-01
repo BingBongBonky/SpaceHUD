@@ -93,11 +93,8 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"r80"
-		"xpos_minmode"				"r52"
-		"ypos_minmode"				"r40"
 		"zpos"						"1"			// draw in front of ammo
 		"wide"						"60"
-		"wide_minmode"				"50"
 		"tall"						"8"
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
