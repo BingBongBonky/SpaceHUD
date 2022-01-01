@@ -775,7 +775,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"tabPosition"				"0"
-		"labelText"					"#EditLoadout"
+		"labelText"					"&Edit Loadout"
 		"textAlignment"				"center"
 		"Command"					"openloadout"
 		"font"						"Font18"
