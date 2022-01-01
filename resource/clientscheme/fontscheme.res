@@ -157,6 +157,7 @@ Scheme
 			{	
 				"name"					"HypnotizeHud Icons"
 				"tall"					"24"
+				"tall"					"19" [$LINUX]
 				"weight"				"500"
 				"antialias" 			"1"
 			}
@@ -168,6 +169,7 @@ Scheme
 			{	
 				"name"					"HypnotizeHud Icons"
 				"tall"					"18"
+				"tall"					"15" [$LINUX]
 				"weight"				"500"
 				"antialias" 			"1"
 			}
@@ -179,6 +181,7 @@ Scheme
 			{	
 				"name"					"HypnotizeHud Icons"
 				"tall"					"14"
+				"tall"					"11" [$LINUX]
 				"weight"				"500"
 				"antialias" 			"1"
 			}
