@@ -258,8 +258,8 @@
 			"ControlName"			"CExLabel"
 			"fieldName"				"CarryingLabelDropShadow"
 			"font"					"Font14"
-			"xpos"					"6"
-			"ypos"					"4"
+			"xpos"					"-1"
+			"ypos"					"-1"
 			"zpos"					"0"
 			"wide"					"200"
 			"tall"	 				"f0"
@@ -274,25 +274,27 @@
 			"auto_wide_tocontents"	"1"
 			"fgcolor_override"		"Shadow"
 			"labelText"				"%carrying%"
+
+			"pin_to_sibling"		"CarryingLabel"
 		}
 
 		"OwnerLabel"
 		{	
-			"ControlName"		"Label"
-			"fieldName"			"OwnerLabel"
-			"font"				"FontStoreOriginalPrice"
-			"xpos"				"5"
-			"ypos"				"12"
-			"zpos"				"0"
-			"wide"				"200"
-			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
+			"ControlName"			"Label"
+			"fieldName"				"OwnerLabel"
+			"font"					"Font10"
+			"xpos"					"5"
+			"ypos"					"12"
+			"zpos"					"0"
+			"wide"					"200"
+			"tall"	 				"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"North-West"
+			"dulltext"				"0"
+			"brighttext"			"0"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
 		}
@@ -300,19 +302,19 @@
 
 	"PlayerStatusClassImageBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"-9999"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-
-	"classmodelpanelBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-9999"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"				"CTFImagePanel"
+		"fieldName"					"PlayerStatusClassImageBG"
+		"xpos"						"-9999"
+		"visible"					"0"
+		"enabled"					"0"
+	}			
+			
+	"classmodelpanelBG"			
+	{			
+		"ControlName"				"CTFImagePanel"
+		"fieldName"					"classmodelpanelBG"
+		"xpos"						"-9999"
+		"visible"					"1"
+		"enabled"					"1"
 	}
 }

@@ -33,18 +33,10 @@
 	"BlueTeamScore"
 	{
 		"ypos"						"68" 
-	}
-	"BlueTeamScoreDropshadow"
-	{
-		"ypos"						"70" 
-	}							
+	}						
 	"BlueTeamPlayerCount"
 	{
 		"ypos"						"85"
-	}	
-	"BlueTeamPlayerCountShadow"
-	{
-		"ypos"						"86"
 	}							
 	"RedTeamLabel"
 	{
@@ -53,18 +45,10 @@
 	"RedTeamScore"
 	{
 		"ypos"						"68" 
-	}
-	"RedTeamScoreDropshadow"
-	{
-		"ypos"						"70"
-	}							
+	}						
 	"RedTeamPlayerCount"
 	{
 		"ypos"						"85"
-	}
-	"RedTeamPlayerCountShadow"
-	{
-		"ypos"						"86"
 	}
 	"ServerLabel"					// MvM
 	{
@@ -116,6 +100,6 @@
 	}
 	"LocalPlayerStatsPanel"
 	{
-		"ypos"							"255"
+		"ypos"						"255"
 	}
 }

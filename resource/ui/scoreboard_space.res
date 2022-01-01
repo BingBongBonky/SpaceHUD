@@ -193,8 +193,8 @@
 		"fgcolor"					"Shadow"
 		"labelText"					"%blueteamscore%"
 		"textAlignment"				"east"
-		"xpos"						"177"
-		"ypos"						"25" 
+		"xpos"						"-2"
+		"ypos"						"-2"
 		"zpos"						"4"
 		"wide"						"100"
 		"tall"						"55"
@@ -202,6 +202,8 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+
+		"pin_to_sibling"			"BlueTeamScore"
 
 		if_mvm		
 		{		
@@ -237,8 +239,8 @@
 		"font"						"Font18"
 		"labelText"					"%blueteamplayercount%"
 		"textAlignment"				"west"
-		"xpos"						"121"
-		"ypos"						"41"
+		"xpos"						"-1"
+		"ypos"						"-1"
 		"zpos"						"1"
 		"wide"						"160"
 		"tall"						"20"
@@ -247,6 +249,8 @@
 		"fgcolor"					"Shadow"
 		"visible"					"1"
 		"enabled"					"1"
+
+		"pin_to_sibling"			"BlueTeamPlayerCount"
 		
 		if_mvm
 		{
@@ -305,8 +309,8 @@
 		"fgcolor"					"Shadow"
 		"labelText"					"%redteamscore%"
 		"textAlignment"				"west"
-		"xpos"						"367"
-		"ypos"						"25"
+		"xpos"						"-2"
+		"ypos"						"-2"
 		"zpos"						"4"
 		"wide"						"100"
 		"tall"						"55"
@@ -314,6 +318,8 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+
+		"pin_to_sibling"			"RedTeamScore"
 
 		if_mvm			
 		{			
@@ -349,8 +355,8 @@
 		"font"						"Font18"
 		"labelText"					"%redteamplayercount%"
 		"textAlignment"				"east"
-		"xpos"						"361"
-		"ypos"						"41"
+		"xpos"						"-1"
+		"ypos"						"-1"
 		"zpos"						"1"
 		"wide"						"160"
 		"tall"						"20"
@@ -359,6 +365,8 @@
 		"fgcolor"					"Shadow"
 		"visible"					"1"
 		"enabled"					"1"
+
+		"pin_to_sibling"			"RedTeamPlayerCount"
 
 		if_mvm			
 		{			
