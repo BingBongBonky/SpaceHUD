@@ -899,8 +899,8 @@
 		"ControlName"						"CExLabel"
 		"fieldName"							"CountdownLabelShadow"
 		"font"								"Font32"
-		"xpos"								"-1"
-		"ypos"								"-1"
+		"xpos"								"cs-0.5+2"
+		"ypos"								"132"
 		"wide"								"60"
 		"tall"								"40"
 		"zpos"								"4"
@@ -913,8 +913,6 @@
 		"textAlignment"						"center"
 		"fgcolor"							"Shadow"
 		"proportionaltoparent"				"1"		
-
-		"pin_to_sibling"               		"CountdownLabel"
 	}			
 
 	"CountdownBG"			

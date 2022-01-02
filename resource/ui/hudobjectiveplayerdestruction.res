@@ -786,7 +786,7 @@
 				"tall"					"35"
 				"visible"				"1"
 				"enabled"				"1"
-				"textAlignment"			"west"	
+				"textAlignment"			"east"	
 				"labelText"				"%score%"
 				"font"					"Font32"
 				"fgcolor"				"Shadow"		
