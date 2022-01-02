@@ -6,6 +6,8 @@ If you have an issue you can make one on [the issues page](https://github.com/Bi
 ## Screenshots
 https://imgur.com/a/qwvENZk
 
+![image](https://user-images.githubusercontent.com/73761963/147877374-bd8d7dc9-5bd6-4cd2-906e-5ebf43a1878d.png)
+
 ## Installation
 1. Click [here](https://github.com/BingBongBonky/SpaceHUD/archive/refs/heads/main.zip) to download the file. 
 2. Extract the ZIP folder into `[Drive Letter]:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
