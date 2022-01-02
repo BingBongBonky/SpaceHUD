@@ -4,7 +4,7 @@ Built from the ashes of SentryHUD into the Great Beyond
 If you have an issue you can make one on [the issues page](https://github.com/BingBongBonky/SpaceHUD/issues/new) of this repository.
 
 ## Screenshots
-*Soon*
+https://imgur.com/a/qwvENZk
 
 ## Installation
 1. Click [here](https://github.com/BingBongBonky/SpaceHUD/archive/refs/heads/main.zip) to download the file. 
