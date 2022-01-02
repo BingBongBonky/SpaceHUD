@@ -221,7 +221,7 @@ Scheme
 		"SelectionSelectedBoxBg" 	                        "0 0 0 190"
 
 		// Hint message colors
-		"HintMessageFg"			                            "255 255 255 255"
+		"HintMessageFg"			                            "White"
 		"HintMessageBg" 		                            "0 0 0 60"
 
 		"ProgressBarFg"			                            "RedLabel"
