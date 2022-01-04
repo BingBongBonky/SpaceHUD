@@ -9,6 +9,7 @@ Scheme
 	{
 	    "MenuDarkerSource"              	"15 20 30 255"
 		"MenuDefaultSource"            		"20 27 40 255"
+		"MenuLighterSource"					"25 35 50 255"
 		"HighlightColorSource"				"20 60 100 255"
 
 
@@ -18,9 +19,6 @@ Scheme
 		"White"              				"255 255 255 255"
 	    "TransparentWhite"              	"255 255 255 150"
 	    "TFTextMedium"          			"76 76 76 255"
-
-	    "QuickListBGDeselected"				"15 20 30 255"
-	    "QuickListBGSelected"       		"20 60 100 255"
 
 	    "Blank"								"0 0 0 0"
 
@@ -99,7 +97,7 @@ Scheme
 		Menu.FgColor						"TFTextLight"
 		Menu.BgColor						"ListBG"
 		Menu.ArmedFgColor					"TransparentWhite"
-		Menu.ArmedBgColor					"MenuDefault"
+		Menu.ArmedBgColor					"HighlightColorSource"
 		Menu.DividerColor					"BorderDark"
 		
 		ScrollBarButton.FgColor				"TransparentWhite"
@@ -110,17 +108,17 @@ Scheme
 		ScrollBarButton.DepressedBgColor	"TransparentMenuLighterSource"
 
 		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor				"TransparentMenuLighterSource"		// handle with which the slider is grabbed
+		ScrollBarSlider.FgColor				"MenuLighterSource"		// handle with which the slider is grabbed
 		
-		Slider.NobColor						"TransparentMenuLighterSource"		
+		Slider.NobColor						"MenuLighterSource"		
 		Slider.TextColor					"TransparentWhite"
 		Slider.TrackColor					"ListBG"
-		Slider.DisabledTextColor1			"WhiteDark"
+		Slider.DisabledTextColor1			"TransparentWhite"
         Slider.DisabledTextColor2			"Blank"
 		
 		TextEntry.TextColor			        "TransparentWhite"
 		TextEntry.DisabledTextColor	        "WhiteDark"
-		TextEntry.SelectedBgColor	        "TransparentWhite"
+		TextEntry.SelectedBgColor	        "HighlightColorSource"
 	}
 	
 	Fonts
