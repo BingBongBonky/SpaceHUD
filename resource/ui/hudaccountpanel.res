@@ -15,7 +15,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"AccountValue"
-		"xpos"						"0"
+		"xpos"						"2"
 		"ypos"						"0"
 		"zpos"						"2"
 		"wide"						"55"
@@ -36,8 +36,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"AccountValueShadow"
-		"xpos"						"-2"
-		"ypos"						"-2"
+		"xpos"						"-1"
+		"ypos"						"-1"
 		"zpos"						"2"
 		"wide"						"55"
 		"tall"						"26"
