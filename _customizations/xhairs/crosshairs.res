@@ -5,7 +5,7 @@
 		"fieldName"                 "CustomCrosshair" 
         "ControlName"               "CExLabel" 
 
-        "visible"	                "1"	                // You're probably changing this
+        "visible"	                "0"	                // You're probably changing this
 
         "enabled"                   "1" 
         "zpos"                      "0" 

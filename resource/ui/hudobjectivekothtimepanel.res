@@ -44,7 +44,7 @@
 
 		"BlueTeamBG"
 		{
-			"ControlName"				"CTFImagePanel"
+			"ControlName"				"EditablePanel"
 			"fieldName"					"BlueTeamBG"
 			"xpos"						"14"
 			"ypos"						"0"
@@ -53,33 +53,7 @@
 			"tall"						"20"
 			"visible"					"1"
 			"enabled"					"1"
-			"image"						"../hud/objectives_timepanel_blue_bg"
-			"scaleImage"				"1"
-			"src_corner_height"			"3"
-			"src_corner_width"			"3"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 		"0"
-
-			if_match	
-			{	
-				"visible"				"0"
-			}
-		}
-
-		"BlueTeamBGShader"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldName"					"BlueTeamBGShader"
-			"xpos"						"0"
-			"ypos"						"0"
-			"zpos"						"1"		
-			"wide"						"72"
-			"tall"						"20"
-			"visible"					"1"
-			"enabled"					"1"
-			"bgcolor_override"			"Black"
-
-			"pin_to_sibling"			"BlueTeamBG"
+			"bgcolor_override"			"HUDBlueTeamSolid"
 
 			if_match	
 			{	
@@ -151,7 +125,7 @@
 
 		"RedTeamBG"
 		{
-			"ControlName"				"CTFImagePanel"
+			"ControlName"				"EditablePanel"
 			"fieldName"					"RedTeamBG"
 			"xpos"						"14"
 			"ypos"						"0"
@@ -160,33 +134,7 @@
 			"tall"						"20"
 			"visible"					"1"
 			"enabled"					"1"
-			"image"						"../hud/objectives_timepanel_red_bg"
-			"scaleImage"				"1"
-			"src_corner_height"			"3"
-			"src_corner_width"			"3"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 		"0"
-
-			if_match	
-			{	
-				"visible"				"0"
-			}
-		}
-
-		"RedTeamBGShader"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldName"					"RedTeamBGShader"
-			"xpos"						"0"
-			"ypos"						"0"
-			"zpos"						"1"		
-			"wide"						"72"
-			"tall"						"20"
-			"visible"					"1"
-			"enabled"					"1"
-			"bgcolor_override"			"Black"
-
-			"pin_to_sibling"			"RedTeamBG"
+			"bgcolor_override"			"HUDRedTeamSolid"
 
 			if_match	
 			{	
