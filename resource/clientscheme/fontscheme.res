@@ -187,6 +187,138 @@ Scheme
 			}
 		}
 
+		"Crosshair30"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"30"
+				"tall"					"24" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair28"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"28"
+				"tall"					"22" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair26"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"26"
+				"tall"					"21" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair24"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"24"
+				"tall"					"19" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair22"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"22"
+				"tall"					"18" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair20"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"20"
+				"tall"					"16" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair18"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"18"
+				"tall"					"14" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair16"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"16"
+				"tall"					"13" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair14"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"14"
+				"tall"					"11" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair12"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"12"
+				"tall"					"10" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
+		"Crosshair10"
+		{
+			"1"	
+			{	
+				"name"					"TF2Crosshairs_HH2"
+				"tall"					"10"
+				"tall"					"8" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
 		"Default"
 		{
 			"1"
@@ -2795,6 +2927,11 @@ Scheme
 		{
 			"font"	"resource/fonts/HypnotizeHud Icons.otf"
 			"name" 	"HypnotizeHud Icons"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/tf2crosshairs.ttf"
+			"name" 	"TF2Crosshairs_HH2"
 		}
 	}
 }

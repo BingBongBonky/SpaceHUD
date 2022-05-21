@@ -3,6 +3,9 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		// Crosshair
+		"Crosshair"										"36 223 51 255"		// You're probably changing this
+
 		// Menu Colors          
 		"MenuDefault"						            "20 27 40 255"
 		"MenuLighter"						            "25 35 50 255"
