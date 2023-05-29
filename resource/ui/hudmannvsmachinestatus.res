@@ -41,35 +41,20 @@
 		"pin_to_sibling"            "WaveStatusPanel"
 		"pin_corner_to_sibling"     "4"          
 		"pin_to_sibling_corner"     "6"  
-	}
-
-	"CurrencyStatusPanel"
-	{
-		"ControlName"				"CCurrencyStatusPanel"
-		"fieldName"					"CurrencyStatusPanel"
-		"xpos"						"cs-0.5"
-		"xpos_minmode"				"90"
-		"ypos"						"r120"
-		"ypos_minmode"				"r32"
-		"wide"						"60"
-		"tall"						"16"
-		"visible" 					"1"
-		"enabled" 					"1"
 	}		
 
 	"InWorldCurrencyPanel"		
 	{		
 		"ControlName"				"CInWorldCurrencyStatus"
 		"fieldName"					"InWorldCurrencyPanel"
-		"xpos"						"0"
-		"ypos"						"0"
+		"xpos"						"cs-0.5"
+		"xpos_minmode"				"90"
+		"ypos"						"r104"
+		"ypos_minmode"				"r16"
 		"wide"						"60"
 		"tall"						"16"
 		"visible" 					"1"
 		"enabled" 					"1"
-
-		"pin_to_sibling"         	"CurrencyStatusPanel"
-		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 
 	"WarningSwoop"

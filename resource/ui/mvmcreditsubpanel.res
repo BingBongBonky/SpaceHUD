@@ -11,7 +11,7 @@
 		"ypos"						"0"
 		"wide"						"300"
 		"tall"						"15"
-		"fgcolor"					"tanlight"
+		"fgcolor"					"White"
 	}			
 					
 	"TableBackground"			
