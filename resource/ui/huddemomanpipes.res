@@ -7,7 +7,7 @@
 		"font"					    "Default"
 		"xpos"					    "0"
 		"ypos"					    "100"
-		"ypos_minmode"				"r330"
+		"ypos_minmode"				"r320"
 		"zpos"					    "2"
 		"wide"					    "150"
 		"tall"					    "6"				

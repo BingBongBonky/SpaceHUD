@@ -5,5 +5,6 @@
 		"ControlName"				"EditablePanel"
 		"fieldName" 				"HudChat"
 		"ypos"						"2"
+		"wide"						"223"
 	}
 }

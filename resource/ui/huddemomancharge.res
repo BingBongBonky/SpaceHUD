@@ -1,4 +1,4 @@
-// Demoman: Stickybomb Launchers
+// Demoman: Stickybomb Launchers, The Loose Cannon
 // Sniper: The Huntsman
 
 "Resource/UI/HudDemomanCharge.res"
@@ -17,7 +17,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"textAlignment"				"Left"
+		"textAlignment"				"center"
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"fgcolor_override"			"White"

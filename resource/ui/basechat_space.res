@@ -7,8 +7,9 @@
 		"visible" 					"1"
 		"enabled" 					"1"
 		"xpos"						"2"
-		"ypos"						"275"
-		"wide"	 					"223"
+		"ypos"						"r224"
+		"ypos_minmode"				"r226"
+		"wide"	 					"213"
 		"tall"	 					"120"
 		"PaintBackgroundType"		"2"
 	}
@@ -21,7 +22,7 @@
 		"enabled" 					"1"
 		"xpos"						"10"
 		"ypos"						"395"
-		"wide"	 					"210"
+		"wide"	 					"205"
 		"tall"	 					"2"
 		"PaintBackgroundType"		"0"
 	}
