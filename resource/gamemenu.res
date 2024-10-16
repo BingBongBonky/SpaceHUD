@@ -85,22 +85,21 @@
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
 
-// Arent used
-//	"RequestCoachButton"
-//	{
-//		"label"			""
-//		"command"		"engine cl_coach_find_coach"
-//		"OnlyInGame"	"0"
-//		"subimage" 		"icon_whistle"
-//		"tooltip" 		"#MMenu_RequestCoach"
-//	}
-//
-//	"ReportPlayerButton"
-//	{
-//		"label"			""
-//		"command"		"OpenReportPlayerDialog"
-//		"OnlyInGame"	"0"
-//		"subimage"		"replay/thumbnails/mainmenu/glyph_alert"
-//		"tooltip"		"#MMenu_ReportPlayer"
-//	}
+	"ReportPlayerButton"
+	{
+		"label"			"Ý"
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"0"
+		"subimage"		"replay/thumbnails/mainmenu/glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
+	}
+
+	"RequestCoachButton"
+	{
+		"label"			"B"
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"0"
+		"subimage" 		"icon_whistle"
+		"tooltip" 		"#MMenu_RequestCoach"
+	}
 }

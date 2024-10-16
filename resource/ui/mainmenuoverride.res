@@ -1539,7 +1539,7 @@
 			"enabled"							"1"
 			"tabPosition"						"0"
 			"textinsetx"						"-3"
-			"textinsety"						"-2"
+			"textinsety"						"-1"
 			"use_proportional_insets" 			"1"
 			"labelText"							""
 			"font"								"IconFont18"
@@ -1593,7 +1593,7 @@
 
 		"navLeft"								"CallVoteButton"
 		"navDown"								"QuickplayChangeButton"
-		"navRight"								"RequestCoachButton"
+		"navRight"								"ReportPlayerButton"
 		"navToRelay"							"SubButton"
 
 		"pin_to_sibling"         				"CallVoteButton"
@@ -1654,20 +1654,24 @@
 	}
 	"ReportPlayerButton"
 	{
-		"ControlName"							"EditablePanel"
-		"fieldname"								"ReportPlayerButton"
-		"xpos"									"-9999"
-		"ypos"									"215"
-		"zpos"									"11"
-		"wide"									"23"
-		"tall"									"22"
-		"visible"								"0"
-		"enabled"								"0"
+		"ControlName"										"EditablePanel"
+		"fieldname"											"ReportPlayerButton"
+		"xpos"													"-28"
+		"ypos"													"0"
+		"zpos"													"12"
+		"wide"													"25"
+		"tall"													"25"
+		"visible"												"0"
+		"enabled"												"0"
 
-		"navLeft"								"ResumeGameButton"
-		"navRight"								"CallVoteButton"
-		"navDown"								"QuickplayChangeButton"
-		"navToRelay"							"SubButton"
+		"navLeft"												"MutePlayersButton"
+		"navRight"											"RequestCoachButton"
+		"navDown"												"QuickplayChangeButton"
+		"navToRelay"										"SubButton"
+
+		"pin_to_sibling"         				"MutePlayersButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -1682,25 +1686,27 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"tabPosition"						"0"
-			"textinsetx"						"100"
+			"textinsetx"						"6"
+			"textinsety"						"-1"
 			"use_proportional_insets" 			"1"
-			"font"								"HudFontSmallBold"
+			"font"								"IconFont18"
 			"textAlignment"						"west"
 			"dulltext"							"0"
 			"brighttext"						"0"
 			"default"							"1"
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 			"paintbackground"					"1"
-					
-			"defaultBgColor_override" 			"MenuLighter"
+			
+			"defaultBgColor_override" 			"RedLabel"
 			"armedFgColor_override" 			"255 255 255 255"
 			"depressedFgColor_override" 		"255 255 255 255"
-					
+
+			"border_default"					"NoBorder"
+			
 			"image_drawcolor"					"255 255 255 255"
 			"image_armedcolor"					"255 255 255 255"
-		
 			"proportionaltoparent"				"1"
 					
 			"SubImage"		
@@ -1712,8 +1718,8 @@
 				"zpos"							"1"
 				"wide"							"15"
 				"tall"							"15"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"image"							"glyph_create"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"
@@ -1724,11 +1730,11 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldname"								"RequestCoachButton"
-		"xpos"									"-9999"
-		"ypos"									"240"
+		"xpos"									"-28"
+		"ypos"									"0"
 		"zpos"									"12"
-		"wide"									"23"
-		"tall"									"22"
+		"wide"									"25"
+		"tall"									"25"
 		"visible"								"0"
 		"enabled"								"0"
 
@@ -1736,6 +1742,10 @@
 		"navRight"								"Notifications_ShowButtonPanel"
 		"navDown"								"QuickplayChangeButton"
 		"navToRelay"							"SubButton"
+
+		"pin_to_sibling"         				"ReportPlayerButton"
+		"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -1750,9 +1760,9 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"tabPosition"						"0"
-			"textinsetx"						"100"
+			"textinsetx"						"6"
 			"use_proportional_insets" 			"1"
-			"font"								"HudFontSmallBold"
+			"font"								"IconFont18"
 			"textAlignment"						"west"
 			"dulltext"							"0"
 			"brighttext"						"0"
@@ -1761,11 +1771,13 @@
 			"sound_released"					"UI/buttonclickrelease.wav"
 
 			"paintbackground"					"1"
-
-			"defaultBgColor_override" 			"MenuLighter"
+			
+			"defaultBgColor_override" 			"RedLabel"
 			"armedFgColor_override" 			"255 255 255 255"
 			"depressedFgColor_override" 		"255 255 255 255"
 
+			"border_default"					"NoBorder"
+			
 			"image_drawcolor"					"255 255 255 255"
 			"image_armedcolor"					"255 255 255 255"
 			"proportionaltoparent"				"1"
@@ -1779,8 +1791,8 @@
 				"zpos"							"1"
 				"wide"							"15"
 				"tall"							"15"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"image"							"glyph_create"
 				"scaleImage"					"1"
 				"proportionaltoparent"			"1"

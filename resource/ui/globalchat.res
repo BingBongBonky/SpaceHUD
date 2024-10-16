@@ -15,9 +15,9 @@
 		"mouseinputenabled"				"1"
 		"border"						"QuickplayBorder"
 
-		"log_font_small"				"Font18"
-		"log_font_medium"				"Font18"
-		"log_font_large"				"Font18"
+		"log_font_small"				"Font10"
+		"log_font_medium"				"Font10"
+		"log_font_large"				"Font10"
 
 		"chat_color_default"			"White"
 		"chat_color_player_name"		"BlueLabel"
