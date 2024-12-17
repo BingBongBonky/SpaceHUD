@@ -1178,15 +1178,15 @@
 			"proportionaltoparent"			"1"
 
 			"columns_count"					"7"
-			"inset_x"						"2"
+			"inset_x"						"3"
 			"inset_y"						"5"
 			"row_gap"						"3"
-			"column_gap"					"3"
+			"column_gap"					"1"
 			"restrict_width"				"0"
 
 			"friendpanel_kv"		
 			{		
-				"wide"						"p0.14"	// How many decimals do we go to?
+				"wide"						"p0.141"	// How many decimals do we go to?
 				"tall"						"23"
 			}		
 

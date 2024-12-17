@@ -39,7 +39,7 @@
 	{
 		"ControlName"				"Label"
 		"fieldName"					"NameLabel"
-		"xpos"						"rs1"
+		"xpos"						"rs1+3"
 		"ypos"						"0"
 		"zpos"						"100"
 		"wide"						"f22"
@@ -58,7 +58,7 @@
 	"StatusLabel"
 	{
 		"fieldName"					"StatusLabel"
-		"xpos"						"rs1"
+		"xpos"						"rs1+3"
 		"ypos"						"10"
 		"zpos"						"100"
 		"wide"						"f22"
