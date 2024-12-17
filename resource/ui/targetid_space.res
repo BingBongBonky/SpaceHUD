@@ -126,7 +126,7 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"0"
-			"wide"					"10"
+			"wide"					"0" // Must be 0 or it will show in spectator hud
 			"tall"					"23"
 			"visible"				"1"
 			"enabled"				"1"
