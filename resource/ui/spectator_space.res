@@ -37,7 +37,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"ReinforcementsLabel"
 		"xpos"						"c-300"
-		"ypos"						"50"
+		"ypos"						"90"
 		"wide"						"600"
 		"tall"						"18"
 		"autoResize"				"0"
@@ -48,6 +48,7 @@
 		"textAlignment"				"center"
 		"font"						"Font18"
 	}
+
 	"BuyBackLabel"
 	{
 		"ControlName"				"CExLabel"
