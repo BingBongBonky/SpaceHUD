@@ -96,14 +96,14 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"KillStreakIcon"
-		"xpos"						"10"
-		"ypos"						"15"
-		"zpos"						"12"
-		"wide"						"8"
-		"tall"						"8"
-		"visible"					"0"
-		"enabled"					"1"
-		"image"						"../hud/leaderboard_streak"
+		"xpos"							"8"
+		"ypos"							"15"
+		"zpos"							"12"
+		"wide"							"8"
+		"tall"							"8"
+		"visible"						"0"
+		"enabled"						"1"
+		"image"							"../hud/leaderboard_streak"
 		"scaleImage"				"1"
 	}
 	

@@ -45,6 +45,11 @@
 		{
 			"visible"				"0"
 		}
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 		
 	"RightSideBG"
@@ -73,6 +78,11 @@
 		"if_specialdelivery"
 		{
 			"visible"				"0"
+		}
+
+		"if_no_flags"
+		{
+			"visible"	"0"
 		}
 	}
 		
@@ -114,6 +124,11 @@
 		{
 			"visible"				"0"
 		}
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"BlueScoreShadow"
@@ -145,6 +160,11 @@
 		"if_specialdelivery"
 		{
 			"visible"				"0"
+		}
+
+		"if_no_flags"
+		{
+			"visible"	"0"
 		}
 	}	
 							
@@ -178,6 +198,11 @@
 		{
 			"visible"				"0"
 		}
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"RedScoreShadow"
@@ -210,6 +235,11 @@
 		{
 			"visible"				"0"
 		}			
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}				
 
 	"OutlineImage"			
@@ -252,6 +282,11 @@
 		{
 			"visible"				"0"
 		}
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}	
 			
 	"PlayingToBG"
@@ -281,6 +316,11 @@
 		{
 			"visible"				"0"
 		}
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"BlueFlag"
@@ -298,12 +338,12 @@
 		"if_hybrid"			
 		{			
 			"visible"				"0"
-			"ypos"					"r100"
+			"ypos"					"r110"
 		}
 		
 		"if_hybrid_single"
 		{
-			"xpos"					"c-73"
+			"xpos"					"c-75"
 		}
 		
 		"if_hybrid_double"
@@ -337,7 +377,7 @@
 		"if_hybrid"			
 		{			
 			"visible"				"0"
-			"ypos"					"r100"
+			"ypos"					"r110"
 		}
 		
 		"if_hybrid_single"

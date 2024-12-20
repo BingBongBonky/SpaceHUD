@@ -494,7 +494,7 @@
 					"ypos"									"10"
 					"wide"									"140"
 					"tall"									"20"
-					"labelText"								"Filter:" // !FIXME! Localize
+					"labelText"								"#ToolCustomizeTextureFilter"
 					"textAlignment"							"north-west"
 					"visible"								"0"
 				}

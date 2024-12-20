@@ -190,6 +190,7 @@
 	{
 		"ControlName"				"CTFImagePanel"
 		"fieldName"					"SuddenDeathBG"
+		"xpos"						"-9999"
 		"visible"					"0"
 		"enabled"					"0"
 	}	
