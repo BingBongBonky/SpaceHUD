@@ -2937,12 +2937,12 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/MADETOMMY.ttf"
+			"font"	"resource/fonts/madetommy.ttf"
 			"name" 	"MADE TOMMY"
 		}
 		"9"
 		{
-			"font"	"resource/fonts/HypnotizeHud Icons.otf"
+			"font"	"resource/fonts/hypnotizehudicons.otf"
 			"name" 	"HypnotizeHud Icons"
 		}
 		"10"
