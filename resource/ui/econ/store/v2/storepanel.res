@@ -22,7 +22,7 @@
 		"title"								"#StoreTitle"
 		"title_font"						"Font24"
 		"titletextinsetX"					"40"
-		"titletextinsetY"					"0"
+		"titletextinsetY"					"10"
 		"titlebarfgcolor_override"			"255 255 255 255"
 		"titlebardisabledfgcolor_override"	"255 255 255 255"
 		"titlebarbgcolor_override"			"MenuEcon"
@@ -68,6 +68,7 @@
 	"Sheet"
 	{
 		"ControlName"						"EditablePanel"
+		"ypos"									"19"
 		"fieldName"							"Sheet"
 		"tabxindent"						"10"
 		"tabxdelta"							"3"

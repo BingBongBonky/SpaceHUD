@@ -30,7 +30,7 @@
 		"title"								"#CharInfoAndSetup"
 		"title_font"						"HudFontMediumBold"
 		"titletextinsetX"					"40"
-		"titletextinsetY"					"0"
+		"titletextinsetY"					"10"
 		"titlebarfgcolor_override"			"255 255 255 255"
 		"titlebardisabledfgcolor_override"	"255 255 255 255"
 		"titlebarbgcolor_override"			"MenuEcon"
@@ -77,7 +77,7 @@
 		"tabheight"							"20"
 		"transition_time" 					"0"
 		"yoffset"							"14"				
-		
+
 		"tabskv"
 		{
 			"textinsetx"					"40"

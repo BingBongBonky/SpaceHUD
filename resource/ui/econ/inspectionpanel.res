@@ -230,7 +230,7 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"p.7"
 		"wide"										"300"
-		"tall"										"100"
+		"tall"										"110"
 		"zpos"										"100"
 		"border"									"MainMenuBGBorder"
 		"mouseinputenabled"							"1"
@@ -463,7 +463,7 @@
 			"ControlName"							"Button"
 			"fieldName"								"NewSeedButton"
 			"xpos"									"8"
-			"ypos"									"75"
+			"ypos"									"85"
 			"fixed_item"						
 			{						
 				"ypos"								"50"
@@ -504,7 +504,7 @@
 			"ControlName"							"TextEntry"
 			"fieldName"								"SeedTextEntry"
 			"xpos"									"90"
-			"ypos"									"75"
+			"ypos"									"85"
 			"fixed_item"						
 			{						
 				"ypos"								"50"
@@ -538,7 +538,7 @@
 			"ControlName"							"CExButton"
 			"fieldName"								"MarketButton"
 			"xpos"									"rs1-10"
-			"ypos"									"75"
+			"ypos"									"85"
 			"fixed_item"						
 			{						
 				"ypos"								"50"
