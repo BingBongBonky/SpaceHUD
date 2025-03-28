@@ -4,7 +4,7 @@
 	{
 		"ControlName"						"CExpandablePanel"
 		"fieldName"							"NextMapWinner"
-		"xpos"								"cs-0.5"
+		"xpos"								"c-130"
 		"ypos"								"0"
 		"zpos"								"10000"
 		"wide"								"260"
