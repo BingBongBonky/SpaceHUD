@@ -15,14 +15,14 @@
 		"tabPosition"				"0"
 		"medal_width"				"25"
 		"medal_column_width"	"25"
-		"avatar_width"				"35"
-		"spacer"					"5"
-		"name_width"				"118"
-		"nemesis_width"				"25"
-		"class_width"				"25"
+		"avatar_width"				"28"
+		"spacer"					"3"
+		"name_width"				"200"
+		"nemesis_width"				"15"
+		"class_width"				"20"
 		"score_width"				"30"
-		"ping_width"				"25"
-		"killstreak_width"			"15"
+		"ping_width"				"20"
+		"killstreak_width"			"18"
 		"killstreak_image_width" 	"15"
 	}
 	"BlueScoreBG"
@@ -1706,8 +1706,8 @@
 	{
 		"ControlName"					"ImagePanel"
 		"fieldName"						"BlueTeamImage"
-		"visible"						"0"
-		"enabled"						"0"
+		"visible"							"0"
+		"enabled"							"0"
 	}
 	"RedTeamImage"
 	{
