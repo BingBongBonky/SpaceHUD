@@ -150,7 +150,7 @@
 		"labelText"					"%blueteamname%"
 		"textAlignment"				"west"
 		"xpos"						"20"
-		"ypos"						"33"
+		"ypos"						"35"
 		"zpos"						"20"
 		"wide"						"160"
 		"tall"						"32"
@@ -266,7 +266,7 @@
 		"labelText"					"%redteamname%"
 		"textAlignment"				"east"
 		"xpos"						"460"
-		"ypos"						"33"
+		"ypos"						"35"
 		"zpos"						"20"
 		"wide"						"160"
 		"tall"						"32"
@@ -279,7 +279,8 @@
 		{			
 			"visible"				"0"
 		}
-	}							
+	}	
+							
 	"RedTeamScore"
 	{
 		"ControlName"				"CExLabel"
