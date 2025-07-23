@@ -203,7 +203,7 @@
 	{
 		"ControlName"					"CExImageButton"
 		"fieldName"						"DisabledIcon"
-		"xpos"							"0"
+		"xpos"							"-40"
 		"ypos"							"0"
 		"zpos"							"49"
 		"wide"							"f0"
