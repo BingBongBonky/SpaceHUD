@@ -96,7 +96,7 @@
 	{
 		"ControlName"				"CExButton"
 		"fieldName"					"CloseButton"
-		"xpos"						"rs1"
+		"xpos"						"rs1+3"
 		"labelText"					"5"
 
 		if_left			
@@ -114,7 +114,7 @@
 		"command"					"nav_close"
 
 		"textAlignment"				"east"
-		"font"						"IconFont18"
+		"font"						"IconFont16"
 
 		"armedBgColor_override"		"Blank"
 		"defaultBgColor_override"	"Blank"
@@ -126,7 +126,7 @@
 	{
 		"ControlName"				"CExButton"
 		"fieldName"					"ReturnButton"
-		"xpos"						"-3"
+		"xpos"							"-5"
 		"labelText"					"6"
 
 		if_left
@@ -135,16 +135,16 @@
 			"labelText"				"5"
 		}
 
-		"ypos"						"0"
+		"ypos"						"5"
 		"zpos"						"10000"
-		"wide"						"20"
+		"wide"						"40"
 		"tall"						"f0"
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 		"command"					"nav_to"
 
 		"textAlignment"				"west"
-		"font"						"IconFont18"
+		"font"						"IconFont16"
 
 		"armedBgColor_override"		"Blank"
 		"defaultBgColor_override"	"Blank"

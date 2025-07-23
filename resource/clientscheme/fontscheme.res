@@ -187,6 +187,18 @@ Scheme
 			}
 		}
 
+		"IconFont16"
+		{
+			"1"	
+			{	
+				"name"					"HypnotizeHud Icons"
+				"tall"					"16"
+				"tall"					"13" [$LINUX]
+				"weight"				"500"
+				"antialias" 			"1"
+			}
+		}
+
 		"IconFont14"
 		{
 			"1"	
