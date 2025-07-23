@@ -248,6 +248,30 @@
 		"border"								"NoBorder"
 	}	
 
+	"SpaceHUDShadow"			
+	{			
+		"ControlName"							"CExButton"
+		"fieldName"								"SpaceHUDShadow"
+		"font"									"Font32"
+		"labelText"								"SpaceHUD"
+		"defaultFgColor_override"				"Shadow"
+		"armedFgColor_override"					"Shadow"
+		"depressedFgColor_override"				"Shadow"
+		"textAlignment"							"center"
+		"xpos"									"c-73"
+		"ypos"									"2"
+		"zpos"									"10"
+		"wide"									"150"
+		"tall"									"30"
+		"visible"								"1"
+		"enabled"								"1"
+		"paintbackground"						"0"
+		"paintborder"							"0"
+		"sound_depressed"						""
+		"sound_released"						""
+		"border"								"NoBorder"
+	}
+
 	"RankModelPanel"
 	{
 		"ControlName"							"CPvPRankPanel"
